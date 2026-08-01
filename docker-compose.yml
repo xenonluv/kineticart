@@ -1,0 +1,88 @@
+# 키네틱 아트 자체호스팅 스택 (집 Mac → 향후 AWS 이전 가능)
+#   file-server : 원본 이미지·설명 파일 서빙 (nginx)          → images.kctikinec.cloud
+#   db          : Postgres (메타데이터)                        (외부 비노출)
+#   postgrest   : 자동 REST API                                → api.kctikinec.cloud
+#   cloudflared : 도메인 외부 노출 터널 (아웃바운드, 유동IP 무관)
+
+services:
+  file-server:
+    build:
+      context: .
+      dockerfile: file-server/Dockerfile
+    image: xenonluv/kinerag-file-server:latest
+    container_name: kinerag-file-server
+    ports:
+      - "8787:8787"
+    volumes:
+      - ./works:/srv/works:ro
+      - ./texts:/srv/texts:ro
+      - ./generated:/srv/generated:ro
+    restart: unless-stopped
+
+  db:
+    image: postgres:16-alpine
+    container_name: kinerag-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: kinerag
+      AUTHENTICATOR_PASSWORD: ${AUTHENTICATOR_PASSWORD}   # init 스크립트에서 사용
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d:ro          # 최초 1회 스키마+시드
+      - ./dataset/seed.sql:/seed/seed.sql:ro              # 69행 시드
+    restart: unless-stopped
+    # 외부 미노출(내부 네트워크만). 로컬 디버깅 필요시: ports: ["5432:5432"]
+
+  postgrest:
+    image: postgrest/postgrest:latest
+    container_name: kinerag-postgrest
+    environment:
+      PGRST_DB_URI: postgres://authenticator:${AUTHENTICATOR_PASSWORD}@db:5432/kinerag
+      PGRST_DB_SCHEMAS: public
+      PGRST_DB_ANON_ROLE: web_anon
+      PGRST_SERVER_PORT: "3000"
+      PGRST_OPENAPI_SERVER_PROXY_URI: https://api.kctikinec.cloud
+    ports:
+      - "3001:3000"        # 로컬 검증용 (외부 노출은 터널로)
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    image: xenonluv/kinerag-web:latest
+    container_name: kinerag-web
+    environment:
+      API_BASE: https://api.kctikinec.cloud       # 외부 REST(참고)
+      PGRST_INTERNAL_URL: http://postgrest:3000   # 내부 고속 경로(서버 프록시 /api/*)
+      GOOGLE_API_KEY: ${GOOGLE_API_KEY}           # Gemini 대화 + Nano Banana 이미지
+      IMAGE_PUBLIC_BASE: https://images.kctikinec.cloud
+      FILE_SERVER_INTERNAL: http://file-server:8787
+      GENERATED_DIR: /app/generated
+      SITE_PASSWORD: ${SITE_PASSWORD}             # 웹앱 접속 비밀번호
+      AUTH_TOKEN: ${AUTH_TOKEN}                   # 로그인 성공 쿠키 값(검증용)
+    volumes:
+      - ./generated:/app/generated                # 생성 이미지 저장(파일서버와 공유)
+    ports:
+      - "3002:3000"       # 로컬 검증용 (외부는 터널 www.kctikinec.cloud)
+    depends_on:
+      - postgrest
+    restart: unless-stopped
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: kinerag-tunnel
+    command: tunnel --no-autoupdate run
+    environment:
+      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
+    depends_on:
+      - file-server
+      - postgrest
+      - web
+    restart: unless-stopped
+
+volumes:
+  db-data:

@@ -1,0 +1,13 @@
+# 빌드 컨텍스트 최소화 — 기본 파일서버 이미지는 file-server/default.conf 만 필요.
+# (이식용 immutable 이미지로 works/·texts/ 를 COPY 하려면, 아래 works·texts 두 줄을 주석 처리)
+.git
+.DS_Store
+*.md
+works
+texts
+data-pipeline
+dataset
+**/__pycache__
+**/.venv
+**/node_modules
+**/.next

@@ -1,0 +1,1665 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>키네틱 아트 데이터셋 검수 (69개)</title>
+<style>
+  body{font-family:-apple-system,system-ui,sans-serif;margin:0;background:#f4f4f5;color:#18181b}
+  header{position:sticky;top:0;background:#fff;border-bottom:1px solid #e4e4e7;padding:12px 20px;z-index:10;
+    display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  header h1{font-size:16px;margin:0}
+  .counts{font-size:13px;color:#52525b}
+  button{cursor:pointer;border:1px solid #d4d4d8;background:#fff;border-radius:6px;padding:6px 10px;font-size:13px}
+  #filter button.active{background:#18181b;color:#fff}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;padding:20px}
+  .card{background:#fff;border:1px solid #e4e4e7;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+  .card.flagged{border-color:#f59e0b}
+  .imgwrap{aspect-ratio:4/3;background:#fafafa;display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .imgwrap img{width:100%;height:100%;object-fit:contain}
+  .body{padding:12px;display:flex;flex-direction:column;gap:6px}
+  .idrow{display:flex;gap:8px;align-items:center;font-size:12px}
+  .lic{color:#71717a}
+  .st{margin-left:auto;padding:1px 6px;border-radius:4px;font-size:11px}
+  .st-auto_ok{background:#dcfce7;color:#166534} .st-needs_review{background:#fef3c7;color:#92400e}
+  .title{font-weight:600;font-size:14px} .meta{font-size:13px;color:#3f3f46}
+  .mat{font-size:12px;color:#71717a} .desc{font-size:13px;line-height:1.5}
+  details summary{font-size:12px;color:#2563eb;cursor:pointer} details p{font-size:12px;line-height:1.6;color:#3f3f46}
+  .tag{display:inline-block;background:#f4f4f5;border:1px solid #e4e4e7;border-radius:4px;padding:1px 6px;font-size:11px;margin:1px}
+  .note{background:#fffbeb;border:1px solid #fde68a;border-radius:6px;padding:6px;font-size:12px;color:#92400e}
+  .src a{font-size:12px}
+  .actions{display:flex;gap:8px;align-items:center;margin-top:4px}
+  .actions .approve{border-color:#16a34a;color:#16a34a} .actions .reject{border-color:#dc2626;color:#dc2626}
+  .card.d-approved{outline:2px solid #16a34a} .card.d-rejected{outline:2px solid #dc2626;opacity:.55}
+  .decision{font-size:12px;font-weight:600}
+</style></head><body>
+<header>
+  <h1>키네틱 아트 데이터셋 검수</h1>
+  <span class="counts" id="counts"></span>
+  <span id="filter">
+    <button data-f="all" class="active">전체</button>
+    <button data-f="auto_ok">auto_ok</button>
+    <button data-f="needs_review">needs_review</button>
+    <button data-f="approved">승인됨</button>
+    <button data-f="rejected">거부됨</button>
+  </span>
+  <button onclick="exportDecisions()" style="margin-left:auto;background:#18181b;color:#fff">decisions 내보내기</button>
+  <button onclick="clearDecisions()">초기화</button>
+</header>
+<div class="grid" id="grid">
+<div class="card flagged" data-id="008"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/008.gif" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#008</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">아쿠아리우스 램프 (Aquarius Lamp)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">물 펌프, RGB LED, 물줄기, 목재 프레임</div>
+    <div class="desc">떨어지는 물줄기에 RGB LED를 특정 주파수로 점멸시켜, 물이 나선으로 휘며 위로 솟는 듯한 착시를 만드는 키네틱 라이트-워터 장치.</div>
+    <details><summary>상세 설명</summary><p>물방울이 떨어지는 물줄기 옆에서 RGB LED를 특정 주파수로 스트로보(점멸)시켜, 낙하하는 물이 공중에서 나선으로 휘고 거꾸로 솟아오르는 것처럼 보이게 하는 물-빛 착시 장치다. 이 이미지는 단일 나선(single helix) 패턴을 보여 주는 예로, 눈물방울 모양의 목재 프레임 안에서 물줄기가 빛과 함께 춤춘다. 실제 물의 흐름과 스트로보 타이밍의 상호작용으로 다양한 형태가 나타난다. 명확한 작가명과 제작연도는 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>빛</span> <span class='tag'>물</span> <span class='tag'>LED</span> <span class='tag'>착시</span></div>
+    <div class='note'>⚠ 작가·제작연도 미상이며, 특정 작가의 명명된 예술작품이라기보다 스트로보 착시 장치에 가까움. 원본이 대용량 GIF라 축소 프레임으로 확인함.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Aquarius_Lamp.gif" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('008','approved')">승인</button>
+      <button class="reject" onclick="setDecision('008','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="009"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/009.gif" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#009</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">아쿠아리우스 램프 — 화산 번개 (Aquarius Lamp, Volcanic Lightning)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">물 분수, RGB LED 스트로브, 반투명 몸체</div>
+    <div class="desc">떨어지는 물줄기에 RGB LED를 특정 주파수로 점멸(스트로브)시켜 물이 번개처럼 갈라지고 멈춘 듯 보이게 하는 스트로브 분수 램프.</div>
+    <details><summary>상세 설명</summary><p>&#x27;아쿠아리우스 램프&#x27;는 물줄기와 스트로브 조명을 결합한 광-키네틱 분수 램프다. 반투명한 몸체 안으로 물이 흐르고, 측면의 RGB LED가 물의 낙하 주기에 맞춰 빠르게 점멸한다. 이 스트로빙으로 물방울이 공중에서 멈추거나 위로 솟고 갈라지는 &#x27;화산 번개&#x27; 같은 착시가 나타난다. 조명 주파수에 따라 물의 움직임이 다르게 보이는 자작 키네틱 조명 오브제로, 작가와 제작 연도는 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>빛</span> <span class='tag'>물</span> <span class='tag'>LED</span> <span class='tag'>분수</span></div>
+    <div class='note'>⚠ 작가·제작연도 미상(자작 스트로브 분수 램프).</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Aquarius_Lamp_Volcanic_Lightning.gif" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('009','approved')">승인</button>
+      <button class="reject" onclick="setDecision('009','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="010"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/010.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#010</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">회전하는 듯한 동심원 옵아트 (Art cinétique)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">흑백 동심원·화살 패턴 (매체 미상, 옵아트 이미지)</div>
+    <div class="desc">흑백의 동심원과 화살무늬가 겹쳐 응시하면 전체가 서서히 회전하는 듯한 착시를 일으키는 옵아트·키네틱 이미지다.</div>
+    <details><summary>상세 설명</summary><p>검은색과 흰색의 화살(쐐기) 무늬가 여러 겹의 고리를 이루고 중앙에는 촘촘한 동심원이 배치된 옵티컬 아트 이미지다. 실제로 움직이는 부품은 없지만 강한 흑백 대비와 반복 패턴 때문에 오래 바라보면 각 고리가 서로 다른 속도로 돌아가는 것처럼 지각된다. 프랑스어 원제 &#x27;Art cinétique&#x27;는 &#x27;키네틱 아트&#x27;를 뜻하며 시지각적 움직임을 노린 작품이다. 제목에 적힌 미셸 로바르데(Michel Robardet)는 촬영·게시자로 추정되며 실제 창작자와 제작 연도는 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>옵아트</span> <span class='tag'>착시</span> <span class='tag'>흑백</span> <span class='tag'>회전</span></div>
+    <div class='note'>⚠ 창작자 미상(Michel Robardet은 촬영/게시자 추정), 제작 연도 미확인</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Art_cin%C3%A9tique,_Michel_Robardet.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('010','approved')">승인</button>
+      <button class="reject" onclick="setDecision('010','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="012"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/012.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#012</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">균형 조각 (Balance Sculpture 08)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">목재 침목, 벽돌, 콘크리트 기단, 금속 지지대</div>
+    <div class="desc">무거운 목재 보를 콘크리트 기단 위 한 점에 아슬아슬하게 얹어 바람이나 접촉에 따라 미세하게 흔들리도록 한 균형 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 오하이오의 숲속에 설치된 &#x27;락 밸런스(rock balance)&#x27; 계열의 균형 조각이다. 낡은 철도 침목 같은 무거운 목재 보를 콘크리트 원통 기단 위 좁은 접점에 얹고 벽돌 등으로 균형을 맞춰 구조 전체가 불안정하게 지탱된다. 외력에 따라 보가 천천히 기울거나 흔들릴 수 있으나 능동적 구동부는 없으며, 가변적·비영구적 설치로 존속 기간이 불확실하다. 작가와 제작연도는 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>균형</span> <span class='tag'>조각</span> <span class='tag'>목재</span> <span class='tag'>설치</span></div>
+    <div class='note'>⚠ 작가·제작연도 미상이며, 능동적 움직임이 없는 균형(밸런스) 조각으로 키네틱 여부가 모호함.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Balance_sculpture_08.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('012','approved')">승인</button>
+      <button class="reject" onclick="setDecision('012','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="038"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/038.gif" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#038</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">에브리 브라스 유 테이크 (Every brass you take)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">황동 나팔(혼) 벨, 금속 로드·스탠드, 구동 장치(모터 등)</div>
+    <div class="desc">여러 개의 황동 나팔 벨을 가느다란 금속 대에 매달아 위아래로 까딱이며 흔들리게 한 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>금속 스탠드 위 여러 개의 가느다란 로드 끝에 황동 관악기 벨(나팔)을 달아 놓은 키네틱 아트 머신이다. 구동에 따라 나팔들이 완만히 오르내리며 흔들려 벽에 어른거리는 그림자를 드리운다. 제목은 폴리스의 노래 &#x27;Every Breath You Take&#x27;를 브라스(황동/금관)로 비튼 말장난이다. 작가 진술에 따르면 그의 기계들은 중력·바람·태양광·수동 또는 저전압 전기모터로 구동된다고 하나, 이 작품의 작가명과 제작연도는 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>모터</span> <span class='tag'>황동</span> <span class='tag'>조각</span> <span class='tag'>그림자</span></div>
+    <div class='note'>⚠ 작가명·제작연도 미상. 원본이 대용량 GIF라 축소 프레임으로 확인함.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Every_brass_you_take.gif" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('038','approved')">승인</button>
+      <button class="reject" onclick="setDecision('038','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="040"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/040.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#040</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">포커스 (FOCUS)</div>
+    <div class="meta">HAEL YXXS · 1993</div>
+    <div class="mat">금속 링/와이어 (야외 설치)</div>
+    <div class="desc">숲을 배경으로 하늘에 떠 있는 가느다란 금속 타원 고리가 바람에 흔들리는 미니멀 야외 키네틱 설치작.</div>
+    <details><summary>상세 설명</summary><p>작가 HAEL YXXS가 1993년 독일 뤼겐 섬 괴렌(Göhren auf Rügen)에 설치한 야외 키네틱 작품이다. 가느다란 금속선으로 만든 큰 타원 고리를 나무들 사이 하늘 높이 띄워 허공에 그려진 하나의 선처럼 보이게 했다. 고리는 바람에 미세하게 흔들리며 방향을 바꾸어 관람자의 시선을 텅 빈 하늘 한가운데로 &#x27;집중(focus)&#x27;시킨다. 최소한의 물질로 자연을 작품에 끌어들이는 미니멀·개념적 작업이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>야외설치</span> <span class='tag'>바람</span> <span class='tag'>미니멀</span> <span class='tag'>링</span></div>
+    <div class='note'>⚠ 작가명 &#x27;HAEL YXXS&#x27; 표기 검증 필요</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:FOCUS.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('040','approved')">승인</button>
+      <button class="reject" onclick="setDecision('040','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="042"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/042.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#042</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">키네틱 프리즈 (Friso Cinético)</div>
+    <div class="meta">마틸데 페레스 (Matilde Pérez) · 연도 미상</div>
+    <div class="mat">금속(알루미늄) 패널</div>
+    <div class="desc">길게 이어진 벽면을 따라 기하학적 금속 패널이 반복 배열돼, 지나가며 볼 때 광학적으로 움직이는 듯한 착시를 일으키는 대형 키네틱 프리즈(벽면 부조).</div>
+    <details><summary>상세 설명</summary><p>칠레의 키네틱·옵아트 선구자 마틸데 페레스의 대형 &#x27;키네틱 프리즈(Friso Cinético)&#x27;다. 도로변을 따라 수십 미터에 걸쳐 삼각·마름모꼴 금속 패널을 규칙적으로 배열해 부조 벽면을 이룬다. 관람자나 차량이 이동하면 빛과 각도에 따라 패널들이 반짝이며 문양이 물결처럼 변해 움직임의 착시가 생긴다. 실제 기계적 움직임이 없는 옵티컬-키네틱 공공 미술이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>옵아트</span> <span class='tag'>금속</span> <span class='tag'>공공미술</span> <span class='tag'>페레스</span></div>
+    <div class='note'>⚠ 제작 연도 미상(작가는 마틸데 페레스로 확인).</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Frisocinetico.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('042','approved')">승인</button>
+      <button class="reject" onclick="setDecision('042','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="052"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/052.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#052</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">키네틱 맨 (Kinetic Man / K-Man)</div>
+    <div class="meta">러스 루퍼트 (Russ Rupert) · 연도 미상</div>
+    <div class="mat">금속(도색된 금속·목재 블록 추정)</div>
+    <div class="desc">사람 형상을 층층이 쌓아 올린 대형 키네틱 조각으로, 부분들이 움직이도록 만든 야외 조형물.</div>
+    <details><summary>상세 설명</summary><p>러스 루퍼트가 만든 &#x27;키네틱 맨(K-Man)&#x27; 조각으로, 2002년 스프링필드 제퍼슨 애비뉴 보행교 100주년 기념행사를 위해 복원·설치되었다. 사각 블록을 사람 형상으로 쌓아 올린 은색 조형물이며, 현재는 미주리주 스프링필드 조던밸리 공원에 있다. 사진은 역사 표지판 앞에서 관계자들이 기념 촬영을 한 장면으로, 조각은 화면 왼쪽에 일부만 보인다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>조각</span> <span class='tag'>야외조각</span> <span class='tag'>금속</span> <span class='tag'>Rupert</span></div>
+    <div class='note'>⚠ 기념행사 촬영 사진으로 조각이 화면 가장자리에 일부만 보임; 2002는 복원·설치 연도이며 원 제작연도 미상</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:K-Man_(Kinetic_Man)_installed_at_Jefferson_Avenue_Footbridge.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('052','approved')">승인</button>
+      <button class="reject" onclick="setDecision('052','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="058"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/058.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#058</b>
+      <span class="lic">CC BY-SA 3.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">빈트쿠치 / 바람 마차 (WindKutsche / Wind Chariot)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">강철·금속, 대형 바퀴, 스테인리스 로터, 체인 구동부</div>
+    <div class="desc">로마 전차를 닮은 몸체 위 로터가 바람에 돌면 체인으로 동력이 전달되어, 막대를 딛고 바람을 거슬러 뒤뚱뒤뚱 전진하는 풍력 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>로마 시대의 전차를 연상시키는 형태의 바람 구동 키네틱 조각이다. 전사 대신 축 위에 로터가 달린 탑이 서 있고, 로터의 회전이 체인을 통해 머리 부분의 편심(eccentric)으로 전달되어 아래로 늘어뜨린 자유로운 막대를 위아래로 움직인다. 이 막대가 지면을 딛고 밀어내면서 두 바퀴와 함께 조각 전체가 바람을 거슬러 비틀비틀 걸어 나간다. 작가와 제작연도는 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>바람</span> <span class='tag'>회전</span> <span class='tag'>조각</span> <span class='tag'>바퀴</span></div>
+    <div class='note'>⚠ 작가·제작연도 미상.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Kineic_Art_WindKutsche.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('058','approved')">승인</button>
+      <button class="reject" onclick="setDecision('058','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="059"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/059.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#059</b>
+      <span class="lic">CC BY 2.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">자성 키네틱 조각 (Magnetic Kinetic Sculpture)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">자석, 회전 구동부, 발광·반사 요소, 받침대</div>
+    <div class="desc">받침대 위에서 회전하는 자성 키네틱 조각을 장노출로 촬영해, 빛의 궤적이 초록·노랑·파랑·보라의 나선 무늬로 남은 이미지.</div>
+    <details><summary>상세 설명</summary><p>받침대 위에서 회전하는 자석 기반 키네틱 조각을 0.5~1초 장노출로 촬영한 4컷 몽타주다. 조각이 빠르게 돌면서 발광·반사하는 요소들이 카메라에 빛의 자취로 기록되어 초록·노랑·파랑·보라색의 소용돌이 같은 대칭 패턴을 그린다. 정지 상태에서는 단순한 형태이지만 회전할 때 광학적 무늬가 나타나는 점이 특징이다. 작가와 제작연도는 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>회전</span> <span class='tag'>자석</span> <span class='tag'>빛</span> <span class='tag'>조각</span></div>
+    <div class='note'>⚠ 작가·제작연도 미상.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Kinetic_Sculpture_(25005505015).jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('059','approved')">승인</button>
+      <button class="reject" onclick="setDecision('059','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="060"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/060.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#060</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">달리는 키네틱 조각 (Kinetic Sculpture in Motion)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">자전거 부품, 다중 바퀴, 금속 프레임, 해파리·산호 등 장식물</div>
+    <div class="desc">여러 개의 바퀴와 페달로 구성된 해양 테마의 인력 구동 키네틱 조각을, 참가자들이 직접 타고 거리를 달리는 키네틱 조각 경주 장면.</div>
+    <details><summary>상세 설명</summary><p>키네틱 조각 경주(Kinetic Sculpture Race)의 시가지 구간에서 촬영된 인력 구동 키네틱 조각이다. 자전거 부품과 여러 겹의 바퀴로 만든 몸체에 발광 해파리, 물고기, 산호 같은 해양 생물 장식을 붙였고, 바다 의상을 입은 참가자들이 페달을 밟아 조각을 움직인다. 이런 경주용 조각은 사람이 타고 이동하며 물과 육지를 오갈 수 있도록 설계되는 참여형 키네틱 아트다. 특정 작가명과 제작연도는 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>인력구동</span> <span class='tag'>바퀴</span> <span class='tag'>조각</span> <span class='tag'>퍼레이드</span></div>
+    <div class='note'>⚠ 작가·제작연도 미상. 개별 예술가의 명명 작품이 아니라 키네틱 조각 경주의 참가 차량임.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Kinetic_Sculpture_in_Motion.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('060','approved')">승인</button>
+      <button class="reject" onclick="setDecision('060','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="061"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/061.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#061</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">키네틱 아트 (점 격자 옵아트 회화, Kinetic Art)</div>
+    <div class="meta">다리우시 스톨라진 (Dariusz Stolarzyn) · 연도 미상</div>
+    <div class="mat">캔버스에 유채(옵아트 회화)</div>
+    <div class="desc">주황·노랑 원들이 격자로 빼곡히 배열되고 그 위로 나선형 곡선이 지나가며, 원들이 회전·이동하는 듯한 광학적 움직임을 만드는 옵아트 회화.</div>
+    <details><summary>상세 설명</summary><p>캔버스 하단에 &#x27;STOLARZYN&#x27; 서명이 있는 옵아트(키네틱) 회화로, 폴란드 작가 다리우시 스톨라진의 작품으로 보인다. 파란 바탕 위에 주황·노랑 원반을 촘촘한 격자로 그리고, 그 위로 큰 나선 곡선을 겹쳐 원들의 명암과 방향을 변주했다. 실제로 움직이지 않지만 규칙적 반복과 곡선의 왜곡이 회전·진동하는 듯한 시각적 움직임(옵티컬 키네틱)을 유발한다. 경매 출품작으로 정확한 제작 연도는 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>옵아트</span> <span class='tag'>회화</span> <span class='tag'>착시</span> <span class='tag'>스톨라진</span></div>
+    <div class='note'>⚠ 제작 연도 미상; 작가는 서명(STOLARZYN)으로 추정.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Kinetic_art.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('061','approved')">승인</button>
+      <button class="reject" onclick="setDecision('061','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="062"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/062.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#062</b>
+      <span class="lic">CC BY-SA 3.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">기바트 람의 바람 키네틱 조각 (Kinetic Sculpture, Givat Ram)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">채색한 금속(강철) 막대와 기둥</div>
+    <div class="desc">반사 연못 위에 세운 흰 금속 기둥 끝에서 가는 막대들이 바람을 받아 회전·요동하며, 1분 간격의 두 장면에서 막대 위치가 달라져 움직임이 드러나는 바람 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>예루살렘 기바트 람(히브리대 캠퍼스) 연못가에 설치된 바람 구동 키네틱 조각이다. 흰색 금속 기둥 위에 가느다란 막대들이 지렛대처럼 달려 있고, 이들이 바람을 받아 천천히 방향을 바꾼다. 같은 장소를 1분 간격으로 찍은 두 장면을 나란히 두어 막대의 각도가 달라진 것으로 실제 움직임을 확인할 수 있다. 조지 리키류의 균형·바람 키네틱 조각이나 작가와 제작 연도는 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>바람</span> <span class='tag'>회전</span> <span class='tag'>조각</span> <span class='tag'>균형</span></div>
+    <div class='note'>⚠ 작가·제작연도 미상.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Kinetic_art_givat_ram.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('062','approved')">승인</button>
+      <button class="reject" onclick="setDecision('062','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="065"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/065.gif" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#065</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">르 데르니에 크리 (Le dernier cri, 마지막 외침)</div>
+    <div class="meta">빌리 라이헤 (Willi Reiche) · 연도 미상</div>
+    <div class="mat">금속(철), 가죽 마구, 동물 두개골, 목재 대차, 전기 모터</div>
+    <div class="desc">동물 두개골과 가죽 마구를 낡은 철제 바퀴·대차 기계장치에 결합한 어셈블리지 키네틱 머신으로, 모터로 구동되면 바퀴와 부품이 삐걱대며 움직인다.</div>
+    <details><summary>상세 설명</summary><p>독일 바흐트베르크의 키네틱 작가 빌리 라이헤의 &#x27;쿤스트마시네(예술기계)&#x27; 「르 데르니에 크리(마지막 외침)」다. 큰 동물 두개골에 가죽 마구를 씌워 옛 철제 바퀴와 나무 대차로 된 기계장치 위에 올렸고, 전기 모터로 구동되면 바퀴와 연결부가 움직인다. 인간이 동물의 자유를 빼앗고 서식지를 파괴한 데 대한 &#x27;마지막 외침&#x27;이라는 메시지를 기계적 움직임으로 표현한다. 라이헤 특유의 풍자적 어셈블리지 키네틱 머신이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>모터</span> <span class='tag'>기계</span> <span class='tag'>어셈블리지</span> <span class='tag'>라이헤</span></div>
+    <div class='note'>⚠ 제작 연도 미상(작가는 빌리 라이헤).</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Kunstmaschine_%E2%80%9ELe_dernier_cri%E2%80%9C_des_Wachtberger_Kinetikk%C3%BCnstlers_Willi_Reiche_im_%E2%80%9EHaus_an_der_Redoute%E2%80%9C,_Bonn,_Bad_Godesberg.gif" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('065','approved')">승인</button>
+      <button class="reject" onclick="setDecision('065','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="067"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/067.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#067</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">키네틱 아트 (점 격자 옵아트 회화, Lot.01112018)</div>
+    <div class="meta">다리우시 스톨라진 (Dariusz Stolarzyn) · 연도 미상</div>
+    <div class="mat">캔버스에 유채(옵아트 회화)</div>
+    <div class="desc">청회색 바탕에 은빛 원들이 격자로 배열되고 소용돌이 곡선이 겹쳐, 나선이 회전하며 원들이 물결치는 듯한 광학적 움직임을 일으키는 옵아트 회화.</div>
+    <details><summary>상세 설명</summary><p>하단에 서명이 있는 옵아트(키네틱) 회화로, 다리우시 스톨라진의 연작 중 하나로 보인다. 짙은 청색 바탕 위에 밝은 회색 원반을 촘촘한 격자로 그리고 그 위로 큰 소용돌이(나선) 곡선을 겹쳐 명암을 변주했다. 규칙적 점 격자와 나선의 왜곡이 겹치며 원들이 회전·진동하는 듯한 시각적 움직임을 만든다. 061번과 같은 경매 출품 연작으로 정확한 제작 연도는 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>옵아트</span> <span class='tag'>회화</span> <span class='tag'>착시</span> <span class='tag'>스톨라진</span></div>
+    <div class='note'>⚠ 제작 연도 미상; 작가는 서명으로 추정.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Lot.01112018.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('067','approved')">승인</button>
+      <button class="reject" onclick="setDecision('067','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="077"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/077.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#077</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">퍼시픽 사이언스 센터 키네틱 시계 (Pacific Science Center Clock)</div>
+    <div class="meta">고든 브래트 (Gordon Bradt) · 연도 미상</div>
+    <div class="mat">금속 프레임, 기어, 스프링 코일, 나선형 트랙, 유리 기둥 등으로 구성된 대형 기계식 키네틱 장치</div>
+    <div class="desc">천장까지 솟은 금속 탑 안에서 기어와 코일, 나선형 트랙을 따라 부품과 공이 오르내리며 작동하는 대형 기계식 키네틱 시계다.</div>
+    <details><summary>상세 설명</summary><p>미국 시애틀 퍼시픽 사이언스 센터에 설치된 고든 브래트(Gordon Bradt)의 키네틱 시계로 표기된 작품이다. 강철 프레임으로 짠 높은 탑 상단에 여러 개의 원형 기어와 촘촘한 스프링 코일이 맞물려 돌아가고, 아래쪽 유리 기둥 안에서는 나선형 트랙을 따라 부품이 오르내리는 롤링볼식 기계 장치가 작동한다. 전체가 하나의 거대한 태엽·기어 메커니즘으로 연동되어 끊임없이 움직인다. 표기된 1994년은 촬영/게시 시점으로 보이며, 작가 귀속과 세부 기작은 출처 표기에 의존한다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>기계장치</span> <span class='tag'>기어</span> <span class='tag'>시계</span> <span class='tag'>브래트</span></div>
+    <div class='note'>⚠ 제작 연도 미확인(1994는 촬영/게시 시점 추정); 작가 귀속은 출처 표기 기준</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Pacific_Science_Center_Clock.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('077','approved')">승인</button>
+      <button class="reject" onclick="setDecision('077','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="079"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/079.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#079</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">기하학적 순열 4 (Permutazione geometrica 4)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">손으로 제작한 메타크릴레이트(아크릴) 셀에 채운 채색 액체</div>
+    <div class="desc">손으로 만든 아크릴 셀들에 채운 색색의 액체가 격자를 이루며, 기울임에 따라 색과 무늬가 흐르며 바뀌는 액체 회화다.</div>
+    <details><summary>상세 설명</summary><p>손으로 제작한 메타크릴레이트(아크릴) 셀 안에 색을 넣은 액체를 채워 이미지를 구성한 &#x27;액체 그림(quadro a liquidi)&#x27;이다. 마름모꼴로 배치된 초록·청록·보라·검정의 삼각형 셀들이 반복 패턴을 이루며, 작품을 기울이거나 움직이면 셀 속 액체가 이동해 색면과 무늬가 미묘하게 변한다. 빛의 반사와 액체의 유동이 겹쳐 보는 각도에 따라 표면이 살아 있는 듯 반짝인다. 작가와 정확한 제작 연도는 출처에 명시되어 있지 않다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>액체</span> <span class='tag'>기하추상</span> <span class='tag'>아크릴</span> <span class='tag'>옵아트</span></div>
+    <div class='note'>⚠ 작가 미상, 제작 연도 미확인</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Permutazione_geometrica_4.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('079','approved')">승인</button>
+      <button class="reject" onclick="setDecision('079','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="083"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/083.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#083</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">롤링 볼 조각 (Rolling Ball Sculpture)</div>
+    <div class="meta">아르카디우시 카민스키 (Arkadiusz Kamiński) · 연도 미상</div>
+    <div class="mat">스테인리스강 트랙, 구슬, 목재 받침, 리프트 기계장치</div>
+    <div class="desc">나선형 금속 레일을 따라 구슬이 끝없이 굴러 내려가고 다시 위로 올려지는 &#x27;롤링 볼&#x27; 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>폴란드 작가 아르카디우시 카민스키가 만든 롤링 볼(구르는 공) 계열의 키네틱 조각이다. 스테인리스강 막대를 나선과 곡선 트랙으로 구부려 여러 층으로 쌓고, 흰 구슬들이 중력으로 트랙을 따라 굴러 내려간 뒤 리프트로 다시 정상까지 올려져 순환한다. 나무 받침 위에 세워졌으며 꼭대기에는 크리스털 구가 장식되어 있다. 구슬의 이동 경로와 소리가 감상 요소가 된다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>회전</span> <span class='tag'>구슬</span> <span class='tag'>스틸</span> <span class='tag'>카민스키</span></div>
+    <div class='note'>⚠ 제작연도 미상 (hint 2019는 사진/업로드 연도로 추정)</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Rolling_Ball_Sculpture_(RBS)_Arkadiusz_Kami%C5%84ski_Kineticart.eu.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('083','approved')">승인</button>
+      <button class="reject" onclick="setDecision('083','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="084"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/084.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#084</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">그로잉 폼 (Growing Form)</div>
+    <div class="meta">필리스 마크 (Phyllis Mark) · 1968</div>
+    <div class="mat">알루미늄, 모터 구동 받침대</div>
+    <div class="desc">유기적으로 잘린 원형 알루미늄 판이 모터 구동 받침대 위에서 천천히 회전하며 움직이는 그림자를 만드는 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 필리스 마크의 1968년 알루미늄 키네틱 조각 &#x27;그로잉 폼(Growing Form, 높이 약 22인치)&#x27;을 담은 뉴욕 루스 화이트 갤러리 개인전 안내 카드다. 유기적 곡선 형태가 잘려 나간 원형 판이 모터 구동 받침대 위에서 회전하며 벽면에 어른거리는 그림자를 드리운다. 카드에는 전시명 &#x27;Shadow and Substance&#x27;와 1968년 11월 12–30일 일정이 적혀 있다. 이미지 자체는 작품 사진이 아니라 갤러리 안내 엽서(앞·뒷면)이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>모터</span> <span class='tag'>회전</span> <span class='tag'>알루미늄</span> <span class='tag'>Mark</span></div>
+    <div class='note'>⚠ 이미지가 작품 자체가 아니라 갤러리 안내 카드(엽서)임 — 다만 묘사된 &#x27;그로잉 폼&#x27;은 실재하는 키네틱 조각</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:RuthWhiteAnnouncement1968.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('084','approved')">승인</button>
+      <button class="reject" onclick="setDecision('084','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="090"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/090.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#090</b>
+      <span class="lic">CC BY-SA 2.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">달의 위상 키네틱 조각 (Phases of the Moon kinetic sculpture)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">금속(강철 와이어 및 판)</div>
+    <div class="desc">인물 형상의 금속 조각이 초승달과 원반을 받쳐 들고 바람에 따라 흔들리며 달의 위상 변화를 표현하는 야외 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>영국의 한 공항 진입로 로터리에 설치된 &#x27;달의 위상(Phases of the Moon)&#x27;을 주제로 한 야외 키네틱 조각이다. 강철 와이어와 판으로 만든 춤추는 인물 형상이 한 팔로 초승달을, 다른 팔로 원반(보름달)을 받쳐 든 모습이며, 바람을 받아 각 요소가 흔들리거나 회전한다. 작가와 정확한 제작 연도는 확인되지 않는다. 사진은 멀리서 촬영한 환경 컷으로 세부는 뚜렷하지 않다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>바람</span> <span class='tag'>회전</span> <span class='tag'>조각</span> <span class='tag'>달</span></div>
+    <div class='note'>⚠ 작가·제작연도 미상, 원거리 환경 사진 — 정체성 불확실</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:A_kinetic_%27phases_of_the_moon%27_sculpture_-_geograph.org.uk_-_3525831.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('090','approved')">승인</button>
+      <button class="reject" onclick="setDecision('090','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="098"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/098.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#098</b>
+      <span class="lic">CC BY 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">게르스트호펜 바람 조각 (Wind Sculpture, Gersthofen)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">스테인리스 스틸과 채색 금속; 바람으로 회전하는 나선형·원반형 날개</div>
+    <div class="desc">세 개의 높은 기둥 위에서 나선형 금속 날개와 채색된 반원 원반들이 바람을 받아 제각기 회전하는 야외 풍력 키네틱 조각이다.</div>
+    <details><summary>상세 설명</summary><p>독일 게르스트호펜의 뤼게너 공원에 설치된 야외 키네틱 풍력 조각이다. 세 개의 스테인리스 스틸 기둥 상단에는 스테인리스 나선형 날개가, 중앙 가로축에는 붉은색·은색으로 채색된 반원형 원반 날개들이 매달려 있다. 바람이 불면 각 요소가 서로 다른 속도로 돌며 금속 표면이 빛을 반사해 반짝인다. 작가와 제작연도는 확인되지 않았고 사진은 2023년 촬영본이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>바람</span> <span class='tag'>회전</span> <span class='tag'>스틸</span> <span class='tag'>조각</span></div>
+    <div class='note'>⚠ 작가·제작연도 미상(사진 2023년). 바람에 회전하는 야외 키네틱 조각으로 판단됨.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:GER_Gersthofen,_R%C3%BCgener_Park_0005.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('098','approved')">승인</button>
+      <button class="reject" onclick="setDecision('098','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="104"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/104.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#104</b>
+      <span class="lic">CC0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">앤드루 카슨의 바람 조각 (제목 미상)</div>
+    <div class="meta">앤드루 카슨 (Andrew Carson) · 연도 미상</div>
+    <div class="mat">금속(구리·강철), 채색 유리</div>
+    <div class="desc">긴 기둥 위의 소용돌이·잎 모양 금속 날개와 유리 장식이 바람을 받아 여러 층에서 회전하는 바람 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 시애틀의 키네틱 바람 조각가 앤드루 카슨의 옥외 조각으로, 시애틀 메이플리프 커뮤니티 가든에 설치되어 있다. 높은 금속 기둥을 따라 소용돌이와 잎사귀 형태로 구부린 청동빛 금속 날개들과 색유리 구슬을 여러 단으로 달아, 바람이 불면 각 단이 서로 다른 방향과 속도로 돈다. 바람의 세기에 따라 전체가 유기적으로 흔들리며 회전한다. 정확한 제작연도와 작품명은 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>바람</span> <span class='tag'>회전</span> <span class='tag'>유리</span> <span class='tag'>카슨</span></div>
+    <div class='note'>⚠ 제작연도·작품명 미상 (작가 앤드루 카슨은 확실, hint 2024는 촬영 연도로 추정)</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Sculpture_in_Maple_Leaf_Community_Gardens.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('104','approved')">승인</button>
+      <button class="reject" onclick="setDecision('104','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="110"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/110.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#110</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">선셋, 선라이즈, 선셋 (Sunset, Sunrise, Sunset)</div>
+    <div class="meta">알렉산드르 다 쿠냐 (Alexandre da Cunha) · 2021</div>
+    <div class="mat">회전식 광고판(빌보드) 패널, 지하철 역사 환경 설치</div>
+    <div class="desc">역사 내 광고판을 회전시켜 노을빛 색면이 계속 바뀌게 하는, 지하철역에 통합된 색채 키네틱 설치작.</div>
+    <details><summary>상세 설명</summary><p>브라질 태생 작가 알렉산드르 다 쿠냐가 2021년 런던 배터시 파워스테이션 지하철역을 위해 제작한 공공미술(Art on the Underground 커미션)이다. 역사 곳곳의 회전식 광고판을 이용해 판이 돌아갈 때마다 일출·일몰을 연상시키는 색면이 바뀌면서 역 내부 분위기를 물들인다. 다만 이 사진은 개찰구가 있는 역 콘코스를 넓게 담은 환경 사진으로, 회전하는 색면 패널 자체는 뚜렷이 보이지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>설치</span> <span class='tag'>회전</span> <span class='tag'>색채</span> <span class='tag'>공공미술</span> <span class='tag'>Cunha</span></div>
+    <div class='note'>⚠ 이미지가 지하철 역사 전경을 넓게 담고 있어 회전 빌보드(키네틱 요소)가 뚜렷이 식별되지 않음; 작품 자체는 실재하는 커미션 작업</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Sunset,_Sunrise,_Sunset_by_Alexandre_da_Cunha.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('110','approved')">승인</button>
+      <button class="reject" onclick="setDecision('110','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="112"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/112.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#112</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">세 개의 정사각형, 수직 대각 (Three Squares Vertical Diagonal)</div>
+    <div class="meta">조지 리키 (George Rickey) · 연도 미상</div>
+    <div class="mat">스테인리스강</div>
+    <div class="desc">대각선으로 세운 세 개의 대형 스테인리스강 정사각 판이 바람을 받아 축을 중심으로 천천히 흔들리는 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 키네틱 조각의 대가 조지 리키의 작품으로, 일본 나오시마섬에 설치되어 있다. 표면을 무광으로 긁어 처리한 대형 스테인리스강 정사각 판 세 개를 마름모꼴로 세워, 각 판이 바람을 받아 하부 축을 중심으로 느리고 안정적으로 흔들리거나 회전한다. 리키 특유의 정밀한 베어링 구조 덕분에 미풍에도 판이 유연하게 움직인다. 바다를 배경으로 금속 표면이 빛을 반사한다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>바람</span> <span class='tag'>회전</span> <span class='tag'>스틸</span> <span class='tag'>리키</span></div>
+    <div class='note'>⚠ 제작연도 미상 (hint 2017은 촬영 연도로 추정)</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Three_Squares_Vertical_Diagonal.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('112','approved')">승인</button>
+      <button class="reject" onclick="setDecision('112','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="131"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/131.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#131</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">물의 이중주 분수 (Fontana Duetto d&#x27;Acqua)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">금속과 물; 물살로 도는 프로펠러형 날개</div>
+    <div class="desc">발처럼 수직으로 떨어지는 물의 장막 앞에서 금속 프로펠러형 날개가 물살을 받아 회전하는 분수형 키네틱 설치다.</div>
+    <details><summary>상세 설명</summary><p>이탈리아 도메니코 주스티 광장에 설치된 &#x27;물의 이중주(Duetto d&#x27;Acqua)&#x27; 분수이다. 상단 가로대에서 여러 갈래의 물줄기가 발처럼 수직으로 흘러내리고, 그 앞 금속 구조물에는 프로펠러(터빈) 형태의 날개들이 달려 물살에 의해 회전하는 것으로 보인다. 물의 낙하와 날개의 회전이 결합해 움직이는 수경(水景)을 만든다. 작가와 제작연도는 확인되지 않았고 사진은 2018년 촬영본이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>물</span> <span class='tag'>분수</span> <span class='tag'>회전</span> <span class='tag'>설치</span></div>
+    <div class='note'>⚠ 분수 작품 — 물살로 회전하는 프로펠러 요소가 보이나 작가·연도 미상이며 키네틱 조각 여부는 경계선.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:2018-09-14_Fontana_Acqua_Piazza_Domenico_Giusti_01.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('131','approved')">승인</button>
+      <button class="reject" onclick="setDecision('131','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card flagged" data-id="169"
+     data-status="needs_review">
+  <div class="imgwrap"><img loading="lazy" src="../works/169.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#169</b>
+      <span class="lic">CC BY-SA 2.0</span>
+      <span class="st st-needs_review">needs_review</span></div>
+    <div class="title">이스라엘 미술관 야외 금속 조각 (Israel Museum outdoor metal sculpture)</div>
+    <div class="meta">작가 미상 · 연도 미상</div>
+    <div class="mat">강철 등 금속 (용접 조각)</div>
+    <div class="desc">커다란 원형 링과 각진 금속 판·빔이 얽힌 대형 추상 금속 조각으로, 하늘을 배경으로 실루엣처럼 보인다.</div>
+    <details><summary>상세 설명</summary><p>예루살렘 이스라엘 미술관 야외에 설치된 대형 추상 금속 조각을 아래에서 올려다본 사진이다. 원형 링 안에 각진 강철 판과 빔, 톱니형 요소가 복잡하게 얽혀 있으나, 출처 정보에는 작가·제작연도나 실제로 움직이는지에 대한 설명이 없다. 정지된 용접 조각으로 보이며 키네틱 작품인지 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>금속</span> <span class='tag'>스틸</span> <span class='tag'>조각</span> <span class='tag'>추상</span></div>
+    <div class='note'>⚠ 작가·제작연도 미상이며 정지된 용접 조각으로 보여 키네틱 여부 불확실 (연도 2012는 촬영일 추정).</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_J%C3%A9rusalem_-_Isra%C3%ABl_(7556056486).jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('169','approved')">승인</button>
+      <button class="reject" onclick="setDecision('169','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="000"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/000.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#000</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">아멜리아 — 아멜리아 에어하트에게 바침 (Amelia / Homage to Amelia Earhart)</div>
+    <div class="meta">메리 커티스 래트클리프 (Mary Curtis Ratcliff) · 1972</div>
+    <div class="mat">새틴, 플렉시글라스, 플라스틱, 나무, 모노필라멘트</div>
+    <div class="desc">커다란 흰 새틴 원반과 늘어뜨린 새틴 리본들이 공기 흐름에 나부끼며 흔들리는 매달린 직물 키네틱 조각(모빌).</div>
+    <details><summary>상세 설명</summary><p>미국 작가 메리 커티스 래트클리프가 1972년 제작한 직물 기반 키네틱 조각으로, 비행사 아멜리아 에어하트에게 헌정한 작품이다. 커다란 흰 새틴 원반(달·태양을 연상)을 중심으로 좌우에 흰 새틴 리본을 여러 가닥 늘어뜨렸고, 모노필라멘트로 매달아 바람과 공기 흐름에 리본이 나부끼며 흔들린다. 새틴·플렉시글라스·플라스틱·나무 등을 사용했으며 폭이 약 120인치(305cm)에 이르는 대형 벽면 설치 규모다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>모빌</span> <span class='tag'>바람</span> <span class='tag'>새틴</span> <span class='tag'>직물</span> <span class='tag'>Ratcliff</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:%22Amelia%22_(Homage_to_Amelia_Earhart)_by_Mary_Curtis_Ratcliff.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('000','approved')">승인</button>
+      <button class="reject" onclick="setDecision('000','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="001"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/001.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#001</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">젤리 (Jellies)</div>
+    <div class="meta">메리 커티스 래트클리프 (Mary Curtis Ratcliff) · 2018</div>
+    <div class="mat">폴리에스터·타이벡에 아크릴과 잉크, 리넨, 스틸, 모노필라멘트 (56×66×62 in)</div>
+    <div class="desc">반투명 원반들이 모노필라멘트에 매달려 공기 흐름에 천천히 회전하며 벽에 부드러운 그림자를 드리우는 매달림형 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>&#x27;젤리(Jellies)&#x27;는 미국 작가 메리 커티스 래트클리프가 2018년 제작한 모빌형 키네틱 작품이다. 반투명 폴리에스터·타이벡에 해파리와 나뭇가지 형상을 그려 넣은 여러 원형 패널을 스틸 테두리로 감싸 천장에 매달았다. 미세한 공기 흐름만으로 각 원반이 서로 다른 속도로 회전·중첩되며, 뒤 벽면에 형태가 끊임없이 변하는 그림자를 만든다. 실체와 그림자가 함께 움직이며 해파리가 물속을 떠다니는 듯한 유동감을 자아낸다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>모빌</span> <span class='tag'>그림자</span> <span class='tag'>스틸</span> <span class='tag'>래트클리프</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:%22Jellies%22_by_Mary_Curtis_Ratcliff.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('001','approved')">승인</button>
+      <button class="reject" onclick="setDecision('001','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="002"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/002.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#002</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">바카날 (Bacchanal)</div>
+    <div class="meta">필리스 마크 (Phyllis Mark) · 1968</div>
+    <div class="mat">광택 아노다이즈드 알루미늄, 모터 구동 받침</div>
+    <div class="desc">산호처럼 가지 친 광택 알루미늄 형상이 모터 받침 위에서 회전하며 빛과 그림자를 흩뿌리는 탁상형 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 필리스 마크가 1968년 제작한 탁상형 키네틱 조각이다. 광택 아노다이즈드 알루미늄을 산호나 나뭇가지처럼 유기적으로 오려 원형 테 안에 넣었고, 모터가 달린 받침 위에서 천천히 회전한다. 높이 약 24인치(약 61cm) 크기이다. 회전에 따라 반짝이는 금속면과 뒤로 드리우는 그림자 무늬가 계속 변한다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>모터</span> <span class='tag'>회전</span> <span class='tag'>알루미늄</span> <span class='tag'>마크</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:%27Bacchanal%27_by_Phyllis_Mark,1968.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('002','approved')">승인</button>
+      <button class="reject" onclick="setDecision('002','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="003"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/003.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#003</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">인터로킹 폼스 (Interlocking Forms)</div>
+    <div class="meta">필리스 마크 (Phyllis Mark) · 1975</div>
+    <div class="mat">광택 알루미늄</div>
+    <div class="desc">광택 알루미늄 원형 테 안에서 타원형 부재가 매달려 흔들리도록 만든 키네틱 멀티플.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 필리스 마크가 제작한 광택 알루미늄 키네틱 멀티플 &#x27;인터로킹 폼스&#x27;이다. 두 개의 동심 원형 테 안에 캡슐형 타원 부재를 걸어, 부재가 축을 따라 흔들리거나 돌 수 있도록 서로 맞물리게 구성했다. 바깥 테에 작가의 서명이 새겨져 있으며 50점 에디션으로 제작되었다. 매끄러운 금속면이 빛을 반사하며 움직임을 강조한다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>회전</span> <span class='tag'>알루미늄</span> <span class='tag'>멀티플</span> <span class='tag'>마크</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:%27Interlocking_Forms%27_by_Phyllis_Mark.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('003','approved')">승인</button>
+      <button class="reject" onclick="setDecision('003','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="004"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/004.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#004</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">레드 텀블 (Red Tumble)</div>
+    <div class="meta">필리스 마크 (Phyllis Mark) · 1980</div>
+    <div class="mat">알루미늄 프레임, 채색 알루미늄 슬랫</div>
+    <div class="desc">무지개빛으로 채색된 알루미늄 슬랫으로 짜인 중앙 패널이 바람을 받아 회전하는 대형 옥외 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 필리스 마크가 1980년 제작한 대형 옥외 키네틱 조각이다. 알루미늄 프레임 안에 무지개빛으로 채색한 알루미늄 슬랫을 격자로 배열했고, 중앙 패널이 바람을 받아 회전한다. 1980년 워싱턴 D.C.에서 열린 제11회 국제조각회의 때 미국 인사관리처 반사연못 위에 설치되었다. 회전에 따라 슬랫의 색면이 물결처럼 어른거린다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>바람</span> <span class='tag'>회전</span> <span class='tag'>알루미늄</span> <span class='tag'>마크</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:%27Red_Tumble%27_by_Phyllis_Mark,_1980.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('004','approved')">승인</button>
+      <button class="reject" onclick="setDecision('004','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="005"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/005.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#005</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">스윙잉 서클 (Swinging Circle)</div>
+    <div class="meta">필리스 마크 (Phyllis Mark) · 1972</div>
+    <div class="mat">광택 알루미늄</div>
+    <div class="desc">광택 알루미늄 원형 테 안에 늘어선 곡선 슬랫들이 매달려 흔들리는 키네틱 멀티플.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 필리스 마크가 제작한 광택 알루미늄 키네틱 멀티플 &#x27;스윙잉 서클&#x27;이다. 원형 테 안에 잘록한 실패 모양의 수직 슬랫 여러 개를 나란히 매달아, 건드리거나 공기 흐름에 따라 슬랫이 좌우로 흔들리도록 했다. 작품에는 작가의 서명이 새겨져 있고 200점 에디션으로 제작되었다. 흔들리는 슬랫이 빛을 받아 반짝이며 리듬감 있는 움직임을 만든다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>회전</span> <span class='tag'>알루미늄</span> <span class='tag'>멀티플</span> <span class='tag'>마크</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:%27Swinging_Circle%27_by_Phyllis_Mark.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('005','approved')">승인</button>
+      <button class="reject" onclick="setDecision('005','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="006"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/006.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#006</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">샘과 소용돌이 (Fonte e Vórtice)</div>
+    <div class="meta">조앙 웨슬리 지 소자 (João Wesley de Souza) · 2000</div>
+    <div class="mat">철, 물, 조명, 유압 시스템</div>
+    <div class="desc">어두운 방 안 원형 수반에서 물이 소용돌이치고, 그 위로 조명이 통과해 벽에 일렁이는 빛 무늬를 투사하는 키네틱 설치.</div>
+    <details><summary>상세 설명</summary><p>브라질 작가 조앙 웨슬리 지 소자가 2000년 리우데자네이루 SESC 코파카바나 갤러리에서 선보인 키네틱 설치작 &#x27;샘과 소용돌이&#x27;다. 철제 원형 수반에 담긴 물을 유압 시스템으로 순환·회전시키고, 붉은 조명이 물결을 통과하도록 하여 어두운 전시실 벽면에 달 표면처럼 일렁이는 빛 무늬를 드리운다. 물의 움직임에 따라 투영된 패턴이 끊임없이 변한다. 철·물·빛을 결합해 유동적 이미지를 만드는 작업이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>물</span> <span class='tag'>빛</span> <span class='tag'>설치</span> <span class='tag'>소자</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:2000_fonte_e_vortice.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('006','approved')">승인</button>
+      <button class="reject" onclick="setDecision('006','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="007"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/007.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#007</b>
+      <span class="lic">CC BY 3.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">라 시우다드 (La Ciudad)</div>
+    <div class="meta">알렉산더 콜더 (Alexander Calder) · 1960</div>
+    <div class="mat">채색한 철과 강철</div>
+    <div class="desc">검은 삼각 철판으로 이뤄진 고정형 스태빌 앞에 흰 원반이 달린 가는 금속 막대들이 균형을 이루며 공기 흐름에 따라 흔들리는 콜더의 스태빌-모빌 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 조각가 알렉산더 콜더가 1960년에 제작한 &#x27;라 시우다드(도시)&#x27;로, 채색한 철과 강철로 만든 대형 야외 조각이다. 리벳으로 접합한 검은 삼각형 철판들이 도시의 첨탑처럼 솟은 고정 구조(스태빌)를 이루고, 그 앞에 흰 원반을 단 가느다란 금속 막대들이 지렛대처럼 연결돼 있다. 이 모빌 부분은 공기의 흐름과 미세한 힘에 따라 천천히 회전·요동하며 균형을 바꾼다. 고정된 스태빌과 움직이는 모빌을 결합한 콜더 특유의 키네틱 조각이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>모빌</span> <span class='tag'>바람</span> <span class='tag'>조각</span> <span class='tag'>콜더</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Alexander_Calder_-_La_Ciudad.JPG" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('007','approved')">승인</button>
+      <button class="reject" onclick="setDecision('007','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="013"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/013.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#013</b>
+      <span class="lic">CC BY-SA 3.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">거울이 있는 섹터 (Sector with Mirror)</div>
+    <div class="meta">베르틸 헤를로우 스벤손 (Bertil Herlow Svensson) · 1968</div>
+    <div class="mat">알루미늄 막대와 거울</div>
+    <div class="desc">수많은 가느다란 알루미늄 막대가 부채꼴로 촘촘히 배열돼 비틀린 곡면을 이루며, 보는 각도에 따라 모아레·광학적 움직임을 만들어 내는 옵티컬-키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>덴마크 조각가 베르틸 헤를로우 스벤손이 1968년경 제작한 &#x27;거울이 있는 섹터&#x27;다. 반원형으로 촘촘히 세운 수십 개의 알루미늄 막대가 한쪽에서 비틀리며 나선형 곡면(섹터)을 형성한다. 관람자가 이동하면 막대들이 겹쳐 보이며 모아레와 광학적 어른거림이 일어나 정지된 구조에서 움직임의 착시가 발생한다. 옵아트/키네틱 계열의 금속 광학 조각이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>옵아트</span> <span class='tag'>알루미늄</span> <span class='tag'>조각</span> <span class='tag'>스벤손</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Bertil_Herlow_Svensson.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('013','approved')">승인</button>
+      <button class="reject" onclick="setDecision('013','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="014"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/014.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#014</b>
+      <span class="lic">CC BY-SA 3.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">데라이에렌델로에르 (deraierendelouer)</div>
+    <div class="meta">시쿠 마샤두 (Chico Machado) · 2007</div>
+    <div class="mat">나무에 에나멜 페인트, 기어, 도르래, 체인</div>
+    <div class="desc">원색으로 칠한 원반·톱니바퀴·도르래를 벽면에 조립해, 손으로 돌리면 움직이며 소리까지 나는 조작형 키네틱·사운드 회화.</div>
+    <details><summary>상세 설명</summary><p>브라질 작가 시쿠 마샤두가 2007년에 제작한 조작 가능한 키네틱·사운드 회화 &#x27;데라이에렌델로에르&#x27;다. 파랑·빨강·노랑 등 원색으로 칠한 나무 원반과 톱니바퀴, 도르래, 체인을 벽면에 조립해 하나의 기계 같은 회화 구조를 이룬다. 관객이 직접 돌리면 각 요소가 회전·연동하며 움직이고 소리를 낸다. 회화와 키네틱 조각, 소리를 결합한 인터랙티브 작업이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>회전</span> <span class='tag'>소리</span> <span class='tag'>회화</span> <span class='tag'>마샤두</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Chicomachado-pinturacin%C3%A9tic.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('014','approved')">승인</button>
+      <button class="reject" onclick="setDecision('014','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="025"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/025.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#025</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">크로마 VII (Chroma VII)</div>
+    <div class="meta">김윤철 (Yunchul Kim) · 2023</div>
+    <div class="mat">금속 골조, 구조색 광학 필름, 모터 구동 셀형 모듈 다수</div>
+    <div class="desc">수백 개의 홍채빛 셀형 모듈이 거대한 나선 고리를 이루며 유동적으로 움직이고 색이 변하는 대형 키네틱·색채 설치작.</div>
+    <details><summary>상세 설명</summary><p>한국 작가 김윤철이 2023년 제네바 CERN 사이언스 게이트웨이에 설치한 대형 키네틱·크로마틱 인스톨레이션이다. 금속 골조에 세포처럼 생긴 반투명 모듈 수백 개를 나선형으로 배열해 매달았고, 각 모듈은 각도와 빛에 따라 파랑·노랑·검정으로 어른거리는 구조색을 낸다. 모터로 구동되는 모듈들이 물결처럼 움직이며 전체 구조가 유기체처럼 수축·팽창하고 표면 색채가 끊임없이 흐른다. 과학과 예술을 접목해 물질의 운동과 빛을 감각적으로 드러내는 김윤철의 대표적 작업이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>설치</span> <span class='tag'>빛</span> <span class='tag'>구조색</span> <span class='tag'>모터</span> <span class='tag'>김윤철</span></div>
+    <div class='note'>⚠ enrich 힌트(South Korean/2026)를 원문 근거로 김윤철/2023으로 교정</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Chroma_VII_kinetic_installation_Yunchul_Kim_CERN_Science_Gateway_June_2026_(11)_Side_view.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('025','approved')">승인</button>
+      <button class="reject" onclick="setDecision('025','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="037"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/037.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#037</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">디멘션스 (Dimensions)</div>
+    <div class="meta">데이비드 C. 로이 (David C. Roy) · 2015</div>
+    <div class="mat">목재(자작나무 합판 등), 태엽 구동 기계장치</div>
+    <div class="desc">태엽으로 구동되는 여러 개의 나무 바퀴가 회전하며 3차원 토러스 형태의 착시 패턴을 만들어내는 벽걸이형 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 데이비드 C. 로이가 2015년 제작한 태엽 구동식 키네틱 조각이다. 곡선 살을 방사형으로 배치한 여러 개의 나무 바퀴가 겹쳐 있으며, 탈진기(escapement)로 회전 방향과 속도가 조절된다. 바퀴들이 알맞은 속도로 돌면 살들이 겹치면서 3차원 토러스(도넛) 모양의 광학적 패턴이 나타난다. 움직임으로 시각적 패턴을 만들어 온 로이 작업의 대표적 예다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>조각</span> <span class='tag'>회전</span> <span class='tag'>태엽</span> <span class='tag'>목재</span> <span class='tag'>Roy</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Dimensions_Kinetic_Sculpture_by_David_C._Roy_2015.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('037','approved')">승인</button>
+      <button class="reject" onclick="setDecision('037','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="041"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/041.png" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#041</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">지속되는 현재 (Folyamatos jelen / Present Continuous)</div>
+    <div class="meta">로란드 카지 (Roland Kazi) · 2018</div>
+    <div class="mat">금속 프레임, 반사 필름(멤브레인), 모터, 영상 모니터</div>
+    <div class="desc">금속 골조 위에 걸린 은빛 반사 막이 기계 장치로 수면처럼 출렁이는 키네틱 설치작.</div>
+    <details><summary>상세 설명</summary><p>헝가리 작가 로란드 카지(카지 로란드)가 2018년 발표한 키네틱 설치작 &#x27;지속되는 현재&#x27;이다. 금속 파이프로 짠 테이블형 골조 위에 은빛 반사 필름을 늘어뜨려 걸고, 하부의 모터·기계 장치가 이 막을 천천히 밀어 올려 수면처럼 출렁이게 한다. 곁에는 책 이미지가 담긴 영상 모니터 세 대가 놓여 시간과 지속의 개념을 함께 제시한다. 막의 움직임에 따라 빛 반사가 끊임없이 변한다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>모터</span> <span class='tag'>설치</span> <span class='tag'>영상</span> <span class='tag'>카지</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Folyamatos_jelen_-_kinetikus_install%C3%A1ci%C3%B3_-_2018.png" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('041','approved')">승인</button>
+      <button class="reject" onclick="setDecision('041','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="045"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/045.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#045</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">고든 브래트의 키네틱 시계 (Gordon Bradt Kinetic Clock)</div>
+    <div class="meta">고든 브래트 (Gordon Bradt) · 1991</div>
+    <div class="mat">스테인리스강 등 금속(톱니바퀴·스프링·막대)</div>
+    <div class="desc">수많은 톱니바퀴·나선 스프링·바퀴와 작은 인물상이 얽힌 대형 기계식 키네틱 시계 조각으로, 장치가 구동되면 부품들이 맞물려 돌아간다.</div>
+    <details><summary>상세 설명</summary><p>미국 키네틱 조각가 고든 브래트가 토론토 공항에 설치한 대형 기계식 키네틱 시계다. 반짝이는 금속 프레임 안에 크고 작은 톱니바퀴, 나선 스프링, 원형 링과 막대, 인물 형상이 복잡하게 얽혀 있다. 시계 장치가 구동되면 이 부품들이 서로 맞물려 회전·왕복 운동을 하며 시간의 흐름을 기계적 움직임으로 표현한다. 브래트 특유의 위트 있는 기계식 키네틱 조각 계열 작업이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>기계</span> <span class='tag'>톱니바퀴</span> <span class='tag'>시계</span> <span class='tag'>브래트</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Gordon_Bradt_Clock_in_Toronto_Airport_1991.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('045','approved')">승인</button>
+      <button class="reject" onclick="setDecision('045','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="049"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/049.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#049</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">인벤터 릴리스드 (Inventor Released)</div>
+    <div class="meta">데이비드 로이 (David C. Roy) · 1976</div>
+    <div class="mat">목재(합판), 기어·크랭크 기계장치, 추 구동</div>
+    <div class="desc">나무 톱니바퀴들이 추의 힘으로 맞물려 지속적으로 회전하는 목제 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 데이비드 로이가 1976년 초기 활동기에 만든 세 번째 키네틱 조각이다. 자작나무 합판을 잘라 만든 크고 작은 톱니바퀴와 크랭크·풀리를 겹쳐 배치했고, 추(중력)의 힘으로 구동되어 톱니바퀴들이 서서히 맞물려 돈다. 조각 안에서 지속적인 움직임을 구현하려는 그의 목표를 보여주는 작품이다. 벽에 거는 형태로 기계 부품 자체의 회전이 볼거리가 된다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>회전</span> <span class='tag'>목재</span> <span class='tag'>기어</span> <span class='tag'>로이</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Inventor_Released_-_Early_work_by_David_Roy_1976.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('049','approved')">승인</button>
+      <button class="reject" onclick="setDecision('049','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="053"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/053.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#053</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">복잡성 관찰자 (Complexity Observer)</div>
+    <div class="meta">드미트리 카바르가 (Dmitry Kawarga) · 2013</div>
+    <div class="mat">금속 봉·큐브·와이어 등으로 구성된 바이오모픽 구조물</div>
+    <div class="desc">가느다란 금속 봉과 작은 큐브들이 사방으로 뻗어 나가며 유기체 군집처럼 증식하는 바이오모픽 키네틱 조각이다.</div>
+    <details><summary>상세 설명</summary><p>러시아 작가 드미트리 카바르가의 연작 &#x27;감각 구조물의 껍질(Shells of the sense Constructions)&#x27;에 속하는 2013년 작품이다. 수많은 가는 금속 막대와 정육면체 부품, 와이어가 얽혀 유기체가 촉수를 뻗듯 복잡하게 증식하는 형태를 이룬다. 역광 속 실루엣으로 촬영되어 무수한 돌기와 선들이 공중에 떠 있는 듯 보이며, 작가 특유의 생체모방적·기계적 조형 언어를 드러낸다. 카바르가는 생명체의 형태와 기계를 결합한 바이오모픽 조각·키네틱 작업으로 알려져 있다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>바이오모픽</span> <span class='tag'>금속</span> <span class='tag'>조각</span> <span class='tag'>카바르가</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Kawarga_Complexity_Observer.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('053','approved')">승인</button>
+      <button class="reject" onclick="setDecision('053','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="064"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/064.gif" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#064</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">바람에 실려 (Blowin&#x27; in the Wind)</div>
+    <div class="meta">빌리 라이헤 (Willi Reiche) · 연도 미상</div>
+    <div class="mat">금속 프레임, 기어·바퀴, 발견된 오브제, 구동 장치(모터)</div>
+    <div class="desc">폐부품과 오브제로 가득 찬 대형 기계 무대가 톱니바퀴·바퀴와 함께 움직이며 &#x27;삶의 극장&#x27;을 연출하는 키네틱 설치.</div>
+    <details><summary>상세 설명</summary><p>독일 바흐트베르크의 키네틱 아트 작가 빌리 라이헤의 대형 키네틱 설치 &#x27;바람에 실려&#x27;로, 2025년 뷔델스도르프 노르트아르트(NordArt) 전시에서 선보였다. 목재 플랫폼 위에 세운 비계 같은 금속 골조에 톱니바퀴, 바퀴, 의자, 꽃, 각종 폐·발견 오브제를 빼곡히 조립해 놓았다. 구동되면 기계 요소들이 회전·연동하며 움직여 가치·권력관계·이상·도덕 관념을 은유하는 일종의 &#x27;삶의 극장&#x27;을 펼친다. 제작연도는 확인되지 않았다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>모터</span> <span class='tag'>기계</span> <span class='tag'>설치</span> <span class='tag'>라이헤</span></div>
+    <div class='note'>⚠ 제작연도 미상(2025년 NordArt 전시 출품). 원본이 대용량 GIF라 축소 프레임으로 확인함.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Kunstmaschine_%27Blowin%27_in_the_Wind%27_von_Willi_Reiche_auf_der_NordArt_2025_in_B%C3%BCdelsdorf,_Deutschland.gif" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('064','approved')">승인</button>
+      <button class="reject" onclick="setDecision('064','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="066"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/066.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#066</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">모빌 8번 (Mobile No. 8)</div>
+    <div class="meta">카렐 쿠리스마 (Kaarel Kurismaa) · 1980</div>
+    <div class="mat">플라스틱, 금속, 전자장치, 조명</div>
+    <div class="desc">노란 원통형 몸체 중앙에서 빛이 맥동하고 꼭대기의 로터가 회전하는 키네틱 라이트 오브제.</div>
+    <details><summary>상세 설명</summary><p>에스토니아 키네틱 아트의 선구자 카렐 쿠리스마가 1980년에 만든 키네틱 라이트 오브제 &#x27;모빌 8번&#x27;이다. 높이 160cm, 지름 55cm의 노란 원통형 구조로 플라스틱과 금속, 전자 장치로 이루어져 있다. 오브제 중앙에서 조명이 리듬감 있게 맥동하고, 꼭대기에 달린 로터가 회전하며 움직임을 만든다. 빛의 점멸과 회전을 결합한 초기 전자 키네틱 작업의 예다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>빛</span> <span class='tag'>회전</span> <span class='tag'>모빌</span> <span class='tag'>쿠리스마</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Kurismaa_K_Mobile_1980_MG_3477.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('066','approved')">승인</button>
+      <button class="reject" onclick="setDecision('066','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="068"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/068.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#068</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">키네틱 서클 (Kinetic Circle)</div>
+    <div class="meta">필리스 마크 (Phyllis Mark) · 1972</div>
+    <div class="mat">알루미늄에 23K 금도금, 나일론 실, 루사이트 받침대</div>
+    <div class="desc">원형 테 안의 중심 형태가 나일론 실에 매달려 흔들리도록 만든 소형 키네틱 멀티플(펜던트 겸용) 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 필리스 마크가 뉴욕 현대미술관(MoMA) 1972년 크리스마스 카탈로그를 위해 100점 한정판으로 제작한 키네틱 멀티플이다. 지름 약 3¾인치의 알루미늄에 23K 금도금을 입혔고, 원형 테 안쪽의 &#x27;떠 있는&#x27; 중심 형태를 나일론 실로 꿰어 매달아 흔들리게 했다. 루사이트 받침대에 걸어 전시하거나 목걸이 밴드에 걸어 착용할 수 있도록 설계되었다. 이미지는 해당 작품이 실린 카탈로그 지면이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>조각</span> <span class='tag'>모빌</span> <span class='tag'>알루미늄</span> <span class='tag'>금도금</span> <span class='tag'>Mark</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:MOMACatalog1972-%27Kinetic_Circle%27.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('068','approved')">승인</button>
+      <button class="reject" onclick="setDecision('068','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="071"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/071.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#071</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">문 스크린 (Moon Screen)</div>
+    <div class="meta">필리스 마크 (Phyllis Mark) · 1989</div>
+    <div class="mat">알루미늄 프레임, 채색 알루미늄 슬랫</div>
+    <div class="desc">방사형으로 채색된 알루미늄 슬랫과 원형 &#x27;달&#x27; 형상이 접이식 병풍을 이루는 키네틱 설치작.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 필리스 마크가 1989년 제작한 &#x27;문 스크린&#x27;이다. 여러 폭의 알루미늄 프레임을 병풍처럼 세우고, 각 패널에 붉은 바탕과 방사형 광선 무늬로 채색한 알루미늄 슬랫을 채웠으며 가운데에 원형의 흰 달 형상을 냈다. 1990년 뉴욕 소호 20 갤러리에 설치되었다. 슬랫 사이로 빛과 시선이 통과하며 보는 각도에 따라 무늬가 달라진다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>알루미늄</span> <span class='tag'>빛</span> <span class='tag'>설치</span> <span class='tag'>마크</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:MoonScreen02-1989.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('071','approved')">승인</button>
+      <button class="reject" onclick="setDecision('071','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="073"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/073.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#073</b>
+      <span class="lic">Public Domain</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">모빌 (Móvil)</div>
+    <div class="meta">에우세비오 셈페레 (Eusebio Sempere) · 1972</div>
+    <div class="mat">스테인리스 스틸</div>
+    <div class="desc">촘촘한 스틸 봉과 격자를 겹쳐 배치해 각도와 움직임에 따라 물결치는 무아레(moiré) 광학 효과를 내는 대형 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>스페인 작가 에우세비오 셈페레(1923–1985)가 1972년 제작한 스테인리스 스틸 &#x27;모빌&#x27;로, 마드리드 카스테야나 대로 야외 조각미술관에 설치되어 있다. 300×300×20cm 규모로, 수많은 가느다란 스틸 요소를 규칙적으로 겹쳐 놓아 관람자가 이동하거나 바람에 흔들릴 때 겹무늬가 어른거리는 무아레 효과가 발생한다. 정적인 재료로 시각적 움직임을 만들어내는 옵·키네틱 계열의 대표작이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>조각</span> <span class='tag'>무아레</span> <span class='tag'>스틸</span> <span class='tag'>옵아트</span> <span class='tag'>Sempere</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:M%C3%B3vil_(Eusebio_Sempere)_MEAL_Madrid_01.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('073','approved')">승인</button>
+      <button class="reject" onclick="setDecision('073','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="074"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/074.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#074</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">노틸러스 (Nautilus)</div>
+    <div class="meta">데이비드 C. 로이 (David C. Roy) · 2014</div>
+    <div class="mat">목재(자작나무 합판 등), 태엽 구동 기계장치</div>
+    <div class="desc">겹겹의 나무 링이 앵무조개 껍데기처럼 나선을 이루며 회전해 복합적이고 변화무쌍한 움직임을 만드는 태엽 구동 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 데이비드 C. 로이가 2014년 제작한 태엽 구동식 키네틱 조각이다. 나무로 만든 여러 개의 링과 초승달 모양 살을 나선형으로 겹쳐 앵무조개(노틸러스) 껍데기를 연상시키는 형태를 이룬다. 태엽이 풀리며 링들이 서로 다른 속도로 회전해 지속적이고 복잡한 움직임을 만든다. 단순한 기계장치로 시각적으로 풍부한 운동을 구현하려는 로이의 작업 방향을 보여준다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>조각</span> <span class='tag'>회전</span> <span class='tag'>태엽</span> <span class='tag'>목재</span> <span class='tag'>Roy</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Nautilus_Kinetic_Sculpture_by_David_C._Roy_2014.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('074','approved')">승인</button>
+      <button class="reject" onclick="setDecision('074','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="075"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/075.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#075</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">뉴 코스모스 (New Cosmos)</div>
+    <div class="meta">조앙 웨슬리 지 소자 (João Wesley de Souza) · 1992</div>
+    <div class="mat">철, 물, 빛, 전기기계식 제어 장치</div>
+    <div class="desc">어두운 전시실에서 원형 수반의 물이 빛을 받아 파문과 소용돌이를 그리며 끊임없이 일렁이는 키네틱 설치작.</div>
+    <details><summary>상세 설명</summary><p>브라질 작가 조앙 웨슬리 지 소자가 1992년 니테로이 잉가 미술관(Museu do Ingá)에서 선보인 키네틱 설치작이다. 철제 구조에 담긴 물을 전기기계식 제어 장치로 움직여 수면에 동심원 파문과 소용돌이가 계속해서 생겨나게 한다. 어두운 방 안에서 물 표면에 반사된 빛이 함께 흔들리며 원반 형태의 우주적 이미지를 만들어 낸다. 재료는 철, 물, 빛, 전기기계식 제어 장치다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>물</span> <span class='tag'>빛</span> <span class='tag'>설치</span> <span class='tag'>Souza</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:New_cosmos_1992.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('075','approved')">승인</button>
+      <button class="reject" onclick="setDecision('075','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="076"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/076.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#076</b>
+      <span class="lic">CC BY-SA 3.0 de</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">대지-존재 (erdsein)</div>
+    <div class="meta">크리스티안 니엔하우스 (Christian Nienhaus) · 연도 미상</div>
+    <div class="mat">철사(와이어) 지구본, 내부 조명, 금속 날개형 요소 — 매달린 발광 오브제</div>
+    <div class="desc">대륙이 그려진 철망 지구본이 공중에 매달려 내부에서 빛을 내고, 주위로 나비 날개 같은 요소들이 떠도는 키네틱 발광 오브제다.</div>
+    <details><summary>상세 설명</summary><p>독일 작가 크리스티안 니엔하우스의 키네틱 예술 오브제 &#x27;대지-존재(erdsein)&#x27;다. 가는 철사를 얽어 만든 투명한 지구본 안에 아프리카 등 대륙을 채색해 넣고 내부를 조명으로 밝혀, 어두운 공간에서 지구가 빛나는 행성처럼 보이게 했다. 구체 둘레에는 채색된 나비 날개·나뭇잎 모양의 금속 조각들이 매달려 공기 흐름에 따라 흔들린다. 매달린 상태로 전시되며, 표기된 2006년은 촬영/게시 시점으로 추정되어 정확한 제작 연도는 확인되지 않는다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>빛</span> <span class='tag'>지구본</span> <span class='tag'>모빌</span> <span class='tag'>니엔하우스</span></div>
+    <div class='note'>⚠ 제작 연도 미확인 (2006년은 촬영/게시 시점 추정)</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Nienhaus-erdsein.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('076','approved')">승인</button>
+      <button class="reject" onclick="setDecision('076','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="078"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/078.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#078</b>
+      <span class="lic">CC BY 2.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">카리브의 진주 (The Pearl of the Caribbean)</div>
+    <div class="meta">헤수스 라파엘 소토 (Jesús Rafael Soto) · 연도 미상</div>
+    <div class="mat">매달린 수직 금속 봉/철사</div>
+    <div class="desc">수많은 가느다란 금속 봉이 비처럼 촘촘히 매달려 바람과 시선의 이동에 따라 흔들리며 진동하는 키네틱 조각의 세부.</div>
+    <details><summary>상세 설명</summary><p>베네수엘라 작가 헤수스 라파엘 소토의 키네틱 작품 &#x27;카리브의 진주(la Perla del Caribe)&#x27;의 세부(사진 제목 &#x27;Pearl Rain&#x27;)로, 베네수엘라 누에바에스파르타주 팜파타르에 설치되어 있다. 가느다란 수직 봉 수백 개를 촘촘히 매달아 늘어뜨린 구조로, 바람이 불거나 관람자가 이동하면 봉들이 흔들리고 겹치며 진동하는 듯한 시각 효과를 낸다. 소토 특유의 &#x27;진동(vibration)&#x27; 및 침투형(penetrable) 작업 계열에 속한다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>조각</span> <span class='tag'>바람</span> <span class='tag'>진동</span> <span class='tag'>금속</span> <span class='tag'>Soto</span></div>
+    <div class='note'>⚠ 제작연도 미상 (2007은 사진 촬영 연도로 추정; 소토는 2005년 별세)</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Pearl_Rain.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('078','approved')">승인</button>
+      <button class="reject" onclick="setDecision('078','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="080"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/080.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#080</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">피라미드 버터플라이 (Pyramid Butterfly)</div>
+    <div class="meta">필리스 마크 (Phyllis Mark) · 1985</div>
+    <div class="mat">채색 스틸·알루미늄</div>
+    <div class="desc">계단형·방사형으로 채색된 중앙 패널이 바람을 받아 수직축을 중심으로 회전하는 대형 옥외 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 필리스 마크가 1985년 제작한 대형 옥외 키네틱 조각이다. 사각 스틸 프레임 안에 계단 모양으로 배열한 청록색 색면과 중심에서 퍼지는 방사형 광선 무늬를 채색해 넣었고, 중앙부가 바람을 받아 수직축을 중심으로 회전한다. 뉴욕 링컨센터 포덤대학교 로버트 모지스 광장에 설치되었다. 약 9.5피트 높이로 회전에 따라 색면이 나비 날개처럼 펼쳐진다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>바람</span> <span class='tag'>회전</span> <span class='tag'>스틸</span> <span class='tag'>마크</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Phyllis_Mark,_%27Pyramid_Butterfly,%27_1985.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('080','approved')">승인</button>
+      <button class="reject" onclick="setDecision('080','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="081"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/081.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#081</b>
+      <span class="lic">Public Domain</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">윈드 인터벌스 (Wind Intervals)</div>
+    <div class="meta">필리스 마크 (Phyllis Mark) · 1976</div>
+    <div class="mat">스테인리스강, 에나멜 도장 강철</div>
+    <div class="desc">물결치듯 굴곡진 세 개의 채색 강철 기둥이 각각 바람을 받아 제자리에서 회전하는 옥외 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 필리스 마크가 1976년 제작한 옥외 키네틱 조각이다. 청록·연노랑·황금색 에나멜로 칠한 물결 모양의 강철 기둥 세 개를 각각 정사각 받침 위에 세웠고, 각 유닛이 바람을 받아 제자리에서 돈다. 각 유닛은 3피트 정사각 받침 위에 11피트 높이로 서 있으며 뉴욕 루스벨트섬에 설치되었다. 바람에 따라 곡면이 빛을 다르게 반사한다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>바람</span> <span class='tag'>회전</span> <span class='tag'>스틸</span> <span class='tag'>마크</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Phyllis_Mark_%27Wind_Intervals,%27_1976.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('081','approved')">승인</button>
+      <button class="reject" onclick="setDecision('081','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="085"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/085.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#085</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">크로마 VII (Chroma VII)</div>
+    <div class="meta">김윤철 (Yunchul Kim) · 2023</div>
+    <div class="mat">162개의 링, 투명 폴리머 비늘형 셀, 맞춤 액체 용매, 마이크로컨트롤러 구동 장치</div>
+    <div class="desc">162개 링에 투명 폴리머 셀을 꿴 8자 매듭 형태의 대형 설치작으로, 셀의 기계적 변형으로 빛을 굴절시키며 숨 쉬듯 색이 어른거리는 키네틱·크로마틱 인스톨레이션.</div>
+    <details><summary>상세 설명</summary><p>한국 작가 김윤철이 2023년 제네바 CERN 사이언스 게이트웨이에 설치한 대형 키네틱·크로마틱 인스톨레이션이다. 지상 1.5m 높이에 매달린 머리·꼬리 없는 8겹 매듭 형태로, 162개의 링에 맞춤 액체 용매를 채운 투명 폴리머 비늘형 셀을 끼웠다. 마이크로컨트롤러가 셀을 기계적으로 변형시켜 빛의 굴절을 바꾸면 얼음빛 파랑·금색·빨강·보라가 어른거리며 구조 전체가 숨 쉬듯 수축·팽창하고, 이 움직임은 실시간 우주 뮤온 데이터로 제어된다. 사진에는 작품 앞에 무릎 꿇고 두 팔을 든 관람자가 함께 담겨 있다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>설치</span> <span class='tag'>빛</span> <span class='tag'>색채</span> <span class='tag'>모터</span> <span class='tag'>김윤철</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Scientist_Siarhei_Besarab_Chroma_VII_artwork_CERN_Science_Gateway_June_2026_Geneva.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('085','approved')">승인</button>
+      <button class="reject" onclick="setDecision('085','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="086"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/086.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#086</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">솔로 (Solo)</div>
+    <div class="meta">데이비드 로이 (David C. Roy) · 2014</div>
+    <div class="mat">목재(합판), 태엽(스프링) 기계장치</div>
+    <div class="desc">새의 비행을 연상시키는 곡선 날개형 목재 부재들이 태엽 힘으로 유려하게 회전하는 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 데이비드 로이가 2014년 제작한 태엽 구동 키네틱 조각이다. 얇게 재단한 목재를 새의 날개와 궤적처럼 휜 곡선 부재로 만들어 여러 축에 겹쳐 달았고, 감아 둔 태엽이 풀리며 부재들이 서로 다른 속도로 회전한다. 비행이라는 주제는 1988년 대형 작품 &#x27;Flight&#x27; 이후 그의 작업에 반복적으로 등장한다. 회전이 겹치며 공중을 나는 듯한 움직임의 잔상을 만든다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>회전</span> <span class='tag'>목재</span> <span class='tag'>태엽</span> <span class='tag'>로이</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Solo_Kinetic_Sculpture_by_David_C._Roy_2014.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('086','approved')">승인</button>
+      <button class="reject" onclick="setDecision('086','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="087"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/087.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#087</b>
+      <span class="lic">CC BY-SA 3.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">나는 작은 집 (Fliegende Häuschen)</div>
+    <div class="meta">조냐 프리드리히 (Sonya Friedrich) · 2014</div>
+    <div class="mat">알루미늄</div>
+    <div class="desc">집 모양 알루미늄 판과 사각 날개가 축을 중심으로 바람에 따라 회전하고 균형을 잡으며 움직이는 바람 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>독일 작가 조냐 프리드리히가 2014년 이탈리아 마사 마리티마 인근 포데레 리파르벨라를 위해 제작한 바람 오브제(Windobjekt)다. 광택 나는 알루미늄으로 집(마을) 실루엣을 오려 긴 수평 축 한쪽에 달고, 반대쪽에는 두 개의 사각 날개(베인)를 배치했다. 바람이 날개를 밀면 축 전체가 기둥 위에서 회전하며 집 형상이 공중을 나는 듯 움직인다. 재료는 알루미늄이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>바람</span> <span class='tag'>회전</span> <span class='tag'>알루미늄</span> <span class='tag'>Friedrich</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Sonya_Friedrich_-_Fliegende_H%C3%A4uschen_2014.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('087','approved')">승인</button>
+      <button class="reject" onclick="setDecision('087','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="093"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/093.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#093</b>
+      <span class="lic">CC BY 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">이클립스 (Eclipse)</div>
+    <div class="meta">드루 클로츠 (Drew Klotz) · 2015</div>
+    <div class="mat">금속(스테인리스 스틸·알루미늄 추정), 균형 회전 구조</div>
+    <div class="desc">중심 기둥 위의 두 개의 링과 원반이 바람에 따라 균형을 이루며 흔들리고 회전하는 야외 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 드루 클로츠가 2015년 제작한 야외 키네틱 조각 &#x27;이클립스&#x27;로, 버지니아주 렉싱턴 윌리엄스 스쿨 신축 현장(216 West Washington St.)에 설치되었다. 수직 금속 기둥 상단의 가로대 양 끝에 커다란 금속 링과 원반이 매달려 있으며, 바람을 받으면 각 요소가 축을 중심으로 기울고 회전하며 균형을 잡는다. 링과 원반의 겹침이 변하면서 &#x27;일식(eclipse)&#x27;을 연상시키는 형상이 만들어진다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>조각</span> <span class='tag'>바람</span> <span class='tag'>회전</span> <span class='tag'>스틸</span> <span class='tag'>Klotz</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Construction_Williams_School_Building_216_West_Washington_Street_Lexington_VA_July_2024_03.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('093','approved')">승인</button>
+      <button class="reject" onclick="setDecision('093','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="100"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/100.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#100</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">모듈레이터 V3 (Modulator V3)</div>
+    <div class="meta">가보르 사우데르 (Gábor Szauder) · 2022</div>
+    <div class="mat">스테인리스 스틸, 타공 금속판, 유리·아크릴, 회전 턴테이블, 모터, 조명</div>
+    <div class="desc">타공 원반과 격자·거울면을 얹은 구조가 모터 턴테이블 위에서 회전하며 빛과 그림자를 흩뿌리는 라이트-키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>헝가리 부다페스트 라이트 아트 미술관(LAM)에 있는 가보르 사우데르의 &#x27;모듈레이터 V3&#x27;로, 라슬로 모호이너지의 1930년 작 &#x27;전기 무대를 위한 라이트 프롭(라이트-스페이스 모듈레이터)&#x27;을 재해석한 키네틱 라이트 조각이다. 타공된 금속 원반, 격자 스크린, 반사·투명 판을 결합한 구조가 흰색 원형 턴테이블 위에서 모터로 회전한다. 회전에 따라 조명이 타공 구멍과 격자를 통과하며 주변에 끊임없이 변하는 빛과 그림자의 패턴을 만든다. 사진은 정면에서 본 모습이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>빛</span> <span class='tag'>회전</span> <span class='tag'>모터</span> <span class='tag'>사우데르</span></div>
+    <div class='note'>⚠ 모호이너지 작품의 재현·오마주이며 최초 발표 연도(2022)에 다소 불확실성이 있음.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:G%C3%A1bor_Szauder_Modulator_V3,_V%C3%A1rosh%C3%A1zstrasse_9-11,_2024_Belv%C3%A1ros-Lip%C3%B3tv%C3%A1ros.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('100','approved')">승인</button>
+      <button class="reject" onclick="setDecision('100','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="101"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/101.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#101</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">파도를 묶는 자 (Wellenbinder)</div>
+    <div class="meta">크리스티아네 뫼부스 (Christiane Möbus) · 2000</div>
+    <div class="mat">스테인리스 스틸</div>
+    <div class="desc">안테나처럼 길게 뻗은 스틸 봉과 곡선 요소가 바람에 흔들리며 에너지와 파동을 연상시키는 야외 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>독일 작가 크리스티아네 뫼부스가 2000년 제작한 스테인리스 스틸 키네틱 조각 &#x27;벨렌빈더(파도를 묶는 자)&#x27;다. 그라이프스발트 막스플랑크 플라스마물리학연구소 부지에 설치되어 있으며, 사선으로 길게 솟은 안테나 같은 봉들과 반원형으로 휜 금속 요소들로 이루어져 있다. 가느다란 봉과 곡면 요소가 바람에 흔들리며 연구소의 핵융합 연구를 은유하는 에너지·파동의 이미지를 떠올리게 한다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>조각</span> <span class='tag'>바람</span> <span class='tag'>스틸</span> <span class='tag'>야외조각</span> <span class='tag'>Möbus</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Kinetic_sculpture_%22Wellenbinder%22_by_Christiane_M%C3%B6bus_in_Greifswald.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('101','approved')">승인</button>
+      <button class="reject" onclick="setDecision('101','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="102"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/102.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#102</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">모듈레이터 V3 (Modulator V3)</div>
+    <div class="meta">가보르 사우데르 (Gábor Szauder) · 2022</div>
+    <div class="mat">스테인리스 스틸, 타공 금속판, 유리·아크릴, 회전 턴테이블, 모터, 조명</div>
+    <div class="desc">타공 원반과 나선 코일·격자 스크린이 모터 턴테이블 위에서 회전하며 빛과 그림자를 만들어 내는 라이트-키네틱 조각을 측면에서 본 모습.</div>
+    <details><summary>상세 설명</summary><p>가보르 사우데르의 &#x27;모듈레이터 V3&#x27;를 측면에서 촬영한 사진으로, 라슬로 모호이너지의 1930년 작 &#x27;라이트-스페이스 모듈레이터&#x27;를 재해석한 키네틱 라이트 조각이다. 나선형 코일, 타공 금속 원반, 격자 스크린과 투명 판 등 다양한 요소가 흰 원형 턴테이블 위에 배열되어 모터로 함께 회전한다. 하부 프레임 안에 구동 모터와 배선이 보이며, 회전하는 구조에 빛이 비치면 주변으로 움직이는 빛·그림자 패턴이 퍼진다. 부다페스트 라이트 아트 미술관(LAM) 소장·전시작이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>빛</span> <span class='tag'>회전</span> <span class='tag'>모터</span> <span class='tag'>사우데르</span></div>
+    <div class='note'>⚠ 모호이너지 작품의 재현·오마주이며 최초 발표 연도(2022)에 다소 불확실성이 있음.</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Modulator_V3_(G%C3%A1bor_Szauder),_V%C3%A1rosh%C3%A1zstrasse_9-11,_2024_Belv%C3%A1ros-Lip%C3%B3tv%C3%A1ros.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('102','approved')">승인</button>
+      <button class="reject" onclick="setDecision('102','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="103"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/103.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#103</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">온리 브레스 (Only Breath)</div>
+    <div class="meta">토러스 토러스 스튜디오스 (Torus Torus Studios) · 2024</div>
+    <div class="mat">금속 골조, 유리·거울 및 목재 패널(경첩식 접이 구조)</div>
+    <div class="desc">여러 개의 경첩식 패널로 이루어진 대형 매달린 구조가 천천히 오므라들고 펼쳐지며 호흡하듯 움직이는 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>토러스 토러스 스튜디오스가 제작한 매달린 키네틱 조각으로, 런던 과학박물관의 신설 &#x27;에너지 레볼루션&#x27; 갤러리(2024년 개관)에 설치되었다. 금속 골조에 유리·거울과 목재 패널을 경첩으로 연결해 원뿔/토러스 형태를 이루며, 구동장치에 의해 전체 구조가 천천히 오므라들었다(furl) 펼쳐지기(unfurl)를 반복한다. 접히고 펴지는 움직임에 따라 반사 패널이 주변 빛과 전시장을 다양하게 비춘다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>조각</span> <span class='tag'>설치</span> <span class='tag'>모터</span> <span class='tag'>거울</span> <span class='tag'>Torus</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Only_Breath_sculpture_-_Science_Museum,_London.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('103','approved')">승인</button>
+      <button class="reject" onclick="setDecision('103','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="106"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/106.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#106</b>
+      <span class="lic">CC BY-SA 3.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">두 개의 수직 사각형, 회전하며 하강 (Two Rectangles Vertical Gyratory Down)</div>
+    <div class="meta">조지 리키 (George Rickey) · 1970</div>
+    <div class="mat">스테인리스 스틸</div>
+    <div class="desc">두 개의 길쭉한 스테인리스 스틸 사각 판이 바람에 따라 축을 중심으로 천천히 회전·요동하는 야외 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 키네틱 조각가 조지 리키가 1970년 제작한 스테인리스 스틸 조각으로, 독일 베를린-리히터펠데(힌덴부르크담 30)에 설치되어 있다. 표면을 거칠게 갈아 빛을 산란시키는 두 개의 길쭉한 수직 사각 판이 나란히 서 있으며, 정밀 베어링 위에서 미세한 바람에도 천천히 회전하고 흔들린다. 자연의 바람을 동력으로 삼는 리키 특유의 균형·진자 운동을 보여준다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>조각</span> <span class='tag'>바람</span> <span class='tag'>회전</span> <span class='tag'>스틸</span> <span class='tag'>Rickey</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Skulptur_Hindenburgdamm_30_(Lifel)_Two_Rectangles_Vertical_Gyratory_Down%26George_Rickey%261970.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('106','approved')">승인</button>
+      <button class="reject" onclick="setDecision('106','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="111"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/111.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#111</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">스웰 (Swell)</div>
+    <div class="meta">도미닉 해리스 (Dominic Harris) · 2019</div>
+    <div class="mat">금속 링 구조, 조명(LED/광튜브), 모터 구동</div>
+    <div class="desc">천장 고리에서 다수의 발광 막대가 회전하며 물결(swell)처럼 빛의 파동을 만드는 대형 키네틱 라이트 조각.</div>
+    <details><summary>상세 설명</summary><p>영국 작가 도미닉 해리스가 2019년 로열 캐리비안의 의뢰로 제작한 대형 키네틱 라이트 인스톨레이션이다. 원형 구조에 방사형으로 배열된 발광 막대들이 회전하며 위아래로 물결치는 궤적을 그려 바다의 너울이 이는 듯한 움직임을 연출한다. 장노출로 촬영된 이미지에서 흰색·보라색 빛이 잔상으로 번지며 운동의 궤적이 그대로 드러난다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>라이트아트</span> <span class='tag'>회전</span> <span class='tag'>모터</span> <span class='tag'>해리스</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Swell_(2019)_-_by_Dominic_Harris.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('111','approved')">승인</button>
+      <button class="reject" onclick="setDecision('111','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="113"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/113.gif" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#113</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">변화하는 주사위 그림 (Dice / changing painting)</div>
+    <div class="meta">울리 아셴보른 (Uli Aschenborn) · 연도 미상</div>
+    <div class="mat">물감과 모래로 그린 변화하는 회화(관람자 이동형 시차 방식)</div>
+    <div class="desc">관람자가 앞을 지나 시점을 바꾸면 주사위 눈의 수와 색이 1·2·3으로 달라지는, 물감과 모래로 그린 변화하는 회화다.</div>
+    <details><summary>상세 설명</summary><p>독일 태생 작가 울리 아셴보른(Uli Aschenborn)의 &#x27;변화하는 그림&#x27; 연작 중 주사위를 소재로 한 작품이다. 오직 물감과 모래만으로 화면을 만들었으나, 관람자가 그림 앞을 지나 시선의 각도를 바꾸면 주사위 면의 점(1·2·3개)과 색이 바뀌어 보이는 렌티큘러/시차 효과를 낸다. 부품이 움직이는 것이 아니라 관람자의 이동이 이미지의 변화를 만들어 내는 옵티컬·키네틱 회화다. 애니메이션 GIF는 이 시점 변화에 따른 이미지 전환을 재현한 것이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>옵아트</span> <span class='tag'>착시</span> <span class='tag'>회화</span> <span class='tag'>아셴보른</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Uli_Aschenborn_-_Dice_showing_1_2_or_3_pips_-_AUTORUN.gif" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('113','approved')">승인</button>
+      <button class="reject" onclick="setDecision('113','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="116"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/116.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#116</b>
+      <span class="lic">CC BY 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">관찰자 (Seher)</div>
+    <div class="meta">울리케 문트 (Ulrike Mundt) · 2016</div>
+    <div class="mat">금속 삼각대, 황동관, 회전식 받침대</div>
+    <div class="desc">삼각대 위에 얹힌 망원경 형태의 황동 관측기가 받침대를 축으로 방향을 틀며 도는 키네틱 조각이다.</div>
+    <details><summary>상세 설명</summary><p>독일 작가 울리케 문트가 2016년 제작한 키네틱 조각 &#x27;관찰자(Seher)&#x27;이다. 회색 금속 삼각대 위에 두 개의 황동 관을 묶은 옛 관측용 망원경(스파이글라스) 형태의 몸체가 얹혀 있다. 몸체 아래 원통형 받침대가 회전축이 되어 관측기가 방향을 틀며 무언가를 응시하는 듯한 움직임을 만든다. 제목 &#x27;Seher(보는 자)&#x27;처럼 관측과 응시라는 행위를 기계 장치의 움직임으로 형상화했다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>회전</span> <span class='tag'>황동</span> <span class='tag'>조각</span> <span class='tag'>문트</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Ulrike_Mundt,_Seher,_kinetische_Skulptur,_2016.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('116','approved')">승인</button>
+      <button class="reject" onclick="setDecision('116','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="118"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/118.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#118</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">베리에이션 II 선 (Variation II Sun)</div>
+    <div class="meta">데이비드 C. 로이 (David C. Roy) · 2014</div>
+    <div class="mat">목재(자작나무 합판 등), 태엽 구동 기계장치, 벨트 전동</div>
+    <div class="desc">곡선 살을 방사형으로 배치한 나무 바퀴들이 태엽으로 회전하며 만화경 같은 광학 패턴을 만드는 태엽 구동 키네틱 조각.</div>
+    <details><summary>상세 설명</summary><p>미국 작가 데이비드 C. 로이가 2014년 제작한 태엽 구동식 키네틱 조각으로, 2003년 시작한 &#x27;베리에이션(Variation)&#x27; 연작에 속한다. 초승달 모양 살을 방사형으로 배치한 여러 개의 나무 바퀴가 벨트로 연결되어 함께 회전하며, 살들이 겹치고 어긋나면서 만화경 같은 대칭 패턴이 끊임없이 변한다. 로이가 오랜 경력 동안 천착해 온 만화경적 패턴에서 영감을 받은 작업이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>조각</span> <span class='tag'>회전</span> <span class='tag'>태엽</span> <span class='tag'>목재</span> <span class='tag'>Roy</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Variation_II_Sun_Kinetic_Sculpture_by_David_C._Roy_2014.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('118','approved')">승인</button>
+      <button class="reject" onclick="setDecision('118','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="129"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/129.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#129</b>
+      <span class="lic">CC BY-SA 4.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">윈드워드 캄 (Windward Calm)</div>
+    <div class="meta">데이비드 로빈슨 (David Robinson) · 연도 미상</div>
+    <div class="mat">목재(늑골 구조의 배), 흰색으로 채색된 인물상, 매달림 구조</div>
+    <div class="desc">골조만 남은 나무 배 위에 선 인물상을 공중에 매달아, 항해하듯 천천히 흔들리며 도는 서스펜디드 키네틱 조각(세부).</div>
+    <details><summary>상세 설명</summary><p>캐나다 작가 데이비드 로빈슨의 매달린 키네틱 조각 &#x27;윈드워드 캄&#x27;의 세부로, 캐나다 밴쿠버 고든&amp;레슬리 다이아몬드 헬스케어 센터에 설치되어 있다. 늑골(리브) 구조가 드러난 나무 배 안에 흰색 인물상이 몸을 앞으로 기울인 채 서 있는 형상으로, 천장에 매달려 공기 흐름에 따라 천천히 흔들리고 회전한다. 사진은 사게 맥길리브레이가 촬영한 세부 이미지다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>조각</span> <span class='tag'>모빌</span> <span class='tag'>서스펜디드</span> <span class='tag'>목재</span> <span class='tag'>Robinson</span></div>
+    <div class='note'>⚠ 정확한 제작연도 미상 (2018은 사진 촬영 연도)</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Windward_Calm_detail1_Sage_MacGillivray.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('129','approved')">승인</button>
+      <button class="reject" onclick="setDecision('129','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="137"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/137.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#137</b>
+      <span class="lic">Public Domain</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">에오스 xk (3) (Eos xk (3))</div>
+    <div class="meta">장 팅겔리 (Jean Tinguely) · 1965</div>
+    <div class="mat">채색된 강철·철제 부품 (모터 구동 기계 조각)</div>
+    <div class="desc">검은 철제 바퀴·아치·핸들이 비스듬한 기둥 위에 얽혀 모터로 삐걱대며 돌아가는 팅겔리 특유의 기계식 키네틱 조각이다.</div>
+    <details><summary>상세 설명</summary><p>스위스 작가 장 팅겔리(Jean Tinguely)가 1965년 제작한 키네틱 조각 &#x27;에오스 xk (3)&#x27;으로, 예루살렘 이스라엘 박물관 조각 정원에 설치되어 있다. 폐기물처럼 보이는 검은 강철 원환·톱니바퀴·핸들·곡선 날개들을 비스듬한 기둥 위에 조립해, 모터가 돌면 각 부품이 서로 다른 리듬으로 회전하고 흔들린다. 매끄럽지 않고 삐걱대는 기계 움직임 자체를 예술로 삼은 팅겔리의 대표적 조형 언어를 보여준다. 야외에 설치되어 파란 하늘을 배경으로 검은 실루엣이 두드러진다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>모터</span> <span class='tag'>기계장치</span> <span class='tag'>조각</span> <span class='tag'>팅겔리</span></div>
+    
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Eos_xk_(3),_1965.JPG" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('137','approved')">승인</button>
+      <button class="reject" onclick="setDecision('137','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div>
+
+<div class="card " data-id="141"
+     data-status="auto_ok">
+  <div class="imgwrap"><img loading="lazy" src="../works/141.jpg" alt=""></div>
+  <div class="body">
+    <div class="idrow"><b>#141</b>
+      <span class="lic">CC BY-SA 2.0</span>
+      <span class="st st-auto_ok">auto_ok</span></div>
+    <div class="title">에오스 (Eos)</div>
+    <div class="meta">장 팅겔리 (Jean Tinguely) · 연도 미상</div>
+    <div class="mat">용접된 철·금속, 바퀴·기어, 모터</div>
+    <div class="desc">검게 칠한 철제 바퀴와 기어, 곡선 아치들이 모터로 삐걱대며 돌아가는 팅겔리 특유의 키네틱 기계 조각.</div>
+    <details><summary>상세 설명</summary><p>스위스 키네틱 아트의 대표 작가 장 팅겔리의 기계 조각 &#x27;에오스&#x27;로, 예루살렘 이스라엘 미술관의 빌리 로즈 조각 정원에 설치되어 있다. 검게 도장한 폐부품·바퀴·기어와 두 개의 곡선 아치를 용접해 만든 구조로, 모터 구동에 따라 여러 요소가 삐걱대며 회전한다. 팅겔리는 산업 폐기물로 우스꽝스럽고 불완전하게 움직이는 기계 조각을 만든 것으로 유명하다. 제작연도는 확인되지 않았고, 사진은 2009년 촬영본이다.</p></details>
+    <div class="tags"><span class='tag'>키네틱아트</span> <span class='tag'>모터</span> <span class='tag'>회전</span> <span class='tag'>기계</span> <span class='tag'>팅겔리</span></div>
+    <div class='note'>⚠ 제작연도 미상(사진은 2009년 예루살렘 촬영).</div>
+    <div class="src"><a href="https://commons.wikimedia.org/wiki/File:Jerusalem_Tinguely_Eos.jpg" target="_blank">출처</a></div>
+    <div class="actions">
+      <button class="approve" onclick="setDecision('141','approved')">승인</button>
+      <button class="reject" onclick="setDecision('141','rejected')">거부</button>
+      <span class="decision"></span>
+    </div>
+  </div>
+</div></div>
+<script>
+const KEY="kinerag_review_decisions";
+let D=JSON.parse(localStorage.getItem(KEY)||"{}");
+function render(){
+  document.querySelectorAll(".card").forEach(c=>{
+    const id=c.dataset.id, d=D[id];
+    c.classList.remove("d-approved","d-rejected");
+    const span=c.querySelector(".decision"); span.textContent="";
+    if(d){c.classList.add("d-"+d); span.textContent=d==="approved"?"✔ 승인":"✘ 거부";}
+  });
+  const vals=Object.values(D);
+  document.getElementById("counts").textContent=
+    `총 69개 · 승인 ${vals.filter(x=>x==='approved').length} · 거부 ${vals.filter(x=>x==='rejected').length}`;
+}
+function setDecision(id,v){ D[id]=(D[id]===v?undefined:v); if(!D[id])delete D[id];
+  localStorage.setItem(KEY,JSON.stringify(D)); render(); }
+function clearDecisions(){ if(confirm("모든 결정을 지울까요?")){D={};localStorage.setItem(KEY,"{}");render();} }
+function exportDecisions(){
+  const blob=new Blob([JSON.stringify(D,null,2)],{type:"application/json"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob);
+  a.download="review_decisions.json"; a.click();
+}
+document.querySelectorAll("#filter button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#filter button").forEach(x=>x.classList.remove("active"));
+  b.classList.add("active"); const f=b.dataset.f;
+  document.querySelectorAll(".card").forEach(c=>{
+    const st=c.dataset.status, d=D[c.dataset.id];
+    let show=(f==="all")||(f===st)||(f===d);
+    c.style.display=show?"":"none";
+  });
+});
+render();
+</script></body></html>

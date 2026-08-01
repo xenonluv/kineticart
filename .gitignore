@@ -1,0 +1,23 @@
+# 비밀/로컬 설정
+.env
+.env.local
+
+# Python
+data-pipeline/.venv
+**/__pycache__/
+*.pyc
+
+# Node (Phase 3 웹앱)
+node_modules/
+.next/
+
+# OS
+.DS_Store
+
+# 비밀 메모 파일 (실제 API 키 원본)
+googleapi.md
+apigoo.md
+
+# 대용량 바이너리/생성물 (git 부적합 — 원본은 data-pipeline 재수집 또는 images.kctikinec.cloud 참조)
+works/
+generated/
