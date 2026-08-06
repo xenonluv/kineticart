@@ -17,6 +17,7 @@
 | 5 | **이미지 생성** | 참조 이미지 + 대화 컨셉을 Nano Banana로 융합 → 새 키네틱 아트 |
 | 6 | **3D 생성** *(예정)* | 생성 이미지 → Tripo AI → GLB 3D 모델 다운로드 |
 | 🔒 | **비밀번호 게이트** | 웹앱 전체 로그인 보호 (이미지 생성 비용 악용 방지) |
+| 🔎 | **의미검색 준비(임베딩)** | 작품 한글 설명을 로컬 임베딩(무료)해 향후 벡터 기반 의미검색 대비 — 파이프라인 5b단계 |
 
 ---
 
@@ -162,8 +163,8 @@ kineticart/
 ├── file-server/           # nginx Dockerfile + 설정(CORS, /works /texts /generated)
 ├── db/init/               # 최초 기동 SQL: 스키마 + 시드(69작품) + 검색 인덱스
 ├── texts/                 # 작품 한글 설명 원문
-├── dataset/               # 파이프라인 산출물(manifest.json, seed.sql 등)
-├── data-pipeline/         # 데이터 수집 파이프라인 (Python, CC/오픈액세스만)
+├── dataset/               # 파이프라인 산출물(manifest.json·seed.sql·임베딩 포함 described.json)
+├── data-pipeline/         # 데이터 수집 파이프라인 (Python, CC/오픈액세스만, 5b=로컬 텍스트 임베딩)
 └── web/                   # Next.js 앱
     ├── app/               # page.tsx(스튜디오), login/, api/*
     ├── components/        # Studio, FilterRail, ArtworkGrid, ChatPanel …
@@ -191,8 +192,21 @@ kineticart/
 
 ## 💰 비용
 
-- **무료**: 갤러리·검색·**대화**(Gemini 무료 티어) · 자체 Postgres/PostgREST · Cloudflare Tunnel · 자체호스팅
+- **무료**: 갤러리·검색·**대화**(Gemini 무료 티어) · **의미검색 임베딩(로컬)** · 자체 Postgres/PostgREST · Cloudflare Tunnel · 자체호스팅
 - **유료**: **이미지 생성**(Nano Banana, ~$0.039/장 — Google 결제 활성 필요) · **3D**(Tripo, 월 300크레딧 무료 후 종량)
+
+---
+
+## 🔎 의미검색 준비 (임베딩)
+
+향후 작품이 1만+로 늘면 키워드 검색은 "잔잔한 느낌" 같은 **의미 검색**을 못 한다. 이를 대비해
+수집 파이프라인 **5b단계**(`data-pipeline/5b_embed.py`)가 각 작품의 한글 개념 텍스트(제목+요약+태그)를
+**로컬 임베딩 모델**로 1024차원 벡터로 변환해 저장한다.
+
+- **모델**: `intfloat/multilingual-e5-large`(다국어 검색 특화). 로컬 ONNX 계산 → **API·키·과금·한도 없음**(전액 무료).
+- **멱등**: 이미 임베딩된 레코드는 스킵, 설명이 바뀌면 자동 갱신 (`./.venv/bin/python 5b_embed.py`).
+- **현재**: 벡터는 `dataset/`(described.json·manifest.json)에만 저장 → 기존 DB·웹 동작 무변경.
+- **실검색 켜기(1만+ 시)**: DB 이미지를 `pgvector/pgvector:pg16`로 교체 + `embedding vector(1024)` 컬럼·HNSW 인덱스 → 벡터 검색 API 연결.
 
 ---
 
@@ -209,7 +223,9 @@ kineticart/
 
 - [x] 1 파일서버 · 2 REST API · 3 스케일 갤러리 · 4 RAG 대화 · 5 이미지 생성
 - [x] 비밀번호 게이트
+- [x] **의미검색 준비** — 작품 설명 로컬 텍스트 임베딩(무료·`fastembed`+e5-large 1024차원, 파이프라인 5b)
 - [ ] **6 3D 생성·다운로드 (Tripo)** ← 진행 예정
+- [ ] 의미검색 실검색 — `pgvector` 전환 + 벡터검색 API (데이터 1만+ 시)
 
 ---
 
