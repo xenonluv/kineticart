@@ -26,7 +26,20 @@ python3 -m venv .venv
 | 4b | (서브에이전트) | queue + `works/` 이미지 → `desc_out/part_*.json` | 이미지 보고 한글 설명 생성 |
 | 4c | `4_describe_ko.py ingest <merged.json>` | parts → `described.json`, `texts/` | 결과 병합 + 상세 텍스트 파일 기록 |
 | 5 | `5_build_review.py` | described → `dataset/review.html` | 사람 검수 UI (승인/거부 → decisions 내보내기) |
+| 5b | `5b_embed.py` | described → described(+`embedding`) | 텍스트 임베딩 생성(로컬 e5-large, 무료) — 의미검색 대비 |
 | 6 | `6_build_manifest.py` | described (+decisions) → `manifest.json`, `seed.sql` 등 | 최종 100개 선별 + 적재물 |
+
+### 5b단계(텍스트 임베딩) 상세
+1만+ 규모에서 키워드 검색이 놓치는 **의미 검색**을 대비해, 각 작품의 한글 개념 텍스트
+(제목+요약+태그)를 로컬 임베딩 모델로 벡터화해 `described.json` 의 `embedding` 필드에 저장한다.
+- **모델**: `intfloat/multilingual-e5-large`(다국어 검색 특화, **1024차원**). 로컬 ONNX 계산 →
+  **API·키·과금·요청한도 없음**(전액 무료). 최초 실행 시 모델 ~2.2GB 다운로드.
+- **멱등**: 이미 임베딩된 레코드는 스킵 → 재실행 안전. `./.venv/bin/python 5b_embed.py`
+- **e5 규약**: 문서는 `passage: ` 접두로 임베딩됨. 추후 검색 단계에서 사용자 질의는
+  반드시 `query: ` 접두로 임베딩해야 정확도가 나온다.
+- **저장/검색(1만 개 도착 시)**: DB 이미지를 `pgvector/pgvector:pg16` 로 교체하고
+  `embedding vector(1024)` 컬럼 + HNSW 인덱스를 추가한 뒤, seed 에 벡터를 실어 벡터검색을 켠다.
+  (지금은 벡터가 `manifest.json` 에만 담겨 기존 동작을 바꾸지 않는다.)
 
 ## 4단계(한글 생성) 상세
 `prepare` 후, `dataset/desc_out/assignments.json` 로 항목을 나눠 서브에이전트가 각자

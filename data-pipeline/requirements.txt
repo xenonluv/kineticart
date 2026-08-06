@@ -1,2 +1,3 @@
 requests>=2.31
 Pillow>=10.0
+fastembed==0.7.4        # 스테이지 5b: 로컬 텍스트 임베딩(ONNX, API·과금 없음). 이식성 위해 고정.

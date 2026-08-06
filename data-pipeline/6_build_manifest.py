@@ -113,6 +113,7 @@ def _manifest_row(r: dict) -> dict:
         "license": r.get("license"),
         "attribution": r.get("attribution"),
         "source_url": r.get("source_page_url"),
+        "embedding": r.get("embedding"),  # 스테이지 5b 산출(의미검색용, 없으면 None)
     }
 
 

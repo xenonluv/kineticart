@@ -6,6 +6,8 @@ Supabase kinetic_artworks 스키마(+ video_url/license/attribution/source_url �
 from __future__ import annotations
 
 import json
+import os
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -69,6 +71,17 @@ def load_records(path: Path) -> list[dict]:
 
 
 def save_records(path: Path, records: list[dict]) -> None:
+    # 원자적 쓰기: 같은 디렉토리 temp 에 먼저 쓰고 os.replace 로 교체.
+    # (described.json 등 비싼 소스 파일을 in-place 덮어쓰다 중단돼도 손상되지 않음)
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(records, f, ensure_ascii=False, indent=2)
+    fd, tmp = tempfile.mkstemp(dir=str(path.parent), suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(records, f, ensure_ascii=False, indent=2)
+        os.replace(tmp, path)  # POSIX 원자적 교체
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
