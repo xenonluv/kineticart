@@ -208,6 +208,21 @@ kineticart/
 - **현재**: 벡터는 `dataset/`(described.json·manifest.json)에만 저장 → 기존 DB·웹 동작 무변경.
 - **실검색 켜기(1만+ 시)**: DB 이미지를 `pgvector/pgvector:pg16`로 교체 + `embedding vector(1024)` 컬럼·HNSW 인덱스 → 벡터 검색 API 연결.
 
+### 기술 스택
+
+| 구성요소 | 선택 | 역할·이유 |
+|---|---|---|
+| **임베딩 라이브러리** | `fastembed 0.7.4` (Qdrant 제작) | 모델 로드·추론 오케스트레이션. **torch 불필요**(ONNX 기반)이라 가볍고 설치 빠름 |
+| **추론 엔진** | `onnxruntime` | 실제 신경망 연산. **CPU 동작** → GPU 불필요 |
+| **모델** | `intfloat/multilingual-e5-large` | 다국어 **검색(retrieval) 특화**, 1024차원. XLM-RoBERTa-large 기반(~560M), mean pooling, 한국어 포함 ~100개 언어 |
+| **런타임** | Python 3.9.6 (`data-pipeline/.venv`) | 기존 파이프라인 환경 그대로 |
+
+**왜 이 조합인가**
+- **로컬 vs API**: 임베딩 API가 아니라 PC에서 직접 계산 → **API 키·과금·요청한도 0**(전액 무료 원칙 부합). 파이프라인이 이미 API 없이 도는 철학과 일관.
+- **fastembed vs sentence-transformers**: 둘 다 로컬이지만 sentence-transformers는 PyTorch(수 GB)를 요구. fastembed는 ONNX라 훨씬 가볍고 Python 3.9에서 설치가 잘 됨.
+- **e5-large 선택**: 원 계획 `bge-m3`가 fastembed 0.7.4 미지원 → 동급 다국어 리트리벌 모델로 대체(**차원 1024 동일** → DB 계획 무변경). paraphrase 계열(384/768차원)보다 '검색' 특화라 의미검색에 적합.
+- **e5 접두 규약**: 문서는 `passage:`, 질의는 `query:` 접두로 임베딩해야 정확도가 나온다(검색 단계에서 필수).
+
 ---
 
 ## 🐳 Docker Hub / 이식성
