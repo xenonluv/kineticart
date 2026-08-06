@@ -22,6 +22,7 @@ export function ChatPanel({
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
   const [generating, setGenerating] = useState(false);
+  const [lightbox, setLightbox] = useState<string | null>(null); // 확대 팝업 이미지 URL
   const bottom = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -130,7 +131,13 @@ export function ChatPanel({
             {t.image ? (
               <div>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={t.image} alt="생성된 키네틱 아트" className="w-full" />
+                <img
+                  src={t.image}
+                  alt="생성된 키네틱 아트"
+                  onClick={() => setLightbox(t.image!)}
+                  title="클릭하면 크게 보기"
+                  className="w-full cursor-zoom-in"
+                />
                 <div className="flex items-center justify-between p-2">
                   <span className="text-xs text-neutral-400">생성 이미지</span>
                   <button
@@ -206,6 +213,20 @@ export function ChatPanel({
           {generating ? "생성 중…" : "이 컨셉으로 이미지 생성"}
         </button>
       </div>
+      {/* 이미지 확대 팝업 — 화면 정중앙, 아무 곳이나 클릭하면 닫힘 */}
+      {lightbox && (
+        <div
+          className="fixed inset-0 z-[60] flex cursor-zoom-out items-center justify-center bg-black/85 p-4"
+          onClick={() => setLightbox(null)}
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={lightbox}
+            alt="확대 이미지"
+            className="max-h-[95vh] max-w-[95vw] object-contain"
+          />
+        </div>
+      )}
     </aside>
   );
 }
