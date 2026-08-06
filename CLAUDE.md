@@ -5,7 +5,7 @@
 
 ---
 
-## 현재 상태 (2026-08-02)
+## 현재 상태 (2026-08-06)
 
 | 목적1 단계 | 내용 | 상태 |
 |---|---|---|
@@ -16,8 +16,17 @@
 | 5 | 새 이미지 생성 | ✅ Nano Banana(결제 활성) |
 | 6 | 3D 생성·다운로드 | ⏳ **미완(Tripo 키 필요)** |
 | — | 비밀번호 게이트(보안) | ✅ 웹앱 전체 로그인 보호 |
+| — | 의미검색 준비(텍스트 임베딩) | ✅ 로컬 e5-large(무료), 실검색 연결은 ~1000개 시점 |
+| — | artdata 협업 수집 저장소 | ✅ github.com/xenonluv/artdata (kinerag 병합 도구는 미구현) |
 
 **데이터**: 키네틱 아트 69작품(이미지+한글설명), CC/오픈액세스만. 수집 파이프라인은 `data-pipeline/`.
+
+**의미검색 준비(2026-08-06)**: 수집 파이프라인에 텍스트 임베딩 단계 추가 — `data-pipeline/5b_embed.py`, 로컬 `fastembed`+`intfloat/multilingual-e5-large`(1024차원, **무료·무API**). `described.json`/`manifest.json`에 임베딩 부착(멱등=소스텍스트 sha). 실제 벡터검색(pgvector) 연결은 데이터 ~1000개 시점으로 미룸(임베딩만 미리 심음). ⚠️계획서의 bge-m3는 fastembed 미지원→e5-large 대체(차원 동일). e5 규약: 문서 `passage:`/질의 `query:` 접두.
+
+**협업 수집 저장소 `artdata`(2026-08-06)**: 별도 공개 repo **github.com/xenonluv/artdata**(kinerag와 분리, 이 프로젝트 무수정). 여러 명이 clone해 키네틱 아트를 수집(위키미디어 크롤 `tools/collect.py` / 수동)·검증(`tools/validate.py`)해 `contributions/<이름>/records.csv`로 제출. **이미지는 git에 안 넣고 URL만**(저장소 경량), Mac 직접쓰기 배제(보안). 병합계약=records.csv 필드(필수 `source_url`(자연키)·`image_url`·`title`·`license`). 적대적 리뷰 2회 통과·하드닝(BOM/라이선스/mime).
+- **실제 kinerag 병합은 미구현(별도 단계)**: `data-pipeline/7_import_contrib.py`(URL→이미지 다운로드→`works/`, 설명 비면 stage4 생성, 5b 임베딩, `seed_delta.sql` ON CONFLICT) + DB `source_url` 유니크 인덱스. **필드 매핑 필수**: `source_url→source_page_url`·`image_url→image_src_url`·`source_desc→desc_src`, `tags` `;`분리, `created_year` 정수.
+- **여러 명 수집 시 중복 처리(3단계, 병합 도구가 구현)**: ①`source_url` 정확(자동) ②이미지 **SHA-256** 동일(자동) ③**perceptual hash** near-dup→'중복 후보' 리포트로 사람 검토. (자연키만으론 '같은 작품 다른 URL/사진' 못 잡음)
+- 상세 계획: `~/.claude/plans/enumerated-hatching-parnas.md`(현재 Phase 7=artdata 전용으로 재작성됨).
 
 ---
 
