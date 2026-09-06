@@ -31,6 +31,16 @@ RESULT_FIELDS = (
 def prepare() -> int:
     records = load_records(config.ENRICHED_JSON)
     selected = [r for r in records if r.get("selected")]
+
+    # 사전검수(5_build_review.py prescreen)에서 거부한 id 는 설명 생성에서 제외
+    decisions_path = config.DATASET_DIR / f"review_decisions{config._SFX}.json"
+    if decisions_path.exists():
+        import json as _json
+        decisions = _json.loads(decisions_path.read_text(encoding="utf-8"))
+        rejected = {k for k, v in decisions.items() if v == "rejected"}
+        before = len(selected)
+        selected = [r for r in selected if r["local_id"] not in rejected]
+        print(f"사전검수 반영: {before} → {len(selected)} (거부 {before - len(selected)})")
     queue = []
     for r in selected:
         queue.append({
@@ -44,8 +54,9 @@ def prepare() -> int:
             "hint_tags": r.get("tags"),
             "source_page_url": r.get("source_page_url"),
         })
-    save_records(config.DATASET_DIR / "describe_queue.json", queue)
-    print(f"describe_queue.json 저장: {len(queue)}개 (works/ 이미지 + desc_src 근거)")
+    qpath = config.DATASET_DIR / f"describe_queue{config._SFX}.json"
+    save_records(qpath, queue)
+    print(f"{qpath.name} 저장: {len(queue)}개 (works/ 이미지 + desc_src 근거)")
     return 0
 
 

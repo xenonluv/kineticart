@@ -1,0 +1,320 @@
+[
+  {
+    "local_id": "761",
+    "title_display": "큐피드 자동 그림 (Automaton Drawing of Cupid)",
+    "artist": "앙리 마요드 (Henri Maillardet)",
+    "created_year": 1835,
+    "materials_ko": "종이 위 유화 또는 드로잉",
+    "description_ko": "1835년 보스턴에서 작동한 자동 기계(자동인형)가 그린 큐피드의 드로잉. 자동인이 직접 그린 것으로 알려진 가장 오래된 작품 중 하나.",
+    "detail_text_ko": "1835년 4월 29일 보스턴에서 제작된 자동인형(Automaton)이 그린 작품이다. 자동인은 스위스 출신 마이어 달(Robert Jaquet-Droz)과 그의 아들들이 제작한 것으로, 크랭크를 돌리면 기계 팔이 종이 위에 그림을 그리는 장치다. 이 작품은 그 자동인이 그린 것으로 전해지며, 작가(자동인)와 연도(1835)가 모두 기록된 최초의 기계 창작 작품 중 하나로 평가된다. 원문은 하노버의 율리우스 카이트(Julius Kayser)가 수집한 마요드의 자동인형 기록을 인용한 것이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "자동인형",
+      "드로잉",
+      "마요드"
+    ],
+    "uncertain": true,
+    "notes": "desc_src가 '보스턴'이라고 했으나 실제 소장처는 하노버. 자동인이 작가이므로 'artist'를 기계 명으로 표기"
+  },
+  {
+    "local_id": "763",
+    "title_display": "창조물의 찬가 — 야마톤 (Cantico delle creature - Yamaton)",
+    "artist": "산 프란체스코 (St. Francis of Assisi)",
+    "created_year": 1260,
+    "materials_ko": "필사본 (원문 이탈리아어)",
+    "description_ko": "산 프란체스코가 1221년경 지었다고 전해지는 '창조물의 찬가(Cantico delle creature)'의 가장 오래된 필사본 중 하나로, 이탈리아어 원문 그대로 기록되어 있다.",
+    "detail_text_ko": "산 프란체스코가 작곡한 '창조물의 찬가'는 이탈리아어로 쓰인 최초의 문학 작품 중 하나로 평가받는다. 이 필사본은 약 1260년경 필사된 것으로, 태양, 달, 별, 물, 불 등 자연 요소에 대한 찬가이다. 원문은 1224년 라퀼라에서 산 프란체스코가 지었다고 전해지며, 이탈리아어가 아닌 라틴어가 아닌 이탈리아어로 쓰인 점이 의의롭다. 'Yamaton'은 이 필사본의 별칭으로 추정된다.",
+    "tags_ko": [
+      "키네틱아트",
+      "필사본",
+      "산프란체스코",
+      "이탈리아"
+    ],
+    "uncertain": true,
+    "notes": "연도 1260은 필사 연도이며, 작가는 산 프란체스코로 추정. hint_year=2019는 사진 업로드일"
+  },
+  {
+    "local_id": "773",
+    "title_display": "바쿠상 자동 플루트 연주 보도 (This day is publish'd)",
+    "artist": "자크 바쿠상 (Jacques de Vaucanson)",
+    "created_year": 1742,
+    "materials_ko": "신문 클리핑 (원고)",
+    "description_ko": "1742년 바쿠상의 자동인이 플루트를 연주한다는 내용의 신문 보도. 자동인의 기계적 연주를 기록한 역사적 문서.",
+    "detail_text_ko": "프랑스의 발명가 자크 바쿠상(Jacques de Vaucanson)이 1738~1740년경 제작한 자동인(Automaton)이 독일 플루트를 연주한다는 내용의 신문 보도(1742). 바쿠상의 자동인은 인간과 같은 움직임으로 플루트를 연주할 수 있었던 것으로 전해지며, 18세기 기계공학의 정수를 보여준다. 오르본 도서관(Bodleian Libraries)에 소장된 원고 신문클리핑이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "자동인형",
+      "바쿠상",
+      "플루트",
+      "18세기"
+    ],
+    "uncertain": true,
+    "notes": "신문 보도이므로 실제 연주 영상이 아닌 텍스트 기록. 작가 표기는 없으나 바쿠상 자동인으로 추정"
+  },
+  {
+    "local_id": "1022",
+    "title_display": "아나모르포시스 프리즘 01 (Anamorphoses-prisme 01)",
+    "artist": "비센트 시에 (V. Sies)",
+    "created_year": 1842,
+    "materials_ko": "원근법 왜곡 화법 (아나모르포시스)",
+    "description_ko": "1842년 파리에서 출판된 원근법 왜곡 아나모르포시스 작품. 특정 각도에서만 정상적인 이미지로 보이는 시각적 광학 효과.",
+    "detail_text_ko": "비센트 시에(V. Sies)가 1842년 파리에서 출판한 원근법 왜곡(Anamorphosis) 작품 시리즈 중 하나. 거울이나 특정 시점에서만 왜곡된 이미지가 정상적으로 보이는 광학 효과를 이용한 작품으로, 아나모르포시스는 16~17세기부터 이어진 전통적인 시각 예술 기법이다. 툴루즈 현관부에서 열린 전시에서 촬영된 것으로 보인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "아나모르포시스",
+      "원근법",
+      "광학"
+    ],
+    "uncertain": true,
+    "notes": "hint_year=2010은 사진 업로드일, 실제 작품 연도는 1842"
+  },
+  {
+    "local_id": "1027",
+    "title_display": "자화상 (아나모르포시스) — 산 파요 (Auto-retrato, anamorfose)",
+    "artist": "마누엘 알베스 드 산 파요 (Manuel Alves de San Payo)",
+    "created_year": 1930,
+    "materials_ko": "아나모르포시스 드로잉 (거울로 복원)",
+    "description_ko": "1930년경 마누엘 알베스가 그린 자화상 아나모르포시스. 특정 거울이나 각도에서만 정상이미지로 보이는 왜곡 자화상.",
+    "detail_text_ko": "포르투갈 출신 작가 마누엘 알베스(Manuel Alves)가 1930년경 제작한 자화상 아나모르포시스 작품이다. 아나모르포시스는 의도적으로 왜곡하여 특정 시점이나 거울을 통해서만 정상 이미지로 보이게 만드는 기법으로, 산 파요(San Payo) 지역의 아르카이브(Arquivo de Do...)에 기록되어 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "아나모르포시스",
+      "자화상",
+      "포르투갈"
+    ],
+    "uncertain": false,
+    "notes": ""
+  },
+  {
+    "local_id": "1029",
+    "title_display": "버스 전용 도로 아나모르포시스 (Busspur)",
+    "artist": "미상",
+    "created_year": 2024,
+    "materials_ko": "아나모르포시스 도로 표시 (시각 오보)",
+    "description_ko": "Buss라는 단어가 버스 전용 도로 표시처럼 보이게 만든 아나모르포시스 도로 그림. 특정 각도에서 'Buss'가 정상적으로 보인다.",
+    "detail_text_ko": "도로 표시의 아나모르포시스 작품. 'Buss'라는 단어가 버스 전용 도로 표시처럼 기하학적으로 왜곡되어 그려져, 특정 각도에서만 'Buss'가 정상적으로 인식된다. 이 작품은 아나모르포시스의 원리를 도로 표시라는 실용적 맥락에 적용한 것으로, 시각적 오보(오인)를 이용한 현대 아나모르포시스의 일례다.",
+    "tags_ko": [
+      "키네틱아트",
+      "아나모르포시스",
+      "도로",
+      "시각오보"
+    ],
+    "uncertain": false,
+    "notes": "2024년 작품. hint_year=2024와 일치"
+  },
+  {
+    "local_id": "1031",
+    "title_display": "노란 정사각형 — 에두아르 7세 거리 (Carré jaune, Rue Édouard-VII)",
+    "artist": "펠리체 바라니 (Felice Varani)",
+    "created_year": 2012,
+    "materials_ko": "아나모르포시스 벽화 (4개의 삼각형)",
+    "description_ko": "펠리체 바라니의 아나모르포시스 설치작품. 4개의 삼각형이 직교 사각형을 이루며, 특정 각도에서만 정상이미지로 보인다.",
+    "detail_text_ko": "이탈리아 출신 예술가 펠리체 바라니(Felice Varani)가 2012년 파리 에두아르 7세 거리(Rue Édouard-VII)에 설치한 아나모르포시스 벽화 작품이다. 4개의 삼각형이 교차하여 직교 사각형을 구성하며, 특정 시점에서만 '정상적인' 정사각형이 완성된다. 관람자가 걸어가며 다양한 각도에서 이미지가 변형되는 것을 경험할 수 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "아나모르포시스",
+      "바라니",
+      "파리",
+      "설치"
+    ],
+    "uncertain": false,
+    "notes": ""
+  },
+  {
+    "local_id": "1042",
+    "title_display": "자유의 여신 인간 조형 (Human Statue of Liberty)",
+    "artist": "미상 (18,000명 미국 군인)",
+    "created_year": 1918,
+    "materials_ko": "인간 조형 (병사 18,000명 구성)",
+    "description_ko": "1918년 7월, 18,000명의 미군이 자유의 여신 형상으로 포지션을 구성한 그룹 사진. 제1차 세계대전 기념 조형 작품.",
+    "detail_text_ko": "제1차 세계대전 중 1918년 7월, 18,000명의 미국 군인이 프랑스에서 자유의 여신 형상으로 배치된 사진이다. 각 병사가 정확한 위치에 배치되어 인간의 몸 전체가 자유의 여신 동상처럼 보이도록 구성된 대규모 인체 조형 작품이다. 당시 미군의 사기를 진작하고 자유의 여신 동상의 상징성을 기리기 위해 제작된 것으로 전해진다.",
+    "tags_ko": [
+      "키네틱아트",
+      "자유의여신",
+      "제1차세계대전",
+      "인체조형"
+    ],
+    "uncertain": true,
+    "notes": "동상이 아닌 실제 인간으로 구성된 '조형'이므로 키네틱아트로 분류는 다소 무리. desc_src가 '키네틱아트' 태그를 부여했음"
+  },
+  {
+    "local_id": "1044",
+    "title_display": "앤모르픽 초상화 — 찰스 1세 (King Charles I, anamorphic)",
+    "artist": "미상 (1821년 조판)",
+    "created_year": 1821,
+    "materials_ko": "앤모르피크 조판 (그림자/왜곡 초상화)",
+    "description_ko": "찰스 1세의 앤모르픽 초상화. 특정 거울이나 각도에서만 정상이미지로 보이는 1821년 조판.",
+    "detail_text_ko": "영국 찰스 1세의 앤모르피크(anamorphic) 초상화 조판물. 1821년에 제작되어 아이코노그래픽 컬렉션에 수록되었다. 앤모르피스는 의도적으로 왜곡된 이미지로, 거울이나 특정 시점에서만 정상 이미지로 보이는 기법이다. 찰스 1세의 초상화를 이 기법으로 표현한 것으로, 17세기 왕정복고 시대의 예술적 전통을 계승한다.",
+    "tags_ko": [
+      "키네틱아트",
+      "앤모르피크",
+      "찰스1세",
+      "초상화",
+      "왜곡"
+    ],
+    "uncertain": true,
+    "notes": "hint_year=2014는 사진 업로드일"
+  },
+  {
+    "local_id": "1047",
+    "title_display": "광학 장난감 — 고양이 부츠 아나모르포시스 (Optical Toy, Les Anamorphoses)",
+    "artist": "미상",
+    "created_year": 1865,
+    "materials_ko": "광학 장난감 (앤모르포시스 고양이 드로잉)",
+    "description_ko": "1865년 광학 장난감으로 제작된 고양이 부츠 아나모르포시스. 거울을 통해서만 정상 이미지로 보이는 드로잉.",
+    "detail_text_ko": "1865년경 제작된 광학 장난감(Optical Toy) 시리즈 중 하나. 베개 그라운드(cream ground)에 고양이(부츠를 신은 고양이)가 왜곡되어 그려져 있으며, 거울이나 특정 각도에서만 정상 이미지로 보인다. 'Puss in Boots'는 널리 알려진 동화 캐릭터로, 아나모르피스를 통해 왜곡된 캐릭터 이미지를 복원하는 놀이 요소가 포함되어 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "광학장난감",
+      "아나모르포시스",
+      "고양이"
+    ],
+    "uncertain": false,
+    "notes": "desc_src에 '거울' 태그 있음"
+  },
+  {
+    "local_id": "1061",
+    "title_display": "일루미노시티 — HYBYCOZO 조명 전시 (IlluminoCity)",
+    "artist": "예레나 필립추크 (Yelena Filipchuk) / HYBYCOZO",
+    "created_year": 2022,
+    "materials_ko": "조명 설치미술 (와이어, LED)",
+    "description_ko": "HYBYCOZO의 예레나 필립추크가 2022년 선보인 일루미노시티 조명 전시. 와이어와 LED로 만든 기하학적 조명 조각.",
+    "detail_text_ko": "HYBYCOZO라는 아티스트 예레나 필립추크(Yelena Filipchuk)가 2022년 선보인 조명 설치 미술 '일루미노시티(IlluminoCity)'. 와이어와 LED를 활용해 기하학적 구조물을 만들고 내부에서 빛을 발산하는 작품으로, 공간에 따라 빛의 패턴이 달라지는 인터랙티브 조각이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "조명",
+      "와이어",
+      "HYBYCOZO",
+      "설치"
+    ],
+    "uncertain": false,
+    "notes": "hint_artist가 'Brookfield Properties CREDIT John Nguyen-PA Wire'로 오염됨. 실제 아티스트는 Yelena Filipchuk/HYBYCOZO"
+  },
+  {
+    "local_id": "1065",
+    "title_display": "라이트아트 Biennale — 마운티 Zentara (Lightart Biennale)",
+    "artist": "마운티 R. P. 젠타라 (Mounty R. P. Zentara)",
+    "created_year": 2010,
+    "materials_ko": "라이트아트 설치 (조명 조각)",
+    "description_ko": "오스트리아 라이트아트 비엔날레 2010에 출품된 마운티 R. P. 젠타라의 라이트아트 작품.",
+    "detail_text_ko": "오스트리아에서 열린 라이트아트 비엔날레(Lightart Biennale) 2010에 출품된 마운티 R. P. 젠타라(Mounty R. P. Zentara)의 조명 설치 작품. LED 및 기하학적 조명 구조를 활용한 라이트아트로, 오스트리아 비엔날레에서 선보인 작품 중 하나다.",
+    "tags_ko": [
+      "키네틱아트",
+      "라이트아트",
+      "빛",
+      "비엔날레",
+      "오스트리아"
+    ],
+    "uncertain": false,
+    "notes": ""
+  },
+  {
+    "local_id": "1073",
+    "title_display": "다섯 개의 등대 (Five Beacons for the Lost Half Mile, blue phase)",
+    "artist": "미상",
+    "created_year": 2012,
+    "materials_ko": "조명 조각 (블루 페이즈)",
+    "description_ko": "보스턴 자크엄 브리지 아래 설치된 5개의 등대형 조명 조각 '블루 페이즈'.",
+    "detail_text_ko": "보스턴 자크엄 브리지(Zakim Bridge) 아래에 설치된 5개의 등대형 조명 조각. '파운드 더 로스트 할프 마일(Five Beacons for the Lost Half Mile)' 시리즈의 '블루 페이즈' 버전으로, 다리의 구조물 아래에서 빛을 발산하며 도시 공간에 새로운 시각적 랜드마크를 만든다.",
+    "tags_ko": [
+      "키네틱아트",
+      "조명",
+      "설치",
+      "보스턴",
+      "자크엄브리지"
+    ],
+    "uncertain": false,
+    "notes": ""
+  },
+  {
+    "local_id": "1080",
+    "title_display": "USB 미니 팬 LED 아트 (LED and USB mini fan)",
+    "artist": "미상",
+    "created_year": 2011,
+    "materials_ko": "USB 미니 팬 + LED 조명",
+    "description_ko": "USB 전원 90mm 지름 2블레이드 미니 팬에 LED가 장착된 아트 조명. 작동 시 LED 아트/라이트 아트를 생성.",
+    "detail_text_ko": "USB로 전원을 공급받는 90mm 지름의 2블레이드 미니 팬에 LED가 내장된 아트 조명 작품. 팬이 회전할 때 LED가 공간에 빛의 패턴을 드리우며, 동적인 라이트 아트를 만든다. 2011년 작품으로, 일상적인 USB 팬을 예술적 매체로 전환한 사례다.",
+    "tags_ko": [
+      "키네틱아트",
+      "LED",
+      "USB",
+      "팬",
+      "라이트아트"
+    ],
+    "uncertain": false,
+    "notes": ""
+  },
+  {
+    "local_id": "1089",
+    "title_display": "리이토 (Liito) — 미아 에를린 (Mia Erlin)",
+    "artist": "미아 에를린 (Mia Erlin)",
+    "created_year": 2019,
+    "materials_ko": "라이트아트 조명 설치",
+    "description_ko": "미아 에를린의 2019년 라이트아트 작품 '리이토(Liito)'. 빛의 형태를 활용한 설치 작품.",
+    "detail_text_ko": "핀란드 출신 아티스트 미아 에를린(Mia Erlin)의 2019년 라이트아트 작품 '리이토(Liito)'. 빛의 형태와 색상을 활용한 설치 작품으로, 공간에 빛의 조형물을 투사하거나 배치하여 관람객에게 독특한 시각적 경험을 제공한다.",
+    "tags_ko": [
+      "키네틱아트",
+      "라이트아트",
+      "빛",
+      "에를린",
+      "설치"
+    ],
+    "uncertain": false,
+    "notes": ""
+  },
+  {
+    "local_id": "1095",
+    "title_display": "네온 조각 — 후그 카테리옌 우트레흐트 (Neonsculpture Hoog Catherijne Utrecht)",
+    "artist": "미상",
+    "created_year": 2012,
+    "materials_ko": "네온 조명 조각",
+    "description_ko": "우트레흐트 후그 카테리옌(Hoog Catherijne)에 설치된 네온 조명 조각 작품.",
+    "detail_text_ko": "네덜란드 우트레흐트의 후그 카테리옌 상가에 설치된 네온 조명 조각 작품. 네온 튜브를 이용해 기하학적 형태를 조명으로 표현한 설치미술로, 쇼핑센터에 예술적 조명을 더하는 공공미술 프로젝트의 일부로 보인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "네온",
+      "조각",
+      "우트레흐트",
+      "네덜란드"
+    ],
+    "uncertain": false,
+    "notes": ""
+  },
+  {
+    "local_id": "1096",
+    "title_display": "넥서스 2 (Nexus 2) — 미아 에를린 (Mia Erlin)",
+    "artist": "미아 에를린 (Mia Erlin)",
+    "created_year": 2021,
+    "materials_ko": "라이트아트 조명 설치",
+    "description_ko": "미아 에를린의 2021년 라이트아트 작품 '넥서스 2'. 빛의 네트워크를 형상화한 설치 작품.",
+    "detail_text_ko": "미아 에를린(Mia Erlin)의 2021년 라이트아트 작품 '넥서스 2(Nexus 2)'. 빛의 네트워크(nexus)를 형상화한 설치 작품으로, 여러 빛의 선이 교차하며 하나의 연결망을 형성하는视觉效果를 만들어낸다. 'Liito'와 동일 시리즈로 추정된다.",
+    "tags_ko": [
+      "키네틱아트",
+      "라이트아트",
+      "빛",
+      "에를린",
+      "네트워크",
+      "설치"
+    ],
+    "uncertain": false,
+    "notes": ""
+  },
+  {
+    "local_id": "208",
+    "title_display": "최면의 바이브스 (Hypnotic Vibes) — 지안니 사르코네 (Gianni Sarcone)",
+    "artist": "지안니 사르코네 (Gianni Sarcone)",
+    "created_year": 1997,
+    "materials_ko": "옵 아트 (사이키델릭 혼합 미디어, 70x70cm)",
+    "description_ko": "지안니 사르코네의 1997년 옵 아트 작품 '최면의 바이브스'. 빨간 부분이 자동 운동(autokinetic) 효과를 일으키는 사이키델릭 비주얼.",
+    "detail_text_ko": "이탈리아 아티스트 지안니 사르코네(Gianni Sarcone)의 1997년 옵 아트 작품 '최면의 바이브스(Hypnotic Vibes)'. 혼합 미디어로 제작된 70x70cm 작품으로, 빨간 영역이 자동 운동(autokinetic effect) 효과를 일으켜 고정되어 있는데도 움직이는 것처럼 보이는 시각적 착시를 만들어낸다. 사르코네는 시각 착시와 옵 아트 분야의 저명한 아티스트로, 이 작품은 그의 대표적인 사이키델릭 시리즈 중 하나다.",
+    "tags_ko": [
+      "키네틱아트",
+      "옵아트",
+      "사이키델릭",
+      "시각착시",
+      "사르코네"
+    ],
+    "uncertain": false,
+    "notes": ""
+  }
+]

@@ -1,0 +1,221 @@
+[
+  {
+    "local_id": "597",
+    "title_display": "채색된 볼라드 35 (Painted Bollard, Winchester 35)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "주철 볼라드, 페인트",
+    "description_ko": "영국 윈체스터 거리의 볼라드에 브리지트 라일리의 옵아트 스타일을 본떠 체크무늬와 소용돌이무늬를 칠해 시각적 흔들림 효과를 낸 거리 미술이다.",
+    "detail_text_ko": "윈체스터의 그레이트 민스터 스트리트와 더 스퀘어 모퉁이에 놓인 연작 볼라드 중 하나다. 지역 미술팀(thecolourfactory.org.uk)이 브리지트 라일리의 '블레이즈 스터디/움직임의 사각형' 연작에서 보이는 흑백 패턴을 본떠 칠했다. 원통 몸체는 흑백 체크무늬, 둥근 윗부분은 소용돌이치는 지그재그 무늬로 채워 눈이 움직이는 듯한 착시를 일으킨다. 실제 라일리 본인의 작품은 아니며, 공공 거리 시설물에 옵아트 감각을 입힌 사례다.",
+    "tags_ko": ["키네틱아트", "옵아트", "스트리트아트", "패턴", "Riley"],
+    "uncertain": true,
+    "notes": "hint_artist(Bridget Riley)는 원작 스타일의 출처일 뿐 실제 제작자가 아니며, 실제 도색은 지역 미술팀이 수행. 작가·연도 확인 불가로 null 처리."
+  },
+  {
+    "local_id": "609",
+    "reject": true,
+    "notes": "예루살렘 유대미술박물관 정문 외관 사진 — 바사렐리의 '말레비치에게 바치는 헌사' 작품 자체는 화면에 보이지 않음"
+  },
+  {
+    "local_id": "610",
+    "reject": true,
+    "notes": "박물관 정문 외관 사진 — 아감이 디자인한 '세계에서 가장 큰 메주자' 작품이 화면에 보이지 않음"
+  },
+  {
+    "local_id": "703",
+    "title_display": "당신의 자연스러운 노란 낮빛 (Your natural yellow daylight)",
+    "artist": "올라퍼 엘리아슨 (Olafur Eliasson)",
+    "created_year": 2010,
+    "materials_ko": "모노프리퀀시(단일파장) 옐로우 램프, 공간 설치",
+    "description_ko": "단일 파장의 노란 조명만으로 공간 전체를 물들여, 그 안의 모든 색이 노랑과 검정의 명암으로만 보이게 만드는 빛 설치 작품이다.",
+    "detail_text_ko": "덴마크·아이슬란드계 작가 올라퍼 엘리아슨이 2010년 독일 뒤셀도르프 K20 미술관에 선보인 빛 작품이다. 나트륨등과 유사한 단일 파장의 노란빛만을 방출해, 관람자의 눈이 색을 구분하지 못하고 오직 명암 대비로만 공간을 지각하게 만든다. 사진 속 균일한 주황빛 벽면과 원형 조명 기구가 그 빛에 물든 전시 공간의 모습이다. 움직이는 조형물은 아니지만 빛을 매개로 관람자의 지각 자체를 변화시키는 체험형 작품이다.",
+    "tags_ko": ["키네틱아트", "빛", "설치", "지각", "Eliasson"],
+    "uncertain": true,
+    "notes": "사진만으로는 작품의 특징적 효과(단색 지각)가 뚜렷이 드러나지 않아 우려 표시. desc_src 기준 사실만 반영."
+  },
+  {
+    "local_id": "729",
+    "title_display": "다이브 봄버 덕 (Dive Bomber Duck)",
+    "artist": "볼리스 심슨 (Vollis Simpson)",
+    "created_year": null,
+    "materials_ko": "금속, 페인트, 회전 날개",
+    "description_ko": "노스캐롤라이나 아웃사이더 아티스트 볼리스 심슨이 만든 훨리지그로, 장대 위 프로펠러 날개가 바람에 따라 돌아간다.",
+    "detail_text_ko": "미국 노스캐롤라이나 로빈슨 카운티 인터스테이트95 노스바운드 웰컴센터에 전시된 훨리지그다. 심슨(1919~2013)은 폐금속과 도로 표지판 등 재활용 재료로 대형 바람개비 조각을 만든 것으로 유명하며, 윌슨의 '훨리지그 파크'가 그의 대표 설치지다. 사진은 나무 아래 장대 위에 설치된 개체를 먼 거리에서 담았다.",
+    "tags_ko": ["키네틱아트", "훨리지그", "민속예술", "바람", "Simpson"],
+    "uncertain": false,
+    "notes": "정확한 제작연도는 원문에 없어 null 처리. hint_year(1919)는 작가의 출생연도이지 제작연도가 아님."
+  },
+  {
+    "local_id": "730",
+    "title_display": "다이브 봄버 덕 (근접, Dive Bomber Duck)",
+    "artist": "볼리스 심슨 (Vollis Simpson)",
+    "created_year": null,
+    "materials_ko": "금속, 페인트, 프로펠러 날개, 표지판 조각",
+    "description_ko": "채색된 금속 프로펠러와 표지판 조각을 얽어 만든 훨리지그로, 바람을 받으면 여러 날개가 각기 다른 방향으로 회전한다.",
+    "detail_text_ko": "위 729번과 같은 인터스테이트95 노스바운드 노스캐롤라이나 웰컴센터에 설치된 동일 작품을 더 가까이서 찍은 사진이다. 볼리스 심슨(1919~2013)은 재활용 금속과 도로표지판, 자동차 부품 등을 조합해 대형 바람개비를 제작한 노스캐롤라이나 출신 아웃사이더 아티스트다. 별 모양 표지판과 여러 겹의 날개, 붉고 흰 줄무늬 지지대가 뚜렷이 보인다.",
+    "tags_ko": ["키네틱아트", "훨리지그", "민속예술", "바람", "Simpson"],
+    "uncertain": false,
+    "notes": "729번과 동일 작품의 다른 촬영본. 제작연도 확인 불가로 null 처리."
+  },
+  {
+    "local_id": "742",
+    "title_display": "마녀와 말이 있는 훨리지그 (Whirligig with Witch and Horse)",
+    "artist": "찰리 번햄 (Charlie Burnham)",
+    "created_year": 1918,
+    "materials_ko": "나무, 금속, 페인트",
+    "description_ko": "1918년 제작된 민속 미술 훨리지그로, 프로펠러가 회전하면 말을 탄 병사와 마녀 모양 장식이 함께 움직이도록 설계되었다.",
+    "detail_text_ko": "미국 스미소니언 미국미술관(국립초상화관)에 소장된 민속예술 훨리지그다. 생몰년이 알려지지 않은 작가 찰리 번햄이 만들었으며, 좌우의 큰 프로펠러가 바람을 받아 돌면 내부 기어와 크랭크를 통해 말 탄 병사 인형이 오르내리는 구조로 추정된다. 성조기, 리본형 깃발 장식도 함께 달려 있다. 손으로 깎고 색칠한 미국 민속미술 특유의 소박한 조형이 특징이다.",
+    "tags_ko": ["키네틱아트", "훨리지그", "민속예술", "바람", "Burnham"],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "774",
+    "title_display": "6피트 릴스윙어 스테이블 (6' Lil'Swinger stabile)",
+    "artist": "줄리 프리스 (Julie Frith)",
+    "created_year": null,
+    "materials_ko": "금속판, 강선",
+    "description_ko": "검은 스테이블(고정형 조각) 다리 위에 붉고 흰 원반들을 강선으로 매달아, 공기 흐름에 따라 원반들이 흔들리는 모빌형 조각이다.",
+    "detail_text_ko": "미국 샌프란시스코의 실내 공간에 설치된 프리스 모빌스(frithmobiles.com)의 작품으로, 작가 줄리 프리스가 제작했다. 검은 금속판으로 이루어진 아치형 스테이블 구조가 바닥에 서 있고, 그 위로 뻗은 강선 끝에 붉은 원반 여러 개가 매달려 균형을 이루며 미세하게 흔들린다. 알렉산더 콜더의 스테이블-모빌 전통을 잇는 현대 작품이다.",
+    "tags_ko": ["키네틱아트", "모빌", "스테이블", "바람", "Frith"],
+    "uncertain": false,
+    "notes": "정확한 제작연도는 원문에 없어 null 처리(hint_year는 촬영 추정 연도)."
+  },
+  {
+    "local_id": "776",
+    "title_display": "탈출하는 바위떼 (Flock of Rocks Escaping)",
+    "artist": "스티븐 H. 카와이 (Stephen H Kawai)",
+    "created_year": 2000,
+    "materials_ko": "자갈, 강선, 깃털",
+    "description_ko": "실제 자갈과 깃털 하나를 강선으로 매달아 균형을 이룬 모빌로, 공기 흐름에 따라 천천히 회전하며 흔들린다.",
+    "detail_text_ko": "작가 스티븐 H. 카와이(shkawai.ca)가 2000년에 만든 모빌 작품이다. 흰 벽과 창이 있는 실내 천장에 매달려 있으며, 크고 작은 자갈들이 가지처럼 뻗은 강선 끝에 매달려 정교하게 균형을 이룬다. 한쪽 끝에는 얼룩무늬 깃털이 달려 바위떼가 마치 날아가는 새떼처럼 보이도록 한다는 제목의 은유를 시각화한다.",
+    "tags_ko": ["키네틱아트", "모빌", "돌", "깃털", "Kawai"],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "787",
+    "title_display": "바이킹선 모빌 5 (Mobil Vikingeskib 5)",
+    "artist": "올레 플렌스테드 (Ole Flensted)",
+    "created_year": null,
+    "materials_ko": "종이, 나무, 강선",
+    "description_ko": "여러 척의 종이 바이킹선을 매단 덴마크식 모빌로, 공기의 흐름에 따라 배들이 항해하듯 흔들린다.",
+    "detail_text_ko": "덴마크 모빌 회사 플렌스테드 모빌스(Flensted Mobiles)의 창립자 올레 플렌스테드가 디자인한 '바이킹선' 시리즈 중 하나다. 가볍게 접어 만든 종이 바이킹선 다섯 척이 곡선형 강선에 매달려 서로 다른 높이에서 균형을 이루며, 실내 공기 흐름에도 민감하게 반응해 흔들린다. 덴마크 모빌 디자인 전통의 대표적 소재를 보여준다.",
+    "tags_ko": ["키네틱아트", "모빌", "종이", "덴마크", "Flensted"],
+    "uncertain": false,
+    "notes": "정확한 제작연도는 원문에 없어 null 처리(hint_year 2022는 촬영 추정 연도)."
+  },
+  {
+    "local_id": "810",
+    "title_display": "홈메이드 타임머신 (Home Made Time Machine)",
+    "artist": "마거릿 노블 (Margaret Noble)",
+    "created_year": null,
+    "materials_ko": "나무, 금속, 스피커, 전자장치",
+    "description_ko": "나팔 모양의 대형 확성 장치와 나무 받침대로 이루어진 인터랙티브 사운드 조각이다.",
+    "detail_text_ko": "사운드 아티스트 마거릿 노블이 제작한 인터랙티브 사운드 조각으로 원문에는 제목과 작가 외 구체적 정보가 없다. 검은 원뿔형 나팔과 격자무늬 진동판, 목재 받침대로 구성되어 있으며 관람객의 조작이나 소리에 반응해 음향을 재생하는 구조로 추정되나 구동 원리는 원문에 명시되어 있지 않다.",
+    "tags_ko": ["키네틱아트", "사운드조각", "인터랙티브", "확성기", "Noble"],
+    "uncertain": true,
+    "notes": "구체적 작동 원리·제작연도·설치 장소가 원문 설명에 없어 uncertain 처리."
+  },
+  {
+    "local_id": "811",
+    "title_display": "롱잉으로부터 자유롭기를 바란다 (I Long to be Free from Longing)",
+    "artist": "마거릿 노블 (Margaret Noble)",
+    "created_year": null,
+    "materials_ko": "가죽 여행가방, 전자장치, 스피커",
+    "description_ko": "오래된 가죽 여행가방 안에 여러 개의 작은 상자를 담은 인터랙티브 사운드 조각으로, 관람객이 상자를 열거나 만지면 소리가 재생되는 구조로 보인다.",
+    "detail_text_ko": "사운드 아티스트 마거릿 노블의 인터랙티브 사운드 조각으로, 클래식한 가죽 여행가방을 열면 그 안에 격자무늬 천으로 감싼 작은 상자들이 나란히 담겨 있다. 각 상자에는 걸쇠가 달려 있어 관람객이 직접 열어보며 소리를 체험하도록 설계된 것으로 보인다. 원문 설명에는 제목과 작가 정보만 제공되어 세부 작동 방식은 확인되지 않는다.",
+    "tags_ko": ["키네틱아트", "사운드조각", "인터랙티브", "가방", "Noble"],
+    "uncertain": true,
+    "notes": "구체적 작동 원리·제작연도가 원문에 없어 uncertain 처리."
+  },
+  {
+    "local_id": "813",
+    "title_display": "환원주의 기록들 (Reductionist Records)",
+    "artist": "마거릿 노블 (Margaret Noble)",
+    "created_year": null,
+    "materials_ko": "종이 폴더, 버튼 스위치, 스피커, 전선",
+    "description_ko": "책처럼 펼쳐진 폴더에 버튼 스위치와 스피커를 배선한 인터랙티브 사운드 조각으로, 버튼을 누르면 소리가 재생되는 구조다.",
+    "detail_text_ko": "사운드 아티스트 마거릿 노블의 작품으로, 연두색 폴더 여러 장을 부채꼴로 펼쳐 세운 형태다. 각 폴더 안쪽에는 사각 버튼 스위치들이 붉은 전선으로 회로 기판과 스피커에 연결되어 있어, 관람객이 버튼을 누르면 해당 소리가 재생되는 인터랙티브 구조로 보인다. 원문에는 제목·작가 외 세부 설명이 없다.",
+    "tags_ko": ["키네틱아트", "사운드조각", "인터랙티브", "버튼", "Noble"],
+    "uncertain": false,
+    "notes": "제작연도는 원문에 없어 null 처리."
+  },
+  {
+    "local_id": "818",
+    "title_display": "앰플렉서스 (Amplexus)",
+    "artist": "그리마네사 아모로스 (Grimanesa Amoros)",
+    "created_year": null,
+    "materials_ko": "네온 튜브, LED, 금속 구조물",
+    "description_ko": "붉은 네온관을 자유롭게 얽어 만든 대형 빛 설치 작품으로, 밤에 건축물 천장 아래 매달려 유기적인 선의 형태로 빛난다.",
+    "detail_text_ko": "빛 조각으로 잘 알려진 페루 출신 작가 그리마네사 아모로스의 '앰플렉서스' 설치 작품이다. 격자형 철골 천장 구조물 아래로 붉게 빛나는 네온·LED 튜브가 실타래처럼 얽혀 늘어져 있으며, 야간에 강렬한 붉은빛으로 공간을 감싼다. 사람의 포옹(amplexus)을 형상화한 유기적 곡선이 특징이다.",
+    "tags_ko": ["키네틱아트", "빛", "네온", "설치", "Amoros"],
+    "uncertain": false,
+    "notes": "정확한 설치연도는 원문에 없어 null 처리."
+  },
+  {
+    "local_id": "819",
+    "title_display": "브롱크스 미술관의 빛 조각 (Grimanesa Amoros, Bronx Museum of the Arts)",
+    "artist": "그리마네사 아모로스 (Grimanesa Amoros)",
+    "created_year": null,
+    "materials_ko": "금속, LED, 유리구",
+    "description_ko": "곡면 거울 패널 위에 색색의 LED 구슬이 촘촘히 박힌 벽면형 빛 조각이다.",
+    "detail_text_ko": "뉴욕 브롱크스 미술관(The Bronx Museum of the Arts)에 설치된 그리마네사 아모로스의 빛 조각이다. 나비 날개처럼 좌우로 뻗은 반사형 금속 패널에 크고 작은 구형 LED 조명이 무리 지어 박혀 있으며, 은은한 파스텔 빛을 낸다. 벽 모서리를 감싸듯 설치되어 공간과 유기적으로 어우러진다.",
+    "tags_ko": ["키네틱아트", "빛", "LED", "설치", "Amoros"],
+    "uncertain": false,
+    "notes": "정확한 설치연도는 원문에 없어 null 처리."
+  },
+  {
+    "local_id": "820",
+    "title_display": "헤데라 (Hedera)",
+    "artist": "그리마네사 아모로스 (Grimanesa Amoros)",
+    "created_year": null,
+    "materials_ko": "형광등 튜브, 벽돌 벽",
+    "description_ko": "벽돌 벽에 나란히 붙인 형광 튜브 두 개가 푸른빛을 내는 공공 빛 조각 작품이다.",
+    "detail_text_ko": "그리마네사 아모로스가 만든 공공 빛 조각 '헤데라(담쟁이덩굴)'로, 조각공원 벽면에 파란 형광 튜브 두 줄을 사선으로 부착해 밤에 은은하게 빛난다. 담쟁이덩굴이 벽을 타고 뻗어 나가는 이미지를 단순한 빛의 선으로 표현한 것으로 보인다.",
+    "tags_ko": ["키네틱아트", "빛", "형광등", "설치", "Amoros"],
+    "uncertain": false,
+    "notes": "정확한 설치연도는 원문에 없어 null 처리."
+  },
+  {
+    "local_id": "821",
+    "title_display": "우로스 하우스 (Uros House)",
+    "artist": "그리마네사 아모로스 (Grimanesa Amoros)",
+    "created_year": null,
+    "materials_ko": "유리·아크릴 구체, LED, 금속 골조",
+    "description_ko": "크고 작은 반투명 구체를 쌓아 나무 모양을 이룬 빛 조각으로, 내부에서 은은한 빛이 새어 나온다.",
+    "detail_text_ko": "미국 힐리어드 미술관(Hilliard Art Museum)에 설치된 그리마네사 아모로스의 '우로스 하우스'다. 페루 티티카카 호수의 우로스족 갈대집에서 영감을 받은 형태로, 반투명한 구형 오브제들을 원뿔 모양으로 쌓아 올려 내부 LED 빛이 표면을 은은하게 투과한다. 어두운 전시장 안에서 홀로 빛나는 조형물로 연출되어 있다.",
+    "tags_ko": ["키네틱아트", "빛", "LED", "조각", "Amoros"],
+    "uncertain": false,
+    "notes": "정확한 설치연도는 원문에 없어 null 처리."
+  },
+  {
+    "local_id": "823",
+    "title_display": "콰이엇리, 미아 비서를 추모하며 (Quietly, to the memory of Mia Visser)",
+    "artist": "댄 플래빈 (Dan Flavin)",
+    "created_year": 1977,
+    "materials_ko": "형광등 튜브",
+    "description_ko": "벽돌 벽에 나란히 설치된 두 개의 형광등 튜브가 푸른 빛을 발하는 미니멀 조각·설치 작품이다.",
+    "detail_text_ko": "미국 미니멀리즘 작가 댄 플래빈이 1977년에 만든 형광등 조각으로, 네덜란드 KMM(Kröller-Müller 인근) 조각공원에 설치되어 있다. 시판 규격 형광등 튜브를 그대로 벽에 부착해 예술 오브제로 삼는 플래빈 특유의 방식이 드러나며, 두 개의 관이 나란히 청백색 빛을 뿜어 벽면 전체를 물들인다.",
+    "tags_ko": ["키네틱아트", "빛", "형광등", "설치", "Flavin"],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "834",
+    "reject": true,
+    "notes": "설명은 만프레드 킬른호퍼의 수면 반사 사진 작업을 언급하지만, 실제 이미지 파일은 흰 배경 앞에서 걷는 여성 모델을 담은 사진으로 작품과 무관함(파일 불일치)"
+  },
+  {
+    "local_id": "836",
+    "title_display": "어센트 (Ascent)",
+    "artist": "젠 르윈 (Jen Lewin)",
+    "created_year": null,
+    "materials_ko": "금속, LED, 강화유리 패널",
+    "description_ko": "바닥에 설치된 원형 LED 패널들이 사람이 밟는 힘과 위치에 반응해 빛과 색이 변하는 인터랙티브 조각이다.",
+    "detail_text_ko": "미국 코럴스프링스(플로리다)에 영구 설치된 젠 르윈의 인터랙티브 조각 '어센트'다. 다양한 크기의 원형 LED 발광판이 보도 위에 물결무늬로 배열되어 있으며, 관람객이 그 위를 걸으면 압력 센서가 반응해 빛의 색과 밝기가 바뀌는 것으로 알려져 있다. 사진은 노을 지는 광장에 설치된 야외 상태를 보여준다.",
+    "tags_ko": ["키네틱아트", "LED", "인터랙티브", "바닥설치", "Lewin"],
+    "uncertain": false,
+    "notes": "정확한 설치연도는 원문에 없어 null 처리(hint_year 2018은 촬영 추정 연도)."
+  }
+]

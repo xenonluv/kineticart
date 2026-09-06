@@ -110,7 +110,8 @@ def _dup_key(rec: dict) -> str:
     artist = (rec.get("artist") or "").lower()
     words = _WORD_RE.findall((rec.get("title") or "").lower())
     stop = {"by", "the", "a", "of", "kinetic", "art", "sculpture", "installation"}
-    sig = [w for w in words if w not in stop][:3]
+    # 연번(Rickey 01 / Rickey 02 …)은 '같은 작품 다른 사진'이므로 시그니처에서 제외
+    sig = [w for w in words if w not in stop and not w.isdigit()][:3]
     return artist + "|" + " ".join(sig)
 
 

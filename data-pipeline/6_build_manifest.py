@@ -155,11 +155,20 @@ alter table kinetic_artworks add column if not exists source_url text;
 
 
 def main() -> int:
-    if not config.DESCRIBED_JSON.exists():
+    sources = config.all_described_files()
+    if not sources:
         print(f"먼저 4_describe_ko.py ingest 로 {config.DESCRIBED_JSON} 를 만드세요.")
         return 1
 
-    records = load_records(config.DESCRIBED_JSON)
+    # 모든 배치(1차 described.json + 2차 described_b2.json …)를 local_id 기준 통합
+    records = []
+    seen_ids: set[str] = set()
+    for path in sources:
+        batch = load_records(path)
+        added = [r for r in batch if r.get("local_id") not in seen_ids]
+        seen_ids.update(r["local_id"] for r in added if r.get("local_id"))
+        records.extend(added)
+        print(f"  배치 로드: {path.name} {len(batch)}개 (신규 {len(added)})")
     decisions = {}
     if DECISIONS.exists():
         decisions = json.load(open(DECISIONS, encoding="utf-8"))

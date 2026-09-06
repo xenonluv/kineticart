@@ -12,8 +12,9 @@ import re
 import sys
 
 import config
-from lib.models import save_records
-from lib.sources import met, wikimedia
+from lib import relevance
+from lib.models import load_records, save_records
+from lib.sources import artic, cleveland, met, wikimedia
 
 _NORM_RE = re.compile(r"[^a-z0-9가-힣]+")
 
@@ -39,33 +40,63 @@ def _dedup(records: list[dict]) -> list[dict]:
     return out
 
 
+def _prior_keys() -> tuple[set[str], set[str]]:
+    """이전 배치에서 이미 수집한 작품의 (source_page_url, source|source_id) 집합."""
+    urls: set[str] = set()
+    sids: set[str] = set()
+    for path in config.PRIOR_RECORD_FILES:
+        if path == config.CANDIDATES_JSON or not path.exists():
+            continue
+        for r in load_records(path):
+            if r.get("source_page_url"):
+                urls.add(r["source_page_url"])
+            if r.get("source_id"):
+                sids.add(f"{r.get('source')}|{r['source_id']}")
+    return urls, sids
+
+
 def main() -> int:
     print("== 스테이지 1: 후보 수집 ==")
+    if config.BATCH:
+        print(f"배치 모드: {config.BATCH} (산출 → {config.CANDIDATES_JSON.name})")
 
     all_records: list[dict] = []
 
-    print("[1/2] Wikimedia Commons 수집...")
-    try:
-        wm = wikimedia.collect()
-        print(f"  → {len(wm)}개 (라이선스 통과)")
-        all_records.extend(wm)
-    except Exception as e:  # noqa: BLE001
-        print(f"  ! Wikimedia 수집 실패: {e}")
+    sources = [("Wikimedia Commons", wikimedia.collect, True),
+               ("The Met", met.collect, config.USE_MET),
+               ("Cleveland Museum", cleveland.collect, config.USE_CMA),
+               ("Art Institute of Chicago", artic.collect, config.USE_AIC)]
 
-    if config.USE_MET:
-        print("[2/2] The Met 수집...")
+    for i, (name, fn, enabled) in enumerate(sources, 1):
+        if not enabled:
+            print(f"[{i}/{len(sources)}] {name} 비활성화 — 건너뜀")
+            continue
+        print(f"[{i}/{len(sources)}] {name} 수집...")
         try:
-            mt = met.collect()
-            print(f"  → {len(mt)}개 (PD+이미지)")
-            all_records.extend(mt)
+            recs = fn()
+            print(f"  → {len(recs)}개 (라이선스 통과)")
+            all_records.extend(recs)
         except Exception as e:  # noqa: BLE001
-            print(f"  ! Met 수집 실패: {e}")
-    else:
-        print("[2/2] The Met 비활성화 (config.USE_MET=False) — 노이즈로 제외")
+            print(f"  ! {name} 수집 실패: {e}")
+
+    # 이전 배치에서 이미 가진 작품 제외 (배치 모드에서만 의미 있음)
+    prior_urls, prior_sids = _prior_keys()
+    if prior_urls or prior_sids:
+        kept = [r for r in all_records
+                if r.get("source_page_url") not in prior_urls
+                and f"{r.get('source')}|{r.get('source_id')}" not in prior_sids]
+        print(f"\n기존 수집분 제외: {len(all_records)} → {len(kept)}")
+        all_records = kept
 
     before = len(all_records)
     deduped = _dedup(all_records)
     print(f"\n중복 제거: {before} → {len(deduped)}")
+
+    # 관련도 상위 TARGET_CANDIDATES 만 남긴다(다운로드 비용 절감)
+    if len(deduped) > config.TARGET_CANDIDATES:
+        deduped = relevance.rank(deduped, config.TARGET_CANDIDATES)
+        print(f"관련도 선별: 상위 {len(deduped)}개 "
+              f"(점수 {deduped[-1]['_rel']} 이상)")
 
     save_records(config.CANDIDATES_JSON, deduped)
 

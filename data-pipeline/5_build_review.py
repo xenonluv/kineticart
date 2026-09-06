@@ -39,7 +39,7 @@ def _card(r: dict) -> str:
     <div class="title">{_esc(r.get('title'))}</div>
     <div class="meta">{_esc(r.get('artist') or '작가 미상')} · {_esc(r.get('created_year') or '연도 미상')}</div>
     <div class="mat">{_esc(r.get('materials'))}</div>
-    <div class="desc">{_esc(r.get('description_ko'))}</div>
+    <div class="desc">{_esc(r.get('description_ko') or (r.get('desc_src') or '')[:400])}</div>
     <details><summary>상세 설명</summary><p>{_esc(r.get('detail_text_ko'))}</p></details>
     <div class="tags">{tags}</div>
     {note}
@@ -134,7 +134,29 @@ render();
 </script></body></html>"""
 
 
+def _prescreen() -> int:
+    """설명 생성(4단계) 전 노이즈 걷어내기용 검수 페이지.
+
+    enriched.json 의 selected 레코드를 이미지 + 원문 메타만으로 렌더링한다.
+    거부한 id 는 review_decisions.json 으로 내보내 4_describe_ko.py prepare 가 건너뛴다.
+    """
+    if not config.ENRICHED_JSON.exists():
+        print(f"먼저 3_enrich.py 로 {config.ENRICHED_JSON} 를 만드세요.")
+        return 1
+    records = [r for r in load_records(config.ENRICHED_JSON) if r.get("selected")]
+    records.sort(key=lambda r: r.get("local_id"))
+    cards = "\n".join(_card(r) for r in records)
+    config.REVIEW_HTML.write_text(_TEMPLATE.format(n=len(records), cards=cards),
+                                  encoding="utf-8")
+    print(f"저장: {config.REVIEW_HTML}  ({len(records)}개 카드, 사전검수 모드)")
+    print("브라우저로 열어 '키네틱 아님/저품질'을 거부 → 'decisions 내보내기' → "
+          f"dataset/review_decisions{config._SFX}.json 로 저장")
+    return 0
+
+
 def main() -> int:
+    if len(sys.argv) > 1 and sys.argv[1] == "prescreen":
+        return _prescreen()
     if not config.DESCRIBED_JSON.exists():
         print(f"먼저 4_describe_ko.py ingest 로 {config.DESCRIBED_JSON} 를 만드세요.")
         return 1

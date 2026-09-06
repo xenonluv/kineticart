@@ -12,10 +12,20 @@ from lib.models import new_candidate
 
 
 def collect() -> list[dict]:
-    search = get_json(config.MET_SEARCH_API,
-                      {"q": config.MET_QUERY, "hasImages": "true"})
-    object_ids = search.get("objectIDs") or []
-    print(f"  [met] 검색 결과 {len(object_ids)}건, PD+이미지 필터링 중...")
+    # 2차 확장: 단일 "kinetic" 대신 인접 질의를 모두 훑는다(중복 objectID 제거).
+    queries = list(dict.fromkeys([config.MET_QUERY, *getattr(config, "ART_QUERIES", [])]))
+    object_ids: list[int] = []
+    seen_ids: set[int] = set()
+    for q in queries:
+        try:
+            search = get_json(config.MET_SEARCH_API, {"q": q, "hasImages": "true"})
+        except RuntimeError:
+            continue
+        for oid in search.get("objectIDs") or []:
+            if oid not in seen_ids:
+                seen_ids.add(oid)
+                object_ids.append(oid)
+    print(f"  [met] 검색 결과 {len(object_ids)}건({len(queries)}개 질의), PD+이미지 필터링 중...")
 
     candidates: list[dict] = []
     for oid in object_ids:

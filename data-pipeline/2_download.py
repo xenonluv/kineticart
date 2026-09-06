@@ -79,7 +79,8 @@ def main() -> int:
     ok: list[dict] = []
     fail = 0
     for i, rec in enumerate(candidates):
-        local_id = f"{i:03d}"
+        # ID_START(기본 0) 오프셋 — 2차 배치는 200부터 발급해 기존 000~190과 충돌 방지
+        local_id = f"{config.ID_START + i:03d}"
         rec["local_id"] = local_id
         dest_base = config.WORKS_DIR / local_id
         try:
