@@ -23,8 +23,19 @@ BATCH = os.environ.get("KINERAG_BATCH", "").strip()
 _SFX = f"_{BATCH}" if BATCH else ""
 ID_START = int(os.environ.get("KINERAG_ID_START", "0"))
 
-# 배치 수집 시 '이미 가진 작품'으로 간주해 후보에서 제외할 이전 산출물
-PRIOR_RECORD_FILES = [DATASET_DIR / "downloaded.json", DATASET_DIR / "described.json"]
+
+def prior_record_files() -> list["Path"]:
+    """배치 수집 시 '이미 가진 작품'으로 간주할 이전 배치 산출물.
+
+    현재 배치 자신의 산출물(downloaded{_SFX}.json 등)은 제외해야 한다 —
+    포함하면 같은 배치를 다시 돌릴 때 자기 자신을 전부 제외해 후보가 비어버린다.
+    """
+    if not BATCH:
+        return []
+    own = {f"downloaded{_SFX}.json", f"described{_SFX}.json"}
+    files = sorted(DATASET_DIR.glob("downloaded*.json")) + \
+        sorted(DATASET_DIR.glob("described*.json"))
+    return [p for p in files if p.name not in own]
 
 CANDIDATES_JSON = DATASET_DIR / f"candidates{_SFX}.json"   # 1_discover 산출
 DOWNLOADED_JSON = DATASET_DIR / f"downloaded{_SFX}.json"   # 2_download 산출

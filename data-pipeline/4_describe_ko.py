@@ -64,7 +64,20 @@ def ingest(results_path: str) -> int:
     results = load_records(results_path)
     by_id = {r["local_id"]: r for r in results}
 
+    # 기존 described 산출물이 있으면 그것을 베이스로 병합한다.
+    # (enriched 만으로 새로 만들면 이전에 생성한 한글 설명이 통째로 날아간다)
     records = load_records(config.ENRICHED_JSON)
+    if config.DESCRIBED_JSON.exists():
+        prior = {r["local_id"]: r for r in load_records(config.DESCRIBED_JSON)
+                 if r.get("local_id")}
+        for i, r in enumerate(records):
+            if r.get("local_id") in prior:
+                merged_rec = dict(r)
+                merged_rec.update({k: v for k, v in prior[r["local_id"]].items()
+                                   if v not in (None, "", [])})
+                records[i] = merged_rec
+        known = {r.get("local_id") for r in records}
+        records += [r for lid, r in prior.items() if lid not in known]
     config.TEXTS_DIR.mkdir(parents=True, exist_ok=True)
 
     merged = 0

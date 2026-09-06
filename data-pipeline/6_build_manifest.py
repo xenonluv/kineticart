@@ -20,7 +20,8 @@ import sys
 import config
 from lib.models import load_records, save_records
 
-DECISIONS = config.DATASET_DIR / "review_decisions.json"
+DECISIONS = config.DATASET_DIR / f"review_decisions{config._SFX}.json"
+PINNED = config.DATASET_DIR / "pinned_live.json"   # 이미 라이브 DB/파일서버에 배포된 local_id
 SCHEMA_SQL = config.DATASET_DIR / "schema_additions.sql"
 DEPLOY_TXT = config.DATASET_DIR / "deploy_files.txt"
 
@@ -61,6 +62,11 @@ def _select(records: list[dict], decisions: dict) -> list[dict]:
     pool = [r for r in pool
             if not _is_noise(r) or decisions.get(r["local_id"]) == "approved"]
 
+    # 이미 라이브에 배포된 작품은 항상 유지(선별 정원과 무관) — 빠지면 DB 재구축 시 소실.
+    pinned_ids = set(json.load(open(PINNED, encoding="utf-8"))) if PINNED.exists() else set()
+    pinned = [r for r in pool if r["local_id"] in pinned_ids]
+    pool = [r for r in pool if r["local_id"] not in pinned_ids]
+
     key = lambda r: _rank(r, decisions.get(r["local_id"]))
     non_lumino = sorted((r for r in pool if not _is_lumino(r)), key=key, reverse=True)
     lumino = sorted((r for r in pool if _is_lumino(r)), key=key, reverse=True)
@@ -70,7 +76,7 @@ def _select(records: list[dict], decisions: dict) -> list[dict]:
     if len(selected) < config.TARGET_FINAL:
         need = config.TARGET_FINAL - len(selected)
         selected += lumino[:min(config.LUMINO_CAP, need)]
-    return selected
+    return pinned + selected
 
 
 def _sql_str(v) -> str:
@@ -124,7 +130,11 @@ def _seed_sql(rows: list[dict]) -> str:
     lines = [
         "-- 키네틱 아트 시드 데이터 (자동 생성)",
         "-- 실행 전 schema_additions.sql 먼저 적용하세요.",
-        "-- service_role 권한으로 1회만 실행.",
+        "-- 재실행 안전(멱등): source_url 유니크 인덱스 + ON CONFLICT DO NOTHING.",
+        "",
+        "-- (Postgres 는 NULL 을 서로 다르게 보므로 source_url NULL 행은 제약을 받지 않는다)",
+        "create unique index if not exists kinetic_artworks_source_url_key",
+        "  on kinetic_artworks (source_url);",
         "",
     ]
     for r in rows:
@@ -139,7 +149,8 @@ def _seed_sql(rows: list[dict]) -> str:
         ]
         lines.append(
             f"insert into kinetic_artworks ({', '.join(cols)})\n"
-            f"values ({', '.join(vals)});"
+            f"values ({', '.join(vals)})\n"
+            f"on conflict (source_url) do nothing;"
         )
     return "\n".join(lines) + "\n"
 

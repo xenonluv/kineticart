@@ -44,8 +44,8 @@ def _prior_keys() -> tuple[set[str], set[str]]:
     """이전 배치에서 이미 수집한 작품의 (source_page_url, source|source_id) 집합."""
     urls: set[str] = set()
     sids: set[str] = set()
-    for path in config.PRIOR_RECORD_FILES:
-        if path == config.CANDIDATES_JSON or not path.exists():
+    for path in config.prior_record_files():
+        if not path.exists():
             continue
         for r in load_records(path):
             if r.get("source_page_url"):
@@ -79,7 +79,7 @@ def main() -> int:
         except Exception as e:  # noqa: BLE001
             print(f"  ! {name} 수집 실패: {e}")
 
-    # 이전 배치에서 이미 가진 작품 제외 (배치 모드에서만 의미 있음)
+    # 이전 배치에서 이미 가진 작품 제외 (배치 모드에서만 동작 — prior_record_files)
     prior_urls, prior_sids = _prior_keys()
     if prior_urls or prior_sids:
         kept = [r for r in all_records

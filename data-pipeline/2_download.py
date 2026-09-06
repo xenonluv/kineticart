@@ -83,6 +83,13 @@ def main() -> int:
         local_id = f"{config.ID_START + i:03d}"
         rec["local_id"] = local_id
         dest_base = config.WORKS_DIR / local_id
+        # works/ 는 라이브 파일서버 볼륨 — 기존 작품 이미지를 덮어쓰면 즉시 사고.
+        # KINERAG_ID_START 를 잊고 실행한 경우를 여기서 막는다.
+        existing = list(config.WORKS_DIR.glob(f"{local_id}.*"))
+        if existing:
+            print(f"  [{local_id}] 이미 존재({existing[0].name}) — 덮어쓰기 방지로 중단.\n"
+                  f"  KINERAG_ID_START 를 충돌하지 않는 값으로 지정해 다시 실행하세요.")
+            return 1
         try:
             raw = get_bytes(rec["image_src_url"])
             fname, w, h, mb = _save_image(raw, rec.get("mime") or "image/jpeg",
