@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Box, ImagePlus, Send, Sparkles, X } from "lucide-react";
 import type { ArtworkLite } from "@/lib/types";
+import { fallbackTo, thumbOf } from "@/lib/types";
 import { readSse } from "@/lib/sse";
 import { cn } from "@/lib/utils";
 
@@ -167,7 +168,7 @@ export function ChatPanel({
                 className="relative h-14 w-14 overflow-hidden rounded ring-1 ring-neutral-700"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={r.image_url} alt={r.title} className="h-full w-full object-cover" />
+                <img src={thumbOf(r)} onError={fallbackTo(r.image_url)} alt={r.title} className="h-full w-full object-cover" />
                 <button
                   onClick={() => onRemoveRef(r.id)}
                   className="absolute right-0 top-0 grid h-4 w-4 place-items-center rounded-bl bg-black/70 text-white"

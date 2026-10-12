@@ -2,7 +2,7 @@
 # Postgres 최초 기동 시 1회 실행 (데이터 볼륨이 비어있을 때).
 #   - kinetic_artworks 테이블(전 컬럼) + 공개읽기 RLS
 #   - PostgREST 역할: web_anon(익명 읽기전용), authenticator(PostgREST 접속용)
-#   - dataset/seed.sql (69행) 적재
+#   - dataset/seed.sql 적재(멱등 upsert)
 set -e
 
 psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<EOSQL
@@ -18,6 +18,7 @@ create table kinetic_artworks (
   dimensions      text,
   tags            text[],
   thumbnail_url   text,
+  display_url     text,
   image_url       text not null,
   detail_text_url text,
   video_url       text,
@@ -47,7 +48,7 @@ create role authenticator noinherit login password '${AUTHENTICATOR_PASSWORD}';
 grant web_anon to authenticator;
 EOSQL
 
-# 시드 데이터 (69행) — 파일은 compose 로 /seed/seed.sql 에 마운트됨
+# 시드 데이터 — 파일은 compose 로 /seed/seed.sql 에 마운트됨
 psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" -f /seed/seed.sql
 
 echo "kinetic_artworks 초기화 완료: $(psql -tAc 'select count(*) from kinetic_artworks' --username "$POSTGRES_USER" --dbname "$POSTGRES_DB") 행"

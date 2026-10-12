@@ -1,13 +1,12 @@
 import { NextResponse } from "next/server";
-import { pgrst } from "@/lib/rest";
+import { getFacets } from "@/lib/server-data";
 
 export const dynamic = "force-dynamic";
 
 export async function GET() {
-  const [tags, artists, decades] = await Promise.all([
-    pgrst("/tag_facets?order=count.desc&limit=40").then((r) => r.json()),
-    pgrst("/artist_facets?order=count.desc&limit=60").then((r) => r.json()),
-    pgrst("/decade_facets?order=decade.desc").then((r) => r.json()),
-  ]);
-  return NextResponse.json({ tags, artists, decades });
+  try {
+    return NextResponse.json(await getFacets());
+  } catch {
+    return NextResponse.json({ error: "facets unavailable" }, { status: 502 });
+  }
 }

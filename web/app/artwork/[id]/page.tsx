@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getArtwork, getDetailText } from "@/lib/api";
+import { displayOf } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
@@ -24,11 +25,19 @@ export default async function ArtworkPage({
       <div className="mt-6 overflow-hidden rounded-xl bg-black ring-1 ring-neutral-800">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={art.image_url}
+          src={displayOf(art)}
           alt={art.title}
           className="max-h-[70vh] w-full object-contain"
         />
       </div>
+      <a
+        href={art.image_url}
+        target="_blank"
+        rel="noreferrer"
+        className="mt-2 inline-block text-xs text-neutral-500 underline hover:text-neutral-300"
+      >
+        원본 이미지 보기
+      </a>
 
       <div className="mt-6">
         <h1 className="text-2xl font-bold">{art.title}</h1>

@@ -1,6 +1,6 @@
 import { NextRequest } from "next/server";
 import { getLLM, CHAT_MODEL } from "@/lib/llm";
-import { pgrst } from "@/lib/rest";
+import { isUuid, pgrst } from "@/lib/rest";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -18,8 +18,9 @@ const SYSTEM = `너는 키네틱 아트(움직이는 예술) 창작을 돕는 �
 async function buildContext(referenceIds: string[], lastUser: string): Promise<string> {
   const parts: string[] = [];
 
-  if (referenceIds.length) {
-    const inList = referenceIds.map((id) => `"${id}"`).join(",");
+  const ids = referenceIds.filter(isUuid).slice(0, 3);
+  if (ids.length) {
+    const inList = ids.join(",");
     const res = await pgrst(
       `/kinetic_artworks?id=in.(${inList})&select=title,artist,created_year,materials,description,tags`,
     );

@@ -19,7 +19,13 @@
 | — | 의미검색 준비(텍스트 임베딩) | ✅ 로컬 e5-large(무료), 실검색 연결은 ~1000개 시점 |
 | — | artdata 협업 수집 저장소 | ✅ github.com/xenonluv/artdata (kinerag 병합 도구는 미구현) |
 
-**데이터**: 키네틱 아트 69작품(이미지+한글설명), CC/오픈액세스만. 수집 파이프라인은 `data-pipeline/`.
+**데이터**: 키네틱 아트 **331작품**(1차 69 + 2차 262, 이미지+한글설명), CC/오픈액세스만. 수집 파이프라인은 `data-pipeline/`.
+
+**2026-10-12 정비(가짜 설명 정리 + 웹 속도)**:
+- 2차 배치에서 429로 죽은 서브에이전트 분량 125건이 '이미지 미확인 원문 복사'로 DB에 들어갔던 사고 → Haiku 재처리(설명 68·비키네틱 거부 57). 재발 방지: `lib/validate.py` 검증 게이트(6단계), `4_describe_ko.py merge`(fallback 금지), `seed_sync.sql`(upsert+삭제, 단일 트랜잭션, 삭제 50% 초과 시 중단), `pinned_live.json` 자동 갱신(`--mark-live`).
+- 웹 속도: 갤러리가 원본(장변 2000, GIF 최대 54MB)을 받던 것 → 파생본 `cards/`(480, 카드)·`thumbs/`(768, 참조·비전 내부용)·`display/`(1600, 상세·GIF는 애니메이션 WebP). 첫 화면 37.9MB→1.0MB. 파생본은 `?v=<해시>` + 1년 immutable 캐시. 서버 내부 호출은 내부 주소(hairpin 제거), 검색 300ms 디바운스+요청 취소, 패싯 5분 캐시.
+- ⚠️ **남은 병목 = Cloudflare 무료 플랜 경로**: 이 도메인 요청이 한국(KT)에서 **시애틀(SEA)** 엣지로 감(cf-ray `-SEA`). 서버 처리 8~30ms인데 공개 요청은 요청당 ~2초·캐시 HIT도 수십 KB/s. 회선(87/76Mbps) 문제 아님. 해결은 인프라 선택(직접 노출/국내 VM 프록시/유료) — 미결정.
+- 서브에이전트 대량 비전 규칙: **haiku · 파트 15건 · 동시 최대 3 · 순차 교대**, 입력은 `thumbs/`(768). 실패 파트는 비워 두고 재큐잉(대신 채우기 금지). 상세: `data-pipeline/README.md` 4단계.
 
 **의미검색 준비(2026-08-06)**: 수집 파이프라인에 텍스트 임베딩 단계 추가 — `data-pipeline/5b_embed.py`, 로컬 `fastembed`+`intfloat/multilingual-e5-large`(1024차원, **무료·무API**). `described.json`/`manifest.json`에 임베딩 부착(멱등=소스텍스트 sha). 실제 벡터검색(pgvector) 연결은 데이터 ~1000개 시점으로 미룸(임베딩만 미리 심음). ⚠️계획서의 bge-m3는 fastembed 미지원→e5-large 대체(차원 동일). e5 규약: 문서 `passage:`/질의 `query:` 접두.
 
@@ -36,7 +42,7 @@
 인터넷 → Cloudflare 엣지(HTTPS, 유동IP 무관) → cloudflared 터널 → 집 Mac Docker
   www.kctikinec.cloud    → web        (Next.js 15, 비밀번호 게이트)
   api.kctikinec.cloud    → postgrest  → db (Postgres, 외부 비노출)
-  images.kctikinec.cloud → file-server(nginx: /works /texts /generated)
+  images.kctikinec.cloud → file-server(nginx: /works /cards /thumbs /display /texts /generated)
 ```
 
 | 컨테이너 | 이미지 | 역할 | 포트(로컬) |
@@ -56,9 +62,11 @@ kinerag/
 ├── docker-compose.yml        # 스택 전체 정의
 ├── .env                      # 비밀(gitignore) — 아래 '환경변수' 참조
 ├── 목적1.md / 환경설치.md      # 요구사항·설계 문서
-├── file-server/              # nginx Dockerfile + default.conf(CORS, /works /texts /generated)
+├── file-server/              # nginx Dockerfile + default.conf(CORS, 파생본 immutable 캐시)
 ├── db/init/                  # 최초 기동 SQL: 00-init.sh(스키마+시드), 01-search.sql(pg_trgm+패싯뷰)
-├── works/  texts/            # 원본 이미지·한글설명 (파일서버가 서빙, 최종 69개는 deploy_files.txt)
+├── works/  texts/            # 원본 이미지·한글설명 (최종 목록은 dataset/deploy_files.txt)
+├── cards/ thumbs/ display/   # 웹 표시용 파생 WebP(2b_derivatives.py, gitignore)
+├── backups/                  # DB pg_dump (seed_sync 적용 전, gitignore)
 ├── generated/                # AI 생성 이미지 저장(web가 쓰고 file-server가 서빙)
 ├── dataset/                  # 파이프라인 산출물(manifest.json, seed.sql, review.html 등)
 ├── data-pipeline/            # 데이터 수집 파이프라인(Python, 6단계) — README.md 참조
@@ -128,7 +136,8 @@ docker compose logs -f web           # 로그
 - REST API는 Supabase 클라우드 대신 **자체 Postgres+PostgREST**(PostgREST가 Supabase REST의 실체). 집 Mac은 파일·DB·API·웹 전부 Docker 호스팅.
 - **Vercel 미사용** — 웹앱도 Docker 자체호스팅(이식성·무료·락인 회피).
 - LLM은 `lib/`에 격리, Vercel AI SDK 미사용(각 provider 직접).
-- 데이터는 CC/오픈액세스만(재배포 안전). 품질 우선(수량 억지로 안 채움) → 69개.
+- 데이터는 CC/오픈액세스만(재배포 안전). 품질 우선(수량 억지로 안 채움) — 이미지 미확인 설명은 게이트로 차단.
+- 갤러리·상세는 파생본만 사용, 원본(`works/`)은 '원본 보기' 링크로만 노출.
 
 ---
 

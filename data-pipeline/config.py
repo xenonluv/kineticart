@@ -2,7 +2,9 @@
 
 모든 스테이지 스크립트(1_discover.py ~ 6_build_manifest.py)가 이 값을 공유한다.
 """
+import json
 import os
+import re
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
@@ -15,13 +17,50 @@ TEXTS_DIR = ROOT / "texts"                              # 한글 상세 설명 (
 DATASET_DIR = ROOT / "dataset"                          # 중간/최종 산출물
 
 # ---------------------------------------------------------------------------
-# 배치(batch) — 2차 수집을 1차(69작품)와 섞지 않기 위한 파일 분리
-#   KINERAG_BATCH=b2  → candidates_b2.json … described_b2.json 로 산출
-#   KINERAG_ID_START=200 → local_id 를 200부터 발급(기존 000~190과 충돌 방지)
+# 배치(batch) — 2차 이후 수집을 1차(69작품)와 섞지 않기 위한 파일 분리
+#   KINERAG_BATCH=b3  → candidates_b3.json … described_b3.json 로 산출 (형식 b<숫자> 만 허용)
+#   KINERAG_ID_START  → 생략 권장. 2_download 가 기존 최대 id 기준으로 자동 발급한다.
 # ---------------------------------------------------------------------------
 BATCH = os.environ.get("KINERAG_BATCH", "").strip()
+if BATCH and not re.fullmatch(r"b\d+", BATCH):
+    # described_b*.json 만 6단계 통합 대상이므로, 규칙 밖 이름은 배치가 통째로 누락된다
+    raise SystemExit(f"KINERAG_BATCH='{BATCH}' 형식 오류 — 'b3' 처럼 b+숫자만 허용")
 _SFX = f"_{BATCH}" if BATCH else ""
 ID_START = int(os.environ.get("KINERAG_ID_START", "0"))
+ID_START_SET = "KINERAG_ID_START" in os.environ
+
+
+def guard_first_batch(path: "Path") -> None:
+    """배치 미지정 실행이 1차 산출물을 덮어쓰는 사고 방지(실제로 한 번 발생 — 5cb9ed8 에서 복구).
+    1~3단계는 산출 직전에 호출한다. 1차를 의도적으로 재생성하려면 KINERAG_ALLOW_FIRST_BATCH=1."""
+    if not BATCH and path.exists() and os.environ.get("KINERAG_ALLOW_FIRST_BATCH") != "1":
+        raise SystemExit(
+            f"✗ KINERAG_BATCH 미지정 — 1차 산출물 {path.name} 을 덮어쓰게 됩니다. 중단.\n"
+            f"  새 배치는 KINERAG_BATCH=b3 처럼 지정하세요.")
+
+
+def known_max_id() -> int:
+    """지금까지 발급된 local_id 최댓값(모든 배치 산출물 + pinned + works/ + texts/)."""
+    ids: set[int] = set()
+    for pat in ("downloaded*.json", "described*.json", "pinned_live.json"):
+        for f in DATASET_DIR.glob(pat):
+            try:
+                data = json.loads(f.read_text(encoding="utf-8"))
+            except (OSError, ValueError):
+                continue
+            for r in data:
+                lid = r.get("local_id") if isinstance(r, dict) else r
+                if str(lid).isdigit():
+                    ids.add(int(lid))
+    for d in (WORKS_DIR, TEXTS_DIR):
+        if d.exists():
+            ids.update(int(p.stem) for p in d.iterdir() if p.stem.isdigit())
+    return max(ids) if ids else -1
+
+
+def auto_id_start() -> int:
+    """새 배치의 시작 id — 기존 최대 id 다음의 100 단위 경계(예: 1099 → 1100)."""
+    return (known_max_id() // 100 + 1) * 100
 
 
 def prior_record_files() -> list["Path"]:
@@ -78,6 +117,19 @@ LUMINO_CAP = 0
 MAX_LONG_EDGE = 2000        # 다운로드/저장 시 장변 상한(px) — 용량 관리
 MIN_LONG_EDGE = 500         # 이 미만은 후보에서 제외 (썸네일/아이콘 배제)
 JPEG_QUALITY = 88
+
+# 웹 표시용 파생본 (2b_derivatives.py) — 원본 works/ 는 '원본 보기'용으로만 서빙
+CARDS_DIR = ROOT / "cards"              # 갤러리 카드·채팅 참조 칩 (DB thumbnail_url)
+THUMBS_DIR = ROOT / "thumbs"            # Haiku 비전 입력·이미지 생성 참조(내부 전용)
+DISPLAY_DIR = ROOT / "display"          # 상세 화면 (DB display_url)
+CARD_LONG_EDGE = 480                    # 카드 표시폭 ~260px × 2(레티나) 기준
+CARD_QUALITY = 65
+THUMB_LONG_EDGE = 768
+THUMB_QUALITY = 72
+DISPLAY_LONG_EDGE = 1600
+DISPLAY_QUALITY = 80
+DISPLAY_ANIM_LONG_EDGE = 800            # 애니메이션 WebP 는 프레임 수만큼 커지므로 더 작게
+DISPLAY_ANIM_QUALITY = 60
 
 # ---------------------------------------------------------------------------
 # 최종 공개 URL 베이스 (도메인 확정 전 placeholder)

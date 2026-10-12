@@ -16,6 +16,9 @@ services:
     volumes:
       - ./works:/srv/works:ro
       - ./texts:/srv/texts:ro
+      - ./cards:/srv/cards:ro          # 파생 카드 480(갤러리)
+      - ./thumbs:/srv/thumbs:ro        # 파생 썸네일 768(참조·비전)
+      - ./display:/srv/display:ro      # 파생 상세 이미지
       - ./generated:/srv/generated:ro
     restart: unless-stopped
 
@@ -30,7 +33,7 @@ services:
     volumes:
       - db-data:/var/lib/postgresql/data
       - ./db/init:/docker-entrypoint-initdb.d:ro          # 최초 1회 스키마+시드
-      - ./dataset/seed.sql:/seed/seed.sql:ro              # 69행 시드
+      - ./dataset/seed.sql:/seed/seed.sql:ro              # 시드(최초 기동 1회)
     restart: unless-stopped
     # 외부 미노출(내부 네트워크만). 로컬 디버깅 필요시: ports: ["5432:5432"]
 

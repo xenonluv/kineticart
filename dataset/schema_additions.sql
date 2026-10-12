@@ -5,3 +5,4 @@ alter table kinetic_artworks add column if not exists video_url text;
 alter table kinetic_artworks add column if not exists license text;
 alter table kinetic_artworks add column if not exists attribution text;
 alter table kinetic_artworks add column if not exists source_url text;
+alter table kinetic_artworks add column if not exists display_url text;

@@ -5,6 +5,9 @@
 *.md
 works
 texts
+cards
+thumbs
+display
 data-pipeline
 dataset
 **/__pycache__

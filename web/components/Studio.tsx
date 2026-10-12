@@ -1,5 +1,5 @@
 "use client";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { PanelRightClose, PanelRightOpen } from "lucide-react";
 import type { ArtworkLite, Facets, Filters } from "@/lib/types";
 import { DEFAULT_FILTERS } from "@/lib/types";
@@ -15,6 +15,16 @@ export function Studio({ facets }: { facets: Facets }) {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [chatOpen, setChatOpen] = useState(true);
   const { items, total, loading, loadMore, nextOffset } = useArtworks(filters);
+
+  // 검색어는 입력 즉시가 아니라 300ms 멈춘 뒤 반영 — 키 입력마다 API 호출 방지
+  const [qInput, setQInput] = useState(filters.q);
+  useEffect(() => {
+    const t = setTimeout(
+      () => setFilters((f) => (f.q === qInput ? f : { ...f, q: qInput })),
+      300,
+    );
+    return () => clearTimeout(t);
+  }, [qInput]);
 
   const addReference = useCallback((a: ArtworkLite) => {
     setReferences((prev) =>
@@ -37,8 +47,8 @@ export function Studio({ facets }: { facets: Facets }) {
           키네틱 아트 스튜디오
         </h1>
         <input
-          value={filters.q}
-          onChange={(e) => setFilters((f) => ({ ...f, q: e.target.value }))}
+          value={qInput}
+          onChange={(e) => setQInput(e.target.value)}
           placeholder="작품·작가·설명 검색…"
           className="w-full max-w-md rounded-md bg-neutral-900 px-3 py-1.5 text-sm text-neutral-100 ring-1 ring-neutral-800 outline-none focus:ring-neutral-600"
         />

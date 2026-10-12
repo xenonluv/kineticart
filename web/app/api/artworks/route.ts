@@ -21,11 +21,11 @@ export async function GET(req: NextRequest) {
   const artist = sp.get("artist")?.trim();
   const decade = sp.get("decade");
   const sort = sp.get("sort") ?? "year_desc";
-  const limit = Math.min(Math.max(Number(sp.get("limit") ?? 48), 1), 100);
-  const offset = Math.max(Number(sp.get("offset") ?? 0), 0);
+  const limit = Math.min(Math.max(Math.floor(Number(sp.get("limit")) || 48), 1), 100);
+  const offset = Math.max(Math.floor(Number(sp.get("offset")) || 0), 0);
 
   const p = new URLSearchParams();
-  p.set("select", "id,title,artist,created_year,image_url,tags");
+  p.set("select", "id,title,artist,created_year,image_url,thumbnail_url,tags");
   p.set("order", ORDER[sort] ?? ORDER.year_desc);
   if (q) {
     const like = `*${q}*`;

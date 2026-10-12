@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { Plus, X } from "lucide-react";
 import type { ArtworkFull, ArtworkLite } from "@/lib/types";
+import { displayOf, fallbackTo } from "@/lib/types";
 
 export function DetailModal({
   id,
@@ -54,8 +55,10 @@ export function DetailModal({
           <>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={art.image_url}
+              src={displayOf(art)}
+              onError={fallbackTo(art.image_url)}
               alt={art.title}
+              decoding="async"
               className="max-h-[60vh] w-full bg-black object-contain"
             />
             <div className="p-5">
@@ -101,6 +104,15 @@ export function DetailModal({
                 <p className="mt-5 border-t border-neutral-800 pt-3 text-xs text-neutral-500">
                   {art.license}
                   {art.attribution ? ` · ${art.attribution}` : ""}
+                  {" · "}
+                  <a
+                    href={art.image_url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline hover:text-neutral-300"
+                  >
+                    원본 이미지
+                  </a>
                   {art.source_url && (
                     <>
                       {" · "}

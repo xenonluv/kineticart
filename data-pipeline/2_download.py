@@ -18,8 +18,11 @@ import sys
 from PIL import Image
 
 import config
+from lib import imaging
 from lib.http import get_bytes
 from lib.models import load_records, save_records
+
+SAVE_EVERY = 25   # 중간 저장 주기(이어받기용)
 
 _EXT = {
     "image/jpeg": ".jpg",
@@ -44,12 +47,8 @@ def _save_image(raw: bytes, mime: str, dest_base) -> tuple[str, int, int, float]
         path.write_bytes(raw)
         w, h = img.size
     else:
+        img = imaging.fit_long_edge(img, config.MAX_LONG_EDGE)
         w, h = img.size
-        long_edge = max(w, h)
-        if long_edge > config.MAX_LONG_EDGE:
-            scale = config.MAX_LONG_EDGE / long_edge
-            img = img.resize((round(w * scale), round(h * scale)), Image.LANCZOS)
-            w, h = img.size
 
         if ext in (".jpg", ".jpeg"):
             path = dest_base.with_suffix(".jpg")
@@ -72,24 +71,42 @@ def _save_image(raw: bytes, mime: str, dest_base) -> tuple[str, int, int, float]
 def main() -> int:
     print("== 스테이지 2: 이미지 다운로드 ==")
     config.WORKS_DIR.mkdir(parents=True, exist_ok=True)
+    config.guard_first_batch(config.DOWNLOADED_JSON)
 
     candidates = load_records(config.CANDIDATES_JSON)
-    print(f"후보 {len(candidates)}개 다운로드 시작 → {config.WORKS_DIR}")
 
+    # 이어받기(resume): 이 배치에서 이미 받은 것은 source_page_url 기준으로 재사용한다.
+    # 중간 저장(SAVE_EVERY)과 합쳐, 중단돼도 받은 이미지·레코드를 잃지 않는다.
     ok: list[dict] = []
+    done: dict[str, dict] = {}
+    if config.DOWNLOADED_JSON.exists():
+        ok = load_records(config.DOWNLOADED_JSON)
+        done = {r.get("source_page_url"): r for r in ok}
+        print(f"이어받기: 기존 {len(ok)}개 재사용")
+
+    # local_id 발급: KINERAG_ID_START 지정 시 그 값, 아니면 기존 최대 id 기준 자동.
+    # (works/·texts/·모든 배치 산출물·pinned 를 모두 보므로 라이브 id 와 충돌하지 않는다)
+    if ok:
+        next_id = max(int(r["local_id"]) for r in ok) + 1
+        next_id = max(next_id, config.known_max_id() + 1)
+    else:
+        next_id = config.ID_START if config.ID_START_SET else config.auto_id_start()
+    print(f"후보 {len(candidates)}개 → {config.WORKS_DIR} (신규 id {next_id:03d}부터)")
+
     fail = 0
     for i, rec in enumerate(candidates):
-        # ID_START(기본 0) 오프셋 — 2차 배치는 200부터 발급해 기존 000~190과 충돌 방지
-        local_id = f"{config.ID_START + i:03d}"
-        rec["local_id"] = local_id
+        if rec.get("source_page_url") in done:
+            continue
+        local_id = f"{next_id:03d}"
         dest_base = config.WORKS_DIR / local_id
         # works/ 는 라이브 파일서버 볼륨 — 기존 작품 이미지를 덮어쓰면 즉시 사고.
-        # KINERAG_ID_START 를 잊고 실행한 경우를 여기서 막는다.
         existing = list(config.WORKS_DIR.glob(f"{local_id}.*"))
         if existing:
+            save_records(config.DOWNLOADED_JSON, ok)
             print(f"  [{local_id}] 이미 존재({existing[0].name}) — 덮어쓰기 방지로 중단.\n"
-                  f"  KINERAG_ID_START 를 충돌하지 않는 값으로 지정해 다시 실행하세요.")
+                  f"  KINERAG_ID_START 를 지우고(자동 발급) 다시 실행하세요. (진행분 {len(ok)}개 저장됨)")
             return 1
+        rec["local_id"] = local_id
         try:
             raw = get_bytes(rec["image_src_url"])
             fname, w, h, mb = _save_image(raw, rec.get("mime") or "image/jpeg",
@@ -104,8 +121,10 @@ def main() -> int:
             rec["height"] = h
             rec["file_size_mb"] = mb
             ok.append(rec)
-            if (i + 1) % 25 == 0:
-                print(f"  ... {i + 1}/{len(candidates)} 처리")
+            next_id += 1
+            if len(ok) % SAVE_EVERY == 0:
+                save_records(config.DOWNLOADED_JSON, ok)
+                print(f"  ... {i + 1}/{len(candidates)} 처리 (중간 저장 {len(ok)}개)")
         except Exception as e:  # noqa: BLE001
             print(f"  [{local_id}] 실패: {str(e)[:80]}")
             fail += 1
@@ -115,6 +134,7 @@ def main() -> int:
     print(f"\n완료: 성공 {len(ok)}개 / 실패 {fail}개")
     print(f"총 이미지 용량: {total_mb} MB")
     print(f"저장: {config.DOWNLOADED_JSON}")
+    print("다음: 3_enrich.py → 2b_derivatives.py(썸네일·상세 파생본) → 4_describe_ko.py prepare")
     return 0
 
 

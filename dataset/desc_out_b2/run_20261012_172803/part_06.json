@@ -1,0 +1,112 @@
+[
+  {
+    "local_id": "579",
+    "reject": true,
+    "notes": "흑백 그림자·선 패턴 사진. 식별 가능한 작품이 보이지 않음, 원문은 도서/전시 제목뿐"
+  },
+  {
+    "local_id": "581",
+    "title_display": "본 법학부 건물(Juridicum) 외벽 작품 (Bonn Juridicum Vasarely)",
+    "artist": "빅토르 바사렐리 (Victor Vasarely)",
+    "created_year": 1969,
+    "materials_ko": "소성 에나멜(Feuer-Emaille), 6×12m",
+    "description_ko": "빅토르 바사렐리가 설계한 흑백 기하 패턴의 옵아트 외벽 작품이다. 움직이지 않는 벽면 구성이며, 시점에 따라 착시와 입체감이 생긴다.",
+    "detail_text_ko": "원문에 따르면 독일 본 법학부 건물(Juridicum) 정면을 장식하는 바사렐리의 작품이다. 설계는 1965년, 시공은 1969년에 이루어졌고 제작 기법은 법랑(Feuer-Emaille)이며 크기는 6×12m다. 사진에서는 사각형과 선이 반복되는 흑백 패턴이 건물 외벽 전면에 펼쳐져 있다. 감상 포인트는 움직임이 아니라 옵아트 특유의 시각적 착시이며, 건물 전체와 결합된 설계라는 점이다.",
+    "tags_ko": ["키네틱아트", "옵아트", "바사렐리", "건축벽화"],
+    "uncertain": true,
+    "notes": "움직임 없는 외벽 벽화. 옵아트 기준으로 통과. 제작연도는 시공연도 1969 기준(설계 1965)"
+  },
+  {
+    "local_id": "584",
+    "reject": true,
+    "notes": "브리짓 라일리 전시장 내부 전경 사진. 작품 한 점이 주제가 아님"
+  },
+  {
+    "local_id": "585",
+    "reject": true,
+    "notes": "인물 3명 기념사진. 작품은 배경일 뿐"
+  },
+  {
+    "local_id": "586",
+    "title_display": "Val du Roi 레지던스 바사렐리 격자 (Grille de Vasarely à la résidence Val du Roi)",
+    "artist": "빅토르 바사렐리 (Victor Vasarely)",
+    "created_year": null,
+    "materials_ko": "철재 (백색 도장 추정)",
+    "description_ko": "원문이 바사렐리의 작품으로 소개하는 Val du Roi 레지던스의 철제 격자다. 곡선 막대가 반복되어 물결 같은 옵아트 무늬를 만든다.",
+    "detail_text_ko": "원문은 이 격자를 빅토르 바사렐리의 작품이며 Val du Roi 레지던스에 설치되어 있다고 기록한다. 사진에서는 흰색 금속 막대가 휘어지며 반복되어, 뒤편의 녹지와 건물 유리창과 겹쳐 보이는 착시를 만든다. 옵아트 효과를 건축 난간에 적용한 사례로 볼 수 있다. 원문에 제작 연도와 재질 정보가 없어 재질은 사진 기준 추정이다. 움직임은 확인되지 않았다.",
+    "tags_ko": ["키네틱아트", "옵아트", "바사렐리", "철재"],
+    "uncertain": true,
+    "notes": "건물 난간형 격자이며 움직임 미확인. 옵아트 기준으로 통과. 재질·제작연도 원문 미기재"
+  },
+  {
+    "local_id": "587",
+    "title_display": "벨뷰 측 바사렐리 격자 (Grille de Victor Vasarely côté Belle-Vue)",
+    "artist": "빅토르 바사렐리 (Victor Vasarely)",
+    "created_year": null,
+    "materials_ko": "철재 (백색 도장 추정)",
+    "description_ko": "원문이 바사렐리의 격자로 소개하는 철제 구조물을 벨뷰 쪽에서 찍은 사진이다. 곡선 막대가 반복되어 물결 같은 옵아트 무늬를 만든다.",
+    "detail_text_ko": "원문은 빅토르 바사렐리의 격자를 벨뷰(Belle-Vue) 측면에서 촬영한 이미지라고 설명한다. 사진에서는 흰색 금속 막대가 세로로 촘촘하게 배열되어 곡선 무늬를 이루며, 뒤편의 식재와 겹쳐 보인다. 원문에 제작 연도와 재질 정보가 없어 재질은 사진 기준 추정이다. 움직임은 확인되지 않았다.",
+    "tags_ko": ["키네틱아트", "옵아트", "바사렐리", "철재"],
+    "uncertain": true,
+    "notes": "586과 같은 격자의 다른 시점. 움직임 미확인. 옵아트 기준으로 통과"
+  },
+  {
+    "local_id": "589",
+    "reject": true,
+    "notes": "작가 묘비 사진. 작품 아님"
+  },
+  {
+    "local_id": "599",
+    "title_display": "소토의 구체 (Soto sphere)",
+    "artist": "헤수스 라파엘 소토 (Jesús Rafael Soto)",
+    "created_year": null,
+    "materials_ko": "수직 선재 (사진 기준 추정)",
+    "description_ko": "헤수스 라파엘 소토의 구체 작품으로, 수직 선들이 겹쳐 붉은 원형 덩어리처럼 보인다. 흐린 사진이라 움직이는 상태일 가능성이 있다.",
+    "detail_text_ko": "원문은 이 작품을 헤수스 소토 현대미술관(Jesús Soto Museum of Modern Art)에 설치된 소토의 구체라고 소개한다. 사진에서는 촘촘한 수직선이 겹쳐 원형 형태가 흐릿하게 보이며, 셔터 속도 때문인지 잔상이 생겨 움직임이 있었을 가능성이 있다. 원문에 제작 연도와 재질 정보가 없어 재질은 사진 기준 추정이다. 구동 방식은 확인되지 않았다.",
+    "tags_ko": ["키네틱아트", "소토", "구체", "설치"],
+    "uncertain": true,
+    "notes": "움직임은 사진 흐림으로 추정할 뿐 확인되지 않음. 제작연도는 원문 미기재(hint_year 2006은 촬영 추정)"
+  },
+  {
+    "local_id": "602",
+    "reject": true,
+    "notes": "묘비 사진. 작품 아님"
+  },
+  {
+    "local_id": "608",
+    "reject": true,
+    "notes": "작가(빅토르 바사렐리) 인물 사진"
+  },
+  {
+    "local_id": "615",
+    "reject": true,
+    "notes": "토론 패널 연사 단체 사진. 작품 아님"
+  },
+  {
+    "local_id": "627",
+    "title_display": "클라우드 포털 (Cloud Portal)",
+    "artist": "네드 칸 (Ned Kahn)",
+    "created_year": null,
+    "materials_ko": "금속 루버 (사진 기준 추정)",
+    "description_ko": "샌프란시스코 데이비스 코트 모서리에 설치된 네드 칸의 작품으로, 수평 금속 루버가 사각 틀 구조를 이룬다.",
+    "detail_text_ko": "원문은 워싱턴 가와 데이비스 가 모서리(Davis Court, 샌프란시스코)에 있는 네드 칸의 'Cloud Portal'을 소개한다. 사진에서는 수평 루버가 겹겹이 쌓인 사각 틀이 광장 한가운데 서 있고, 뒤로 고층 빌딩이 겹쳐 보인다. 촬영 시점에 움직이는 부분은 확인되지 않았다. 구동 방식은 원문과 사진으로 확인되지 않아 단정하지 않는다.",
+    "tags_ko": ["키네틱아트", "설치", "공공미술", "루버"],
+    "uncertain": true,
+    "notes": "정지 사진이라 움직임 미확인. 키네틱 여부 애매하여 통과 처리. 재질은 사진 기준 추정"
+  },
+  {
+    "local_id": "629",
+    "reject": true,
+    "notes": "인물 3명 기념사진. 작품은 배경일 뿐"
+  },
+  {
+    "local_id": "632",
+    "reject": true,
+    "notes": "인물 단체 사진. 작품 아님"
+  },
+  {
+    "local_id": "635",
+    "reject": true,
+    "notes": "1968년 CO-OP 모임 인물 사진. 작품 아님"
+  }
+]

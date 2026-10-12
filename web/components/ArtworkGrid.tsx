@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 import { Check, Plus } from "lucide-react";
 import type { ArtworkLite } from "@/lib/types";
+import { fallbackTo, thumbOf } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 export function ArtworkGrid({
@@ -60,9 +61,11 @@ export function ArtworkGrid({
               <div className="aspect-square overflow-hidden bg-neutral-800">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={a.image_url}
+                  src={thumbOf(a)}
+                  onError={fallbackTo(a.image_url)}
                   alt={a.title}
                   loading="lazy"
+                  decoding="async"
                   className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
                 />
               </div>

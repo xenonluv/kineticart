@@ -57,6 +57,7 @@ def _prior_keys() -> tuple[set[str], set[str]]:
 
 def main() -> int:
     print("== 스테이지 1: 후보 수집 ==")
+    config.guard_first_batch(config.CANDIDATES_JSON)   # 수집(수 분) 전에 미리 검사
     if config.BATCH:
         print(f"배치 모드: {config.BATCH} (산출 → {config.CANDIDATES_JSON.name})")
 

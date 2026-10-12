@@ -3,7 +3,7 @@
 
 described.json 의 각 레코드를 카드(썸네일 + 전체 메타 + 한글 설명)로 렌더링.
 검수자는 각 카드에서 승인/거부를 토글하고(로컬 저장), 'decisions 내보내기'로
-dataset/review_decisions.json 형태의 파일을 받아 6_build_manifest.py 에 반영할 수 있다.
+dataset/review_decisions{_배치}.json 파일을 받아 4·6단계에 반영한다(배치별 파일명, 6단계는 전 배치 병합).
 
 실행:  python 5_build_review.py
 결과:  dataset/review.html  (브라우저로 열기 — 이미지가 ../works/ 상대경로로 표시됨)
@@ -31,7 +31,8 @@ def _card(r: dict) -> str:
     return f"""
 <div class="card {'flagged' if flagged else ''}" data-id="{_esc(r['local_id'])}"
      data-status="{_esc(status)}">
-  <div class="imgwrap"><img loading="lazy" src="../works/{_esc(img)}" alt=""></div>
+  <div class="imgwrap"><img loading="lazy" src="../thumbs/{_esc(img.rsplit('.', 1)[0])}.webp"
+       onerror="this.onerror=null;this.src='../works/{_esc(img)}'" alt=""></div>
   <div class="body">
     <div class="idrow"><b>#{_esc(r['local_id'])}</b>
       <span class="lic">{_esc(r.get('license'))}</span>
@@ -100,7 +101,7 @@ _TEMPLATE = """<!doctype html><html lang="ko"><head><meta charset="utf-8">
 </header>
 <div class="grid" id="grid">{cards}</div>
 <script>
-const KEY="kinerag_review_decisions";
+const KEY="kinerag_review_decisions{sfx}";
 let D=JSON.parse(localStorage.getItem(KEY)||"{{}}");
 function render(){{
   document.querySelectorAll(".card").forEach(c=>{{
@@ -119,7 +120,7 @@ function clearDecisions(){{ if(confirm("모든 결정을 지울까요?")){{D={{}
 function exportDecisions(){{
   const blob=new Blob([JSON.stringify(D,null,2)],{{type:"application/json"}});
   const a=document.createElement("a"); a.href=URL.createObjectURL(blob);
-  a.download="review_decisions.json"; a.click();
+  a.download="review_decisions{sfx}.json"; a.click();
 }}
 document.querySelectorAll("#filter button").forEach(b=>b.onclick=()=>{{
   document.querySelectorAll("#filter button").forEach(x=>x.classList.remove("active"));
@@ -138,15 +139,15 @@ def _prescreen() -> int:
     """설명 생성(4단계) 전 노이즈 걷어내기용 검수 페이지.
 
     enriched.json 의 selected 레코드를 이미지 + 원문 메타만으로 렌더링한다.
-    거부한 id 는 review_decisions.json 으로 내보내 4_describe_ko.py prepare 가 건너뛴다.
+    거부한 id 는 review_decisions{_SFX}.json 으로 내보내 4_describe_ko.py prepare 가 건너뛴다.
     """
     if not config.ENRICHED_JSON.exists():
         print(f"먼저 3_enrich.py 로 {config.ENRICHED_JSON} 를 만드세요.")
         return 1
     records = [r for r in load_records(config.ENRICHED_JSON) if r.get("selected")]
-    records.sort(key=lambda r: r.get("local_id"))
+    records.sort(key=lambda r: int(r.get("local_id") or 0))
     cards = "\n".join(_card(r) for r in records)
-    config.REVIEW_HTML.write_text(_TEMPLATE.format(n=len(records), cards=cards),
+    config.REVIEW_HTML.write_text(_TEMPLATE.format(n=len(records), cards=cards, sfx=config._SFX),
                                   encoding="utf-8")
     print(f"저장: {config.REVIEW_HTML}  ({len(records)}개 카드, 사전검수 모드)")
     print("브라우저로 열어 '키네틱 아님/저품질'을 거부 → 'decisions 내보내기' → "
@@ -168,12 +169,12 @@ def main() -> int:
         print(f"최종 선별 {len(man_ids)}개만 렌더링 (제외 항목 숨김)")
     described = [r for r in records if r.get("description_ko")]
     described.sort(key=lambda r: (r.get("review_status") != "needs_review",
-                                  r.get("local_id")))
+                                  int(r.get("local_id") or 0)))
     cards = "\n".join(_card(r) for r in described)
-    html_out = _TEMPLATE.format(n=len(described), cards=cards)
+    html_out = _TEMPLATE.format(n=len(described), cards=cards, sfx=config._SFX)
     config.REVIEW_HTML.write_text(html_out, encoding="utf-8")
     print(f"저장: {config.REVIEW_HTML}  ({len(described)}개 카드)")
-    print(f"브라우저로 열어 검수 → 'decisions 내보내기' → dataset/review_decisions.json 저장")
+    print(f"브라우저로 열어 검수 → 'decisions 내보내기' → dataset/review_decisions{config._SFX}.json 저장")
     return 0
 
 
