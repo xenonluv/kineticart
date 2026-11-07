@@ -1,0 +1,17 @@
+[
+  {"local_id":"1733","reject":true,"notes":"정적 조각(Wax That Ass, 엉덩이 형태) — 공항 창가 사진, 움직임 없음"},
+  {"local_id":"1734","reject":true,"notes":"정적 조각 — 버스 내부 창가에 놓인 사진, 움직임 없음"},
+  {"local_id":"1735","reject":true,"notes":"정적 조각 — 놀이터 미끄럼틀 위 사진, 움직임 없음"},
+  {"local_id":"1736","reject":true,"notes":"정적 조각 — 해변 사진, 움직임 없음"},
+  {"local_id":"1737","reject":true,"notes":"정적 조각 — 화장실 복도 청소 카트 옆 사진, 움직임 없음"},
+  {"local_id":"1738","reject":true,"notes":"정적 조각 — 해변 사진, 움직임 없음"},
+  {"local_id":"1739","reject":true,"notes":"정적 조각 — 해변 근접 사진, 움직임 없음"},
+  {"local_id":"1740","reject":true,"notes":"정적 조각 — 버스정류장 사진(노숙인 포함), 움직임 없음"},
+  {"local_id":"1741","reject":true,"notes":"정적 조각 — 마트 통로 카트 안 사진, 움직임 없음"},
+  {"local_id":"2180","reject":true,"notes":"성당 건물 외관 사진 — 작품 아님"},
+  {"local_id":"2181","reject":true,"notes":"성당 첨탑·풍향계 건물 디테일 사진 — 작품 아님"},
+  {"local_id":"2185","reject":true,"notes":"성당 첨탑 일몰 사진 — 건물 디테일, 작품 아님"},
+  {"local_id":"1668","title_display":"진자 빛 그리기로 만든 형상 (A shape created using light painting)","artist":null,"created_year":null,"materials_ko":"사진, 빛 궤적(진자 구동)","description_ko":"직접 제작한 블랙번 진자에 광원을 달아 빛의 궤적으로 형상을 기록한 사진이다. 진자의 움직임이 그대로 조형이 된다.","detail_text_ko":"블랙번 진자(Blackburn pendulum)를 직접 제작해 촬영한 빛 그리기(light painting) 사진이다. 진자가 흔들리며 남긴 빛의 궤적이 입체적인 형상을 만든다. 원리는 Paul Wainwright가 영상으로 설명한 개념을 따른 것으로 소개된다. 감상 포인트는 움직임이 시간 속에서 형태로 기록된다는 점이다.","tags_ko":["키네틱아트","빛그리기","진자","사진","조형"],"uncertain":false,"notes":"작가 미확인 — 원문상 촬영자는 업로더이고 Paul Wainwright는 개념 설명자로만 나옴 / 촬영일(2018) 원문 미확인"},
+  {"local_id":"2025","reject":true,"notes":"정적 청동 인물상(Godin van de Wind) — 움직임 없음"},
+  {"local_id":"1203","title_display":"영구 운동 I (Perpetual Mobile I)","artist":"백남준 (Nam-June Paik)","created_year":1987,"materials_ko":"브라운관 TV 네트워크, 단채널 비디오","description_ko":"브라운관 TV들을 연결한 네트워크 설치 속에서 단채널 영상 〈영구 운동 I〉이 재생되는 작품이다. 영상 제목이 '영구 운동'(perpetuum mobile)임을 보여준다.","detail_text_ko":"백남준의 〈Fish Flies on Sky〉 설치 중 한 부분으로, 뒤셀도르프 쿤스트팔라스트 미술관에서 소개된 작품이다. 천장에 매달린 브라운관 TV들이 망처럼 연결되어 있고, 그 안에서 4분 4초 길이의 단채널 비디오가 재생된다. 기계 구동이 아닌 영상 기반 작품이므로 움직임은 영상 속 이미지로 표현된다.","tags_ko":["키네틱아트","백남준","비디오아트","브라운관","설치"],"uncertain":true,"notes":"비디오 설치(기계 구동 아님) — 영상 속 움직임 기준으로 통과 판단, 애매함 / 원문 근거: 1987년, Museum Kunstpalast(Duesseldorf)"}
+]

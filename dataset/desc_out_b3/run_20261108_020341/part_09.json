@@ -1,0 +1,154 @@
+[
+  {
+    "local_id": "1595",
+    "title_display": "무엇, 그다음 (Was, dann)",
+    "artist": "에리히 바이스너 (Erich Wiesner)",
+    "created_year": 1985,
+    "materials_ko": "금속 기둥, 프로펠러형 날개, 원반형 부재",
+    "description_ko": "기둥 상단에 프로펠러형 날개와 원반형 부재를 단 바람 반응형 조각이다.",
+    "detail_text_ko": "베를린 달렘(Dahlem)의 Otto-von-Simson-Straße 16에 설치된 조각 작품이다. 작가는 에리히 바이스너이며 1985년 작으로 기록되어 있다. 상단의 프로펠러형 날개가 바람을 받아 회전하는 구조로 보인다.",
+    "tags_ko": ["키네틱아트", "바람", "조각", "베를린"],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "1200",
+    "title_display": "바람 풍경 (Wind chime)",
+    "artist": "하인 진켄 (Hein Sinken)",
+    "created_year": null,
+    "materials_ko": "금속 막대, 금속 종형 부재",
+    "description_ko": "여러 금속 막대 끝에 종 모양 금속체를 매단 바람 풍경 조각이다.",
+    "detail_text_ko": "베를린 Köllnische Heide의 초등학교(Grundschule)에 설치되어 있다. 원본 설명에서 바람 풍경(wind chime)으로 소개된다. 금속 종형 부재가 바람에 흔들려 소리를 내는 구조다.",
+    "tags_ko": ["키네틱아트", "바람", "풍경", "베를린"],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "1835",
+    "reject": true,
+    "notes": "공연 사진 — 인물과 청중 중심, 악기 구동·움직임 구조를 이미지로 확인할 수 없음"
+  },
+  {
+    "local_id": "1903",
+    "reject": true,
+    "notes": "비디오 설치 — 움직이는 구동 장치 근거 없음(밀폐형 부스 구조물 사진)"
+  },
+  {
+    "local_id": "1335",
+    "title_display": "바람놀이 (Windspiel)",
+    "artist": "호르스트 K. 바우디슈, 디터 뤼레 (Horst K. Baudisch, Dieter Rühle)",
+    "created_year": 1989,
+    "materials_ko": "금속",
+    "description_ko": "벽돌 기단 위 금속 기둥 상단에 그릇 모양 금속 부재를 얹은 바람놀이 조각이다.",
+    "detail_text_ko": "베를린 Fennpfuhl의 Karl-Lade-Straße에 설치된 조각 작품이다. 1989년 작으로 기록되어 있다. 상단 그릇형 부재가 바람에 반응하는 구조로 보이나 사진만으로는 움직임을 확정하기 어렵다.",
+    "tags_ko": ["키네틱아트", "바람", "조각", "베를린"],
+    "uncertain": true,
+    "notes": "중복후보: 1337"
+  },
+  {
+    "local_id": "1337",
+    "title_display": "바람놀이 (Windspiel)",
+    "artist": "호르스트 K. 바우디슈, 디터 뤼레 (Horst K. Baudisch, Dieter Rühle)",
+    "created_year": 1989,
+    "materials_ko": "금속",
+    "description_ko": "벽돌 기단 위 금속 기둥 상단에 그릇 모양 금속 부재를 얹은 바람놀이 조각이다.",
+    "detail_text_ko": "베를린 Fennpfuhl의 Karl-Lade-Straße에 설치된 조각 작품이다. 1989년 작으로 기록되어 있다. 상단 그릇형 부재가 바람에 반응하는 구조로 보이나 사진만으로는 움직임을 확정하기 어렵다.",
+    "tags_ko": ["키네틱아트", "바람", "조각", "베를린"],
+    "uncertain": true,
+    "notes": "중복후보: 1335"
+  },
+  {
+    "local_id": "2168",
+    "reject": true,
+    "notes": "작품 명판(금속 명판) 사진 — 작품 본체가 보이지 않음"
+  },
+  {
+    "local_id": "1111",
+    "title_display": "바람 조각 (Wind Sculpture)",
+    "artist": "에른스트 프리스 (Ernst Fries)",
+    "created_year": null,
+    "materials_ko": "금속 프레임, 거울 면 패널",
+    "description_ko": "검은 금속 격자 틀에 거울처럼 빛나는 뿔 모양 패널을 촘촘히 단 바람 조각이다.",
+    "detail_text_ko": "원본 출처 페이지의 공공미술 목록에 '바람 조각(Wind Sculpture)'으로 등재된 작품이다. 패널이 바람에 따라 빛을 반사하며 움직이는 구조로 보이나 사진만으로는 확인이 어렵다.",
+    "tags_ko": ["키네틱아트", "바람", "거울", "조각"],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "1567",
+    "reject": true,
+    "notes": "홀로코스트 기념 석조 조형 — 정적 조형물(움직임 요소 없음)"
+  },
+  {
+    "local_id": "1329",
+    "title_display": "바람놀이 (Windspiel)",
+    "artist": "한스 회프너 (Hans Hoepfner)",
+    "created_year": 2001,
+    "materials_ko": "금속 기둥, 금속 판",
+    "description_ko": "기둥에 여러 금속 판을 엇갈려 단 바람놀이 조각이다.",
+    "detail_text_ko": "베를린 Weißensee의 Albertinenstraße 26에 설치되어 있다. 2001년 작으로 기록되어 있다. 금속 판이 바람을 받아 회전하거나 흔들리는 구조로 보이나 사진만으로는 확인이 제한적이다.",
+    "tags_ko": ["키네틱아트", "바람", "조각", "베를린"],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "1706",
+    "title_display": "스카이블루스 (SkyBlues)",
+    "artist": "빌 컬버트 (Bill Culbert)",
+    "created_year": null,
+    "materials_ko": "금속 기둥, 금속 나선 와이어",
+    "description_ko": "웰링턴 Post Office Square에 세운 금속 기둥과 나선형 와이어의 조각이다.",
+    "detail_text_ko": "작가 빌 컬버트의 작품으로 웰링턴 Post Office Square에 설치되어 있다. 나선형 와이어가 바람에 반응하는 구조로 보이나 사진만으로는 움직임을 확인하기 어렵다.",
+    "tags_ko": ["키네틱아트", "바람", "금속", "웰링턴"],
+    "uncertain": true,
+    "notes": "중복후보: 1704"
+  },
+  {
+    "local_id": "1341",
+    "title_display": "바람놀이 (Windspiel)",
+    "artist": "베르너 리히터 (Werner Richter)",
+    "created_year": 1988,
+    "materials_ko": "붉은 도장 철제 기둥, 금속 판",
+    "description_ko": "붉은 철제 기둥 위에 검은 판 형태의 금속 부재를 얹은 바람놀이 조각이다.",
+    "detail_text_ko": "베를린 Neu-Hohenschönhausen의 Vincent-van-Gogh-Straße 18a 인근에 있다. 1988년 작으로 기록되어 있다. 상단 판형 부재가 바람에 반응하는 구조로 보이나 사진만으로 움직임을 확정하기 어렵다.",
+    "tags_ko": ["키네틱아트", "바람", "조각", "베를린"],
+    "uncertain": true,
+    "notes": "중복후보: 1339, 1344, 1340, 1342"
+  },
+  {
+    "local_id": "1344",
+    "title_display": "바람놀이 (Windspiel)",
+    "artist": "베르너 리히터 (Werner Richter)",
+    "created_year": null,
+    "materials_ko": "붉은 도장 철제 기둥, 금속 판",
+    "description_ko": "붉은 철제 기둥 위에 검은 판 형태의 금속 부재를 얹은 바람놀이 조각이다.",
+    "detail_text_ko": "베를린 Neu-Hohenschönhausen의 Randowstraße와 Vincent-van-Gogh-Straße 교차점 인근에 있다. 상단 판형 부재가 바람에 반응하는 구조로 보이나 사진만으로 움직임을 확정하기 어렵다.",
+    "tags_ko": ["키네틱아트", "바람", "조각", "베를린"],
+    "uncertain": true,
+    "notes": "중복후보: 1341, 1339, 1340, 1342"
+  },
+  {
+    "local_id": "1339",
+    "title_display": "바람놀이 (Windspiel)",
+    "artist": "베르너 리히터 (Werner Richter)",
+    "created_year": 1988,
+    "materials_ko": "붉은 도장 철제 기둥, 금속 판",
+    "description_ko": "붉은 철제 기둥 위에 검은 판 형태의 금속 부재를 얹은 바람놀이 조각이다.",
+    "detail_text_ko": "베를린 Neu-Hohenschönhausen의 Vincent-van-Gogh-Straße 18a 인근에 있다. 1988년 작으로 기록되어 있다. 상단 판형 부재가 바람에 반응하는 구조로 보이나 사진만으로 움직임을 확정하기 어렵다.",
+    "tags_ko": ["키네틱아트", "바람", "조각", "베를린"],
+    "uncertain": true,
+    "notes": "중복후보: 1341, 1344, 1340, 1342"
+  },
+  {
+    "local_id": "1704",
+    "title_display": "스카이블루스 (SkyBlues)",
+    "artist": "빌 컬버트 (Bill Culbert)",
+    "created_year": null,
+    "materials_ko": "금속 기둥, 금속 나선 와이어",
+    "description_ko": "웰링턴 Post Office Square에 세운 금속 기둥과 나선형 와이어의 조각이다.",
+    "detail_text_ko": "작가 빌 컬버트의 작품으로 웰링턴 Post Office Square에 설치되어 있다. 나선형 와이어가 바람에 반응하는 구조로 보이나 사진만으로는 움직임을 확인하기 어렵다.",
+    "tags_ko": ["키네틱아트", "바람", "금속", "웰링턴"],
+    "uncertain": true,
+    "notes": "중복후보: 1706"
+  }
+]

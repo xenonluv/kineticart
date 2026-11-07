@@ -1,0 +1,126 @@
+[
+  {
+    "local_id": "1046",
+    "title_display": "애너모포시스 실험 8 (MHS-GE expérience 8-anamorphose-2)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "원통형 거울, 채색된 원판",
+    "description_ko": "원판에 왜곡되어 그려진 형상이 원통형 거울에 비칠 때 제 모습으로 보이는 애너모포시스 실험 장치이다.",
+    "detail_text_ko": "제네바 과학사 박물관(Musée d'histoire des sciences)의 실험 8번으로 전시된 장치이다. 원판 위 그림은 정면에서 보면 일그러져 있으며, 중앙의 원통형 거울에 비치면 원래 형상이 드러나는 원리다. 움직이는 부분은 보이지 않는 정적 광학 장치이며, 시점에 따라 상이 달라지는 점이 감상 포인트이다.",
+    "tags_ko": ["키네틱아트", "애너모포시스", "광학", "거울"],
+    "uncertain": true,
+    "notes": "움직임이 없는 광학 착시 장치 — 옵아트 범주로 통과, 키네틱 여부 애매"
+  },
+  {
+    "local_id": "1048",
+    "reject": true,
+    "notes": "파리 시청 앞 잔디 구체 — 정적 설치, 광장 전경 위주"
+  },
+  {
+    "local_id": "1054",
+    "reject": true,
+    "notes": "전시된 일반 회화(애너모포시스 그림, 피라미드 거울 동반) — 정적 회화"
+  },
+  {
+    "local_id": "1055",
+    "reject": true,
+    "notes": "정적 회화(원뿔 거울 동반 애너모포시스 그림)"
+  },
+  {
+    "local_id": "1056",
+    "reject": true,
+    "notes": "보도 위 3D 거리화 — 정적 회화"
+  },
+  {
+    "local_id": "1057",
+    "reject": true,
+    "notes": "건물 외벽·아케이드에 그린 정적 선 설치 — 건물 전경 위주"
+  },
+  {
+    "local_id": "1058",
+    "reject": true,
+    "notes": "컴퓨터 렌더링 이미지 — 실물 작품 아님, 정적"
+  },
+  {
+    "local_id": "1059",
+    "reject": true,
+    "notes": "성당 스테인드글라스 창 — 정적 건축 요소"
+  },
+  {
+    "local_id": "1060",
+    "title_display": "움직이는 추상 정자 (Abstract spermatozoon, moving)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "빛 (빛으로 그리기)",
+    "description_ko": "추상화된 정자 형태가 움직이는 궤적을 빛으로 그린 작품이다.",
+    "detail_text_ko": "원문 설명에 따르면 움직이는 추상적 형상을 빛으로 그린 작품이다. 이미지에는 빛이 흘러가며 남긴 잔상과 겹쳐진 곡선이 보여, 움직임 자체를 시각화한 점이 감상 포인트이다. 작가와 제작 연도는 원문에서 확인되지 않는다.",
+    "tags_ko": ["키네틱아트", "빛", "움직임", "추상"],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "1083",
+    "reject": true,
+    "notes": "독일 정적 조명 기구 — 움직임 근거 없음, 공예품 성격"
+  },
+  {
+    "local_id": "1085",
+    "title_display": "빛의 줄기 (Light art, Light beams, Red Square, Moscow)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "빛줄기 조명, 구형 영상 투사면",
+    "description_ko": "모스크바 붉은 광장의 야간에 펼쳐진 빛 예술로, 빛줄기가 밤하늘을 가로지르는 장면이다.",
+    "detail_text_ko": "원문에 따르면 모스크바 붉은 광장에서 밤에 펼쳐진 빛 예술이다. 사진에는 여러 갈래의 빛줄기와 구형 영상 투사면이 보이며, 관객이 둘러싸고 바라보는 야외 행사형 연출이다. 빛줄기가 움직이며 공간을 바꾸는 점이 감상 포인트이다.",
+    "tags_ko": ["키네틱아트", "빛예술", "프로젝션", "야경"],
+    "uncertain": true,
+    "notes": "행사형 빛 공연 사진 — 움직임은 빛줄기로 추정, 작품 경계 애매"
+  },
+  {
+    "local_id": "1090",
+    "title_display": "오일 프로젝션 (Liquid Oil Projection)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "착색 알코올, 미네랄 오일, 유리판",
+    "description_ko": "색을 입힌 알코올과 미네랄 오일을 유리판 사이에 넣고 빛으로 투사하는 작품이다. 가열하면 기포가 움직이며 색이 섞인다.",
+    "detail_text_ko": "두 장의 유리판 사이에 착색 알코올과 미네랄 오일의 혼합액을 넣어 만든다. 원문에 따르면 액체를 가열하면 기포가 움직이고 섞이며 형태가 계속 변한다. 빛을 투과시켜 투사된 색과 기포의 움직임이 감상 포인트이다.",
+    "tags_ko": ["키네틱아트", "액체", "투사", "빛"],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "1098",
+    "title_display": "RFE06 연꽃 빛 예술 (RFE06 lotus light art)",
+    "artist": null,
+    "created_year": 2006,
+    "materials_ko": "빛 연출(조명)",
+    "description_ko": "2006년 태국 치앙마이 로열 플로라 엑스포에서 선보인 연꽃 형상의 빛 예술이다.",
+    "detail_text_ko": "원문에 따르면 2006 로열 플로라 엑스포(태국 치앙마이)에서 연출된 빛 예술이다. 이미지에는 녹색과 파란색 빛으로 그려진 연꽃 형상이 보이며, 빛의 궤적이 겹쳐 꽃잎처럼 표현된다. 움직이는 빛으로 형태를 만드는 점이 감상 포인트이다.",
+    "tags_ko": ["키네틱아트", "빛예술", "연꽃", "엑스포"],
+    "uncertain": true,
+    "notes": "야간 빛 공연 사진 — 움직임 여부는 장시간 노출 흔적으로 추정"
+  },
+  {
+    "local_id": "1099",
+    "title_display": "RFE06 무지개 빛 예술 (RFE06 rainbow light art)",
+    "artist": null,
+    "created_year": 2006,
+    "materials_ko": "빛 연출(조명)",
+    "description_ko": "2006년 태국 치앙마이 로열 플로라 엑스포에서 선보인 무지개 형상의 빛 예술이다.",
+    "detail_text_ko": "원문에 따르면 2006 로열 플로라 엑스포(태국 치앙마이)에서 연출된 빛 예술이다. 이미지에는 무지개 모양의 띠와 빛이 흘러가며 남긴 궤적이 함께 보여, 빛의 움직임을 기록한 형태로 읽힌다. 여러 색의 빛이 겹치는 장면이 감상 포인트이다.",
+    "tags_ko": ["키네틱아트", "빛예술", "무지개", "엑스포"],
+    "uncertain": true,
+    "notes": "야간 빛 공연 사진 — 움직임 여부는 궤적 흔적으로 추정"
+  },
+  {
+    "local_id": "274",
+    "title_display": "스트란트비스트 연결 구조 (GluedStrandbeestBridges)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "흰색 긴 튜브 부재, 연결 부품, 접착 부분",
+    "description_ko": "움직이는 동안 스트란트비스트가 한 덩어리로 유지되도록 연결부(브리지)를 접착한 구조물이다.",
+    "detail_text_ko": "원문에 따르면 스트란트비스트의 브리지 부분을 접착해, 움직이는 동안에도 구조가 한 덩어리로 남도록 했다. 사진에는 흰색 긴 다리 부재와 회색 연결 부품, 접착된 이음부가 보인다. 움직이는 보행 조각의 구조적 세부를 보여 주는 장면이다.",
+    "tags_ko": ["키네틱아트", "스트란트비스트", "보행", "조각"],
+    "uncertain": false,
+    "notes": null
+  }
+]

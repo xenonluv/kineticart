@@ -1,0 +1,17 @@
+[
+  {"local_id":"417","reject":true,"notes":"작가 사진(인물 중심, 구조물은 배경) — 작품 본체 아님"},
+  {"local_id":"420","title_display":"스트랜드비스트 보행 애니메이션 (Strandbeest Full Walking Animation)","artist":null,"created_year":null,"materials_ko":null,"description_ko":"여섯 개의 다리를 가진 스트랜드비스트가 걷는 모습을 보여주는 애니메이션이다.","detail_text_ko":"스트랜드비스트는 여러 개의 다리가 연결된 링크 구조로 걷도록 만든 움직이는 조각이다. 이 이미지는 여섯 다리 구조가 걷는 동작을 선 그림으로 표현한 애니메이션 장면이다. 원문 설명은 보행 장면만 다루므로 세부 구동 방식은 원문으로 확인되지 않는다.","tags_ko":["키네틱아트","스트랜드비스트","보행","애니메이션"],"uncertain":true,"notes":"선 그림 형태의 애니메이션 프레임 — 움직임 표현으로 통과, 작가·연도 원문 미확인"},
+  {"local_id":"421","title_display":"스트랜드비스트 보행 애니메이션 RGB (Strandbeest Animation rgb-100ms)","artist":null,"created_year":null,"materials_ko":null,"description_ko":"여섯 개의 다리를 가진 스트랜드비스트가 걷는 모습을 색으로 구분해 보여주는 애니메이션이다.","detail_text_ko":"파랑, 초록, 빨강으로 부품을 구분한 같은 스트랜드비스트 보행 애니메이션이다. 색 구분을 통해 다리와 링크가 어떻게 연결되어 움직이는지 보여준다. 원문은 여섯 다리 보행 장면이라는 설명만 제공한다.","tags_ko":["키네틱아트","스트랜드비스트","보행","애니메이션"],"uncertain":false,"notes":"420과 같은 작품의 색상 구분 버전 — 원문 연도 미확인이라 null"},
+  {"local_id":"450","title_display":"애빙던 정원의 채색 풍차 (Colourful windmills, Abingdon)","artist":null,"created_year":null,"materials_ko":null,"description_ko":"정원에 세워진 여러 개의 채색 풍차(바람개비형 장식)가 원색 날개로 꾸며져 있다.","detail_text_ko":"애빙던 시내 중심부 근처 정원에 설치된 채색 풍차들이다. 바람개비형 날개가 회전하도록 만들어져 있어 움직이는 장식으로 볼 수 있다. 원문은 장소와 장식 풍차라는 사실만 제공하므로 작가와 제작 방식은 확인되지 않는다.","tags_ko":["키네틱아트","풍차","바람","정원"],"uncertain":false,"notes":"원문에 작가·제작연도 없음(hint_year 2009는 원문 미확인으로 null)"},
+  {"local_id":"459","title_display":"프락시노스코프 (Le praxinoscope, 에밀 레이노)","artist":"에밀 레이노 (Émile Reynaud)","created_year":1879,"materials_ko":null,"description_ko":"에밀 레이노가 고안한 프락시노스코프 장치를 그린 1879년 과학 잡지 삽화다.","detail_text_ko":"1879년 라 나튀르(La Nature) 과학 잡지 제296호에 실린 삽화이다. 회전하는 원통 안의 그림 띠를 보며 움직이는 장면을 보게 하는 광학 장난감인 프락시노스코프의 외형을 보여준다. 연도는 삽화 게재연도 기준이다.","tags_ko":["키네틱아트","광학 장난감","프락시노스코프","에밀 레이노"],"uncertain":false,"notes":"created_year는 원문 삽화 게재연도(1879) 기준"},
+  {"local_id":"460","title_display":"투영형 프락시노스코프 (Praxinoscope à projection)","artist":"에밀 레이노 (Émile Reynaud)","created_year":1882,"materials_ko":null,"description_ko":"에밀 레이노의 투영형 프락시노스코프를 그린 1882년 과학 잡지 삽화다.","detail_text_ko":"1882년 라 나튀르 과학 잡지 제492호에 실린 삽화이다. 회전하는 그림 띠의 장면을 렌즈로 벽면 스크린에 투영해 여러 사람이 함께 볼 수 있게 한 광학 장난감의 모습을 보여준다. 연도는 삽화 게재연도 기준이다.","tags_ko":["키네틱아트","광학 장난감","프락시노스코프","투영"],"uncertain":false,"notes":"created_year는 원문 삽화 게재연도(1882) 기준"},
+  {"local_id":"495","reject":true,"notes":"칼더 서커스 드로잉이 실린 신문 지면 — 키네틱 작품 본체가 아닌 2차 드로잉 페이지"},
+  {"local_id":"501","reject":true,"notes":"영화 촬영 현장의 인물 사진 — 작품 아님"},
+  {"local_id":"508","reject":true,"notes":"인물 사진(영화 촬영 현장) — 작품 아님"},
+  {"local_id":"546","reject":true,"notes":"작가 인물 사진 — 작품 아님"},
+  {"local_id":"628","reject":true,"notes":"인물 드로잉(작가 Yaakov Agam이 그린 초상) — 작품 아님"},
+  {"local_id":"654","reject":true,"notes":"건물 외관(중정 파사드) 사진 — 건축/전경으로 거부"},
+  {"local_id":"705","title_display":"나무좀 (Woodworms)","artist":"치무온 (Zimoun)","created_year":2009,"materials_ko":"나무, 마이크, 음향 시스템","description_ko":"나무 조각 위의 나무좀 25마리와 마이크, 음향 시스템으로 구성된 사운드 설치다.","detail_text_ko":"나무 조각 속 나무좀 25마리가 나무를 갉는 소리를 마이크로 포착해 음향 시스템으로 드러내는 사운드 설치다. 작가 치무온은 일상의 소재를 소리로 바꾸는 작업을 한다. 원문은 구성 요소와 2009년 제작이라는 사실만 제공한다.","tags_ko":["키네틱아트","사운드 설치","나무","치무온"],"uncertain":false,"notes":null},
+  {"local_id":"731","reject":true,"notes":"정적 유물 사진(buzz wheel 추정 별 모양 원판) — 움직임 근거 없고 원문 설명도 제목 수준"},
+  {"local_id":"757","reject":true,"notes":"유한 오토마타(상태 전이) 도표 — 도표로 거부"}
+]

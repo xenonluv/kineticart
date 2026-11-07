@@ -1,0 +1,137 @@
+[
+  {
+    "local_id": "1581",
+    "image": "/Users/jinjin/kinerag/thumbs/1581.webp",
+    "source_title": "The Pendulum Wave Machine, Corridor of Light, Brunswick Park - geograph.org.uk - 6999352",
+    "desc_src": "The Pendulum Wave Machine, Corridor of Light, Brunswick Park",
+    "hint_artist": null,
+    "hint_year": 2021,
+    "hint_materials": null
+  },
+  {
+    "local_id": "2206",
+    "image": "/Users/jinjin/kinerag/thumbs/2206.webp",
+    "source_title": "Monroe High Speed Adding Calculator (379006423)",
+    "desc_src": "Monroe Adding Calculator from Colorado. Motor attached on left side. Column zero buttons are in red. Left-right shift crank in front, Counter and sum reset crank on right. (High Speed is relative - multiplication takes a few seconds). There is a manual override knob on the right side (not pictured) for advancing or resetting in case it gets stuck mid-calculation. 1922-",
+    "hint_artist": null,
+    "hint_year": 1922,
+    "hint_materials": null
+  },
+  {
+    "local_id": "1776",
+    "image": "/Users/jinjin/kinerag/thumbs/1776.webp",
+    "source_title": "Globe Sewing Table (Globustisch)",
+    "desc_src": "Work tables resembling globes were the usual form for a lady's sewing or writing table around 1800 in Austria. Combining moving parts, secret compartments, and highly finished decoration, these tables were also a way for the cabinetmaker to show off his skill. The tripod supports and temple-like architectural quality of both the exterior and interior decoration reflect the fashionable taste for neoclassical style, or Biedermeier as it was called in Austria, where Vienna was the center of such elaborate furniture production.",
+    "hint_artist": null,
+    "hint_year": null,
+    "hint_materials": "Burl walnut veneer, mahogany, ebony, satinwood, gilt wood, painted wood; mirrored glass; metal"
+  },
+  {
+    "local_id": "1205",
+    "image": "/Users/jinjin/kinerag/thumbs/1205.webp",
+    "source_title": "View of Second Spring Exhibition of the OBMOKhU. Bolshaia Dimitrovska, Moscow, 1921 - 1024x732",
+    "desc_src": "View of Second Spring Exhibition of the OBMOKhU . Bolshaia Dimitrovska, Moscow, 1921. In 1921 the Constructivists expressed their ideas at an ambitious Moscow exhibition under the umbrella of the Society of Young Artists ( Общество молодых художников abbreviated to ОБМОХУ/OBMOKhU, OBMOChU ). Johannsons' nine three-dimensional space structures , \"self-stressed constructions\", exhibited innovative tension-integrity strain-stress principles of tensegrity .",
+    "hint_artist": null,
+    "hint_year": 1921,
+    "hint_materials": null
+  },
+  {
+    "local_id": "1152",
+    "image": "/Users/jinjin/kinerag/thumbs/1152.webp",
+    "source_title": "Processing moire circulaire",
+    "desc_src": "Image moirée obtenue à l'aide d'un court programme en langage Processing. Deux séries de cercles concentriques sont dessinés, les uns aux 2/5e de la largeur de l'écran, les autres aux 3/5e. Le code-source de ce programme est : size(500,500);background(255); noFill(); for(int r=0;r<800;r=r+8){ circle(200,250,r); circle(300,250,r);",
+    "hint_artist": null,
+    "hint_year": 2024,
+    "hint_materials": null
+  },
+  {
+    "local_id": "1942",
+    "image": "/Users/jinjin/kinerag/thumbs/1942.webp",
+    "source_title": "Speaking Dog Mechanical Coin Bank",
+    "desc_src": "Cast iron mechanical bank in the shape of a girl sitting on bench next to a large dog. To operate the bank, a coin is placed on the tray held in the girl's right hand. A lever on the floor is pressed causing the dog to open his mouth and wag his tail as the bench seat opens and the girl's arm tilts sliding the coin into the opening. Manufactured by the Shepard Hardware Company circa 1885. Title: Speaking Dog Mechanical Coin Bank",
+    "hint_artist": null,
+    "hint_year": 1885,
+    "hint_materials": null
+  },
+  {
+    "local_id": "1151",
+    "image": "/Users/jinjin/kinerag/thumbs/1151.webp",
+    "source_title": "Processing moire 6lignes",
+    "desc_src": "Image moirée obtenue à l'aide d'un court programme en langage Processing. Deux séries de ligne sont dessinées tous les 5 pixels, avec un décalage entre hauteur droite et hauteur gauche. Le code-source de ce programme est : size(500,500); background(255); for(int y=0;y<500;y=y+5){ line(0,y+2,500,y-2); line(0,y-2,500,y+2);",
+    "hint_artist": null,
+    "hint_year": 2024,
+    "hint_materials": null
+  },
+  {
+    "local_id": "1543",
+    "image": "/Users/jinjin/kinerag/thumbs/1543.webp",
+    "source_title": "Windlaughed",
+    "desc_src": "Copper weathervane by David Smith",
+    "hint_artist": "David Smith",
+    "hint_year": 2015,
+    "hint_materials": null
+  },
+  {
+    "local_id": "1544",
+    "image": "/Users/jinjin/kinerag/thumbs/1544.webp",
+    "source_title": "Water Sculpture. Cherry Gully, South of Warwick, 2022",
+    "desc_src": "Water Sculpture. Cherry Gully, South of Warwick, 2022",
+    "hint_artist": null,
+    "hint_year": 2022,
+    "hint_materials": null
+  },
+  {
+    "local_id": "2214",
+    "image": "/Users/jinjin/kinerag/thumbs/2214.webp",
+    "source_title": "Flowers in a Vase",
+    "desc_src": "With just a few flowers, Verelst created a composition of great sophistication and balance. A simple glass flask is filled with a large rose, a red anemone, and a white narcissus tinged with pink. These flowers are surrounded by a scattering of smaller blossoms. Like many still-life painters, Verelst depicted a window reflected in the glass vase, but here he did not show the window's precise structure. He did, however, use another common device: the depiction of a few chips in the stone surface to make the material seem more tangible. Early in his career, Verelst moved from Holland to London, …",
+    "hint_artist": null,
+    "hint_year": null,
+    "hint_materials": "oil on wood"
+  },
+  {
+    "local_id": "1545",
+    "image": "/Users/jinjin/kinerag/thumbs/1545.webp",
+    "source_title": "Water features in Sculpture Courtyard of Queensland Art Gallery (2016)",
+    "desc_src": "Water features in Sculpture Courtyard of Queensland Art Gallery (2016)",
+    "hint_artist": null,
+    "hint_year": 2016,
+    "hint_materials": null
+  },
+  {
+    "local_id": "2043",
+    "image": "/Users/jinjin/kinerag/thumbs/2043.webp",
+    "source_title": "Cubes in a hurry",
+    "desc_src": "Eight cubes rotate in a 3D space. Note: You'll need a special grid for this to work.( File:Extra_fine_catalyst.jpg )",
+    "hint_artist": null,
+    "hint_year": 2014,
+    "hint_materials": null
+  },
+  {
+    "local_id": "1767",
+    "image": "/Users/jinjin/kinerag/thumbs/1767.webp",
+    "source_title": "Rishabha, the First Jina",
+    "desc_src": "According to Jain tenets, Rishabha was the first of the 24 Jinas of our current world cycle and is the only one depicted with long locks of hair. He had been a king who was moved to seek an end to the cruel cycles of birth and death after witnessing a dancer die at his court in mid performance. As part of his act of renunciation, he pulled his hair out by handfuls, but the king of the gods interceded before he was finished; some long locks remain as his distinguishing feature. Indian sculpture during the medieval period (700s-1200s) is characterized by linear stylization, as seen here in the h…",
+    "hint_artist": null,
+    "hint_year": null,
+    "hint_materials": "stone"
+  },
+  {
+    "local_id": "1757",
+    "image": "/Users/jinjin/kinerag/thumbs/1757.webp",
+    "source_title": "Sleeping Endymion",
+    "desc_src": "Cornacchini moved away from the dramatic movement and light effects characteristic of baroque sculpture toward a calmer, gentler, more graceful style favored by 18th-century taste. This sculpture depicts Endymion, a beautiful young shepherd from Greek mythology. His beauty so entranced Selene, the personification of the moon, that she asked Zeus to grant Endymion immortality. Zeus did so, but only after placing Endymion in an eternal sleep.",
+    "hint_artist": null,
+    "hint_year": null,
+    "hint_materials": "marble"
+  },
+  {
+    "local_id": "1773",
+    "image": "/Users/jinjin/kinerag/thumbs/1773.webp",
+    "source_title": "Mirrored Partition for a Globe Work Table (Globustisch)",
+    "desc_src": "Work tables resembling globes were the usual form for a lady's sewing or writing table around 1800 in Austria. Combining moving parts, secret compartments, and highly finished decoration, these tables were also a way for the cabinetmaker to show off his skill. The tripod supports and temple-like architectural quality of both the exterior and interior decoration reflect the fashionable taste for neoclassical style, or Biedermeier as it was called in Austria, where Vienna was the center of such elaborate furniture production.",
+    "hint_artist": null,
+    "hint_year": null,
+    "hint_materials": "Burl walnut veneer, mahogany, ebony, satinwood, gilt wood, painted wood; mirrored glass"
+  }
+]

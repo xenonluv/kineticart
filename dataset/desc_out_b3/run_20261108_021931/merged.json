@@ -1,0 +1,326 @@
+[
+  {
+    "local_id": "2735",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2500",
+    "reject": true,
+    "notes": "네온 튜브를 책에 꽂은 정적 빛 설치 — 움직임 없음"
+  },
+  {
+    "local_id": "2368",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "1277",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "1528",
+    "reject": true,
+    "notes": "사면체 형태 네온 튜브의 정적 빛 조각 — 움직임 근거 없음"
+  },
+  {
+    "local_id": "1276",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "1781",
+    "reject": true,
+    "notes": "지하철 승강장 건축 전경 사진 — 작품이 보이지 않음"
+  },
+  {
+    "local_id": "1798",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2059",
+    "reject": true,
+    "notes": "야간 조명이 비친 산업 설비(크레인 훅) 사진 — 움직임 없음, 정적 조명 경관"
+  },
+  {
+    "local_id": "2062",
+    "reject": true,
+    "notes": "야간 조명이 비친 고로 구조물 외관 — 건물 외관, 움직임 없음"
+  },
+  {
+    "local_id": "2067",
+    "reject": true,
+    "notes": "조명 아래 매달린 체인 설비 사진 — 정적 산업 장면, 움직임 없음"
+  },
+  {
+    "local_id": "2069",
+    "reject": true,
+    "notes": "조명이 비친 금속 호퍼형 설비 사진 — 정적 산업 장면, 움직임 없음"
+  },
+  {
+    "local_id": "2070",
+    "reject": true,
+    "notes": "조명 비친 철골 구조물과 달 — 구조물 전경, 움직임 없음. 중복후보: 2071, 2072"
+  },
+  {
+    "local_id": "2071",
+    "reject": true,
+    "notes": "조명 비친 철골 구조물과 달 — 구조물 전경, 움직임 없음. 중복후보: 2070, 2072"
+  },
+  {
+    "local_id": "2072",
+    "reject": true,
+    "notes": "조명 비친 철골 구조물과 달 — 구조물 전경, 움직임 없음. 중복후보: 2070, 2071"
+  },
+  {
+    "local_id": "2073",
+    "reject": true,
+    "notes": "조명이 비친 체인·고리 설비 사진 — 정적 산업 장면, 움직임 없음. 중복후보: 2067"
+  },
+  {
+    "local_id": "2074",
+    "reject": true,
+    "notes": "보라색 조명이 비친 녹슨 배관 기둥 클로즈업 — 정적 설비 질감, 작품 아님"
+  },
+  {
+    "local_id": "2075",
+    "reject": true,
+    "notes": "벗겨진 페인트 표면 클로즈업 — 정적 질감 사진, 작품 아님"
+  },
+  {
+    "local_id": "2076",
+    "reject": true,
+    "notes": "보라색 조명이 비친 배관·밸브 클로즈업 — 정적 설비, 움직임 없음"
+  },
+  {
+    "local_id": "2079",
+    "reject": true,
+    "notes": "야간 조명이 비친 고로 보행교 전경 — 건축·구조물 외관, 움직임 없음"
+  },
+  {
+    "local_id": "2080",
+    "reject": true,
+    "notes": "붉은 조명이 비친 산업 설비 외관 — 정적 건물 외관, 움직임 없음"
+  },
+  {
+    "local_id": "2085",
+    "reject": true,
+    "notes": "산업용 팬 외관을 색조명으로 비춘 정적 설비 — 움직임 근거 없음. 중복후보: 2086, 2088"
+  },
+  {
+    "local_id": "2086",
+    "reject": true,
+    "notes": "산업용 팬 외관을 색조명으로 비춘 정적 설비 — 움직임 근거 없음. 중복후보: 2085, 2087, 2088"
+  },
+  {
+    "local_id": "2088",
+    "reject": true,
+    "notes": "산업용 팬 외관을 색조명으로 비춘 정적 설비 — 움직임 근거 없음. 중복후보: 2085, 2086"
+  },
+  {
+    "local_id": "2089",
+    "reject": true,
+    "notes": "색조명이 비친 크레인 교량 구조물 외관 — 정적 설비, 움직임 없음"
+  },
+  {
+    "local_id": "2090",
+    "reject": true,
+    "notes": "녹색 조명이 비친 대형 크레인 구조물 — 정적 설비 외관, 움직임 없음"
+  },
+  {
+    "local_id": "2091",
+    "reject": true,
+    "notes": "야간 조명이 비친 가스 정화 설비 기둥 전경 — 건축·설비 외관, 움직임 없음"
+  },
+  {
+    "local_id": "2078",
+    "reject": true,
+    "notes": "달이 보이는 야간 고로 외관 전경 — 건물 외관, 움직임 없음"
+  },
+  {
+    "local_id": "2087",
+    "reject": true,
+    "notes": "산업용 팬을 여러 번 겹쳐 찍어 편집한 사진 — 사진 편집 효과이며 작품 자체 움직임 근거 없음. 중복후보: 2086 (원본 4278 편집본)"
+  },
+  {
+    "local_id": "2092",
+    "reject": true,
+    "notes": "야간 공원 조명이 비친 녹색 배관 전경 — 정적 설비 경관, 움직임 없음"
+  },
+  {
+    "local_id": "2876",
+    "reject": true,
+    "notes": "와드워스 템페라 회화 — 정적 회화, 작품 아님"
+  },
+  {
+    "local_id": "2328",
+    "reject": true,
+    "notes": "백과사전 삽화 도안(장식 문양) — 작품 아님"
+  },
+  {
+    "local_id": "1802",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2462",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2323",
+    "reject": true,
+    "notes": "길거리 분필 3D 회화 — 정적 회화(바닥 그림)"
+  },
+  {
+    "local_id": "2449",
+    "reject": true,
+    "notes": "쇼윈도 전경(건물 외관·전시 전경). 중복후보: 2447"
+  },
+  {
+    "local_id": "2447",
+    "reject": true,
+    "notes": "타임스스퀘어 야외 조명 조형물 — 움직임 근거 없음, 거리 전경. 중복후보: 2449"
+  },
+  {
+    "local_id": "2286",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2288",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2650",
+    "reject": true,
+    "notes": "회화 형태의 정지 이미지 — 정적 회화, 움직임 근거 없음"
+  },
+  {
+    "local_id": "2664",
+    "title_display": "공간 사운드 100dB 시속 100km (Spatial Sounds 100dB at 100km/h)",
+    "artist": "마르닉스 더 나이스·에드윈 판 데어 하이데 (Marnix de Nijs, Edwin van der Heide)",
+    "created_year": 2006,
+    "materials_ko": "스피커, 금속 난간",
+    "description_ko": "시속 100km 주행 음향을 공간에 옮긴 사운드 설치 작품이다. 스피커를 단 장치가 공간 안에서 소리를 이동시키는 구조로 보인다.",
+    "detail_text_ko": "원문은 2006년 도쿄 DAF 전시에서 소개된 작품이라고 밝힌다. 이미지에는 원형 금속 난간 안에 흰색 스피커 장치가 긴 팔 끝에 달려 있고, 관람객 세 명이 바라보는 장면이 담겨 있다. 소리가 공간을 가로질러 이동하는 것이 작품의 핵심으로 보인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "사운드",
+      "설치",
+      "공간음향"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "2410",
+    "title_display": "시각 메아리 실험 (Visual Echo Experiment)",
+    "artist": "안철현 (Chul Hyun Ahn)",
+    "created_year": 2005,
+    "materials_ko": "반사 상자, 조명",
+    "description_ko": "3×3 격자의 아홉 개 상자 안에 빛나는 원통형 조명이 들어 있어, 반사로 깊이가 반복되는 옵아트 연작이다.",
+    "detail_text_ko": "원문은 2005년 제작된 9점 연작이며 크기는 104×104×5.5인치라고 밝힌다. 이미지에는 상자 내부의 반사로 공간이 끝없이 이어지는 듯한 장면에 원통형 조명이 기울어져 있는 모습이 보인다. 빛의 색과 기울기가 칸마다 달라 시각적 리듬을 만든다. 움직임은 확인되지 않아 광학 설치로 분류한다.",
+    "tags_ko": [
+      "키네틱아트",
+      "옵아트",
+      "설치",
+      "빛"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "2570",
+    "reject": true,
+    "notes": "야외 축제 건축 파빌리온 — 건축물 외관·야외 전경"
+  },
+  {
+    "local_id": "2554",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2553",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "1611",
+    "reject": true,
+    "notes": "홀바인 회화(대사들) 도판 — 일반 회화, 작품 아님(정적)"
+  },
+  {
+    "local_id": "2662",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2786",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "3017",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2301",
+    "reject": true,
+    "notes": "마르세유 극장 건물 외관 및 거리 사진 — 건물 외관, 작품 아님"
+  },
+  {
+    "local_id": "3051",
+    "reject": true,
+    "notes": "작가(Ralph Nauta, Lonneke Gordijn) 인물 사진 — 작품이 주가 아님"
+  },
+  {
+    "local_id": "1827",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2723",
+    "reject": true,
+    "notes": "일상용 풍향계(veleta) 사진 — 작품 근거 없음, 기능 물건"
+  },
+  {
+    "local_id": "2582",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2642",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2696",
+    "reject": true,
+    "notes": "뮌헨 장난감박물관 입구 건물 외관 — 건물, 작품 아님"
+  },
+  {
+    "local_id": "2309",
+    "reject": true,
+    "notes": "작가 자택 인물 사진(야콥 웩슬러) — 인물 사진"
+  },
+  {
+    "local_id": "2663",
+    "reject": true,
+    "notes": "인터랙티브 터치 벽 전시 전경 — 움직이는 조형 근거 없음"
+  },
+  {
+    "local_id": "1176",
+    "reject": true,
+    "notes": "에덴 프로젝트 돔 야경 — 건축물 전경, 작품 식별 불가"
+  },
+  {
+    "local_id": "1601",
+    "reject": true,
+    "notes": "스마트폰용 애너모픽 렌즈 제품 사진 — 작품 아님(광학 액세서리)"
+  }
+]

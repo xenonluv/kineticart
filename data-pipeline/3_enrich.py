@@ -155,6 +155,33 @@ def _hash_of(rec: dict) -> int | None:
     return int(v, 16) if v else None
 
 
+def _prior_title_keys() -> set[str]:
+    """이전 배치 작품의 '작가|제목' 키 — 같은 작품의 다른 사진(해시로 못 잡음)을 배치 간에도 제외."""
+    out: set[str] = set()
+    for path in config.prior_record_files():
+        if not path.name.startswith("described"):
+            continue
+        for r in load_records(path):
+            if r.get("review_status") == "rejected":
+                continue
+            if not (r.get("selected") or r.get("description_ko")):
+                continue
+            # 4단계가 title/artist 를 '한글 (원어)' 로 바꿔 두므로, 새 배치의 원문과
+            # 비교하려면 첫 괄호(원어)를 꺼내 쓴다.
+            tk = _title_key({"title": _paren(r.get("title")), "artist": _paren(r.get("artist"))})
+            if tk:
+                out.add(tk)
+    return out
+
+
+def _paren(s: str | None) -> str | None:
+    """'한글 (Original)' → 'Original'. 괄호 없으면 그대로."""
+    if not s:
+        return s
+    m = re.search(r"\(([^()]+)\)", s)
+    return m.group(1).strip() if m else s
+
+
 def _prior_hashes() -> list[int]:
     """이전 배치에서 이미 쓰고 있는(선별/설명된) 작품 이미지의 해시 — 배치 간 중복 방지."""
     out = []
@@ -216,7 +243,8 @@ def main() -> int:
     _load_hash_cache()
     prior = set(_prior_hashes())
     kept_hashes: list[int] = list(prior)
-    kept_titles: set[str] = set()
+    prior_titles = _prior_title_keys()
+    kept_titles: set[str] = set(prior_titles)
     unique: list[dict] = []
     dup_img = dup_title = dup_prior = 0
     by_area = sorted(records, key=lambda r: (r.get("width") or 0) * (r.get("height") or 0),
@@ -233,7 +261,10 @@ def main() -> int:
                 continue
         tk = _title_key(r)
         if tk and tk in kept_titles:
-            dup_title += 1
+            if tk in prior_titles:
+                dup_prior += 1
+            else:
+                dup_title += 1
             continue
         if h is not None:
             kept_hashes.append(h)

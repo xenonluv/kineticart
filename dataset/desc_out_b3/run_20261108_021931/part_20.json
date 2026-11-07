@@ -1,0 +1,101 @@
+[
+  {
+    "local_id": "2876",
+    "reject": true,
+    "notes": "와드워스 템페라 회화 — 정적 회화, 작품 아님"
+  },
+  {
+    "local_id": "2328",
+    "reject": true,
+    "notes": "백과사전 삽화 도안(장식 문양) — 작품 아님"
+  },
+  {
+    "local_id": "1802",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2462",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2323",
+    "reject": true,
+    "notes": "길거리 분필 3D 회화 — 정적 회화(바닥 그림)"
+  },
+  {
+    "local_id": "2449",
+    "reject": true,
+    "notes": "쇼윈도 전경(건물 외관·전시 전경). 중복후보: 2447"
+  },
+  {
+    "local_id": "2447",
+    "reject": true,
+    "notes": "타임스스퀘어 야외 조명 조형물 — 움직임 근거 없음, 거리 전경. 중복후보: 2449"
+  },
+  {
+    "local_id": "2286",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2288",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2650",
+    "reject": true,
+    "notes": "회화 형태의 정지 이미지 — 정적 회화, 움직임 근거 없음"
+  },
+  {
+    "local_id": "2664",
+    "title_display": "공간 사운드 100dB 시속 100km (Spatial Sounds 100dB at 100km/h)",
+    "artist": "마르닉스 더 나이스·에드윈 판 데어 하이데 (Marnix de Nijs, Edwin van der Heide)",
+    "created_year": 2006,
+    "materials_ko": "스피커, 금속 난간",
+    "description_ko": "시속 100km 주행 음향을 공간에 옮긴 사운드 설치 작품이다. 스피커를 단 장치가 공간 안에서 소리를 이동시키는 구조로 보인다.",
+    "detail_text_ko": "원문은 2006년 도쿄 DAF 전시에서 소개된 작품이라고 밝힌다. 이미지에는 원형 금속 난간 안에 흰색 스피커 장치가 긴 팔 끝에 달려 있고, 관람객 세 명이 바라보는 장면이 담겨 있다. 소리가 공간을 가로질러 이동하는 것이 작품의 핵심으로 보인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "사운드",
+      "설치",
+      "공간음향"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "2410",
+    "title_display": "시각 메아리 실험 (Visual Echo Experiment)",
+    "artist": "안철현 (Chul Hyun Ahn)",
+    "created_year": 2005,
+    "materials_ko": "반사 상자, 조명",
+    "description_ko": "3×3 격자의 아홉 개 상자 안에 빛나는 원통형 조명이 들어 있어, 반사로 깊이가 반복되는 옵아트 연작이다.",
+    "detail_text_ko": "원문은 2005년 제작된 9점 연작이며 크기는 104×104×5.5인치라고 밝힌다. 이미지에는 상자 내부의 반사로 공간이 끝없이 이어지는 듯한 장면에 원통형 조명이 기울어져 있는 모습이 보인다. 빛의 색과 기울기가 칸마다 달라 시각적 리듬을 만든다. 움직임은 확인되지 않아 광학 설치로 분류한다.",
+    "tags_ko": [
+      "키네틱아트",
+      "옵아트",
+      "설치",
+      "빛"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "2570",
+    "reject": true,
+    "notes": "야외 축제 건축 파빌리온 — 건축물 외관·야외 전경"
+  },
+  {
+    "local_id": "2554",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2553",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  }
+]

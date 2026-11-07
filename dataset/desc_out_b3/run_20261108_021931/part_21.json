@@ -1,0 +1,77 @@
+[
+  {
+    "local_id": "1611",
+    "reject": true,
+    "notes": "홀바인 회화(대사들) 도판 — 일반 회화, 작품 아님(정적)"
+  },
+  {
+    "local_id": "2662",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2786",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "3017",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2301",
+    "reject": true,
+    "notes": "마르세유 극장 건물 외관 및 거리 사진 — 건물 외관, 작품 아님"
+  },
+  {
+    "local_id": "3051",
+    "reject": true,
+    "notes": "작가(Ralph Nauta, Lonneke Gordijn) 인물 사진 — 작품이 주가 아님"
+  },
+  {
+    "local_id": "1827",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2723",
+    "reject": true,
+    "notes": "일상용 풍향계(veleta) 사진 — 작품 근거 없음, 기능 물건"
+  },
+  {
+    "local_id": "2582",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2642",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2696",
+    "reject": true,
+    "notes": "뮌헨 장난감박물관 입구 건물 외관 — 건물, 작품 아님"
+  },
+  {
+    "local_id": "2309",
+    "reject": true,
+    "notes": "작가 자택 인물 사진(야콥 웩슬러) — 인물 사진"
+  },
+  {
+    "local_id": "2663",
+    "reject": true,
+    "notes": "인터랙티브 터치 벽 전시 전경 — 움직이는 조형 근거 없음"
+  },
+  {
+    "local_id": "1176",
+    "reject": true,
+    "notes": "에덴 프로젝트 돔 야경 — 건축물 전경, 작품 식별 불가"
+  },
+  {
+    "local_id": "1601",
+    "reject": true,
+    "notes": "스마트폰용 애너모픽 렌즈 제품 사진 — 작품 아님(광학 액세서리)"
+  }
+]

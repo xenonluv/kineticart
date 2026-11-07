@@ -1,0 +1,17 @@
+[
+  {"local_id":"536","reject":true,"notes":"작가(Theo Jansen) 발표 사진 — 인물 사진, 모형 일부만 보임"},
+  {"local_id":"543","reject":true,"notes":"과자 사진 — 작품 아님"},
+  {"local_id":"563","reject":true,"notes":"작업복 차림 인물 흑백 사진 — 인물 사진"},
+  {"local_id":"571","title_display":"캡퇴르 드 씨엘 (Capteurs de Ciel)","artist":"폴 뷔리 (Pol Bury)","created_year":1983,"materials_ko":"금속, 구체","description_ko":"금속 구체들이 가느다란 축과 구조물에 달려 있는 조각이다. 사진만으로는 구동 방식과 움직임이 확인되지 않는다.","detail_text_ko":"원문 제목은 '캡퇴르 드 씨엘(Capteurs de Ciel)'이고 1983년 브뤼셀 리뉴 가(Rue de Ligne)·오라투아르 가(Rue Montagne de l'Oratoire) 일대에서 촬영되었다. 사진에는 스테인리스 계열 금속 구체들이 여러 방향으로 뻗은 구조물에 달려 있는 모습이 보인다. 원문에 작품 설명이 없어 움직임 방식은 단정하지 않는다.","tags_ko":["키네틱아트","조각","금속","구체"],"uncertain":true,"notes":"desc_src 없음 — 제목·연도·장소 기준. 사진에서 움직임 미확인"},
+  {"local_id":"574","reject":true,"notes":"과자 팔레트 사진 — 작품 아님"},
+  {"local_id":"575","reject":true,"notes":"과자 진열 사진 — 작품 아님"},
+  {"local_id":"576","reject":true,"notes":"작가 기념 명판 사진 — 작품 아님(표지판)"},
+  {"local_id":"583","title_display":"브리짓 라일리 작품 (Bridget Riley)","artist":"브리짓 라일리 (Bridget Riley)","created_year":null,"materials_ko":"회화 (재료 미확인)","description_ko":"파란색과 흰색의 기하학적 무늬가 겹쳐 물결처럼 보이는 옵아트 회화다. 철망 너머 전시 공간에 놓여 있다.","detail_text_ko":"원문은 작가 브리짓 라일리(Bridget Riley)만 기재하고 있다. 사진에는 사선으로 교차하는 파란색·연보라색 형태가 흰 바탕 위에 반복되어 시각적 떨림을 만든다. 작품 제목과 제작 연도는 원문에서 확인되지 않는다. 물리적 움직임은 없고 착시가 감상 포인트다.","tags_ko":["키네틱아트","옵아트","회화","기하학"],"uncertain":true,"notes":"정적 회화이나 옵아트 계열로 판정. 작품 제목·연도 미확인, hint_year는 촬영일이라 null"},
+  {"local_id":"630","title_display":"리퀴드 픽셀스 (Liquid Pixels)","artist":"네드 칸 (Ned Kahn)","created_year":null,"materials_ko":"금속 패널","description_ko":"건물 외벽에 달린 금속 패널들이 햇빛을 받아 반짝이며 일렁이는 외장 설치 작품이다.","detail_text_ko":"원문은 작품 제목 'Liquid Pixels'와 설치 장소 '로즐린(Rosslyn)'을 기재하고 있다. 사진에는 건물 외벽의 사각형 창 영역 안에 작은 패널들이 빛을 반사하는 모습이 보인다. 구동 방식과 실제 움직임은 사진으로 확인되지 않는다. 촬영일(2009)은 제작 연도로 쓰지 않았다.","tags_ko":["키네틱아트","건축외장","빛","반사"],"uncertain":true,"notes":"건물 외관처럼 보이나 작품 제목 근거로 통과. 움직임 미확인, hint_year는 촬영일이라 null"},
+  {"local_id":"663","reject":true,"notes":"레고 블록 도시 모형과 관람객 사진 — 정적 조형물"},
+  {"local_id":"692","reject":true,"notes":"작가(Olafur Eliasson) TED 발표 사진 — 인물 사진"},
+  {"local_id":"695","reject":true,"notes":"철골 돔형 구조물, 정적 조각으로 보이고 움직임 미확인"},
+  {"local_id":"711","reject":true,"notes":"검은 금속 조각이 정적으로 보임 — 움직임 미확인"},
+  {"local_id":"732","title_display":"돛 회전 기구 1 (Segelkarousell 1)","artist":null,"created_year":null,"materials_ko":"목재, 금속, 돛","description_ko":"기둥 위에 돛을 단 작은 배 모형들이 달려 있는 바람개비형 설치물이다.","detail_text_ko":"원문 설명은 '회전 기구(Whirligig)'이다. 사진에는 나무 기둥 꼭대기에 가로대로 연결된 작은 배 모형과 돛이 보인다. 바람이나 기계로 회전하는 구조로 보이나, 정지 사진이라 실제 회전 여부는 확인되지 않는다. 촬영일(2007)은 제작 연도로 쓰지 않았다.","tags_ko":["키네틱아트","바람","회전","목조"],"uncertain":false,"notes":"desc_src 'Whirligig' 기준 바람 구동 설치로 판정. 작가 원문 없음"},
+  {"local_id":"739","title_display":"휘리기그 5 (Whirligig 5)","artist":null,"created_year":null,"materials_ko":"나무, 금속, 페인트 (추정)","description_ko":"천장에서 줄에 매달려 있는 새 모양의 조형물이다. 사진만으로는 움직임이 확인되지 않는다.","detail_text_ko":"원문 설명은 'Whirligig 5'이다. 사진에는 흰색 바탕에 검은 줄무늬가 있는 새 모양 조형물이 줄 끝에 매달려 있는 모습이 보인다. 일부 금속 부분은 녹이 슨 질감이다. 모빌형 회전 설치물로 보이나 구동 방식은 확인되지 않는다. 촬영일(2008)은 제작 연도로 쓰지 않았다.","tags_ko":["키네틱아트","모빌","목조","조형"],"uncertain":true,"notes":"매달린 모빌형으로 판정, 움직임 미확인. 작가·연도 원문 없음"}
+]

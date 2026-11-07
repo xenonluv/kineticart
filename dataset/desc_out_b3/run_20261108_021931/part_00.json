@@ -1,0 +1,77 @@
+[
+  {
+    "local_id": "2735",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2500",
+    "reject": true,
+    "notes": "네온 튜브를 책에 꽂은 정적 빛 설치 — 움직임 없음"
+  },
+  {
+    "local_id": "2368",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "1277",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "1528",
+    "reject": true,
+    "notes": "사면체 형태 네온 튜브의 정적 빛 조각 — 움직임 근거 없음"
+  },
+  {
+    "local_id": "1276",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "1781",
+    "reject": true,
+    "notes": "지하철 승강장 건축 전경 사진 — 작품이 보이지 않음"
+  },
+  {
+    "local_id": "1798",
+    "reject": true,
+    "notes": "보류분 경계 사례(uncertain) — 품질 우선으로 제외"
+  },
+  {
+    "local_id": "2059",
+    "reject": true,
+    "notes": "야간 조명이 비친 산업 설비(크레인 훅) 사진 — 움직임 없음, 정적 조명 경관"
+  },
+  {
+    "local_id": "2062",
+    "reject": true,
+    "notes": "야간 조명이 비친 고로 구조물 외관 — 건물 외관, 움직임 없음"
+  },
+  {
+    "local_id": "2067",
+    "reject": true,
+    "notes": "조명 아래 매달린 체인 설비 사진 — 정적 산업 장면, 움직임 없음"
+  },
+  {
+    "local_id": "2069",
+    "reject": true,
+    "notes": "조명이 비친 금속 호퍼형 설비 사진 — 정적 산업 장면, 움직임 없음"
+  },
+  {
+    "local_id": "2070",
+    "reject": true,
+    "notes": "조명 비친 철골 구조물과 달 — 구조물 전경, 움직임 없음. 중복후보: 2071, 2072"
+  },
+  {
+    "local_id": "2071",
+    "reject": true,
+    "notes": "조명 비친 철골 구조물과 달 — 구조물 전경, 움직임 없음. 중복후보: 2070, 2072"
+  },
+  {
+    "local_id": "2072",
+    "reject": true,
+    "notes": "조명 비친 철골 구조물과 달 — 구조물 전경, 움직임 없음. 중복후보: 2070, 2071"
+  }
+]

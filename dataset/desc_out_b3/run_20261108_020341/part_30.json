@@ -1,0 +1,17 @@
+[
+  {"local_id":"3065","reject":true,"notes":"작가 인물 사진 — 작품이 아님"},
+  {"local_id":"2250","reject":true,"notes":"풍향계 연필 스케치 — 정적 그림, 움직임 없음"},
+  {"local_id":"1480","reject":true,"notes":"성당 탑 꼭대기 풍향계 — 건축 부속 장식, 키네틱 아트 아님"},
+  {"local_id":"1259","title_display":"수도사 오토마타 (Automaton of a Friar)","artist":null,"created_year":1550,"materials_ko":"목재, 채색, 금속 기어","description_ko":"16세기 중반에 만든 수도사 모양의 목제 오토마타다.","detail_text_ko":"뉴욕 메트로폴리탄 미술관에 소장된 오토마타다. 원제목에 16세기 중반 제작이라고 적혀 있다. 나무로 된 수도사 인형의 하단 몸통 안에 기어 장치가 보여, 기계식으로 움직이는 구조로 보인다. 작가는 확인되지 않는다.","tags_ko":["키네틱아트","오토마타","16세기","메트로폴리탄"],"uncertain":false,"notes":"제작연도 '16세기 중반' — 1550은 근사값"},
+  {"local_id":"2960","title_display":"다리 기구 조립품 (Partsandproto)","artist":null,"created_year":null,"materials_ko":"목재 링크 부품","description_ko":"목재 다리 기구 하나를 조립한 상태와 다른 하나의 부품을 함께 보여주는 사진이다.","detail_text_ko":"원문은 조립된 다리 기구 하나와 두 번째 기구의 부품을 함께 보여준다고 밝힌다. 사진에는 나무 판재로 된 링크 구조가 보인다. 작가와 제작 연도는 확인되지 않으며, 촬영연도(2012)는 제작연도로 쓰지 않았다.","tags_ko":["키네틱아트","다리기구","목재","부품"],"uncertain":true,"notes":"완성 작동 여부 미확인; 같은 다리기구 계열 부품 사진으로 보임. 중복후보: 2945"},
+  {"local_id":"2021","reject":true,"notes":"청동 여성 입상 정적 조각 — 움직임 없음"},
+  {"local_id":"1493","reject":true,"notes":"표범 형상 풍향계 — 건물 장식, 키네틱 아트 아님"},
+  {"local_id":"1674","reject":true,"notes":"야경 장시간노출 사진 — 작품이 아닌 사진"},
+  {"local_id":"2102","reject":true,"notes":"불 쇼 공연 현장 사진 — 공연 기록, 작품 아님"},
+  {"local_id":"2831","reject":true,"notes":"코인식 자판기형 기계 — 움직임 미확인, 작품 아님"},
+  {"local_id":"1509","reject":true,"notes":"풍향계와 제비 장식 — 건물 장식, 키네틱 아트 아님"},
+  {"local_id":"2881","title_display":"프락시노스코프 극장 (Praxinoscopio teatro)","artist":null,"created_year":null,"materials_ko":"금속 원통, 거울, 그림 띠","description_ko":"회전하는 원통 안의 거울에 그림 인물이 움직이는 것처럼 보이게 하는 광학 장난감이다.","detail_text_ko":"아르헨티나 마르델플라타에서 촬영된 프락시노스코프 극장이다. 원통 안쪽의 그림 띠가 회전하면 가운데 거울 면에 비친 인물들이 움직이는 것처럼 보인다. 원문에는 제작 연도와 작가가 없다.","tags_ko":["키네틱아트","광학장난감","프락시노스코프","거울"],"uncertain":false,"notes":"중복후보: 2882 (같은 기구의 다른 사진)"},
+  {"local_id":"2882","title_display":"프락시노스코프 극장 (Praxinoscopio teatro)","artist":null,"created_year":null,"materials_ko":"금속 원통, 거울, 그림 띠","description_ko":"회전하는 원통 안의 거울에 그림 인물이 움직이는 것처럼 보이게 하는 광학 장난감이다.","detail_text_ko":"아르헨티나 마르델플라타에서 촬영된 프락시노스코프 극장이다. 원통 안쪽의 그림 띠가 회전하면 가운데 거울 면에 비친 인물들이 움직이는 것처럼 보인다. 원문에는 제작 연도와 작가가 없다.","tags_ko":["키네틱아트","광학장난감","프락시노스코프","거울"],"uncertain":false,"notes":"중복후보: 2881 (같은 기구의 다른 사진)"},
+  {"local_id":"1513","reject":true,"notes":"상공회의소 건물 탑의 풍향계 — 건물 장식, 키네틱 아트 아님"},
+  {"local_id":"1224","title_display":"볼리스 심슨 휠리직 공원 (Vollis Simpson Whirligig Park)","artist":"볼리스 심슨 (Vollis Simpson)","created_year":null,"materials_ko":"금속 드럼, 바람 구동 부품","description_ko":"바람에 회전하는 대형 금속 휠리직 조각들이 설치된 공원이다.","detail_text_ko":"원문은 볼리스 심슨 휠리직 공원의 휠리직(바람 회전 조각)을 촬영한 것이라고 밝힌다. 사진에는 높은 기둥과 바퀴 형태의 금속 부품들이 공중에 설치된 모습이 보인다. 제작 연도는 원문에서 확인되지 않는다.","tags_ko":["키네틱아트","휠리직","바람","야외설치"],"uncertain":false,"notes":"제작연도 미확인; 촬영연도(2016)는 제작연도로 쓰지 않음"}
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "local_id": "138",
+    "title_display": "물의 이중주 분수 (Fontana Duetto d’Acqua)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 기둥, 줄, 물",
+    "description_ko": "금속 기둥에 매달린 여러 가닥의 줄을 따라 물이 흘러내리고, 삼각형 날개형 부재가 함께 달린 분수형 설치물이다.",
+    "detail_text_ko": "원문은 제목 'Fontana Duetto d’Acqua' 외에 설명을 제공하지 않는다. 사진은 야간 공원에서 촬영되었으며, 수직 기둥 위 가로 막대에서 내려온 가느다란 줄을 따라 물이 떨어지는 모습이 보인다. 날개형 부재가 물의 흐름으로 움직이는지는 사진만으로 확인되지 않는다. 제작 연도와 작가는 원문에 없다.",
+    "tags_ko": ["키네틱아트", "분수", "물", "설치미술"],
+    "uncertain": true,
+    "notes": "원문에 작가·제작연도 없음. 날개 구동 방식 사진으로 미확인. hint_year(2012)는 촬영일로 보고 created_year에 쓰지 않음."
+  },
+  {
+    "local_id": "069",
+    "title_display": "기계식 피노키오 (Mechanical Pinocchio)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "목재",
+    "description_ko": "관절이 있는 나무 피노키오 인형이 세발자전거형 탈것에 앉아 있는 모습의 기계식 인형이다.",
+    "detail_text_ko": "원문은 '기계식 피노키오 인형(Mechanical Pinochio puppet)'이라고만 밝힌다. 사진에서는 팔과 다리의 관절이 나무로 구현된 인형이 자전거형 탈것 위에 앉아 있는 것이 보이며, 장터 같은 야외 공간에서 촬영되었다. 움직임을 내는 기구나 작동 방식은 사진으로 확인되지 않는다. 작가와 제작 연도는 원문에 없다.",
+    "tags_ko": ["키네틱아트", "오토마타", "인형", "목재"],
+    "uncertain": true,
+    "notes": "움직임 기구 미확인(관절 인형, 오토마타 여부 애매). 작가·제작연도 원문에 없음. hint_year(2018)는 촬영일로 보고 created_year에 쓰지 않음."
+  },
+  {
+    "local_id": "044",
+    "reject": true,
+    "notes": "링크 기구 시뮬레이션 도표(파랑·빨강 막대와 절점을 그린 그래프) — 도표, 작품 사진 아님"
+  },
+  {
+    "local_id": "142",
+    "reject": true,
+    "notes": "작가 본인으로 보이는 인물 사진 — 작품 아님"
+  }
+]

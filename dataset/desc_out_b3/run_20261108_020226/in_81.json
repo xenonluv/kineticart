@@ -1,0 +1,137 @@
+[
+  {
+    "local_id": "1151",
+    "image": "/Users/jinjin/kinerag/thumbs/1151.webp",
+    "source_title": "Processing moire 6lignes",
+    "desc_src": "Image moirée obtenue à l'aide d'un court programme en langage Processing. Deux séries de ligne sont dessinées tous les 5 pixels, avec un décalage entre hauteur droite et hauteur gauche. Le code-source de ce programme est : size(500,500); background(255); for(int y=0;y<500;y=y+5){ line(0,y+2,500,y-2); line(0,y-2,500,y+2);",
+    "hint_artist": null,
+    "hint_year": 2024,
+    "hint_materials": null
+  },
+  {
+    "local_id": "2137",
+    "image": "/Users/jinjin/kinerag/thumbs/2137.webp",
+    "source_title": "PITCH OF COLORED SAND (12)",
+    "desc_src": "The project was opened officially during KAAPSTADT FESTIVAL on August the 9th 2019 in TILBURG, NL; https://kaapstadtilburg.nl/programma/ ; Description and elements of the project. Materials: colored aggregates, marine plywood, net, balls. Dimensions: 1400x700x220 cm. Pitch of Colored sand is a project that binds together unique design and a popular games such volleyball or beach soccer, which are Olympic disciplines. Surface of a pitch is designed in a way to let the different patches of colored sand mix together during the games. All Rights Reserved; Adam Kalinowski 2019. https://interactive.…",
+    "hint_artist": null,
+    "hint_year": 2019,
+    "hint_materials": null
+  },
+  {
+    "local_id": "1543",
+    "image": "/Users/jinjin/kinerag/thumbs/1543.webp",
+    "source_title": "Windlaughed",
+    "desc_src": "Copper weathervane by David Smith",
+    "hint_artist": "David Smith",
+    "hint_year": 2015,
+    "hint_materials": null
+  },
+  {
+    "local_id": "1544",
+    "image": "/Users/jinjin/kinerag/thumbs/1544.webp",
+    "source_title": "Water Sculpture. Cherry Gully, South of Warwick, 2022",
+    "desc_src": "Water Sculpture. Cherry Gully, South of Warwick, 2022",
+    "hint_artist": null,
+    "hint_year": 2022,
+    "hint_materials": null
+  },
+  {
+    "local_id": "2214",
+    "image": "/Users/jinjin/kinerag/thumbs/2214.webp",
+    "source_title": "Flowers in a Vase",
+    "desc_src": "With just a few flowers, Verelst created a composition of great sophistication and balance. A simple glass flask is filled with a large rose, a red anemone, and a white narcissus tinged with pink. These flowers are surrounded by a scattering of smaller blossoms. Like many still-life painters, Verelst depicted a window reflected in the glass vase, but here he did not show the window's precise structure. He did, however, use another common device: the depiction of a few chips in the stone surface to make the material seem more tangible. Early in his career, Verelst moved from Holland to London, …",
+    "hint_artist": null,
+    "hint_year": null,
+    "hint_materials": "oil on wood"
+  },
+  {
+    "local_id": "2356",
+    "image": "/Users/jinjin/kinerag/thumbs/2356.webp",
+    "source_title": "DallasPublicLibrary Textured Screen",
+    "desc_src": "Harry Bertoia's controversial \"Textured Screen\" created for the Dallas Public Library now hangs in the J. Erik Jonsson Central Library in downtown Dallas, Texas",
+    "hint_artist": null,
+    "hint_year": 2010,
+    "hint_materials": null
+  },
+  {
+    "local_id": "1545",
+    "image": "/Users/jinjin/kinerag/thumbs/1545.webp",
+    "source_title": "Water features in Sculpture Courtyard of Queensland Art Gallery (2016)",
+    "desc_src": "Water features in Sculpture Courtyard of Queensland Art Gallery (2016)",
+    "hint_artist": null,
+    "hint_year": 2016,
+    "hint_materials": null
+  },
+  {
+    "local_id": "2606",
+    "image": "/Users/jinjin/kinerag/thumbs/2606.webp",
+    "source_title": "Trammplatz Lichteraktion 70 Jahrestag Deportation Riga",
+    "desc_src": "Lichteraktion am 15. Dezember 2011 mit dem Aufstellen von 1001 brennenden Kerzen auf dem Trammplatz zur Erinnerung an den 70. Jahrestag der ersten Deportation jüdischer Menschen ins Ghetto Riga mit 1001 Personen am 15. Dezember 1941",
+    "hint_artist": null,
+    "hint_year": 2011,
+    "hint_materials": null
+  },
+  {
+    "local_id": "2043",
+    "image": "/Users/jinjin/kinerag/thumbs/2043.webp",
+    "source_title": "Cubes in a hurry",
+    "desc_src": "Eight cubes rotate in a 3D space. Note: You'll need a special grid for this to work.( File:Extra_fine_catalyst.jpg )",
+    "hint_artist": null,
+    "hint_year": 2014,
+    "hint_materials": null
+  },
+  {
+    "local_id": "1767",
+    "image": "/Users/jinjin/kinerag/thumbs/1767.webp",
+    "source_title": "Rishabha, the First Jina",
+    "desc_src": "According to Jain tenets, Rishabha was the first of the 24 Jinas of our current world cycle and is the only one depicted with long locks of hair. He had been a king who was moved to seek an end to the cruel cycles of birth and death after witnessing a dancer die at his court in mid performance. As part of his act of renunciation, he pulled his hair out by handfuls, but the king of the gods interceded before he was finished; some long locks remain as his distinguishing feature. Indian sculpture during the medieval period (700s-1200s) is characterized by linear stylization, as seen here in the h…",
+    "hint_artist": null,
+    "hint_year": null,
+    "hint_materials": "stone"
+  },
+  {
+    "local_id": "1757",
+    "image": "/Users/jinjin/kinerag/thumbs/1757.webp",
+    "source_title": "Sleeping Endymion",
+    "desc_src": "Cornacchini moved away from the dramatic movement and light effects characteristic of baroque sculpture toward a calmer, gentler, more graceful style favored by 18th-century taste. This sculpture depicts Endymion, a beautiful young shepherd from Greek mythology. His beauty so entranced Selene, the personification of the moon, that she asked Zeus to grant Endymion immortality. Zeus did so, but only after placing Endymion in an eternal sleep.",
+    "hint_artist": null,
+    "hint_year": null,
+    "hint_materials": "marble"
+  },
+  {
+    "local_id": "1773",
+    "image": "/Users/jinjin/kinerag/thumbs/1773.webp",
+    "source_title": "Mirrored Partition for a Globe Work Table (Globustisch)",
+    "desc_src": "Work tables resembling globes were the usual form for a lady's sewing or writing table around 1800 in Austria. Combining moving parts, secret compartments, and highly finished decoration, these tables were also a way for the cabinetmaker to show off his skill. The tripod supports and temple-like architectural quality of both the exterior and interior decoration reflect the fashionable taste for neoclassical style, or Biedermeier as it was called in Austria, where Vienna was the center of such elaborate furniture production.",
+    "hint_artist": null,
+    "hint_year": null,
+    "hint_materials": "Burl walnut veneer, mahogany, ebony, satinwood, gilt wood, painted wood; mirrored glass"
+  },
+  {
+    "local_id": "2232",
+    "image": "/Users/jinjin/kinerag/thumbs/2232.webp",
+    "source_title": "Panel: Spring",
+    "desc_src": "Courtiers and aristocrats anxious to model their lifestyles on the king also commissioned works from the same state manufactories that produced tapestries, carpets, and upholstery for the French monarchy. Established in the early 1600s, the Savonnerie factory provided both domestic furnishings for the king’s palaces and diplomatic gifts for foreign heads of state. The double coat of arms in this tapestry suggests that it was made for a count and countess who married in 1717. One of a group of four tapestries depicting the seasons, this work depicts the abundant flora and fauna of spring. The C…",
+    "hint_artist": null,
+    "hint_year": null,
+    "hint_materials": "Savonnerie knotted-pile (144 symmetrical rug knots per square inch); wool, hemp"
+  },
+  {
+    "local_id": "2616",
+    "image": "/Users/jinjin/kinerag/thumbs/2616.webp",
+    "source_title": "Agora Phobia (Digitalis) De Appel, Amsterdam 2000 Photo LancelMaat",
+    "desc_src": "Agora Phobia (digitalis) invites you in a semi-transparent, inflatable Isolation Pillar, in crowded city public spaces. Inside the Isolation Pillar one feels safe within an intimate space; and at the same time, lacking control over the outside, one feels vulnerable. The Isolation Pillar provides for an isolated communication space in which notions of being inside and being outside are reversible.",
+    "hint_artist": null,
+    "hint_year": 2000,
+    "hint_materials": null
+  },
+  {
+    "local_id": "2709",
+    "image": "/Users/jinjin/kinerag/thumbs/2709.webp",
+    "source_title": "BenjaminRabier (53786589054)",
+    "desc_src": "Benjamin Rabier (1864-1939) : Les Chats s'amusent / Pussy's play-ground / Spielende katzen, illustrant Les Images en musique (un album de partitions de pièces musicales composées par Jane Vieu, édité en 1908).",
+    "hint_artist": null,
+    "hint_year": 1864,
+    "hint_materials": null
+  }
+]

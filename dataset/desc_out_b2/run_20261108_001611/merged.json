@@ -1,0 +1,3171 @@
+[
+  {
+    "local_id": "725",
+    "reject": true,
+    "notes": "퍼포먼스 사진 — 인물(영매 복장)이 주인공이며 움직이는 조각 구조로 보기 어려움"
+  },
+  {
+    "local_id": "734",
+    "reject": true,
+    "notes": "18세기 풍자 판화(손채색 에칭) — 일반 회화·판화"
+  },
+  {
+    "local_id": "735",
+    "title_display": "볼리스 심슨의 바람개비 조각 (Vollis Simpson Whirligigs)",
+    "artist": "볼리스 심슨 (Vollis Simpson)",
+    "created_year": null,
+    "materials_ko": "금속 구조물, 채색 반사판",
+    "description_ko": "바람을 받아 회전하도록 만든 대형 바람개비형 조각이다. 여러 겹의 원형 프레임과 채색된 원판이 기둥 위에 얹혀 있다.",
+    "detail_text_ko": "원문은 윌슨 카운티의 'Vollis Simpson Whirligig Park'에 있는 조형물이라고 소개한다. 작품은 바람개비 날개와 원형 구조가 높은 기둥 위에 겹겹이 놓인 형태다. 바람의 힘으로 움직이는 키네틱 조각이므로, 정지된 사진에서는 회전 운동을 상상하며 감상하는 것이 좋다.",
+    "tags_ko": [
+      "키네틱아트",
+      "바람개비",
+      "풍력",
+      "조각",
+      "공원"
+    ],
+    "uncertain": false,
+    "notes": "작가명은 원제목 기준(desc_src에는 없음). 촬영일 2021은 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "736",
+    "title_display": "볼리스 심슨의 바람개비 (Vollis Simson Whirligig)",
+    "artist": "볼리스 심슨 (Vollis Simpson)",
+    "created_year": null,
+    "materials_ko": "금속 구조물, 채색 반사판",
+    "description_ko": "윌슨 카운티 바람개비 공원에 있는 대형 바람개비형 조각이다. 바람을 받아 회전하도록 만든 채색 원판과 날개 구조가 특징이다.",
+    "detail_text_ko": "원문은 윌슨 카운티의 'Vollis Simpson Whirligig Park'에 있는 조형물이라고 소개한다. 사진은 기둥 위에 여러 층으로 얹힌 바람개비 날개와 원판을 올려다보는 각도에서 담고 있다. 바람에 반응하는 키네틱 조각으로서, 공원 전체가 하나의 작품 군을 이루는 구성으로 감상할 수 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "바람개비",
+      "풍력",
+      "조각",
+      "공원"
+    ],
+    "uncertain": false,
+    "notes": "735와 같은 공원 다른 사진(중복 후보). 원제 철자 'Simson'은 Simpson의 오기로 보임. 작가명은 원제목 기준"
+  },
+  {
+    "local_id": "768",
+    "title_display": "세인트 토머스 교회 시계 인형 (St Thomas's Church, Salisbury, clock automaton)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "채색 목각 인형, 시계 구동 장치",
+    "description_ko": "영국 솔즈베리 세인트 토머스 교회 외벽에 달린 시계 오토마타다. 갑옷 차림의 채색 인형이 정시와 30분마다 종을 친다.",
+    "detail_text_ko": "원문은 영국 솔즈베리 세인트 토머스 교회의 오토마타가 시간과 30분마다 종을 친다고 설명한다. 사진은 그 인형을 가까이서 찍은 것으로, 채색된 인형이 막대를 두 손으로 붙들고 있는 모습이 보인다. 구동 원리는 원문에 없으므로 자세히 쓰지 않는다. 시계 장치와 인형이 결합된 전통적 오토마타 사례로 감상할 수 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "오토마타",
+      "시계",
+      "교회",
+      "영국"
+    ],
+    "uncertain": false,
+    "notes": "촬영일 2021은 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "769",
+    "reject": true,
+    "notes": "주사기 교환 자판기 — 실용 기계, 예술 작품 아님"
+  },
+  {
+    "local_id": "775",
+    "title_display": "스테인리스 모빌 (미완성 절단 부품)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "스테인리스 스틸(레이저 절단)",
+    "description_ko": "레이저로 잘라 낸 스테인리스 스틸 모빌 부품이다. 아직 구부리기 전 상태로, 자동차 실루엣과 새 모양이 뚫린 평판이 사진에 담겨 있다.",
+    "detail_text_ko": "원문은 레이저 절단 후 아직 구부리지 않은 스테인리스 모빌이라고만 밝힌다. 완성된 작품의 구동 방식이나 작가 정보는 확인되지 않는다. 사진은 제작 과정의 한 단계를 보여 주며, 모빌 형식의 키네틱 작품 부품으로 볼 수 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "스테인리스",
+      "제작과정"
+    ],
+    "uncertain": true,
+    "notes": "완성품 미확인. 움직임은 모빌 형식으로만 추정"
+  },
+  {
+    "local_id": "785",
+    "title_display": "밀워키 미술관 모빌 (MAM.Mobile)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "채색 원판, 흰색 금속 막대, 와이어 (사진 기준)",
+    "description_ko": "밀워키 미술관 칼라트라바 증축부 입구에 매달린 모빌이다. 빨강·검정·파랑의 원형 판들이 흰색 막대에 걸려 공중에 떠 있다.",
+    "detail_text_ko": "원문은 이 모빌이 밀워키 미술관 칼라트라바 증축부 입구에 있다고만 밝힌다. 작가 정보는 원문에 없어 비워 둔다. 얇은 막대와 와이어에 매달린 원판들이 모빌 형식의 구조를 보여 주며, 공기의 흐름에 따라 움직이도록 설계된 것으로 보인다. 건축 공간과 어울리는 천장 설치 작품으로 감상할 수 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "공공미술",
+      "미술관",
+      "건축"
+    ],
+    "uncertain": false,
+    "notes": "작가 원문 미기재. 촬영일 2007은 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "786",
+    "title_display": "기둥 모빌 (Mastmobile)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "콘크리트 기둥(원문 기준), 채색 장식 조각",
+    "description_ko": "사용하지 않는 콘크리트 기둥에 매단 모빌이다. 가로대와 줄에 코끼리 모양과 색 띠 등 여러 조각이 달려 있다.",
+    "detail_text_ko": "원문은 발덴부흐 부근의 사용하지 않는 콘크리트 기둥에 설치된 모빌이라고 밝힌다. 사진에서는 가로대에 여러 줄이 늘어뜨려져 있고, 그 끝에 채색된 조각들이 매달려 있다. 줄에 매달린 가벼운 조각들이 바람에 흔들리는 모빌 형식으로, 야외 기둥을 재활용한 설치로 감상할 수 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "야외설치",
+      "기둥",
+      "조각"
+    ],
+    "uncertain": false,
+    "notes": "원문은 콘크리트 기둥이라 하나 사진의 기둥은 목재처럼 보임. 원문 기준으로 기재"
+  },
+  {
+    "local_id": "791",
+    "title_display": "노스 요크셔의 모빌 (Mobile in North Yorkshire)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "목재(조각)",
+    "description_ko": "영국 노스 요크셔에 있는 목조 모빌 형태의 조각이다. 기둥 위 가로대 끝에 동물 머리와 새 모양 등 조각된 형상이 달려 있다.",
+    "detail_text_ko": "원문은 영국 노스 요크셔에 있는 모빌이라고만 소개한다. 사진은 기둥 꼭대기에서 사방으로 뻗은 나무 팔에 조각된 형상들이 붙어 있는 구조를 보여 준다. 바람을 받아 회전하는 구조로 보이나 원문에 구동 방식이 없으므로 확정하지 않는다. 야외에 설치된 목조 조각으로 감상할 수 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "목조",
+      "야외설치",
+      "영국"
+    ],
+    "uncertain": true,
+    "notes": "회전 구조 여부는 사진상 추정. 풍향계일 가능성 배제 안 됨. 촬영일 2006은 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "792",
+    "title_display": "튤립 의자로 만든 모빌 (Mobiles par Bruno Schiepan)",
+    "artist": "브루노 시에판 (Bruno Schiepan)",
+    "created_year": null,
+    "materials_ko": "잘라 채색한 튤립 의자 부품",
+    "description_ko": "튤립 의자를 잘라 채색한 부품으로 만든 모빌이다. 빨강과 흰색 줄무늬가 있는 곡선 형태의 날개들이 줄에 매달려 있다.",
+    "detail_text_ko": "원문은 튤립 의자(Tulip 체어)를 잘라 페인트한 부품으로 만든 모빌이라고 밝힌다. 사진에서는 곡선 날개 모양의 조각들이 가느다란 막대와 줄에 걸려 하늘을 배경으로 떠 있다. 기존 가구를 잘라 공중에 띄운 조형으로, 재료의 전환과 균형감이 감상 포인트다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "재활용",
+      "의자",
+      "설치"
+    ],
+    "uncertain": false,
+    "notes": "작가명은 원제목 기준(desc_src에는 없음). 촬영 추정 연도 2022는 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "794",
+    "reject": true,
+    "notes": "유치원 장식용 종이 공예 모빌 — 공예·장식물, 키네틱 작품으로 보기 어려움"
+  },
+  {
+    "local_id": "795",
+    "reject": true,
+    "notes": "행사용 장식물(위키피디아 10주년 카드) 사진 — 작품 아님"
+  },
+  {
+    "local_id": "797",
+    "title_display": "사무엘 V. 윌리엄스 도서관 모빌 (Samuel V. Williams Library mobile)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금색 별·초승달 모양 조형물 (사진 기준)",
+    "description_ko": "스티븐스 공과대학 사무엘 V. 윌리엄스 도서관 야외 로비 천장에 걸린 모빌 형식의 조형물이다. 금빛 별과 초승달 모양이 와이어에 매달려 있다.",
+    "detail_text_ko": "원문은 스티븐스 공과대학 도서관의 야외 로비에 걸린 설치 작품이라고 밝힌다. 사진에서는 별과 초승달 모양의 조각이 여러 높이에 매달려 있다. 모빌 형식의 구조로 보이나 움직임 여부는 사진으로 확인되지 않는다. 건물 입구의 빛과 그림자가 어우러지는 천장 설치로 감상할 수 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "도서관",
+      "천장설치",
+      "별"
+    ],
+    "uncertain": true,
+    "notes": "움직임 여부 사진으로 확인 불가. 원문은 'hanging art'. 촬영일 2007은 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "798",
+    "title_display": "조에터메이르 모빌 (Zoetermeer kunstwerk mobile)",
+    "artist": "마리케 바이허링크 (Marijke Wijgerinck) & 트루디 베르스마 (Trudy Bersma)",
+    "created_year": null,
+    "materials_ko": "채색 금속 판·막대 (사진 기준)",
+    "description_ko": "네덜란드 조에터메이르 필라투스담에 세워진 모빌 형태의 조각이다. 기둥에서 여러 개의 팔이 뻗어 있고, 노랑·주황·회색의 판이 매달려 있다.",
+    "detail_text_ko": "원문은 네덜란드 조에터메이르 필라투스담(Pilatusdam)의 작품이며 작가는 마리케 바이허링크와 트루디 베르스마라고 밝힌다. 사진에서는 기둥에서 뻗은 가느다란 팔에 원판과 곡선 조각이 달려 있다. 모빌 형식이라 바람에 반응하는 구조로 보이며, 도시 거리 풍경 속 공공미술로 감상할 수 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "공공미술",
+      "네덜란드",
+      "도시"
+    ],
+    "uncertain": false,
+    "notes": "촬영 추정 연도 2012는 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "799",
+    "reject": true,
+    "notes": "스누프 박스(공예품) — 채색 미니어처가 보이는 정적 사진, 오토마타 구동 장치 식별 불가"
+  },
+  {
+    "local_id": "805",
+    "reject": true,
+    "notes": "3D 거리 회화(트롱프뢰유) — 움직임 없는 정적 회화"
+  },
+  {
+    "local_id": "814",
+    "title_display": "원더를 소중히 (Take Care of Wonder)",
+    "artist": "토마스 메디쿠스 (Thomas Medicus)",
+    "created_year": 2025,
+    "materials_ko": "건축용 강철 (레이저 절단·용접·분체도장·볼트 체결)",
+    "description_ko": "관람자가 조각 주위를 돌면 파편 같은 이미지들이 사람의 손, 새의 날개, 글자 'TAKE CARE OF WONDER'로 차례로 맞춰지는 아나모픽 설치작품이다.",
+    "detail_text_ko": "2025년 오사카 엑스포 모나코 파빌리언을 위해 제작된 설치작품이다. 원문에 따르면 세 개의 직교 시점에서 각각 다른 이미지가 드러나며, 교차선 음영 기법으로 묘사되었다. 작품은 건축용 강철을 레이저로 절단하고 용접, 분체도장, 볼트 체결해 제작되었다.",
+    "tags_ko": [
+      "키네틱아트",
+      "아나모픽",
+      "옵아트",
+      "설치",
+      "강철"
+    ],
+    "uncertain": true,
+    "notes": "작가명은 원문 제목 표기 기준. 관람 위치에 따라 형상이 바뀌는 광학 효과로 판정(정적 조각 여부 애매)"
+  },
+  {
+    "local_id": "833",
+    "title_display": "차가운 숲 (Cold Forest)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "푸른 조명 아래 날카로운 결정체 모양의 조각들이 늘어서 있고, 벽면에 초록빛 원형 빛이 비치는 빛 조각 설치작품이다.",
+    "detail_text_ko": "원문 설명은 '빛 조각 설치(Light sculpture installation)'로만 되어 있어 작가와 구동 방식은 확인되지 않는다. 이미지는 청색 조명을 받는 결정 형태 조각들과 벽면의 초록색 원형 빛을 보여준다.",
+    "tags_ko": [
+      "키네틱아트",
+      "빛",
+      "설치",
+      "조각"
+    ],
+    "uncertain": true,
+    "notes": "원문 설명 최소, 움직임 여부 미확인. 촬영연도(hint_year)는 제작연도로 쓰지 않음"
+  },
+  {
+    "local_id": "835",
+    "title_display": "움직이는 1만 개의 도시 (10.000 moving cities)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "관람객이 세계지도에서 도시를 고르면 그 도시의 이미지·영상·소리·글을 인터넷에서 실시간으로 가져와 전시장의 큐브에 투사하는 인터랙티브 설치작품이다.",
+    "detail_text_ko": "원문에 따르면 이 작품은 도시마다의 지역적·문화적·언어적 차이를 보여주는 동시에, 세계화로 도시들이 점점 비슷해지고 대체 가능해지는 현상을 드러낸다. 이미지는 큐브 표면에 영상이 투사된 전시 공간을 보여준다.",
+    "tags_ko": [
+      "키네틱아트",
+      "인터랙티브",
+      "미디어아트",
+      "설치",
+      "도시"
+    ],
+    "uncertain": true,
+    "notes": "작가·제작연도 원문 미확인. 큐브 투사 영상의 움직임은 정지 이미지 기준 추정"
+  },
+  {
+    "local_id": "837",
+    "reject": true,
+    "notes": "웨어러블 픽셀 아트 펜던트 프로토타입(전자 제품 사진) — 움직임 없는 제품, 키네틱 작품 아님"
+  },
+  {
+    "local_id": "858",
+    "reject": true,
+    "notes": "청동 정적 조각(헤바즈라 상) — 움직임 없는 정적 조각"
+  },
+  {
+    "local_id": "859",
+    "reject": true,
+    "notes": "목조 정적 조각(라이진 상) — 움직임 없는 정적 조각"
+  },
+  {
+    "local_id": "862",
+    "title_display": "세계가 만들어지는 곳 3 — '자기' (Where the world is created \"Self\")",
+    "artist": "미즈타니 이즈루 (Izuru Mizutani)",
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "어두운 공간에서 빛과 안개처럼 번지는 영상 속에 인물 실루엣이 서 있는 인터랙티브 비디오 설치작품이다.",
+    "detail_text_ko": "원문에 따르면 작가 미즈타니 이즈루가 일 리벨리노(Il Rivellino)에서 선보인 인터랙티브 비디오 설치 '자기(Self)'다. 이미지는 방사형 빛이 퍼지는 통로 같은 영상 속에 인물의 실루엣이 놓인 장면을 보여준다.",
+    "tags_ko": [
+      "키네틱아트",
+      "인터랙티브",
+      "비디오아트",
+      "설치",
+      "자아"
+    ],
+    "uncertain": true,
+    "notes": "제목 번역 확정 어려움. 촬영연도(hint_year)는 제외. 영상 움직임은 정지 이미지 기준 추정"
+  },
+  {
+    "local_id": "868",
+    "title_display": "중력의 힘으로 떨어지기 (Falling through the force of gravity)",
+    "artist": "한나 하슬라티 (Hanna Haaslahti)",
+    "created_year": 2001,
+    "materials_ko": null,
+    "description_ko": "바닥 매트 위를 걷는 관람객의 움직임에 따라 벽면 영상이 반응하는 것으로 보이는 인터랙티브 설치작품이다.",
+    "detail_text_ko": "원문은 '인터랙티브 설치'라고만 설명한다. 이미지에는 바닥 매트 위를 걷는 인물, 매트에 켜진 붉은 발자국 조명, 창가 벽면에 투사된 얼굴 영상이 보인다. 작품 제목과 연도(2001)는 원문 제목에 따른다.",
+    "tags_ko": [
+      "키네틱아트",
+      "인터랙티브",
+      "비디오",
+      "설치",
+      "관객참여"
+    ],
+    "uncertain": true,
+    "notes": "반응 방식은 이미지 기준 추정. 원문 설명 최소"
+  },
+  {
+    "local_id": "869",
+    "title_display": "갈라파고스 (Galapagos)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "곡선으로 늘어선 여러 대의 브라운관 모니터에서 3차원 애니메이션 형태들이 움직이며, 관람객이 그 형태를 진화시킬 수 있는 인터랙티브 미디어 설치작품이다.",
+    "detail_text_ko": "원문은 관람객이 3차원 애니메이션 형태를 진화시킬 수 있는 인터랙티브 미디어 설치라고 설명한다. 이미지에는 곡선 형태로 배열된 모니터마다 서로 다른 색채의 형태가 떠 있는 모습이 보인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "인터랙티브",
+      "미디어아트",
+      "진화",
+      "설치"
+    ],
+    "uncertain": false,
+    "notes": "작가·제작연도 원문 미확인(hint_year는 촬영 추정이라 제외)"
+  },
+  {
+    "local_id": "870",
+    "title_display": "지오비전 V2 (GeoVision V2)",
+    "artist": null,
+    "created_year": 2024,
+    "materials_ko": null,
+    "description_ko": "두 개의 세로형 디스플레이에서 장소 정보 문구와 생성형 영상이 변화하는 인터랙티브 설치작품이다.",
+    "detail_text_ko": "원문은 2024년 인터랙티브 아트 설치작품으로 소개한다. 이미지의 화면에는 'Location', 'Historical Description' 등 장소 설명 문구와 함께 생성형 그래픽이 나타나며, 성 데메트리오스 성당과 화이트 타워 등 장소명이 보인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "생성예술",
+      "디스플레이",
+      "인터랙티브",
+      "장소"
+    ],
+    "uncertain": true,
+    "notes": "포스터가 아니라 영상 디스플레이 설치로 판정. 화면 움직임은 정지 이미지 기준 추정"
+  },
+  {
+    "local_id": "875",
+    "title_display": "민들레 (DANDELION)",
+    "artist": "세넵 & 요크 (Sennep & Yoke)",
+    "created_year": 2009,
+    "materials_ko": null,
+    "description_ko": "벽면에 투사된 민들레 씨앗이 바람에 흩날리는 영상을 보여주며, 관람객이 손에 든 장치로 상호작용하는 설치작품이다.",
+    "detail_text_ko": "원문은 '인터랙티브 설치'이며 2009년 작으로 표기되어 있다. 이미지는 푸른 하늘을 배경으로 한 민들레 영상 앞에서 관람객이 손잡이 장치를 들고 서 있는 모습이다. 씨앗이 흩날리는 움직임이 작품의 핵심 요소로 보인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "인터랙티브",
+      "미디어아트",
+      "민들레",
+      "프로젝션"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "879",
+    "title_display": "예술 풍경 (Artistic Wind Chime - Seattle)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "시애틀 건물 모퉁이 처마 아래에 색색의 장식물을 엮어 매단 바람 풍경 형태의 설치작품이다.",
+    "detail_text_ko": "원문은 시애틀의 레노라 가와 웨스턴 가가 만나는 북동쪽 모퉁이에 설치된 예술 풍경이라고만 밝힌다. 이미지는 갈색 벽돌 건물 모퉁이에 여러 색의 장식물이 뭉쳐 매달린 모습을 보여준다. 바람에 흔들리는 구조가 키네틱 요소다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "공공예술",
+      "시애틀"
+    ],
+    "uncertain": false,
+    "notes": "촬영연도(hint_year)는 제외. 작가 원문 미확인"
+  },
+  {
+    "local_id": "882",
+    "title_display": "회전목마 풍경 (Carousel Wind Chimes)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "회전목마 모양의 흰색 장식 말들이 천개 아래 줄에 매달린 바람 풍경이다.",
+    "detail_text_ko": "원문은 회전목마처럼 보이는 풍경을 촬영한 사진이라고만 설명한다. 이미지는 갓 모양 지붕 아래 세 마리 말 장식이 매달려 있고 뒤로 벽돌 벽이 보이는 모습이다. 바람에 장식이 흔들리는 구조로 보인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "모빌",
+      "회전목마"
+    ],
+    "uncertain": true,
+    "notes": "정지 사진이라 바람에 의한 움직임은 추정. 촬영연도(hint_year)는 제외"
+  },
+  {
+    "local_id": "886",
+    "title_display": "색유리 나비 모양 풍경 (Colorful Glass Butterfly-shaped Wind Chimes)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "색유리, 깃털, 돌, 줄",
+    "description_ko": "여러 색 유리를 나비 날개 모양으로 깎아 줄에 매단 풍경이다. 바람에 흔들리며 움직이는 구조다.",
+    "detail_text_ko": "파란색, 초록색, 주황색 등의 유리 조각이 줄에 나란히 매달려 있다. 아래쪽에는 깃털과 돌이 함께 달려 있어 바람을 받으면 소재마다 다르게 흔들린다. 원제목에 따르면 케냐 나쿠루(Nakuru) 인근 엘레이타이타(Elementaita)에서 촬영된 야외 베란다 풍경이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "유리",
+      "나비"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "887",
+    "reject": true,
+    "notes": "묘지 풍경 사진. 풍경 장식은 가장자리 일부만 보이며 작품이 중심이 아님"
+  },
+  {
+    "local_id": "893",
+    "title_display": "할아버지의 풍경 (Grandfather's Windchime)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 관, 나무 추(추정)",
+    "description_ko": "금속 관 네 개를 매단 풍경으로, 바람에 흔들리며 소리를 내는 구조다. 할아버지가 임종 무렵 시작해 완성한 작품이다.",
+    "detail_text_ko": "원문에 따르면 할아버지가 생애 마지막 시기에 시작해 완성한 풍경이며, 그의 어린 시절 집에서 나온 부품으로 만들어졌다. 이미지에서는 길이가 다른 금속 관 네 개가 원판 아래 매달려 있고, 아래쪽에는 추로 보이는 부품이 달려 있다. 가족의 기억을 담은 개인 작품이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "추모",
+      "가족"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "899",
+    "title_display": "말굽 모양 종 풍경 (Horseshoe shaped wind chime with bells)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "철, 종",
+    "description_ko": "말굽 모양의 녹슨 철 고리에 종 세 개를 매단 풍경이다. 흔들리면 종이 소리를 낸다.",
+    "detail_text_ko": "원문에 따르면 오래된 철제 풍경이며 행운을 부르는 부적으로 쓰인다. 이미지에서는 말굽 모양 철 고리 아래에 종 세 개가 고리로 연결되어 매달려 있고, 위쪽에는 사슬이 달려 있다. 표면이 녹슬어 있어 오래된 물건임을 보여준다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "종",
+      "부적",
+      "철"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "902",
+    "reject": true,
+    "notes": "예루살렘 시장 판매용 기성 풍경 진열. 공예품이며 작가 작품이 아님"
+  },
+  {
+    "local_id": "903",
+    "reject": true,
+    "notes": "판매상 인물 중심 사진. 시장 기성 풍경 장식이며 작품이 아님"
+  },
+  {
+    "local_id": "904",
+    "title_display": "밀워키 풍경 (Milwaukee July 2022 086 (wind chime))",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속, 나무 기둥, 원판",
+    "description_ko": "밀워키 야외에 설치된 금속 풍경으로, 나무 기둥 끝의 팔에 원통과 원판을 매단 구조다.",
+    "detail_text_ko": "원문은 미국 위스콘신주 밀워키에 있는 풍경이라고 설명한다. 이미지에서는 나무 기둥에 기울어진 팔이 달려 있고, 그 끝에 어두운 금속 원통 세 개와 원판이 매달려 있다. 바람을 받아 흔들리는 구조로 보이나 움직임은 사진만으로 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "금속",
+      "밀워키",
+      "야외설치"
+    ],
+    "uncertain": true,
+    "notes": "움직임이 사진으로 확인되지 않음. 설치 구조상 풍경으로 판정"
+  },
+  {
+    "local_id": "905",
+    "title_display": "다색 풍경 1 (Multicolored wind chime 1)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "구리 관, 구리 고리, 유리 구슬, 사슬",
+    "description_ko": "구리 관과 구리 고리, 색유리 구슬을 사슬로 엮어 매단 풍경이다. 바람에 흔들리며 움직이는 구조다.",
+    "detail_text_ko": "원문은 풍경이라는 설명 외에 제작 정보를 담고 있지 않다. 이미지에서는 구리 관 아래로 구리 고리가 겹쳐 달려 있고, 파란색, 초록색, 빨간색, 호박색 유리 구슬이 사슬에 걸려 있다. 정원에 매달린 상태로 촬영되어 바람에 따라 움직이는 구조가 드러난다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "구리",
+      "유리",
+      "정원"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "907",
+    "title_display": "레드넥 풍경 (Red Neck Wind Chime)",
+    "artist": "앤지 (Angie)",
+    "created_year": null,
+    "materials_ko": "맥주 캔, 줄, 목재 간판",
+    "description_ko": "맥주 캔 네 개를 줄에 매달고 나무 간판을 단 야외 풍경이다. 캔이 바람에 흔들리며 움직이도록 만들어졌다.",
+    "detail_text_ko": "원문에 따르면 앤지(Angie)가 만들었고 재료는 다른 사람이 제공했다. 이미지에서는 나무 간판 아래로 맥주 캔 네 개가 줄에 매달려 있다. 재활용 재료를 활용한 야외 설치물로, 유머러스한 풍경이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "재활용",
+      "야외설치"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "909",
+    "title_display": "다카오카 풍경 (Takaoka Hurin)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "황동, 종이 띠",
+    "description_ko": "일본 도야마현 다카오카에서 만든 황동 풍경이다. 종 아래 달린 종이 띠가 바람에 흔들린다.",
+    "detail_text_ko": "원문에 따르면 도야마현 다카오카에서 황동으로 만든 풍경이며, 가와사키 다이시(Kawasaki-Daishi)에서 촬영되었다. 이미지에서는 원추형 황동 종이 매달려 있고 주변에 흰색, 노란색, 초록색 종이 띠가 함께 달려 있다. 바람이 불면 종과 종이 띠가 함께 흔들린다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "황동",
+      "일본",
+      "전통"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "914",
+    "title_display": "조개 풍경 (Wind Chimes of Shells)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "조개껍데기, 줄",
+    "description_ko": "조개껍데기를 줄에 엮어 천장에서 길게 늘어뜨린 풍경이다. 바람을 받으면 조개가 흔들리는 구조다.",
+    "detail_text_ko": "원문은 캐나다 몬트리올에서 만든 조개 풍경이라고 설명한다. 이미지에서는 흰색과 분홍빛 조개껍데기가 여러 줄에 촘촘히 매달려 천장 들보 아래로 길게 늘어져 있다. 움직임은 사진에서 직접 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "조개",
+      "몬트리올",
+      "설치"
+    ],
+    "uncertain": true,
+    "notes": "움직임이 사진에서 확인되지 않음. 바람 구동 풍경으로 판정"
+  },
+  {
+    "local_id": "917",
+    "reject": true,
+    "notes": "원통과 구멍 위치를 표시한 기술 도해. 사진 또는 작품이 아님"
+  },
+  {
+    "local_id": "927",
+    "title_display": "독수리 풍향계 (Eagle weather vane)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속",
+    "description_ko": "지붕 굴뚝 위에 올린 독수리 모양 풍향계다. 바람 방향에 따라 회전하는 구조다.",
+    "detail_text_ko": "원문은 그리스의 아파트 건물 지붕에 올린 독수리 풍향계라고 설명한다. 이미지에서는 금속으로 된 독수리 형상이 벽돌 굴뚝 위에 얹혀 있다. 풍향계는 바람을 받아 회전하는 구조이며, 사진은 정지된 순간을 담고 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍향계",
+      "바람",
+      "독수리",
+      "금속"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "931",
+    "title_display": "록슬리 코트 풍향계 (Roxley Court, weather vane)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속(철), 채색",
+    "description_ko": "지붕 위 돔에 올린 붉은 돼지 모양 풍향계다. 바람 방향에 따라 회전하는 구조다.",
+    "detail_text_ko": "원문에 따르면 영국 허트퍼드셔의 록슬리 코트에서 2010년 4월에 촬영되었다. 이미지에서는 팔각형 기둥 위 돔 지붕 꼭대기에 붉은 돼지 모양 풍향계와 방위 표시(N, W, S)가 달린 막대가 올려져 있다. 풍향계는 바람에 따라 회전하는 구조다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍향계",
+      "바람",
+      "영국",
+      "건축"
+    ],
+    "uncertain": true,
+    "notes": "건물 비중이 커 경계 사례. 풍향계가 주 피사체로 보여 통과"
+  },
+  {
+    "local_id": "936",
+    "title_display": "달리는 말 모양 풍향계 (Флюгер в виде бегущей лошади)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속(철)",
+    "description_ko": "달리는 말 실루엣 모양의 풍향계다. 바람 방향에 따라 회전하는 구조다.",
+    "detail_text_ko": "원문은 달리는 말 모양의 풍향계라고 설명한다. 이미지에서는 검은 금속 말 실루엣이 화살 모양 받침대 위에 올라 있고, 아래쪽에 N 방위 표시가 있다. 하늘을 배경으로 한 실루엣 구도가 말의 역동적인 자세를 강조한다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍향계",
+      "말",
+      "바람",
+      "금속"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "955",
+    "title_display": "기계식 로비 로봇 태엽 양철 완구 (Ha Ha Toy)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "양철, 태엽",
+    "description_ko": "은색, 검정, 빨강 세 가지 색의 태엽 구동 양철 로봇 완구 세 대를 나란히 찍은 사진이다.",
+    "detail_text_ko": "로봇은 머리와 몸통이 원통형이고 팔과 다리에 주름진 관절이 있으며, 몸통 앞면에 계기판 같은 장식이 붙어 있다. 원문 제목에 Tin Wind Up과 Mechanical이라고 되어 있어 태엽을 감아 움직이는 완구로 보인다. 제조사로 표기된 Ha Ha Toy는 작가가 아니라 제작사 정보이므로 작가 항목은 비워 두었다. 원문 설명은 사진 저작권 안내뿐이어서 그 밖의 세부 사실은 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "태엽완구",
+      "로봇",
+      "오토마타"
+    ],
+    "uncertain": true,
+    "notes": "움직임 자체는 사진으로 확인 불가. 태엽 구동은 제목 근거. 제조사만 확인, 작가 없음."
+  },
+  {
+    "local_id": "956",
+    "title_display": "말 탄 기수 태엽 완구 (Toy Horse and Rider)",
+    "artist": null,
+    "created_year": 1910,
+    "materials_ko": "금속, 가죽(꼬리), 태엽 장치",
+    "description_ko": "태엽을 감아 움직이는 말과 기수 모양의 기계식 완구다.",
+    "detail_text_ko": "흰 바탕에 파란 발굽과 무늬가 있는 말 위에 파란 바지에 체크무늬 셔츠를 입은 기수가 앉아 있다. 원문에 따르면 말 안의 태엽 장치가 말갈기 밑의 돌기를 통해 기수의 곧게 뻗은 오른팔을 관통하고, 말 엉덩이 쪽으로 태엽 축이 나와 있다. 제목의 1910을 제작 연도로 보고 created_year에 넣었으며, 촬영 연도와는 구분된다.",
+    "tags_ko": [
+      "키네틱아트",
+      "태엽완구",
+      "말",
+      "오토마타"
+    ],
+    "uncertain": false,
+    "notes": "제목의 1910을 제작연도로 사용. 파일명 HOSP_13510과 사진 표지 HOSP 13517이 불일치, 원문 기준 13510으로 기록하여 확인 필요."
+  },
+  {
+    "local_id": "972",
+    "title_display": "기계식 우주비행사 로봇 M426 (태엽 양철 완구)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "양철, 태엽",
+    "description_ko": "태엽으로 움직이도록 만든 파란색 우주비행사 모양 양철 로봇 완구다.",
+    "detail_text_ko": "사진은 로봇의 뒷면을 찍은 것으로, 등에 빨간 배낭형 장치와 노란 점 격자 장식이 있고 은색 둥근 헬멧이 씌워져 있다. 원문 제목에 중국 제작사 미상, 모델명 M426, Mechanical 완구라고 되어 있다. 원문 설명은 사진 저작권 안내뿐이어서 제작 연도나 작동 세부는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "태엽완구",
+      "로봇",
+      "우주비행사"
+    ],
+    "uncertain": true,
+    "notes": "움직임 사진 확인 불가, 태엽 구동은 제목 근거. 제작자 미상."
+  },
+  {
+    "local_id": "1004",
+    "reject": true,
+    "notes": "16세기 추정 정적 드로잉(목탄 스케치) — 움직임·광학 장치 없음"
+  },
+  {
+    "local_id": "1005",
+    "reject": true,
+    "notes": "보안요원 3D 렌더 이미지 — 작품 아님(도해/일러스트)"
+  },
+  {
+    "local_id": "1009",
+    "reject": true,
+    "notes": "16세기 정적 회화 — 움직임·광학 장치 없음"
+  },
+  {
+    "local_id": "1010",
+    "reject": true,
+    "notes": "정적 애너모픽 회화 이미지 — 움직임은 웹 설명용 애니메이션뿐"
+  },
+  {
+    "local_id": "1011",
+    "title_display": "애너모픽 원통거울 바닥 그림 (Waldwipfelweg)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "바닥 페인팅, 원통 거울",
+    "description_ko": "원통 거울에 비추면 왜곡된 바닥 그림이 제 모습으로 보이는 애너모픽 작품이다.",
+    "detail_text_ko": "사진에는 기울어진 바닥에 사다리와 물체 그림이 왜곡되어 그려져 있고, 그 위에 원통형 거울이 세워져 있다. 원문은 장소를 Waldwipfelweg(Sankt Englmar–Maibrunn)라고만 밝힌다. 움직이는 부분은 없고 광학 착시에 의존하는 작품이라 광학 장난감·옵아트 기준으로 판단했다.",
+    "tags_ko": [
+      "키네틱아트",
+      "애너모픽",
+      "광학착시",
+      "원통거울"
+    ],
+    "uncertain": true,
+    "notes": "움직임 없는 광학 착시로 키네틱 판정 애매, 재검토 권장. 작가 미상. 2025는 촬영일로 보고 연도 비움."
+  },
+  {
+    "local_id": "1013",
+    "reject": true,
+    "notes": "거리 벽화(기차 그림) 사진 — 정적 벽화"
+  },
+  {
+    "local_id": "1014",
+    "reject": true,
+    "notes": "건물 외관 사진 — 작품 식별 불가"
+  },
+  {
+    "local_id": "1020",
+    "reject": true,
+    "notes": "정적 벽면 트롬프뢰유 벽화 — 움직임·광학 장치 없음"
+  },
+  {
+    "local_id": "1033",
+    "title_display": "컨볼루션 (Convolution)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "여러 색 면이 겹치며 교차하는 기하학 패턴 이미지다.",
+    "detail_text_ko": "원문은 이 이미지가 애너모픽(왜곡 그림)인지 단순한 컨볼루션 연산 결과인지 묻고 있다. 정지된 디지털 이미지로 보이며 움직이는 요소는 없다. 옵아트 계열의 기하학 패턴이라 통과 처리했으나 원문 근거가 짧아 판정이 애매하다.",
+    "tags_ko": [
+      "키네틱아트",
+      "옵아트",
+      "기하학패턴",
+      "컨볼루션"
+    ],
+    "uncertain": true,
+    "notes": "정지 이미지, 원문 근거 부족. 옵아트 판정 애매, 재검토 권장."
+  },
+  {
+    "local_id": "1034",
+    "title_display": "원통거울 애너모픽 작품 (Cabinet of Physics, Arppeanum)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "채색 판(추정), 원통 거울",
+    "description_ko": "헬싱키 아르페아눔 물리 캐비닛에 전시된 원통거울 애너모픽 작품이다.",
+    "detail_text_ko": "유리 진열장 안에 어두운 바탕의 채색 판 두 장이 놓여 있고, 오른쪽 가장자리에 은색 원통형 거울이 보인다. 원문은 헬싱키 아르페아눔 전시이며 촬영이 제한 없이 허용되었다고만 밝힌다. 그림은 원통거울에 비춰 보는 방식의 광학 장치 작품으로 제목에 표기되어 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "애너모픽",
+      "광학장치",
+      "원통거울"
+    ],
+    "uncertain": true,
+    "notes": "움직임 없음. 광학 장치 기준으로 통과, 정지 전시 사진이라 재검토 권장. 촬영일 2012는 created_year에 넣지 않음."
+  },
+  {
+    "local_id": "1036",
+    "reject": true,
+    "notes": "원통거울 아래 그림이 식별되지 않음 — 작품이 안 보이는 사진"
+  },
+  {
+    "local_id": "1038",
+    "reject": true,
+    "notes": "애너모픽 사진을 찍은 인물 초상 사진 — 작품 아님"
+  },
+  {
+    "local_id": "1046",
+    "title_display": "애너모포시스 실험 8 (MHS-GE expérience 8-anamorphose-2)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "원통형 거울, 채색된 원판",
+    "description_ko": "원판에 왜곡되어 그려진 형상이 원통형 거울에 비칠 때 제 모습으로 보이는 애너모포시스 실험 장치이다.",
+    "detail_text_ko": "제네바 과학사 박물관(Musée d'histoire des sciences)의 실험 8번으로 전시된 장치이다. 원판 위 그림은 정면에서 보면 일그러져 있으며, 중앙의 원통형 거울에 비치면 원래 형상이 드러나는 원리다. 움직이는 부분은 보이지 않는 정적 광학 장치이며, 시점에 따라 상이 달라지는 점이 감상 포인트이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "애너모포시스",
+      "광학",
+      "거울"
+    ],
+    "uncertain": true,
+    "notes": "움직임이 없는 광학 착시 장치 — 옵아트 범주로 통과, 키네틱 여부 애매"
+  },
+  {
+    "local_id": "1048",
+    "reject": true,
+    "notes": "파리 시청 앞 잔디 구체 — 정적 설치, 광장 전경 위주"
+  },
+  {
+    "local_id": "1054",
+    "reject": true,
+    "notes": "전시된 일반 회화(애너모포시스 그림, 피라미드 거울 동반) — 정적 회화"
+  },
+  {
+    "local_id": "1055",
+    "reject": true,
+    "notes": "정적 회화(원뿔 거울 동반 애너모포시스 그림)"
+  },
+  {
+    "local_id": "1056",
+    "reject": true,
+    "notes": "보도 위 3D 거리화 — 정적 회화"
+  },
+  {
+    "local_id": "1057",
+    "reject": true,
+    "notes": "건물 외벽·아케이드에 그린 정적 선 설치 — 건물 전경 위주"
+  },
+  {
+    "local_id": "1058",
+    "reject": true,
+    "notes": "컴퓨터 렌더링 이미지 — 실물 작품 아님, 정적"
+  },
+  {
+    "local_id": "1059",
+    "reject": true,
+    "notes": "성당 스테인드글라스 창 — 정적 건축 요소"
+  },
+  {
+    "local_id": "1060",
+    "title_display": "움직이는 추상 정자 (Abstract spermatozoon, moving)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "빛 (빛으로 그리기)",
+    "description_ko": "추상화된 정자 형태가 움직이는 궤적을 빛으로 그린 작품이다.",
+    "detail_text_ko": "원문 설명에 따르면 움직이는 추상적 형상을 빛으로 그린 작품이다. 이미지에는 빛이 흘러가며 남긴 잔상과 겹쳐진 곡선이 보여, 움직임 자체를 시각화한 점이 감상 포인트이다. 작가와 제작 연도는 원문에서 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "빛",
+      "움직임",
+      "추상"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "1083",
+    "reject": true,
+    "notes": "독일 정적 조명 기구 — 움직임 근거 없음, 공예품 성격"
+  },
+  {
+    "local_id": "1085",
+    "title_display": "빛의 줄기 (Light art, Light beams, Red Square, Moscow)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "빛줄기 조명, 구형 영상 투사면",
+    "description_ko": "모스크바 붉은 광장의 야간에 펼쳐진 빛 예술로, 빛줄기가 밤하늘을 가로지르는 장면이다.",
+    "detail_text_ko": "원문에 따르면 모스크바 붉은 광장에서 밤에 펼쳐진 빛 예술이다. 사진에는 여러 갈래의 빛줄기와 구형 영상 투사면이 보이며, 관객이 둘러싸고 바라보는 야외 행사형 연출이다. 빛줄기가 움직이며 공간을 바꾸는 점이 감상 포인트이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "빛예술",
+      "프로젝션",
+      "야경"
+    ],
+    "uncertain": true,
+    "notes": "행사형 빛 공연 사진 — 움직임은 빛줄기로 추정, 작품 경계 애매"
+  },
+  {
+    "local_id": "1090",
+    "title_display": "오일 프로젝션 (Liquid Oil Projection)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "착색 알코올, 미네랄 오일, 유리판",
+    "description_ko": "색을 입힌 알코올과 미네랄 오일을 유리판 사이에 넣고 빛으로 투사하는 작품이다. 가열하면 기포가 움직이며 색이 섞인다.",
+    "detail_text_ko": "두 장의 유리판 사이에 착색 알코올과 미네랄 오일의 혼합액을 넣어 만든다. 원문에 따르면 액체를 가열하면 기포가 움직이고 섞이며 형태가 계속 변한다. 빛을 투과시켜 투사된 색과 기포의 움직임이 감상 포인트이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "액체",
+      "투사",
+      "빛"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "1098",
+    "title_display": "RFE06 연꽃 빛 예술 (RFE06 lotus light art)",
+    "artist": null,
+    "created_year": 2006,
+    "materials_ko": "빛 연출(조명)",
+    "description_ko": "2006년 태국 치앙마이 로열 플로라 엑스포에서 선보인 연꽃 형상의 빛 예술이다.",
+    "detail_text_ko": "원문에 따르면 2006 로열 플로라 엑스포(태국 치앙마이)에서 연출된 빛 예술이다. 이미지에는 녹색과 파란색 빛으로 그려진 연꽃 형상이 보이며, 빛의 궤적이 겹쳐 꽃잎처럼 표현된다. 움직이는 빛으로 형태를 만드는 점이 감상 포인트이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "빛예술",
+      "연꽃",
+      "엑스포"
+    ],
+    "uncertain": true,
+    "notes": "야간 빛 공연 사진 — 움직임 여부는 장시간 노출 흔적으로 추정"
+  },
+  {
+    "local_id": "1099",
+    "title_display": "RFE06 무지개 빛 예술 (RFE06 rainbow light art)",
+    "artist": null,
+    "created_year": 2006,
+    "materials_ko": "빛 연출(조명)",
+    "description_ko": "2006년 태국 치앙마이 로열 플로라 엑스포에서 선보인 무지개 형상의 빛 예술이다.",
+    "detail_text_ko": "원문에 따르면 2006 로열 플로라 엑스포(태국 치앙마이)에서 연출된 빛 예술이다. 이미지에는 무지개 모양의 띠와 빛이 흘러가며 남긴 궤적이 함께 보여, 빛의 움직임을 기록한 형태로 읽힌다. 여러 색의 빛이 겹치는 장면이 감상 포인트이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "빛예술",
+      "무지개",
+      "엑스포"
+    ],
+    "uncertain": true,
+    "notes": "야간 빛 공연 사진 — 움직임 여부는 궤적 흔적으로 추정"
+  },
+  {
+    "local_id": "274",
+    "title_display": "스트란트비스트 연결 구조 (GluedStrandbeestBridges)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "흰색 긴 튜브 부재, 연결 부품, 접착 부분",
+    "description_ko": "움직이는 동안 스트란트비스트가 한 덩어리로 유지되도록 연결부(브리지)를 접착한 구조물이다.",
+    "detail_text_ko": "원문에 따르면 스트란트비스트의 브리지 부분을 접착해, 움직이는 동안에도 구조가 한 덩어리로 남도록 했다. 사진에는 흰색 긴 다리 부재와 회색 연결 부품, 접착된 이음부가 보인다. 움직이는 보행 조각의 구조적 세부를 보여 주는 장면이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란트비스트",
+      "보행",
+      "조각"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "301",
+    "title_display": "완성형 스트랜드비스트 (Finalized Strandbeest)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "레고 테크닉 부품",
+    "description_ko": "레고 부품으로 만든 여러 개의 다리가 축과 링크로 연결된 보행 구조물이다. 원문에 따르면 모터를 달지 않은 완성 상태다.",
+    "detail_text_ko": "스트랜드비스트 계열 작품의 완성 단계를 보여 주는 사진이다. 다리 여러 개가 대칭으로 배열되어 있으며 관절 부분이 축에 연결되어 있다. 원문에는 작가명과 제작 연도가 없어 기재하지 않았다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "보행",
+      "레고"
+    ],
+    "uncertain": false,
+    "notes": "작가·연도 원문 미기재 (hint_year는 촬영일로 간주하여 미사용)"
+  },
+  {
+    "local_id": "302",
+    "reject": true,
+    "notes": "레고 링크 연결 설계 스케치(손그림 도표) — 작품 사진 아님"
+  },
+  {
+    "local_id": "305",
+    "reject": true,
+    "notes": "기어·축 부품 사진 — 완성된 작품이 보이지 않음"
+  },
+  {
+    "local_id": "306",
+    "title_display": "스트랜드비스트 상단 모습 (The bird eye view of Strandbeest)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "레고 테크닉 부품, 기어",
+    "description_ko": "레고 부품으로 만든 보행형 다리 구조를 위에서 내려다본 모습이다. 원문에 따르면 상단에 모터가 장착될 예정이다.",
+    "detail_text_ko": "기어와 링크가 연결된 구조가 위에서 보인다. 원문은 작품 상단에 모터를 설치한다고 설명하며, 작가명과 제작 연도는 원문에 없어 기재하지 않았다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "기어",
+      "레고"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "342",
+    "title_display": "97개의 폴리실록산 호스 (97 Polysiloxane Hoses)",
+    "artist": "짐문 (Zimoun)",
+    "created_year": 2010,
+    "materials_ko": "폴리실록산 호스 97개(지름 3.0mm), 압축공기",
+    "description_ko": "흰색 호스 97개가 압축공기에 의해 움직이는 설치 작품이다. 호스들이 테이블 위에서 꿈틀거리며 빛을 받는다.",
+    "detail_text_ko": "2010년 작으로, 원문은 리히텐슈타인 쿤스트무제움의 설치 전경이라고 밝히고 있다. 압축공기가 호스를 움직여 형태가 계속 변한다. 테이블 아래에는 공기를 공급하는 장치가 연결되어 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "설치미술",
+      "공압",
+      "짐문"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "343",
+    "title_display": "비닐봉지 3만 개와 선풍기 16대 (Plastic Bags and Ventilators)",
+    "artist": "짐문 (Zimoun)",
+    "created_year": 2010,
+    "materials_ko": "플라스틱 비닐봉지 3만 개, 선풍기 16대",
+    "description_ko": "비닐봉지 3만 개가 선풍기 16대에서 나오는 바람에 따라 움직이는 설치 작품이다.",
+    "detail_text_ko": "2010년 작으로, 원문은 스위스 로카르노 라 라다(La Rada)의 설치 전경이라고 밝히고 있다. 천장 쪽에 설치된 선풍기 바람이 비닐을 흔들어 공간 전체가 물결치듯 움직인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "설치미술",
+      "선풍기",
+      "짐문"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "366",
+    "reject": true,
+    "notes": "힌지 부품 구상 음영 스케치 — 도표·드로잉"
+  },
+  {
+    "local_id": "367",
+    "reject": true,
+    "notes": "천 관절 구상 드로잉 (Not to scale) — 도표·드로잉"
+  },
+  {
+    "local_id": "369",
+    "reject": true,
+    "notes": "격자 노트 초기 설계 스케치 — 도표"
+  },
+  {
+    "local_id": "374",
+    "title_display": "고급 스트랜드비스트 모델 (My Advanced Strandbeest)",
+    "artist": null,
+    "created_year": 2011,
+    "materials_ko": "레고 테크닉 부품",
+    "description_ko": "레고 테크닉 부품으로 만든 다리형 보행 모델이다. 원문에 따르면 완성 모델을 2011년 9월 28일에 다시 제작했다.",
+    "detail_text_ko": "흰색 빔과 회색 다리가 연결된 구조이며, 투명 수납함 위에 올려 촬영되었다. 원문에는 작가명이 없어 기재하지 않았다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "보행",
+      "레고"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "403",
+    "reject": true,
+    "notes": "3D 구상 스케치(격자 노트) — 도표"
+  },
+  {
+    "local_id": "404",
+    "reject": true,
+    "notes": "부러진 클램프 부품 사진 — 작품 아님"
+  },
+  {
+    "local_id": "408",
+    "title_display": "스트랜드비스트 클램프 1 (The clamps on strandbeest1)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "목재 프레임, PVC 파이프, 플라스틱 클램프",
+    "description_ko": "목재 프레임의 PVC 레일에 초록색 클램프를 달아 다리를 고정한 모습이다.",
+    "detail_text_ko": "원문은 클램프가 다리를 레일 위에 붙잡아 둔다고 설명한다. 사진은 작품 전체보다 구조 연결부에 가까우며, 작가명과 제작 연도는 원문에 없어 기재하지 않았다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "구조",
+      "클램프"
+    ],
+    "uncertain": true,
+    "notes": "구조 연결부 확대 사진에 가까워 애매함"
+  },
+  {
+    "local_id": "409",
+    "title_display": "스트랜드비스트 클램프 2 (The clamps on strandbeest2)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "목재 프레임, PVC 파이프, 플라스틱 클램프",
+    "description_ko": "두 개의 클램프가 다리를 레일 위에 고정하고 있는 모습이다.",
+    "detail_text_ko": "원문은 클램프 두 개가 다리를 레일 위에 고정한다고 설명한다. 사진은 연결부 확대에 가까우며, 작가명과 제작 연도는 원문에 없어 기재하지 않았다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "구조",
+      "클램프"
+    ],
+    "uncertain": true,
+    "notes": "구조 연결부 확대 사진에 가까워 애매함"
+  },
+  {
+    "local_id": "410",
+    "title_display": "완성된 스트랜드비스트 기어 장치 (The designed piece)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "레고 기어, 축, 플레이트",
+    "description_ko": "레고 기어와 축으로 구성된 장치로, 스트랜드비스트와 결합해 완성된 부품이다.",
+    "detail_text_ko": "손으로 잡고 찍은 사진으로, 기어가 맞물린 구조가 보인다. 원문은 이 장치가 성공적으로 완성되어 스트랜드비스트에 결합되었다고 설명한다. 작가명과 제작 연도는 원문에 없어 기재하지 않았다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "기어",
+      "레고"
+    ],
+    "uncertain": true,
+    "notes": "전체 작품보다 기어 장치 부분 사진에 가까워 애매함"
+  },
+  {
+    "local_id": "417",
+    "reject": true,
+    "notes": "작가 사진(인물 중심, 구조물은 배경) — 작품 본체 아님"
+  },
+  {
+    "local_id": "420",
+    "title_display": "스트랜드비스트 보행 애니메이션 (Strandbeest Full Walking Animation)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "여섯 개의 다리를 가진 스트랜드비스트가 걷는 모습을 보여주는 애니메이션이다.",
+    "detail_text_ko": "스트랜드비스트는 여러 개의 다리가 연결된 링크 구조로 걷도록 만든 움직이는 조각이다. 이 이미지는 여섯 다리 구조가 걷는 동작을 선 그림으로 표현한 애니메이션 장면이다. 원문 설명은 보행 장면만 다루므로 세부 구동 방식은 원문으로 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "보행",
+      "애니메이션"
+    ],
+    "uncertain": true,
+    "notes": "선 그림 형태의 애니메이션 프레임 — 움직임 표현으로 통과, 작가·연도 원문 미확인"
+  },
+  {
+    "local_id": "421",
+    "title_display": "스트랜드비스트 보행 애니메이션 RGB (Strandbeest Animation rgb-100ms)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "여섯 개의 다리를 가진 스트랜드비스트가 걷는 모습을 색으로 구분해 보여주는 애니메이션이다.",
+    "detail_text_ko": "파랑, 초록, 빨강으로 부품을 구분한 같은 스트랜드비스트 보행 애니메이션이다. 색 구분을 통해 다리와 링크가 어떻게 연결되어 움직이는지 보여준다. 원문은 여섯 다리 보행 장면이라는 설명만 제공한다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "보행",
+      "애니메이션"
+    ],
+    "uncertain": false,
+    "notes": "420과 같은 작품의 색상 구분 버전 — 원문 연도 미확인이라 null"
+  },
+  {
+    "local_id": "450",
+    "title_display": "애빙던 정원의 채색 풍차 (Colourful windmills, Abingdon)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "정원에 세워진 여러 개의 채색 풍차(바람개비형 장식)가 원색 날개로 꾸며져 있다.",
+    "detail_text_ko": "애빙던 시내 중심부 근처 정원에 설치된 채색 풍차들이다. 바람개비형 날개가 회전하도록 만들어져 있어 움직이는 장식으로 볼 수 있다. 원문은 장소와 장식 풍차라는 사실만 제공하므로 작가와 제작 방식은 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍차",
+      "바람",
+      "정원"
+    ],
+    "uncertain": false,
+    "notes": "원문에 작가·제작연도 없음(hint_year 2009는 원문 미확인으로 null)"
+  },
+  {
+    "local_id": "459",
+    "title_display": "프락시노스코프 (Le praxinoscope, 에밀 레이노)",
+    "artist": "에밀 레이노 (Émile Reynaud)",
+    "created_year": 1879,
+    "materials_ko": null,
+    "description_ko": "에밀 레이노가 고안한 프락시노스코프 장치를 그린 1879년 과학 잡지 삽화다.",
+    "detail_text_ko": "1879년 라 나튀르(La Nature) 과학 잡지 제296호에 실린 삽화이다. 회전하는 원통 안의 그림 띠를 보며 움직이는 장면을 보게 하는 광학 장난감인 프락시노스코프의 외형을 보여준다. 연도는 삽화 게재연도 기준이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "광학 장난감",
+      "프락시노스코프",
+      "에밀 레이노"
+    ],
+    "uncertain": false,
+    "notes": "created_year는 원문 삽화 게재연도(1879) 기준"
+  },
+  {
+    "local_id": "460",
+    "title_display": "투영형 프락시노스코프 (Praxinoscope à projection)",
+    "artist": "에밀 레이노 (Émile Reynaud)",
+    "created_year": 1882,
+    "materials_ko": null,
+    "description_ko": "에밀 레이노의 투영형 프락시노스코프를 그린 1882년 과학 잡지 삽화다.",
+    "detail_text_ko": "1882년 라 나튀르 과학 잡지 제492호에 실린 삽화이다. 회전하는 그림 띠의 장면을 렌즈로 벽면 스크린에 투영해 여러 사람이 함께 볼 수 있게 한 광학 장난감의 모습을 보여준다. 연도는 삽화 게재연도 기준이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "광학 장난감",
+      "프락시노스코프",
+      "투영"
+    ],
+    "uncertain": false,
+    "notes": "created_year는 원문 삽화 게재연도(1882) 기준"
+  },
+  {
+    "local_id": "495",
+    "reject": true,
+    "notes": "칼더 서커스 드로잉이 실린 신문 지면 — 키네틱 작품 본체가 아닌 2차 드로잉 페이지"
+  },
+  {
+    "local_id": "501",
+    "reject": true,
+    "notes": "영화 촬영 현장의 인물 사진 — 작품 아님"
+  },
+  {
+    "local_id": "508",
+    "reject": true,
+    "notes": "인물 사진(영화 촬영 현장) — 작품 아님"
+  },
+  {
+    "local_id": "546",
+    "reject": true,
+    "notes": "작가 인물 사진 — 작품 아님"
+  },
+  {
+    "local_id": "628",
+    "reject": true,
+    "notes": "인물 드로잉(작가 Yaakov Agam이 그린 초상) — 작품 아님"
+  },
+  {
+    "local_id": "654",
+    "reject": true,
+    "notes": "건물 외관(중정 파사드) 사진 — 건축/전경으로 거부"
+  },
+  {
+    "local_id": "705",
+    "title_display": "나무좀 (Woodworms)",
+    "artist": "치무온 (Zimoun)",
+    "created_year": 2009,
+    "materials_ko": "나무, 마이크, 음향 시스템",
+    "description_ko": "나무 조각 위의 나무좀 25마리와 마이크, 음향 시스템으로 구성된 사운드 설치다.",
+    "detail_text_ko": "나무 조각 속 나무좀 25마리가 나무를 갉는 소리를 마이크로 포착해 음향 시스템으로 드러내는 사운드 설치다. 작가 치무온은 일상의 소재를 소리로 바꾸는 작업을 한다. 원문은 구성 요소와 2009년 제작이라는 사실만 제공한다.",
+    "tags_ko": [
+      "키네틱아트",
+      "사운드 설치",
+      "나무",
+      "치무온"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "731",
+    "reject": true,
+    "notes": "정적 유물 사진(buzz wheel 추정 별 모양 원판) — 움직임 근거 없고 원문 설명도 제목 수준"
+  },
+  {
+    "local_id": "757",
+    "reject": true,
+    "notes": "유한 오토마타(상태 전이) 도표 — 도표로 거부"
+  },
+  {
+    "local_id": "758",
+    "reject": true,
+    "notes": "NFA 상태도(도표) — 작품 아님"
+  },
+  {
+    "local_id": "759",
+    "reject": true,
+    "notes": "NFA 상태도(도표) — 작품 아님"
+  },
+  {
+    "local_id": "765",
+    "reject": true,
+    "notes": "잡지 'The Mirror' 인쇄 지면(본문 페이지) — 작품 아님"
+  },
+  {
+    "local_id": "766",
+    "title_display": "마에스트로 르 루디옹 거리 오르간 (Orgue-de-barbarie-maestro-le-ludion)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "목재, 금속 파이프, 채색 패널, 자동 인형",
+    "description_ko": "32개 건반의 거리 오르간으로, 종을 치는 자동 인형 두 개가 함께 달려 있다.",
+    "detail_text_ko": "수레 위에 얹힌 바렐 오르간 형태이며 전면에 두 개의 인형이 종을 들고 서 있다. 원문에 따르면 인형은 원래의 종 치는 자동 장치(오토마타)다. 사진만으로는 동작 상태를 확인할 수 없다.",
+    "tags_ko": [
+      "키네틱아트",
+      "오토마타",
+      "거리 오르간",
+      "음악"
+    ],
+    "uncertain": true,
+    "notes": "정지 사진이라 구동 여부 미확인, 원문 기준 오토마타"
+  },
+  {
+    "local_id": "770",
+    "reject": true,
+    "notes": "신문 광고 스크랩(인쇄 문서) — 작품 아님"
+  },
+  {
+    "local_id": "864",
+    "title_display": "뉴스 속보 — 뉴스 제이커가 되라 (Breaking The News)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "다중 스크린, 영상, 스피커",
+    "description_ko": "여러 대의 스크린과 확성기를 사용하는 상호작용형 다중 화면 설치 작품이다.",
+    "detail_text_ko": "벽면을 따라 배치된 여러 스크린에 영상이 나오고, 관람객이 확성기를 들어 뉴스 진행자 역할을 하도록 구성되어 있다. 관람객의 행동에 따라 화면 내용이 바뀌는 상호작용형 설치다.",
+    "tags_ko": [
+      "키네틱아트",
+      "설치미술",
+      "영상",
+      "상호작용"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "867",
+    "title_display": "체계와 정신적 비적응자들을 타도하라! (Down with Wrestlers with Systems and Mental Nonadapters!)",
+    "artist": null,
+    "created_year": 2011,
+    "materials_ko": "설치 장치, 영상(프로젝트 'Rewriting Worlds: Dada Moscow' 중)",
+    "description_ko": "'Rewriting Worlds: Dada Moscow' 프로젝트의 2011년 상호작용형 설치 작품이다.",
+    "detail_text_ko": "금속 프레임과 조명, 센서형 장치가 배치된 전시 공간을 보여준다. 원문은 상호작용형 설치이며 2011년 작업이라고만 밝힌다. 작가명은 원문에서 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "설치미술",
+      "상호작용",
+      "다다"
+    ],
+    "uncertain": false,
+    "notes": "작가 미확인"
+  },
+  {
+    "local_id": "874",
+    "title_display": "시뮬라크라 (SIMULACRA)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "영상, 광학 렌즈",
+    "description_ko": "상호작용형 영상 설치이자 '정신 영화(mental cinema)' 개념의 작품이다.",
+    "detail_text_ko": "사진에는 두 장의 돋보기형 렌즈를 통해 바라보는 인물과 렌즈를 들고 있는 손이 보인다. 원문은 영상 설치라고만 밝히며, 구체적인 동작 방식은 사진으로 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "영상설치",
+      "광학",
+      "정신영화"
+    ],
+    "uncertain": true,
+    "notes": "정지 사진, 영상 설치 여부만 원문 기준"
+  },
+  {
+    "local_id": "880",
+    "reject": true,
+    "notes": "숲 풍경 사진, 원문 설명(바람 풍경)에 해당하는 작품을 식별할 수 없음"
+  },
+  {
+    "local_id": "910",
+    "title_display": "비의도적 사용 (Unintended use)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "하드디스크 원판, 줄",
+    "description_ko": "하드디스크 원판을 풍경(바람 종)으로 재활용한 작품이다.",
+    "detail_text_ko": "여러 개의 검은 원판에 구멍이 뚫려 줄에 매달려 있고, 바람에 흔들리며 소리를 내는 구조다. 원문은 하드디스크 원판을 의도하지 않은 용도로 쓴 바람 종이라고 설명한다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "바람",
+      "재활용"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "919",
+    "title_display": "찬디가르 레저 밸리의 풍경 조형물 (Wind chimes at Leisure Valley, Chandigarh)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 풍경(바람 종)",
+    "description_ko": "인도 찬디가르 레저 밸리에 설치된 다수의 바람 종 구조물이다.",
+    "detail_text_ko": "여러 갈래의 가지에 작은 금속 풍경들이 매달려 있으며, 일몰 무렵 햇빛을 받아 실루엣으로 보인다. 원문은 장소만 밝히며 작가·제작 연도는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "야외설치"
+    ],
+    "uncertain": false,
+    "notes": "촬영일(2025) 원문 미확인이라 연도 null"
+  },
+  {
+    "local_id": "1003",
+    "title_display": "배를 그린 선형 아나모르포시스 (Anamorphic painting of a ship)",
+    "artist": null,
+    "created_year": 1750,
+    "materials_ko": "판에 그린 그림, 원통형 거울",
+    "description_ko": "원통형 거울을 통해서만 그림이 정상적으로 보이는 아나모르포시스(왜상) 작품이다.",
+    "detail_text_ko": "금색 액자 안의 판에 왜곡된 그림이 그려져 있고, 가운데 투명한 원통형 거울이 놓여 있다. 런던 과학박물관의 전시물이다. 제작 연대는 원제 'about 1750' 기준이며 원문 본문에서는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "광학 장난감",
+      "아나모르포시스",
+      "과학박물관"
+    ],
+    "uncertain": true,
+    "notes": "원제 'about 1750' 기준 연도, 거울 반사 효과는 사진으로만 판단"
+  },
+  {
+    "local_id": "1008",
+    "reject": true,
+    "notes": "어두운 풍경 회화 — 아나모르포시스 여부 식별 불가, 일반 회화로 판정"
+  },
+  {
+    "local_id": "1019",
+    "reject": true,
+    "notes": "벽면 트롱프뢰유 벽화(정적 회화) — 작품 아님"
+  },
+  {
+    "local_id": "1025",
+    "reject": true,
+    "notes": "정적 액자 회화(트롱프뢰유) — 원뿔 거울 등 광학 장치 미확인, 일반 회화로 판정"
+  },
+  {
+    "local_id": "1026",
+    "reject": true,
+    "notes": "아모르포시스 도해 판화(광학 도표) — 움직이는 작품 아님"
+  },
+  {
+    "local_id": "1028",
+    "reject": true,
+    "notes": "도로 바닥 '버스·자전거 전용' 노면 표시 사진 — 작품 아님"
+  },
+  {
+    "local_id": "1051",
+    "reject": true,
+    "notes": "정적 회화(뒤틀린 소용돌이 그림) — 일반 회화"
+  },
+  {
+    "local_id": "1082",
+    "reject": true,
+    "notes": "작가 인물 사진"
+  },
+  {
+    "local_id": "273",
+    "reject": true,
+    "notes": "오토마타 관련 신문 스크랩(텍스트) — 작품이 보이지 않음"
+  },
+  {
+    "local_id": "559",
+    "reject": true,
+    "notes": "과자 포장지 사진 — 작품 아님"
+  },
+  {
+    "local_id": "753",
+    "reject": true,
+    "notes": "기계 박물관 광고 전단(포스터) — 작품 아님"
+  },
+  {
+    "local_id": "771",
+    "reject": true,
+    "notes": "1754년 신문 스크랩(텍스트) — 작품이 보이지 않음"
+  },
+  {
+    "local_id": "1043",
+    "reject": true,
+    "notes": "아모르포시스 삽화(도해) — 움직이는 작품 아님"
+  },
+  {
+    "local_id": "291",
+    "reject": true,
+    "notes": "물방울이 튀는 자연 현상 사진 — 조각으로 보이지 않음"
+  },
+  {
+    "local_id": "431",
+    "reject": true,
+    "notes": "주차장 건물 외관 사진 — 건물 외관 거부 기준"
+  },
+  {
+    "local_id": "706",
+    "title_display": "풍력 모빌 잉엘바흐 (Windmobile Ingelbach)",
+    "artist": "외르크-틸만 힌츠 (Jörg-Tilmann Hinz)",
+    "created_year": null,
+    "materials_ko": "금속 막대, 금속판",
+    "description_ko": "바람을 받아 움직이도록 만든 금속 풍력 조각이다. 기둥 위에 가느다란 금속 막대와 날개 모양 판이 달려 있다.",
+    "detail_text_ko": "작품명 Windmobile은 바람으로 움직이는 모빌, 즉 풍력 구동 조각임을 뜻한다. 사진에서는 하늘을 배경으로 금속 막대와 붉은색·초록색 판이 기둥 끝에 얹혀 있다. 바람에 따라 부위가 움직이는 구조가 감상 포인트이다. 제작 연도와 세부 구동 방식은 원문으로 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍력",
+      "모빌",
+      "금속"
+    ],
+    "uncertain": false,
+    "notes": "작가명은 source_title 기준. 촬영 연도(hint_year)는 제작 연도로 쓰지 않음."
+  },
+  {
+    "local_id": "708",
+    "title_display": "회전하는 동물 모빌 (Spinning Animal Mobile)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "동물 형상이 달린 모빌이 빠르게 회전하는 모습을 잔상으로 담은 사진이다.",
+    "detail_text_ko": "노출 시간 동안 움직임이 번져 노란색과 파란색 동물 형상, 빨간 고리가 겹쳐 보인다. 모빌이 회전하며 만드는 움직임 자체가 작품의 핵심이다. 작가와 제작 시기는 원문으로 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "회전",
+      "동물"
+    ],
+    "uncertain": false,
+    "notes": "촬영 연도(hint_year)는 쓰지 않음. 재질은 원문 미확인."
+  },
+  {
+    "local_id": "822",
+    "title_display": "핑크 로터스 (Pink Lotus)",
+    "artist": "그리마네사 아모로스 (Grimanesa Amorós)",
+    "created_year": null,
+    "materials_ko": "조명(빛)",
+    "description_ko": "건물 전면에 붉은 빛줄기가 뻗어 나오고 가운데 빛나는 구체가 놓인 빛 조각 설치다.",
+    "detail_text_ko": "건물 정면을 바탕으로 빛의 선들이 사방으로 퍼지는 장면이다. 긴 노출로 촬영되어 빛이 움직이며 그린 궤적이 선명하게 남아 있다. 원문 설명은 '빛 조각 설치'이며, 작가명은 원문 파일명 기준이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "빛",
+      "설치",
+      "조명"
+    ],
+    "uncertain": true,
+    "notes": "건물 외관이 배경이라 설치와 외관의 경계가 모호해 애매 항목으로 통과 처리. 제작 연도(hint_year)는 쓰지 않음."
+  },
+  {
+    "local_id": "892",
+    "title_display": "유리 풍경 (Glass Wind Chimes)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "색유리",
+    "description_ko": "색유리로 만든 장식이 줄에 매달려 바람에 흔들리는 풍경이다.",
+    "detail_text_ko": "파란 창틀과 노란 벽 앞에 유리 별, 물고기, 구슬 모양 장식이 줄에 여러 개 매달려 있다. 바람이 불면 흔들리며 소리를 내는 풍경의 구조를 갖는다. 사진이 벽면 전체를 찍은 것이라 단일 작품인지 판매 진열인지는 원문으로 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "유리",
+      "바람"
+    ],
+    "uncertain": true,
+    "notes": "공예품 진열일 가능성이 있으나 바람에 흔들리는 풍경 구조가 보여 애매 항목으로 통과 처리. 제작 연도(hint_year)는 쓰지 않음."
+  },
+  {
+    "local_id": "1078",
+    "title_display": "핸드헬드 라이트 조각 (Handheld Light Sculpture)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "광원(빛)",
+    "description_ko": "손에 들고 움직이며 빛을 그리는 조각으로, 흐르는 빛의 궤적이 사진에 남아 있다.",
+    "detail_text_ko": "검은 배경 위에 파란색과 초록색 빛의 띠가 물결처럼 휘어지며 이어진다. 원문에는 제목만 있어 작가와 제작 연도는 확인되지 않는다. 움직임은 빛의 궤적으로 표현되어 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "빛",
+      "조명조각",
+      "장노출"
+    ],
+    "uncertain": true,
+    "notes": "원문 설명이 제목뿐이라 작가·제작연도 미확인. 설명은 이미지 기준."
+  },
+  {
+    "local_id": "220",
+    "title_display": "칼더 양식의 모빌 (Mobile (sculpture) in the style of Alexander Calder)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "도장된 금속판, 와이어",
+    "description_ko": "붉은색과 갈색의 곡선형 판들이 선에 매달려 균형을 이루며 움직이는 모빌이다.",
+    "detail_text_ko": "알렉산더 칼더의 모빌 양식을 따른 작품이라는 표제가 붙어 있다. 원문에 작가와 제작 연도가 없어 칼더 본인의 작품으로 단정하지 않는다. 곡선 판들이 선으로 매달려 균형을 잡고 있는 구조가 보인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "칼더양식",
+      "균형"
+    ],
+    "uncertain": false,
+    "notes": "제목이 '칼더 양식'이므로 artist=null. 촬영연도 2006은 created_year로 쓰지 않음."
+  },
+  {
+    "local_id": "304",
+    "title_display": "스트란드비스트 01 (Strandbeest 01)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "레고 기어, 축, 프레임 부품",
+    "description_ko": "움직이는 스트란드비스트 조형물의 모터에 쓰이는 기어 배열을 보여 주는 사진이다.",
+    "detail_text_ko": "손으로 쥔 기어 묶음과 흰색 축·프레임이 보인다. 원문 캡션에 따르면 자체 제작한 스트란드비스트의 모터 기어 배열이다. 작품 전체보다 구동 부품에 초점이 맞춰져 있다. 작가와 제작 연도는 원문으로 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드비스트",
+      "기어",
+      "구동장치"
+    ],
+    "uncertain": true,
+    "notes": "구동부 부분 사진. 원문 근거: 'cog arrangement for strandbeest motor'."
+  },
+  {
+    "local_id": "309",
+    "title_display": "소토 움직임 조각 (Soto Museum 2)",
+    "artist": "소토 (Soto)",
+    "created_year": null,
+    "materials_ko": "길이가 다른 막대, 조명",
+    "description_ko": "천장에서 내려온 수많은 세로 막대가 아래 조명을 받아 공간을 채우는 설치 작품이다.",
+    "detail_text_ko": "격자처럼 배열된 세로 막대들이 바닥의 조명을 받아 노란색과 흰색으로 빛난다. 원문은 소토의 '움직임 조각'으로 소개하여 키네틱 작품으로 분류하였다. 정지된 사진만으로는 움직임을 확인하기 어렵다.",
+    "tags_ko": [
+      "키네틱아트",
+      "옵아트",
+      "설치",
+      "조명"
+    ],
+    "uncertain": true,
+    "notes": "원문 근거: 'Soto´s movement sculpture'. 정지 사진이라 움직임 확인 불가. 작가 성만 원문에 있어 한글 표기는 성만 사용."
+  },
+  {
+    "local_id": "318",
+    "title_display": "스포츠 인물 1975 (Sports Figures 1975)",
+    "artist": null,
+    "created_year": 1975,
+    "materials_ko": "금속 와이어, 받침대(장치)",
+    "description_ko": "금속 와이어로 만든 운동하는 인물 형상들이 검은 받침대 위에 세워진 키네틱 조각이다.",
+    "detail_text_ko": "원문 제목에 1975년과 '키네틱'이 적혀 있어 1975년 제작 키네틱 작품으로 본다. 흑백 사진에서 여러 인물이 서로 다른 자세로 세워져 있고, 각 받침대에 장치가 보인다. 작가는 원문에 없어 미확인이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "기계조각",
+      "운동선수",
+      "와이어"
+    ],
+    "uncertain": true,
+    "notes": "작가 미확인. 제작연도는 제목 근거."
+  },
+  {
+    "local_id": "320",
+    "title_display": "사운드 리플렉터와 역회전 터빈 (Sound reflectors, counter-rotating turbine)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 원판, 금속 날개",
+    "description_ko": "둥근 금속 반사판 두 개와 가운데 역회전 터빈 날개가 있는 야외 키네틱 조형물이다.",
+    "detail_text_ko": "원문 제목에 따르면 캘리포니아 샌마테오 시 실 포인트 공원 언덕에 설치되어 있다. 상단 날개 조립체는 제목의 '역회전 터빈'에 따라 바람 등으로 도는 장치로 보인다. 작가와 제작 연도는 원문에 없어 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "야외조각",
+      "바람",
+      "터빈"
+    ],
+    "uncertain": true,
+    "notes": "원문 설명 'DSC_0183_2'는 파일명이라 설명으로 쓰지 않음. 제목 정보만 사용."
+  },
+  {
+    "local_id": "361",
+    "title_display": "비치 비스트 (\"Beach Beast\")",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 골조, 천 돛",
+    "description_ko": "해변에 세워진 거대한 골조형 보행 조형물로, 천 돛이 달려 있다.",
+    "detail_text_ko": "흑백 사진 속 조형물은 가느다란 골조와 바람을 받는 천 돛으로 구성돼 있다. 원문에 스트란드비스트 공식 사이트 주소가 있어 스트란드비스트 계열 작품으로 분류하였다. 작가와 제작 연도는 원문에 없어 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드비스트",
+      "바람",
+      "해변"
+    ],
+    "uncertain": true,
+    "notes": "원문 설명은 출처 주소뿐. 작가명은 원문에 없어 null. Flickr 계정명은 작가로 쓰지 않음."
+  },
+  {
+    "local_id": "370",
+    "title_display": "완성된 스트란드비스트 등각 투상 (Isometric view of completed strandbeest)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "합판 패널, 흰색 PVC 연결부",
+    "description_ko": "완성된 스트란드비스트 모형을 위에서 비스듬히 찍은 사진이다. 삼각형 목재 패널과 흰색 연결부가 얽힌 구조가 보인다.",
+    "detail_text_ko": "작업실에서 촬영된 모형이며 뒤에 사람이 서 있어 크기 감각을 준다. 원문 설명은 '완성된 스트란드비스트의 등각 투상' 한 줄뿐이다. 움직이는 기구의 연결 구조가 보이지만 실제 동작은 사진으로 확인되지 않는다. 작가와 제작 연도는 원문에 없어 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드비스트",
+      "모형",
+      "기계구조"
+    ],
+    "uncertain": true,
+    "notes": "원문 설명이 얇음."
+  },
+  {
+    "local_id": "377",
+    "title_display": "스트란드비스트 다리 (Poot van een strandbeest)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "PVC 관, 끈",
+    "description_ko": "스트란드비스트의 다리를 이루는 PVC 관들이 풀숲 사이에 묶여 있는 사진이다.",
+    "detail_text_ko": "흰색 PVC 관이 여러 겹 묶여 다리 구조를 이루며, 주변에는 풀이 자라 있다. 원문 설명은 '스트란드비스트의 다리' 한 줄뿐이다. 관 다발의 움직임은 사진으로 확인되지 않는다. 작가와 제작 연도는 원문에 없어 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드비스트",
+      "PVC",
+      "다리구조"
+    ],
+    "uncertain": true,
+    "notes": "다리 부품 중심 사진."
+  },
+  {
+    "local_id": "378",
+    "title_display": "완성된 스트란드비스트 측면 (Side-view of completed strandbeest)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "목재 패널, 흰색 PVC 연결부",
+    "description_ko": "완성된 스트란드비스트 모형을 가까이서 찍은 사진으로, 삼각형 패널과 흰색 연결부가 보인다.",
+    "detail_text_ko": "나무 패널에 흰색 연결부가 붙은 구조가 가까이서 촬영되었다. 패널에 'B', 'D' 등 표시가 보인다. 원문은 '완성된 스트란드비스트 측면'이라고만 적혀 있다. 작가와 제작 연도는 원문에 없어 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드비스트",
+      "모형",
+      "기계구조"
+    ],
+    "uncertain": true,
+    "notes": "원문 설명이 얇음. 사진이 측면인지 정확하지 않음."
+  },
+  {
+    "local_id": "381",
+    "title_display": "스트란드비스트 정면 (Strand beest front 2)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "목재 프레임, 흰색 PVC 연결부, 막대",
+    "description_ko": "나무 받침대 위에 세워진 스트란드비스트 모형의 정면을 찍은 사진이다.",
+    "detail_text_ko": "나무 골조 위에 가느다란 목재 패널과 흰색 연결부가 달려 있으며 가로 축이 이를 받친다. 사진이 흐려 세부는 불분명하다. 원문 설명은 'front view of strandbeest' 한 줄뿐이다. 작가와 제작 연도는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드비스트",
+      "모형",
+      "목공"
+    ],
+    "uncertain": true,
+    "notes": "사진 흐림."
+  },
+  {
+    "local_id": "384",
+    "title_display": "스트란드비스트 02 (Strandbeest02)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "레고 부품(플라스틱)",
+    "description_ko": "레고 부품으로 만든 스트란드비스트 다리 한 쌍이 나란히 연결된 모습을 보여 주는 사진이다.",
+    "detail_text_ko": "흰색과 회색 레고 빔이 곡선으로 이어져 다리 구조를 이루며, 끝에는 집게형 발이 달려 있다. 원문 설명은 'strandbeest foot pair' 한 줄뿐이다. 움직임은 사진으로 확인되지 않는다. 작가와 제작 연도는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드비스트",
+      "레고",
+      "다리구조"
+    ],
+    "uncertain": true,
+    "notes": "원문 설명이 얇음."
+  },
+  {
+    "local_id": "395",
+    "title_display": "스트란드비스트 레고 모델 (Strandbeest LEGO)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "레고 부품, 기어",
+    "description_ko": "레고 부품으로 만든 다리 여러 개 달린 스트란드비스트 모델이 기어 장치와 함께 놓여 있는 사진이다.",
+    "detail_text_ko": "흰색과 회색 레고 프레임에 다리 여러 개가 달렸고, 상단에 기어 묶음이 보인다. 원문 설명은 '완성된 스트란드비스트 설계'이다. 기어가 다리를 움직이는 구조로 보인다. 작가와 제작 연도는 원문에 없어 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드비스트",
+      "레고",
+      "보행구조"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "247",
+    "reject": true,
+    "notes": "칼더를 그린 캐리커처 그림(인물 그림) — 작품 아님"
+  },
+  {
+    "local_id": "372",
+    "reject": true,
+    "notes": "스트란드비스트 다리의 개별 삼각 부품만 보임 — 작품 전체가 식별되지 않아 거부"
+  },
+  {
+    "local_id": "396",
+    "title_display": "스트랜드비스트 더블 풋 디자인 (Strandbeest double foot design)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "플라스틱 빔·커넥터 (모형)",
+    "description_ko": "레고형 빔과 커넥터로 만든 스트랜드비스트 다리 기구 모형이다. 여러 개의 링크가 이어진 다리 구조가 보인다.",
+    "detail_text_ko": "스트랜드비스트는 바람의 힘으로 걷도록 설계된 키네틱 조각이다. 원문 설명은 더블 풋 디자인이며, 사진 속 캡션에는 ENES 100 프로젝트에서 작업한 설계라고 적혀 있다. 사진은 정지 상태의 모형이라 실제 보행 동작은 확인되지 않는다. 작가 정보는 원문에 없어 기재하지 않았다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "모형",
+      "다리 기구",
+      "바람"
+    ],
+    "uncertain": true,
+    "notes": "정지 사진의 모형이라 움직임 미확인. 작가명 원문 근거 없음. 촬영연도(2011)는 hint만 있어 미기재"
+  },
+  {
+    "local_id": "398",
+    "title_display": "스트랜드비스트 (Strandbeest, 정면)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "PVC 파이프, 합판, 목재 프레임",
+    "description_ko": "PVC 파이프와 합판 판재를 목재 프레임에 연결한 연동 구조물이다. 스트랜드비스트 계열 기구로 보인다.",
+    "detail_text_ko": "원문 설명은 스트랜드비스트를 위에서 본 모습이라고 적고 있다. 사진은 PVC 파이프와 합판 캠이 목재 프레임에 달린 정면 근처의 모습이다. 구동 방식과 실제 움직임은 사진만으로 확인되지 않는다. 작가 정보는 원문에 없다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "PVC",
+      "목공 기구",
+      "연동 구조"
+    ],
+    "uncertain": true,
+    "notes": "원문 top view와 사진 각도 불일치. 구동 미확인. 작가 원문 근거 없음"
+  },
+  {
+    "local_id": "401",
+    "title_display": "스트랜드비스트 측면 (Strandbeest side)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "판지, PVC 파이프, 목재 프레임",
+    "description_ko": "판지 다리 패널과 흰색 PVC 축으로 만든 스트랜드비스트 계열 모형이다. 다리 패널이 여러 방향으로 교차하며 배치돼 있다.",
+    "detail_text_ko": "원문 설명은 측면에서 본 스트랜드비스트라는 내용이다. 사진은 판지 다리와 흰색 PVC 축이 목재 받침 위에 세워진 모습이다. 실제 보행 동작은 사진에서 확인되지 않으며, 작가 정보는 원문에 없다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "판지",
+      "PVC",
+      "보행 기구"
+    ],
+    "uncertain": true,
+    "notes": "모형 사진이며 구동 미확인. 작가 원문 근거 없음"
+  },
+  {
+    "local_id": "413",
+    "title_display": "스트랜드비스트 하부 (Underside of completed strandbeest)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "PVC 파이프, 합판",
+    "description_ko": "완성된 스트랜드비스트의 아랫면을 찍은 사진이다. 사진이 흐리고 기울어 있어 세부 구조는 식별이 어렵다.",
+    "detail_text_ko": "원문 설명은 완성된 스트랜드비스트의 하부라는 내용이다. 사진은 흔들리고 회전된 상태라 연결부와 다리 구조를 정확히 구분하기 어렵다. PVC 파이프와 합판 판재가 보이는 점으로 같은 계열 구조물로 판단했다. 움직임과 작가 정보는 원문에 없다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "PVC",
+      "합판",
+      "구조물"
+    ],
+    "uncertain": true,
+    "notes": "사진 흐림·회전으로 식별 제한적. 촬영연도(2012)는 hint만 있어 미기재"
+  },
+  {
+    "local_id": "426",
+    "title_display": "스트랜드비스트 이펜뷔르흐 (Strandbeest Ypenburg)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "흰색 PVC 파이프, 와이어",
+    "description_ko": "들판에 기울어져 놓인 대형 스트랜드비스트 구조물이다. 흰색 관들이 삼각형 프레임으로 엮여 있고 지지용 와이어가 연결돼 있다.",
+    "detail_text_ko": "원문 설명은 이펜뷔르흐의 스트랜드비스트라는 지명 정보뿐이다. 사진 속 구조물은 기울어져 땅 가까이 놓여 있어 현재 작동 상태는 확인되지 않는다. 스트랜드비스트는 바람을 받아 걷도록 설계된 키네틱 조각이다. 작가 정보는 원문에 없다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트랜드비스트",
+      "바람",
+      "대형 조각",
+      "PVC"
+    ],
+    "uncertain": true,
+    "notes": "쓰러진 상태라 작동 미확인. 촬영연도(2009)는 hint만 있어 미기재"
+  },
+  {
+    "local_id": "438",
+    "title_display": "바사렐리 기념물 (Vasarely Denkmal, 페치)",
+    "artist": "바사렐리 (Vasarely)",
+    "created_year": 1977,
+    "materials_ko": "색 타일",
+    "description_ko": "여러 색 타일로 체크 패턴을 입힌 입체 큐브 조형물이다. 면마다 다른 패턴이 겹쳐 깊이가 뒤바뀌어 보이는 착시를 만든다.",
+    "detail_text_ko": "원문 설명은 1977년 페치에 세워진 바사렐리 기념물이라는 정보다. 체크 패턴이 면을 따라 휘어 보이는 시각 효과가 사진의 핵심이다. 사진에서는 움직이는 요소가 확인되지 않아 정적 조형물이다. 옵아트 계열이므로 관람 위치에 따라 달라 보이는 광학 효과가 감상 포인트다.",
+    "tags_ko": [
+      "키네틱아트",
+      "옵아트",
+      "바사렐리",
+      "타일",
+      "착시"
+    ],
+    "uncertain": false,
+    "notes": "정적 옵아트 조형물. 옵아트 통과 기준 해당"
+  },
+  {
+    "local_id": "463",
+    "title_display": "프락시노스코프 장난감 극장 (Praxinoscope Théâtre-Jouet)",
+    "artist": "에밀 레이노 (Émile Reynaud)",
+    "created_year": 1877,
+    "materials_ko": "금속 드럼, 목재 상자",
+    "description_ko": "유리 진열장 안에 놓인 레이노의 프락시노스코프 계열 광학 장난감이다. 회전하는 원통 주변의 거울과 그림 띠로 움직이는 그림을 보는 원리다.",
+    "detail_text_ko": "원문 설명은 푸아시 장난감 박물관에 소장된 작품이라는 정보다. 제목에 1877년과 에밀 레이노의 이름이 적혀 있다. 프락시노스코프는 회전하는 거울 원통으로 그림의 움직임을 재현하는 장치다. 사진은 유리 진열장 안에서 찍혀 작동 상태는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "광학 장난감",
+      "프락시노스코프",
+      "에밀 레이노",
+      "19세기"
+    ],
+    "uncertain": false,
+    "notes": "연도·작가는 제목 근거. 진열 상태라 작동 미확인"
+  },
+  {
+    "local_id": "467",
+    "title_display": "프락시노스코프 레이노 (Praxinoscope - Reynaud, CnAM 16554)",
+    "artist": "레이노 (Reynaud)",
+    "created_year": null,
+    "materials_ko": "금속 프레임과 원통 부품 (사진 기준)",
+    "description_ko": "검은 금속 틀 위에 원통형 장치를 얹은 광학 장난감형 기구다. 프락시노스코프 계열로 보이며 회전하는 거울 원통으로 그림을 움직여 보는 방식이다.",
+    "detail_text_ko": "원문 설명은 없고 제목에 레이노의 이름과 CnAM 소장번호만 적혀 있다. 사진에는 검은 받침대와 프레임 위의 거울 장치가 보이며, 실제 작동 상태는 확인되지 않는다. 전시 설명이 없어 연도와 세부 구조는 기재하지 않았다.",
+    "tags_ko": [
+      "키네틱아트",
+      "광학 장난감",
+      "프락시노스코프",
+      "레이노",
+      "박물관 소장"
+    ],
+    "uncertain": true,
+    "notes": "원문 설명 없음, 제목·사진 기반 판정. 연도 미확인(2017은 촬영일 hint)"
+  },
+  {
+    "local_id": "476",
+    "reject": true,
+    "notes": "칼더 1958 'De Hond' — 사진상 고정된 정적 금속 조각. 움직이는 부분 근거 없음"
+  },
+  {
+    "local_id": "506",
+    "reject": true,
+    "notes": "자물쇠가 쇠창살 게이트에 걸린 정적 오브제로 보임. 구동 구조 근거 없음"
+  },
+  {
+    "local_id": "513",
+    "reject": true,
+    "notes": "506과 같은 자물쇠 오브제의 근접 사진. 정적 오브제로 보여 움직임 근거 없음"
+  },
+  {
+    "local_id": "520",
+    "title_display": "포 라인스 (Four Lines)",
+    "artist": "조지 릭키 (George Rickey)",
+    "created_year": null,
+    "materials_ko": "금속 막대 (사진 기준)",
+    "description_ko": "바다가 보이는 언덕 위에 세운 금속 조각이다. 가느다란 막대 네 줄이 한 축에서 사방으로 뻗어 있다.",
+    "detail_text_ko": "원문 설명은 나오시마라는 장소뿐이다. 사진은 바다를 배경으로 가느다란 금속 막대가 한 축에서 뻗은 모습이다. 바람에 따라 회전하는 구조인지는 사진만으로 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "금속 조각",
+      "조지 릭키",
+      "나오시마",
+      "야외 조각"
+    ],
+    "uncertain": true,
+    "notes": "구동 방식 사진에서 미확인. 촬영연도(2011)는 hint만 있어 미기재"
+  },
+  {
+    "local_id": "524",
+    "title_display": "페리스틸 V (Peristyle V)",
+    "artist": "조지 릭키 (George Rickey)",
+    "created_year": null,
+    "materials_ko": "금속 막대 (사진 기준)",
+    "description_ko": "연못가에 세운 여러 개의 금속 막대가 서로 다른 각도로 기울어 뻗은 야외 조각이다. 물에 비친 그림자가 함께 보인다.",
+    "detail_text_ko": "원문 설명은 작품명 Peristyle V뿐이다. 사진에서 얇은 금속 막대들이 받침 바에 연결돼 물 위로 솟아 있다. 움직임 방식은 사진만으로 확인되지 않는다. 작가 표기는 원문 제목에 근거했다.",
+    "tags_ko": [
+      "키네틱아트",
+      "금속 조각",
+      "조지 릭키",
+      "연못",
+      "야외 조각"
+    ],
+    "uncertain": true,
+    "notes": "구동 미확인. 촬영연도(2016)는 hint만 있어 미기재"
+  },
+  {
+    "local_id": "528",
+    "title_display": "자유 조각 (Freiplastik)",
+    "artist": "조지 릭키 (George Rickey)",
+    "created_year": 1976,
+    "materials_ko": "금속 프레임 (사진 기준)",
+    "description_ko": "사각 금속 프레임 여러 개를 기둥에 연결한 야외 조각이다. 기울어진 프레임들이 공중으로 뻗어 있다.",
+    "detail_text_ko": "원문 설명은 조지 릭키의 1976년 작 Freiplastik이라는 정보다. 사진에서 사각 프레임 형태의 팔들이 한 기둥에 연결돼 있으며 서로 다른 각도로 배치돼 있다. 움직임은 사진만으로 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "금속 조각",
+      "조지 릭키",
+      "야외 조각",
+      "1970년대"
+    ],
+    "uncertain": true,
+    "notes": "구동 미확인. 작가·연도는 원문 근거"
+  },
+  {
+    "local_id": "533",
+    "title_display": "투 라인스 업 (Two Lines Up, 에센)",
+    "artist": "조지 릭키 (George Rickey)",
+    "created_year": null,
+    "materials_ko": "금속 (사진 기준)",
+    "description_ko": "독일 에센의 건물 앞 원형 시설 가운데 세운 금속 기둥과 가느다란 팔로 된 조각이다. 기둥 끝에서 두 줄 형태의 팔이 위쪽으로 뻗어 있다.",
+    "detail_text_ko": "원문 설명은 조지 릭키의 Two Lines Up이 에센에 있다는 정보다. 사진 배경은 은행 건물 외관이 크게 차지하지만 조각은 중앙 기둥으로 식별된다. 팔의 움직임은 사진만으로 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "금속 조각",
+      "조지 릭키",
+      "에센",
+      "야외 조각"
+    ],
+    "uncertain": true,
+    "notes": "배경 건물 비중이 큼. 조각은 식별 가능. 촬영연도(2018)는 hint만 있어 미기재"
+  },
+  {
+    "local_id": "536",
+    "reject": true,
+    "notes": "작가(Theo Jansen) 발표 사진 — 인물 사진, 모형 일부만 보임"
+  },
+  {
+    "local_id": "543",
+    "reject": true,
+    "notes": "과자 사진 — 작품 아님"
+  },
+  {
+    "local_id": "563",
+    "reject": true,
+    "notes": "작업복 차림 인물 흑백 사진 — 인물 사진"
+  },
+  {
+    "local_id": "571",
+    "title_display": "캡퇴르 드 씨엘 (Capteurs de Ciel)",
+    "artist": "폴 뷔리 (Pol Bury)",
+    "created_year": 1983,
+    "materials_ko": "금속, 구체",
+    "description_ko": "금속 구체들이 가느다란 축과 구조물에 달려 있는 조각이다. 사진만으로는 구동 방식과 움직임이 확인되지 않는다.",
+    "detail_text_ko": "원문 제목은 '캡퇴르 드 씨엘(Capteurs de Ciel)'이고 1983년 브뤼셀 리뉴 가(Rue de Ligne)·오라투아르 가(Rue Montagne de l'Oratoire) 일대에서 촬영되었다. 사진에는 스테인리스 계열 금속 구체들이 여러 방향으로 뻗은 구조물에 달려 있는 모습이 보인다. 원문에 작품 설명이 없어 움직임 방식은 단정하지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "조각",
+      "금속",
+      "구체"
+    ],
+    "uncertain": true,
+    "notes": "desc_src 없음 — 제목·연도·장소 기준. 사진에서 움직임 미확인"
+  },
+  {
+    "local_id": "574",
+    "reject": true,
+    "notes": "과자 팔레트 사진 — 작품 아님"
+  },
+  {
+    "local_id": "575",
+    "reject": true,
+    "notes": "과자 진열 사진 — 작품 아님"
+  },
+  {
+    "local_id": "576",
+    "reject": true,
+    "notes": "작가 기념 명판 사진 — 작품 아님(표지판)"
+  },
+  {
+    "local_id": "583",
+    "title_display": "브리짓 라일리 작품 (Bridget Riley)",
+    "artist": "브리짓 라일리 (Bridget Riley)",
+    "created_year": null,
+    "materials_ko": "회화 (재료 미확인)",
+    "description_ko": "파란색과 흰색의 기하학적 무늬가 겹쳐 물결처럼 보이는 옵아트 회화다. 철망 너머 전시 공간에 놓여 있다.",
+    "detail_text_ko": "원문은 작가 브리짓 라일리(Bridget Riley)만 기재하고 있다. 사진에는 사선으로 교차하는 파란색·연보라색 형태가 흰 바탕 위에 반복되어 시각적 떨림을 만든다. 작품 제목과 제작 연도는 원문에서 확인되지 않는다. 물리적 움직임은 없고 착시가 감상 포인트다.",
+    "tags_ko": [
+      "키네틱아트",
+      "옵아트",
+      "회화",
+      "기하학"
+    ],
+    "uncertain": true,
+    "notes": "정적 회화이나 옵아트 계열로 판정. 작품 제목·연도 미확인, hint_year는 촬영일이라 null"
+  },
+  {
+    "local_id": "630",
+    "title_display": "리퀴드 픽셀스 (Liquid Pixels)",
+    "artist": "네드 칸 (Ned Kahn)",
+    "created_year": null,
+    "materials_ko": "금속 패널",
+    "description_ko": "건물 외벽에 달린 금속 패널들이 햇빛을 받아 반짝이며 일렁이는 외장 설치 작품이다.",
+    "detail_text_ko": "원문은 작품 제목 'Liquid Pixels'와 설치 장소 '로즐린(Rosslyn)'을 기재하고 있다. 사진에는 건물 외벽의 사각형 창 영역 안에 작은 패널들이 빛을 반사하는 모습이 보인다. 구동 방식과 실제 움직임은 사진으로 확인되지 않는다. 촬영일(2009)은 제작 연도로 쓰지 않았다.",
+    "tags_ko": [
+      "키네틱아트",
+      "건축외장",
+      "빛",
+      "반사"
+    ],
+    "uncertain": true,
+    "notes": "건물 외관처럼 보이나 작품 제목 근거로 통과. 움직임 미확인, hint_year는 촬영일이라 null"
+  },
+  {
+    "local_id": "663",
+    "reject": true,
+    "notes": "레고 블록 도시 모형과 관람객 사진 — 정적 조형물"
+  },
+  {
+    "local_id": "692",
+    "reject": true,
+    "notes": "작가(Olafur Eliasson) TED 발표 사진 — 인물 사진"
+  },
+  {
+    "local_id": "695",
+    "reject": true,
+    "notes": "철골 돔형 구조물, 정적 조각으로 보이고 움직임 미확인"
+  },
+  {
+    "local_id": "711",
+    "reject": true,
+    "notes": "검은 금속 조각이 정적으로 보임 — 움직임 미확인"
+  },
+  {
+    "local_id": "732",
+    "title_display": "돛 회전 기구 1 (Segelkarousell 1)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "목재, 금속, 돛",
+    "description_ko": "기둥 위에 돛을 단 작은 배 모형들이 달려 있는 바람개비형 설치물이다.",
+    "detail_text_ko": "원문 설명은 '회전 기구(Whirligig)'이다. 사진에는 나무 기둥 꼭대기에 가로대로 연결된 작은 배 모형과 돛이 보인다. 바람이나 기계로 회전하는 구조로 보이나, 정지 사진이라 실제 회전 여부는 확인되지 않는다. 촬영일(2007)은 제작 연도로 쓰지 않았다.",
+    "tags_ko": [
+      "키네틱아트",
+      "바람",
+      "회전",
+      "목조"
+    ],
+    "uncertain": false,
+    "notes": "desc_src 'Whirligig' 기준 바람 구동 설치로 판정. 작가 원문 없음"
+  },
+  {
+    "local_id": "739",
+    "title_display": "휘리기그 5 (Whirligig 5)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "나무, 금속, 페인트 (추정)",
+    "description_ko": "천장에서 줄에 매달려 있는 새 모양의 조형물이다. 사진만으로는 움직임이 확인되지 않는다.",
+    "detail_text_ko": "원문 설명은 'Whirligig 5'이다. 사진에는 흰색 바탕에 검은 줄무늬가 있는 새 모양 조형물이 줄 끝에 매달려 있는 모습이 보인다. 일부 금속 부분은 녹이 슨 질감이다. 모빌형 회전 설치물로 보이나 구동 방식은 확인되지 않는다. 촬영일(2008)은 제작 연도로 쓰지 않았다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "목조",
+      "조형"
+    ],
+    "uncertain": true,
+    "notes": "매달린 모빌형으로 판정, 움직임 미확인. 작가·연도 원문 없음"
+  },
+  {
+    "local_id": "740",
+    "title_display": "회전 기계 인형 (Whirligig Antonio Ferrer Marrero)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "나무, 금속 축, 천 깃발",
+    "description_ko": "나무 인형과 나무 바퀴, 금속 축이 함께 달린 기계식 휘릭이다. 빨간색과 초록색 깃발이 축에 매달려 있다.",
+    "detail_text_ko": "원문은 'Whirligig Antonio Ferrer Marrero' 제목만 제공하며 작가 확인은 원문으로 되지 않는다. 사진에는 나무 인형, 종이 두루마리, 바퀴형 부품, 깃발이 함께 보인다. 구동 방식은 사진만으로 확정하기 어렵다.",
+    "tags_ko": [
+      "키네틱아트",
+      "휘릭(Whirligig)",
+      "기계장치",
+      "나무"
+    ],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "741",
+    "title_display": "풍력 회전체 (Whirligig #1 in Venice)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 날개, 금속 축, 기둥",
+    "description_ko": "다섯 개의 흰색 날개가 바람을 받아 도는 풍력형 회전체이다. 옆에 붉은 판이 함께 달려 있어 바람 방향을 알려 준다.",
+    "detail_text_ko": "원문 설명은 'Whirligig #1 in Venice' 뿐이며 작가와 제작 연도는 확인되지 않는다. 사진은 야자수가 늘어선 해안 도시의 거리에서 촬영되었다. 날개가 회전체 축에 고정된 구조가 사진에서 확인된다.",
+    "tags_ko": [
+      "키네틱아트",
+      "휘릭(Whirligig)",
+      "바람",
+      "회전"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "744",
+    "title_display": "휘릭 연작 (Whirligigs)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 날개, 금속 막대",
+    "description_ko": "정원 잔디밭에 여러 개의 금속 날개 휘릭이 세워져 있다. 일부 날개는 움직임 흐림으로 찍혀 회전 중인 것으로 보인다.",
+    "detail_text_ko": "원문 설명은 'Whirligigs' 뿐이며 작가는 확인되지 않는다. 사진에는 서로 다른 형태의 날개와 프로펠러형 회전체가 나란히 보인다. 정원 나무를 배경으로 한 옥외 설치 작품이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "휘릭(Whirligig)",
+      "바람",
+      "정원"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "745",
+    "title_display": "휘릭 7 (Whirliwig 7)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 판, 나무 삼각대",
+    "description_ko": "나무 삼각대 위의 가로대 양끝에 금속 인형 실루엣이 매달린 구조이다. 가로대가 기울거나 돌도록 설계된 휘릭으로 보인다.",
+    "detail_text_ko": "원문은 'Whirligig' 제목만 제공되며 작가는 확인되지 않는다. 사진에서 가로대의 회전 방식과 인형의 움직임은 확인되지 않는다. 금속 실루엣과 나무 지지대가 결합된 형태가 특징이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "휘릭(Whirligig)",
+      "균형",
+      "금속"
+    ],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "746",
+    "title_display": "나선형 금속 휘릭 14 (Wirligig 14)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "얇은 금속 띠, 철사",
+    "description_ko": "얇은 금속 띠를 나선형으로 엮어 구 모양을 만든 휘릭이다. 가느다란 줄에 매달려 있다.",
+    "detail_text_ko": "원문은 'Whirligig'만 적혀 있으며 작가 정보는 없다. 사진에서는 꽃무늬 천을 배경으로 매달린 모습이 보인다. 띠가 회전하는 상태는 사진에서 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "휘릭(Whirligig)",
+      "바람",
+      "금속"
+    ],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "751",
+    "title_display": "휘릭 2 (Wirliwig 2)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속, 천 조각, 나무",
+    "description_ko": "옥상 위 붉은 금속 기둥에 인형 형태 조각과 천 조각이 매달린 구조이다. 긴 막대 끝에 원형 고리가 달려 있다.",
+    "detail_text_ko": "원문은 'Whirligig' 제목만 제공되며 작가와 연도는 확인되지 않는다. 사진에는 회전 축과 가로대, 매달린 인형 조각이 함께 보인다. 움직임은 사진에서 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "휘릭(Whirligig)",
+      "바람",
+      "조각"
+    ],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "752",
+    "title_display": "수탉 풍향계 (Wind vane 05643)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속판, 금속 축",
+    "description_ko": "붉은 수탉 모양 장식 아래 N·E·S·W 방위 글자가 붙은 풍향계이다. 바람 방향에 따라 회전하도록 된 구조이다.",
+    "detail_text_ko": "원문은 'Wind Vane, Weather cock, Weather vane'이며 작가 정보는 없다. 사진에는 꼬인 금속 막대와 방위 표시가 함께 보인다. 바람에 반응해 회전하는 장치라는 점에서 키네틱 요소를 가진다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍향계",
+      "바람",
+      "금속"
+    ],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "778",
+    "title_display": "젠 물방울 모빌 (La goutte Zen du mobile)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "아연 도금 금속판, 페인트",
+    "description_ko": "물방울 모양 금속판에 흰색으로 'Zen'이라고 적힌 모빌 조각이다. 나뭇가지 아래에 매달려 있다.",
+    "detail_text_ko": "원문은 'Jardin Zen et Zinc, Été 2011' 로 정원 전시의 이름과 연도가 함께 적혀 있다. 작가 정보는 확인되지 않는다. 사진은 흐린 하늘과 나무를 배경으로 한 단일 판을 보여 준다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "바람",
+      "정원"
+    ],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "779",
+    "title_display": "아연 물방울 모빌 (La goutte Zinc du mobile)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "아연 도금 금속판, 페인트",
+    "description_ko": "물방울 모양 아연 판에 흰색으로 'Zinc'라고 적힌 모빌 조각이다. 나무 사이에 매달려 있다.",
+    "detail_text_ko": "원문은 'Jardin Zen et Zinc, Été 2011' 로 정원 전시의 이름과 연도가 함께 적혀 있다. 작가 정보는 확인되지 않는다. 사진에는 흐린 하늘과 나무 잎을 배경으로 한 단일 판이 보인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "바람",
+      "정원"
+    ],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "780",
+    "title_display": "물방울 모빌 (Le mobile des gouttes)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "아연 도금 금속판, 아연 양동이, 페인트",
+    "description_ko": "'Zen'과 'Zinc'가 적힌 여러 개의 물방울 판과 아연 양동이가 나뭇가지와 기둥에 매달린 모빌이다.",
+    "detail_text_ko": "원문은 'Jardin Zen et Zinc, Été 2011' 로 정원 전시의 이름과 연도가 함께 적혀 있다. 작가 정보는 확인되지 않는다. 사진에는 여러 판이 서로 다른 높이로 매달려 있어 바람에 흔들리는 구성으로 보인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "바람",
+      "정원"
+    ],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "788",
+    "title_display": "유리 방울 모빌 (Mobile mit gläsernen Glöckchen)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "유리 방울, 금속 별, 금속 고리, 줄",
+    "description_ko": "곡선 막대에 줄을 매달고 흰색 트리 모양 방울과 금속 별을 길게 늘어뜨린 모빌이다.",
+    "detail_text_ko": "원문은 'Mobile mit gläsernen Glöckchen' 으로 유리 방울이 달린 모빌이라고 적혀 있다. 작가 정보는 확인되지 않는다. 사진에서는 방울과 별이 줄마다 다른 길이로 매달려 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "바람",
+      "소리"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "801",
+    "title_display": "회전 조각 (Rotating sculpture)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "스테인리스 스틸",
+    "description_ko": "스테인리스 스틸 원형 고리 두 겹이 기둥 위에 얹힌 조각이다. 숲 배경에 설치되어 있다.",
+    "detail_text_ko": "원문 제목은 'Rotating sculpture'이나 사진에서는 회전 상태가 확인되지 않는다. 작가 정보는 원문에 없다. 고리 형태가 기둥 축을 중심으로 돌도록 된 구조로 보인다.",
+    "tags_ko": [
+      "키네틱아트",
+      "회전",
+      "스테인리스",
+      "조각"
+    ],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "802",
+    "title_display": "회전 조각 (Rotating sculptures, Hutching's Wharf)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "스테인리스 스틸",
+    "description_ko": "위쪽이 비틀린 곡선 형태의 스테인리스 기둥 두 개가 주거 단지 안뜰에 세워져 있다.",
+    "detail_text_ko": "원문 제목은 'Rotating sculptures, Hutching's Wharf'이나 사진에서는 회전 장치가 확인되지 않는다. 작가 정보는 원문에 없다. 주변 고층 건물과 나무가 함께 보이는 야외 설치 작품이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "회전",
+      "스테인리스",
+      "조각"
+    ],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "878",
+    "title_display": "바람 종 (An wind chime)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "검은 금속 관, 금속 고리, 나뭇잎 모양 장식",
+    "description_ko": "검은 금속 관 여러 개를 고리에 매달고 노란 잎 모양 추를 함께 단 바람 종이다. 바람이 불면 관이 부딪혀 소리를 낸다.",
+    "detail_text_ko": "원문은 'A wind chime hanging'이며 작가 정보는 없다. 사진은 상단 장식 고리와 깃발이 있는 정원에서 촬영되었다. 관과 추가 바람에 흔들리는 구조이다.",
+    "tags_ko": [
+      "키네틱아트",
+      "바람",
+      "풍경(바람종)",
+      "소리"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "884",
+    "title_display": "은식기 바람 종 (Classic Silverware Windchime)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "은도금 식기 조각, 금속 줄",
+    "description_ko": "포크와 숟가락 등 은식기를 잘라 만든 조각을 줄에 매단 바람 종이다. 식기 조각이 바람에 흔들리는 구조이다.",
+    "detail_text_ko": "원문은 'Classic Silverware Windchime 2013'으로 제작 연도가 제목에 적혀 있으나 작가 정보는 없다. 사진에는 비틀린 손잡이 형태와 물고기 모양 조각이 함께 매달려 있다. 흰 천을 배경으로 실내에서 촬영되었다.",
+    "tags_ko": [
+      "키네틱아트",
+      "바람",
+      "풍경(바람종)",
+      "재활용"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "885",
+    "title_display": "아시아 정원의 색색 대나무 풍경 (Colorful Bamboo Wind Chimes in Asian Garden)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "대나무, 나무 원판, 끈",
+    "description_ko": "정원에 매달린 여러 개의 대나무 관으로 이루어진 풍경이다. 바람이 불면 관이 서로 부딪히며 소리를 낸다.",
+    "detail_text_ko": "대나무 관은 빨강, 노랑, 초록으로 칠해져 있고 위쪽은 둥근 나무 원판에 끈으로 연결되어 있다. 배경에는 전통 양식의 정자와 나무가 보인다. 원본 설명은 '비즈니스 뉴스레터'로만 되어 있어 제작 배경은 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "대나무",
+      "정원"
+    ],
+    "uncertain": false,
+    "notes": "desc_src가 작품 설명이 아니어서 제작 연도·작가 미확인"
+  },
+  {
+    "local_id": "889",
+    "title_display": "유레카 스프링스 풍경 (EurekaSpringsWindchime)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 튜브, 나무, 원형 지붕",
+    "description_ko": "숲속 목조 단상 위에 세워진 대형 금속 튜브 풍경이다. 바람에 흔들리며 튜브가 부딪혀 소리를 낸다.",
+    "detail_text_ko": "원뿔형 나무 지붕 아래 길게 늘어진 은색 금속 튜브들이 원판에 매달려 있다. 주변은 낙엽 진 나무 숲이며, 제목으로 미루어 미국 유레카 스프링스의 풍경으로 보인다. 원본에 별도 설명이 없어 제작자와 연도는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "대형설치",
+      "금속"
+    ],
+    "uncertain": false,
+    "notes": "desc_src 없음. 위치는 제목 기반 추정"
+  },
+  {
+    "local_id": "894",
+    "title_display": "하프살루 성의 풍경 (Haapsalu linnus)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 튜브, 끈",
+    "description_ko": "하프살루 성의 석조 실내 천장에 매달린 여러 개의 금속 튜브 풍경이다. 바람이 드나들면 튜브가 흔들리며 소리를 낸다.",
+    "detail_text_ko": "갈색으로 마감된 긴 금속 관들이 목재 들보 아래에 나란히 매달려 있고, 벽은 돌로 쌓여 있다. 원본 설명은 '하프살루 성의 풍경'이라고만 되어 있다. 제작자와 제작 연도는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "성",
+      "금속"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "895",
+    "title_display": "호손 농장 풍경 (Hawthorn Farm MAX windchime)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 튜브, 목재 프레임, 유리",
+    "description_ko": "유리 상자 안에 금속 관들이 가로로 줄지어 매달린 풍경이다. 바람이나 외부 움직임에 반응해 관이 흔들리도록 되어 있는 것으로 보인다.",
+    "detail_text_ko": "목재 프레임 위에 여러 개의 금속 관이 가로 막대에 걸려 있으며, 전체가 유리 벽으로 둘러싸인 구조다. 원본 설명은 제목 '호손 농장 풍경'뿐이다. 구동 방식은 사진만으로 완전히 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "금속",
+      "유리"
+    ],
+    "uncertain": true,
+    "notes": "구동 방식 사진상 확정 불가. 풍경 여부 애매"
+  },
+  {
+    "local_id": "908",
+    "reject": true,
+    "notes": "밴드 공연 사진(인물 중심) — 작품 아님. desc_src 'TV on the Radio'는 밴드명"
+  },
+  {
+    "local_id": "920",
+    "title_display": "'I LOVE YOU' 글자 풍경 (Wind chimes spell \"I love you\")",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 튜브, 나무 (글자 장식)",
+    "description_ko": "'I', 'LOVE', 'YOU' 글자가 새겨진 나무 물방울 모양 장식이 금속 튜브 풍경 아래 매달려 있다. 바람에 흔들리며 소리를 낸다.",
+    "detail_text_ko": "위쪽에는 여러 개의 금속 튜브가 있고, 아래로 세 개의 나무 장식이 세로로 이어져 있다. 배경은 흐린 초록색 나무들이다. 원본 설명은 '인도 코임바토르'뿐이어서 제작자와 연도는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "나무",
+      "메시지"
+    ],
+    "uncertain": false,
+    "notes": "desc_src가 장소명뿐이라 제작자·연도 미확인"
+  },
+  {
+    "local_id": "923",
+    "title_display": "은색 튜브 풍경 (Wind chimes)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "알루미늄 튜브, 끈",
+    "description_ko": "짙은 색 원판에 여러 개의 은색 튜브가 매달린 풍경이다. 바람을 받으면 튜브가 서로 부딪혀 소리를 낸다.",
+    "detail_text_ko": "튜브 네 개가 길이를 달리하여 원판 아래로 늘어져 있으며, 배경은 질감 있는 회벽이다. 원본 설명은 제목과 같은 '풍경'뿐이어서 제작자와 연도는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "금속"
+    ],
+    "uncertain": false,
+    "notes": "desc_src가 제목과 같아 제작 정보 없음"
+  },
+  {
+    "local_id": "929",
+    "title_display": "말 모양 풍향계 (Horse Weather Vane)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "녹청 구리 (추정), 금속",
+    "description_ko": "지붕 꼭대기에 설치된 말 모양의 풍향계다. 바람 방향에 따라 회전하도록 되어 있다.",
+    "detail_text_ko": "달리는 말 형상의 청록색 금속 장식이 방위 표시(W, E 등)가 있는 받침대에 꽂혀 있다. 아래에는 갈색 기와 지붕이 보인다. 원본 설명은 우크라이나어 '말 모양 풍향계'뿐이며 제작자와 연도는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍향계",
+      "바람",
+      "동물형상",
+      "금속"
+    ],
+    "uncertain": true,
+    "notes": "정지 사진이라 회전 여부 직접 확인 불가. 바람 구동물로 판단"
+  },
+  {
+    "local_id": "975",
+    "title_display": "1964년 아벤틸 홍보용 노트 (1964 Aventyl promotional notepad)",
+    "artist": null,
+    "created_year": 1964,
+    "materials_ko": "종이 (인쇄)",
+    "description_ko": "검은색과 황토색이 교차하는 방사형 옵아트 무늬가 인쇄된 홍보용 노트다. 가운데 흰 원형 구멍을 중심으로 무늬가 소용돌이처럼 보인다.",
+    "detail_text_ko": "무늬는 원형 띠와 방사형 줄무늬가 번갈아 배치되어 깊이감이 있는 착시를 만든다. 원본 설명은 제목과 같은 '1964년 아벤틸 홍보용 노트'뿐이어서 작가·제작지는 확인되지 않는다. 작품이라기보다 인쇄 매체에 가까워 판단이 애매하다.",
+    "tags_ko": [
+      "키네틱아트",
+      "옵아트",
+      "착시",
+      "인쇄물",
+      "1960년대"
+    ],
+    "uncertain": true,
+    "notes": "작품보다 홍보 인쇄물 성격. 옵아트 무늬 기준으로만 통과"
+  },
+  {
+    "local_id": "981",
+    "reject": true,
+    "notes": "도시 광장 항공 사진(군중·건물 전경) — 작품이 주제가 아님"
+  },
+  {
+    "local_id": "1006",
+    "reject": true,
+    "notes": "극장 앞 광장 건물 외관·무대 전경 — 작품 안 보임"
+  },
+  {
+    "local_id": "1021",
+    "reject": true,
+    "notes": "공원 잔디 위 정적 원뿔 조형물과 난간 — 움직임 없는 정적 조각"
+  },
+  {
+    "local_id": "1024",
+    "reject": true,
+    "notes": "건물 벽면에 투사된 얼굴 이미지(정적 투영 착시) — 움직임·옵아트 구조 확인 안 됨"
+  },
+  {
+    "local_id": "1039",
+    "reject": true,
+    "notes": "바닥 3D 스트리트 페인팅(정적 회화)"
+  },
+  {
+    "local_id": "1040",
+    "reject": true,
+    "notes": "건물 외벽 아나모르포시스 벽화(정적 회화)"
+  },
+  {
+    "local_id": "1041",
+    "reject": true,
+    "notes": "야간 석조 아치 건물 외관에 투사된 이미지 — 건물 외관이 주이고 움직임 확인 불가"
+  },
+  {
+    "local_id": "1049",
+    "reject": true,
+    "notes": "액자에 든 회화 — 일반 회화"
+  },
+  {
+    "local_id": "1050",
+    "reject": true,
+    "notes": "전시실의 회화와 정적 원통형 거울 조각 — 움직임 없는 정적 전시"
+  },
+  {
+    "local_id": "1069",
+    "reject": true,
+    "notes": "야간 공원의 조명 아치 — 풍경"
+  },
+  {
+    "local_id": "1070",
+    "title_display": "달빛 터치 빛 예술 조명 (Eco home illuminer with Moon touch)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "전구 형태 조명",
+    "description_ko": "전구 모양의 조명 오브제가 흐릿하게 찍힌 빛 예술 사진이다.",
+    "detail_text_ko": "사진 속 조명은 잔상처럼 번져 있어 촬영 중 움직였거나 움직이는 대상으로 보인다. 원문에는 '달빛 터치가 있는 빛 예술 샘플'이라는 설명만 있어 구동 방식과 제작 정보는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "빛예술",
+      "조명",
+      "장노출"
+    ],
+    "uncertain": true,
+    "notes": "원문 설명 최소, 움직임 여부 불확실"
+  },
+  {
+    "local_id": "1084",
+    "reject": true,
+    "notes": "빛 궤적 장노출 사진이며 원작 조각 형태가 보이지 않음"
+  },
+  {
+    "local_id": "1097",
+    "title_display": "흰색 빛 그래픽 (Nice light art white graffic)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "검은 배경 위에 흰 빛이 여러 겹 감기며 그려진 빛 예술 사진이다.",
+    "detail_text_ko": "장노출로 빛을 움직여 만든 궤적으로 보인다. 원문에는 '흰색 빛 그래픽'이라는 설명만 있어 실제 설치물인지 촬영 기법인지는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "빛예술",
+      "장노출",
+      "궤적"
+    ],
+    "uncertain": true,
+    "notes": "설치물인지 촬영 기법인지 불확실"
+  },
+  {
+    "local_id": "224",
+    "title_display": "스트란트베스트 (Strandbeest)",
+    "artist": "테오 얀센 (Theo Jansen)",
+    "created_year": null,
+    "materials_ko": "튜브 구조재",
+    "description_ko": "다리 구조로 걷도록 만든 스트란트베스트가 독일 하노버 광장에 놓여 있는 모습이다.",
+    "detail_text_ko": "원문 설명은 테오 얀센과 하노버에서 촬영된 스트란트베스트라는 내용이다. 사진에는 노란 튜브로 짠 다리 구조물이 보이며, 구동 방식과 제작 연도는 원문에 없어 기재하지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란트베스트",
+      "보행 기구",
+      "야외 설치"
+    ],
+    "uncertain": false,
+    "notes": "구동 원리·제작 연도는 원문 미기재로 생략"
+  },
+  {
+    "local_id": "362",
+    "title_display": "스트란트베스트 모형 (AdvancedDesignStrandbeestSept28th)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "플라스틱 막대·연결 부품",
+    "description_ko": "여러 개의 막대를 연결해 만든 스트란트베스트 형태의 다리 기구 모형이다.",
+    "detail_text_ko": "사진에는 흰색과 회색 막대, 파란 테이프로 고정된 다리 기구가 나란히 놓여 있다. 원문에는 복제해 서로 연결했다고 적혀 있으며, 제목에 9월 28일이 표기되어 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란트베스트",
+      "보행 기구",
+      "모형"
+    ],
+    "uncertain": false,
+    "notes": "작가 미기재(개인 제작 모형으로 보임)"
+  },
+  {
+    "local_id": "363",
+    "reject": true,
+    "notes": "드릴·톱 등 공구 사진 — 작품 미확인"
+  },
+  {
+    "local_id": "375",
+    "title_display": "스트란트베스트 모형 9월 26일 (MyStrandbeestModelSept.26)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "플라스틱 막대·금속 연결부",
+    "description_ko": "9월 26일에 만든 스트란트베스트 형태의 다리 기구 모형이다.",
+    "detail_text_ko": "흰색과 회색 막대, 은색 연결부가 달린 다리 기구가 여러 개 배열된 사진이다. 원문에는 9월 26일에 만들었다고만 적혀 있어 작가와 제작 연도는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란트베스트",
+      "보행 기구",
+      "모형"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "376",
+    "reject": true,
+    "notes": "노트에 그린 설계 스케치 — 작품 사진 아님"
+  },
+  {
+    "local_id": "379",
+    "title_display": "스트란트 2 (Strand 2)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "목재·볼트",
+    "description_ko": "스트란트베스트 기구의 일부인 목재 연결부를 가까이서 찍은 사진이다.",
+    "detail_text_ko": "목재 막대 두 개가 금속 판과 볼트로 연결된 모습이 보인다. 원문에는 스트란트베스트 메커니즘의 일부라고만 적혀 있어 전체 구조와 움직임은 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란트베스트",
+      "기구 부품",
+      "목재"
+    ],
+    "uncertain": true,
+    "notes": "부품 클로즈업만 보여 움직임 여부 불확실"
+  },
+  {
+    "local_id": "389",
+    "title_display": "스트란트베스트 첫 다리 (Strandbeest 1st leg)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "플라스틱 빨대",
+    "description_ko": "빨대를 연결해 만든 스트란트베스트 첫 번째 다리 구조다.",
+    "detail_text_ko": "여러 개의 빨대를 꺾어 이어 붙여 다리 모양의 링크를 만든 모습이 보인다. 원문에는 첫 번째 빨대 다리라고 적혀 있으며 작가 정보는 없다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란트베스트",
+      "보행 기구",
+      "모형"
+    ],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "400",
+    "title_display": "스트란트베스트 다리 (Strandbeest leg)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "플라스틱 빨대",
+    "description_ko": "빨대로 만든 스트란트베스트 다리 기구다.",
+    "detail_text_ko": "흰색과 하늘색 빨대를 연결해 다리 모양의 링크를 구성한 사진이다. 원문에는 'Enes100'이라는 표기만 있어 작가나 제작 맥락은 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란트베스트",
+      "보행 기구",
+      "모형"
+    ],
+    "uncertain": false,
+    "notes": "원문 'Enes100'은 제작 맥락 근거로 쓰지 않음"
+  },
+  {
+    "local_id": "416",
+    "title_display": "스트란드베스트 애니메이션 (Animation eines Strandbeests)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "관형 막대, 연결 관절 (이미지 기준)",
+    "description_ko": "노란 막대와 연결 관절로 이루어진 다리 구조물이 움직이는 모습을 보여 주는 애니메이션이다.",
+    "detail_text_ko": "원문은 스트란드베스트(Strandbeest)의 애니메이션이라는 설명만 제공한다. 이미지에는 노란 막대가 여러 줄로 얽혀 다리 모양을 이루는 구조가 보인다. 구동 방식과 작가는 원문에 명시되어 있지 않아 확인하지 못했다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드베스트",
+      "보행구조",
+      "애니메이션"
+    ],
+    "uncertain": false,
+    "notes": "작가명 원문 미기재. hint_year(2021)는 촬영·제작 확인이 안 되어 created_year 비움"
+  },
+  {
+    "local_id": "419",
+    "title_display": "스트란드베스트 노란 다리 쌍 (Stranbeest-yellow-leg-pair)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "관형 막대, 연결 관절 (이미지 기준)",
+    "description_ko": "노란색 다리 한 쌍과 연결 관절로 이어진 보행 구조를 보여 주는 애니메이션이다.",
+    "detail_text_ko": "원문은 스트란드베스트 노란 다리의 애니메이션이라고만 밝힌다. 이미지에는 노란 막대로 된 다리 쌍이 관절로 연결되어 펼쳐진 모습이 보인다. 구동 방식과 작가는 원문에 명시되어 있지 않아 확인하지 못했다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드베스트",
+      "보행구조",
+      "애니메이션"
+    ],
+    "uncertain": false,
+    "notes": "작가명 원문 미기재. hint_year는 created_year로 쓰지 않음"
+  },
+  {
+    "local_id": "422",
+    "title_display": "스트란드베스트 3D 모델, 지지대 포함 (Strandbeest 3D with Support)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "채색 3D 모델 (이미지 기준)",
+    "description_ko": "빨강·초록·파랑 막대로 이루어진 스트란드베스트 구조를 3D로 렌더링한 이미지다.",
+    "detail_text_ko": "원문 제목에 지지대(support)가 포함되어 있어 지지 부품을 함께 모델링한 것으로 보인다. 이미지에는 여러 색 막대와 관절로 된 다리 구조, 그리고 노란 빗살 모양 부품이 함께 보인다. 작가와 제작 시기는 원문에 명시되어 있지 않다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드베스트",
+      "3D렌더링",
+      "보행구조"
+    ],
+    "uncertain": false,
+    "notes": "작가명 원문 미기재. 렌더링 이미지이므로 실물 움직임은 확인 불가"
+  },
+  {
+    "local_id": "423",
+    "title_display": "스트란드베스트 3D 렌더링 (Strandbeest 3d)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "채색 3D 모델 (이미지 기준)",
+    "description_ko": "빨강·초록·파랑 막대로 이어진 스트란드베스트 다리 구조를 3D로 렌더링한 이미지다.",
+    "detail_text_ko": "원문은 스트란드베스트의 3D 렌더링이라는 설명만 제공한다. 이미지에는 색을 나눈 막대들이 관절로 연결되어 여러 다리가 겹쳐 있는 구조가 보인다. 작가와 구동 방식은 원문에 명시되어 있지 않다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드베스트",
+      "3D렌더링",
+      "보행구조"
+    ],
+    "uncertain": false,
+    "notes": "작가명 원문 미기재. 렌더링 이미지이므로 실물 움직임은 확인 불가"
+  },
+  {
+    "local_id": "424",
+    "title_display": "스트란드베스트 3D 렌더링, 크랭크 오프셋 보정 (Strandbeest 3d - crank offset corrected)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "채색 3D 모델 (이미지 기준)",
+    "description_ko": "크랭크 오프셋을 보정한 스트란드베스트 3D 렌더링 이미지다.",
+    "detail_text_ko": "원문 제목에 크랭크 오프셋 보정이 적혀 있어 크랭크 연결 위치를 수정한 버전으로 보인다. 이미지에는 빨강·초록·파랑 막대로 이루어진 다리 구조가 흰 배경 위에 놓여 있다. 작가와 제작 시기는 원문에 명시되어 있지 않다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드베스트",
+      "3D렌더링",
+      "크랭크구동"
+    ],
+    "uncertain": false,
+    "notes": "작가명 원문 미기재. 렌더링 이미지"
+  },
+  {
+    "local_id": "425",
+    "title_display": "스트란드베스트 POV-Ray 3D (Strandbeest POV-Ray 3D)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "채색 3D 모델 (이미지 기준)",
+    "description_ko": "POV-Ray로 렌더링한 스트란드베스트 3D 이미지다.",
+    "detail_text_ko": "원문 제목에 POV-Ray 렌더링이라고 적혀 있다. 이미지에는 빨강·초록·파랑 막대와 관절로 이어진 보행 구조가 낮은 시점에서 보인다. 작가와 제작 시기는 원문에 명시되어 있지 않다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드베스트",
+      "3D렌더링",
+      "보행구조"
+    ],
+    "uncertain": false,
+    "notes": "작가명 원문 미기재. 렌더링 이미지"
+  },
+  {
+    "local_id": "429",
+    "title_display": "걷는 스트란드베스트 (Walking Strandbeest)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "관형 막대, 연결 관절 (이미지 기준)",
+    "description_ko": "걷는 스트란드베스트의 움직임을 보여 주는 애니메이션으로 보인다.",
+    "detail_text_ko": "원문은 걷는 스트란드베스트의 애니메이션이라고 설명한다. 이미지는 화면 왼쪽 가장자리에 파랑 관절과 빨강·초록 다리 막대 일부만 잘려 보인다. 전체 구조와 구동 방식은 이미지로 확인하기 어렵다.",
+    "tags_ko": [
+      "키네틱아트",
+      "스트란드베스트",
+      "보행구조",
+      "애니메이션"
+    ],
+    "uncertain": true,
+    "notes": "이미지가 잘려 일부만 보임. 작가명 원문 미기재"
+  },
+  {
+    "local_id": "509",
+    "title_display": "장 팅겔리 분수 조각 (Jean Tinguely 2012 b Beaubourg Paris)",
+    "artist": "장 팅겔리 (Jean Tinguely)",
+    "created_year": null,
+    "materials_ko": "금속 (이미지 기준 추정)",
+    "description_ko": "물가에 놓인 검은 금속 바퀴와 팬 형태의 기계 구조물을 담은 사진이다.",
+    "detail_text_ko": "원문은 장 팅겔리의 작품을 파리 보부르 앞에서 찍은 사진이라고만 밝힌다. 이미지에는 검은 금속 바퀴와 팬 모양 부품이 물 위에 놓여 있고, 벽면에는 얼굴 그림이 보인다. 작품명과 움직임 여부는 원문과 이미지만으로는 확인하지 못했다.",
+    "tags_ko": [
+      "키네틱아트",
+      "장팅겔리",
+      "금속조각",
+      "분수"
+    ],
+    "uncertain": true,
+    "notes": "작품명 미확인. 기계 부품 구동 여부는 이미지로 판단 불가"
+  },
+  {
+    "local_id": "510",
+    "title_display": "장 팅겔리 조각, 보부르 (Jean Tinguely Beaubourg 2012 a Paris)",
+    "artist": "장 팅겔리 (Jean Tinguely)",
+    "created_year": null,
+    "materials_ko": "금속 (이미지 기준 추정)",
+    "description_ko": "파리 보부르 앞에 놓인 검은 금속 바퀴 조각을 담은 사진이다.",
+    "detail_text_ko": "원문은 장 팅겔리의 작품을 2012년 파리 보부르에서 찍은 사진이라고 밝힌다. 이미지에는 검은 금속 바퀴가 여러 개 겹쳐 있고, 뒤편으로 보부르 건물이 보인다. 바퀴가 실제로 회전하는지와 작품명은 원문과 이미지만으로는 확인하지 못했다.",
+    "tags_ko": [
+      "키네틱아트",
+      "장팅겔리",
+      "금속조각",
+      "바퀴"
+    ],
+    "uncertain": true,
+    "notes": "작품명 미확인. 회전 여부는 이미지로 판단 불가"
+  },
+  {
+    "local_id": "527",
+    "title_display": "세 사각형 자이로토리 (Three Squares Gyratory)",
+    "artist": "조지 리키 (George Rickey)",
+    "created_year": null,
+    "materials_ko": "금속 (이미지 기준 추정)",
+    "description_ko": "수직 기둥에 사각형 판들이 달린 조각으로, 바람에 회전하도록 만든 구동형 조각으로 보인다.",
+    "detail_text_ko": "원문 제목 'Three Squares Gyratory'는 세 개의 사각형이 회전하는 조각임을 뜻한다. 이미지에는 석조 기단 위 수직 기둥에 사각형 판들이 비스듬히 달려 있는 모습이 보인다. 회전 방식과 제작 연도는 원문에 명시되어 있지 않다.",
+    "tags_ko": [
+      "키네틱아트",
+      "조지리키",
+      "회전조각",
+      "야외조각"
+    ],
+    "uncertain": true,
+    "notes": "작가명은 원문 파일명 기준. 구동 방식은 이미지 추정"
+  },
+  {
+    "local_id": "428",
+    "reject": true,
+    "notes": "이미지가 거의 백색 빈 화면이라 작품 확인 불가"
+  },
+  {
+    "local_id": "478",
+    "reject": true,
+    "notes": "인물 사진(남성 초상) — 작품 아님"
+  },
+  {
+    "local_id": "515",
+    "reject": true,
+    "notes": "인물 사진(남성 초상) — 작품 아님"
+  },
+  {
+    "local_id": "518",
+    "reject": true,
+    "notes": "두 사람이 함께 찍힌 사진 — 작품 아님"
+  },
+  {
+    "local_id": "519",
+    "reject": true,
+    "notes": "두 사람이 함께 찍힌 사진 — 작품 아님"
+  },
+  {
+    "local_id": "529",
+    "reject": true,
+    "notes": "금속 삼각 조각이 기둥에 세워진 정적 조각 사진. 건물 외관이 크게 차지하고 움직임 근거 없음. 원문 설명 없음"
+  },
+  {
+    "local_id": "530",
+    "reject": true,
+    "notes": "기둥 위 마름모형 금속 조각 사진. 건물 외관 배경, 움직임 근거 없음. 원문 설명 없음"
+  },
+  {
+    "local_id": "531",
+    "reject": true,
+    "notes": "광장에 세워진 금속 프레임 조각 사진. 정적 조각으로 보이고 움직임 근거 없음. 원문 설명 없음"
+  },
+  {
+    "local_id": "532",
+    "reject": true,
+    "notes": "광장에 세워진 Z자형 금속 조각 사진. 정적 조각으로 보이고 움직임 근거 없음. 원문 설명 없음"
+  },
+  {
+    "local_id": "592",
+    "reject": true,
+    "notes": "야간 건물 외관에 패턴을 투영한 사진. 건물 외관 전경이며 작품 구동 방식 근거 없음"
+  },
+  {
+    "local_id": "600",
+    "title_display": "구체 (Sphère), 일본 설치 (Sphère Japon)",
+    "artist": "헤수스 소토 (Jesús Soto)",
+    "created_year": 1991,
+    "materials_ko": "가느다란 줄(실) 배열",
+    "description_ko": "가느다란 수직 줄들이 모여 만든 붉은 구체 형태의 설치 작품이다. 줄이 촘촘하게 겹쳐 보여 보는 위치에 따라 색과 형태가 흔들려 보인다.",
+    "detail_text_ko": "원문 설명에 따르면 베네수엘라 출신 작가 헤수스 소토의 작품이며 1991년 작으로 표기되어 있다. 사진상 구체는 수많은 줄로 이루어져 있다. 구동 방식과 전시 정보는 원문에서 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "옵아트",
+      "설치",
+      "줄"
+    ],
+    "uncertain": true,
+    "notes": "움직임은 사진만으로 확정하기 어려워 uncertain 처리. 작가·연도는 원문 제목·설명 기준"
+  },
+  {
+    "local_id": "614",
+    "reject": true,
+    "notes": "건축 내부 전경 사진. 기하 패턴 천장과 기둥이 보이나 작품으로 식별 불가"
+  },
+  {
+    "local_id": "617",
+    "reject": true,
+    "notes": "작가 인물 사진(측면 얼굴). 작품이 보이지 않음"
+  },
+  {
+    "local_id": "709",
+    "reject": true,
+    "notes": "대나무 구조물을 만지는 인물 사진. 작가 사진 성격이 강하고 원문은 장소 설명만 있음"
+  },
+  {
+    "local_id": "754",
+    "reject": true,
+    "notes": "어두운 실내에서 줄에 매달린 장치를 찍은 사진. 원문은 행사명만 있고 작품 식별 불가"
+  },
+  {
+    "local_id": "756",
+    "reject": true,
+    "notes": "로봇 대회 현장 사진(바닥 경기판, 관람석). 작품이 아니라 행사 사진"
+  },
+  {
+    "local_id": "767",
+    "reject": true,
+    "notes": "유한 상태 기계(오토마타 개념) 도표. 도표·다이어그램"
+  },
+  {
+    "local_id": "790",
+    "title_display": "모빌 (Mobile)",
+    "artist": "코엔 카이크 (Coen Kaayk)",
+    "created_year": null,
+    "materials_ko": "페르스펙스(아크릴), 금속 막대",
+    "description_ko": "투명·거울 면 패널이 금속 막대에 매달린 모빌 형태의 설치 작품이다. 매달린 구조가 공기 흐름에 따라 움직일 수 있는 형태로 보인다.",
+    "detail_text_ko": "원문 설명에 따르면 재료는 페르스펙스(아크릴)이며, 작가명은 원문 제목에 따른 것이다. 사진에서 패널은 천장에서 내려온 막대에 매달려 있다. 구동 방식과 제작 연도는 원문에서 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "모빌",
+      "페르스펙스"
+    ],
+    "uncertain": true,
+    "notes": "매달린 모빌 형태이나 움직임은 사진으로 확정 불가. 작가명은 원문 제목 기준, 연도 없음"
+  },
+  {
+    "local_id": "796",
+    "reject": true,
+    "notes": "도서관 건물 내부 대형 구조물 전경. 모빌 작품으로 식별되지 않음"
+  },
+  {
+    "local_id": "881",
+    "reject": true,
+    "notes": "기념품점에서 파는 대량 생산 풍경(風鈴) 공예품. 작품으로 보기 어려움"
+  },
+  {
+    "local_id": "883",
+    "title_display": "풍경 클로즈업 (Chime closeup)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 관, 추",
+    "description_ko": "여러 개의 금속 관이 늘어뜨려진 풍경(風磬)을 가까이서 찍은 사진이다. 바람이 불면 관들이 중앙의 원반형 추에 부딪혀 소리를 낸다.",
+    "detail_text_ko": "원천 설명은 '풍경 근접 촬영'이며 작가 정보는 확인되지 않는다. 사진은 금속 관의 질감과 배경의 흐릿한 나뭇잎을 보여 준다. 움직임 자체는 사진에 드러나지 않으므로, 구동 원리는 바람에 의한 진동으로만 이해하는 것이 좋다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "금속",
+      "소리"
+    ],
+    "uncertain": false,
+    "notes": "촬영일(2008)은 원문으로 확인되지 않아 연도를 비워 두었다."
+  },
+  {
+    "local_id": "912",
+    "title_display": "풍경 (Wchime)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 관, 추",
+    "description_ko": "눈 덮인 배경 앞에 매달린 풍경을 찍은 사진이다. 금속 관 여러 개와 가로 막대, 중앙의 추, 아래쪽 판형 날개가 보인다.",
+    "detail_text_ko": "원천 설명은 '단순한 풍경(A simple wind chime)'이다. 작가와 제작 연도는 원문에서 확인되지 않아 비워 두었다. 바람이 불면 관이 추와 부딪혀 소리를 내는 구조이며, 사진은 정지된 상태를 담고 있다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "겨울"
+    ],
+    "uncertain": false,
+    "notes": "정지 사진. 촬영일(2009)은 원문으로 확인되지 않아 연도를 비워 두었다."
+  },
+  {
+    "local_id": "924",
+    "title_display": "풍경 (Windchimes)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금속 관, 추",
+    "description_ko": "검은 배경 아래로 금속 관과 장식 추가 매달린 풍경 사진이다.",
+    "detail_text_ko": "원천 설명은 '풍경(Windchimes)'뿐이며 작가와 연도는 확인되지 않는다. 관은 길이가 서로 다르고, 하단에는 꽃 모양 장식 추가 달려 있다. 바람에 의해 관이 부딪혀 소리를 내는 구조로 이해된다.",
+    "tags_ko": [
+      "키네틱아트",
+      "풍경",
+      "바람",
+      "금속"
+    ],
+    "uncertain": false,
+    "notes": "촬영일(2005)은 원문으로 확인되지 않아 연도를 비워 두었다."
+  },
+  {
+    "local_id": "976",
+    "title_display": "옵티컬 모션 (Optical motion)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "푸른색·초록색·빨간색 체크 무늬가 소용돌이 모양으로 휘어지는 옵아트 회화다.",
+    "detail_text_ko": "라벨 제목은 'Optical motion'(포르투갈어 'Movimento óptico', 광학적 움직임)이다. 격자가 물결처럼 휘어져 화면이 움직이는 듯한 착시를 준다. 작가와 제작 연도는 확인되지 않는다.",
+    "tags_ko": [
+      "키네틱아트",
+      "옵아트",
+      "착시",
+      "기하학",
+      "패턴"
+    ],
+    "uncertain": true,
+    "notes": "원천 설명 없음 — 라벨 제목과 이미지 기준으로 작성. 촬영일(2012)은 연도에서 제외."
+  },
+  {
+    "local_id": "977",
+    "title_display": "옵티컬 모션 III (Optical motion III)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "체크 무늬와 노란 건물 형상이 겹치는 옵아트 회화다. 화면 왼쪽에 검은 원이 자리한다.",
+    "detail_text_ko": "라벨 제목은 'Optical motion III'(포르투갈어 'Movimento óptico III')이다. 원천 설명은 없으며 제작 연도와 작가는 확인되지 않는다. 격자의 휘어짐이 깊이감과 움직임의 착시를 만든다.",
+    "tags_ko": [
+      "키네틱아트",
+      "옵아트",
+      "착시",
+      "기하학",
+      "패턴"
+    ],
+    "uncertain": true,
+    "notes": "원천 설명 없음 — 라벨 제목과 이미지 기준으로 작성. 촬영일(2012)은 연도에서 제외."
+  },
+  {
+    "local_id": "978",
+    "title_display": "옵티컬 모션 II (Optical motion II)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "붉은 물감이 흘러내리는 형상과 체크 무늬가 결합된 옵아트 회화다. 오른쪽에 흰 원이 보인다.",
+    "detail_text_ko": "라벨 제목은 'Optical motion II'(포르투갈어 'Movimento óptico II')이다. 하단 왼쪽에 서명으로 보이는 글자가 있으나 판독이 불확실하여 작가는 비워 두었다. 원천 설명은 없다.",
+    "tags_ko": [
+      "키네틱아트",
+      "옵아트",
+      "착시",
+      "기하학",
+      "패턴"
+    ],
+    "uncertain": true,
+    "notes": "원천 설명 없음 — 라벨 제목과 이미지 기준으로 작성. 촬영일(2012)은 연도에서 제외."
+  },
+  {
+    "local_id": "1001",
+    "reject": true,
+    "notes": "아나모르포시스 정적 드로잉 — 움직임·광학 장치 없음"
+  },
+  {
+    "local_id": "1032",
+    "reject": true,
+    "notes": "아나모르포시스 정적 회화 — 움직임·광학 장치 없음"
+  },
+  {
+    "local_id": "1035",
+    "reject": true,
+    "notes": "아나모르포시스 정적 회화(성 제롬) — 움직임·광학 장치 없음"
+  },
+  {
+    "local_id": "1053",
+    "reject": true,
+    "notes": "아나모르포시스 정적 드로잉(기사 도상) — 움직임·광학 장치 없음"
+  },
+  {
+    "local_id": "1088",
+    "title_display": "라이트 아트 (Lightart)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": null,
+    "description_ko": "여러 겹의 빛 고리가 위아래로 겹쳐진 장노출 사진 형태의 빛 예술 작품이다.",
+    "detail_text_ko": "원천 설명은 '사내에서 제작한 사진 빛 예술(Photographic light art created inhouse)'이다. 회전하거나 흔들린 빛의 궤적이 고리 형태로 기록된 것으로 보인다. 작가와 제작 연도는 확인되지 않으며, 실제 구동 장치 여부는 사진만으로 판단하기 어렵다.",
+    "tags_ko": [
+      "키네틱아트",
+      "사진",
+      "빛",
+      "장노출",
+      "라이트아트"
+    ],
+    "uncertain": true,
+    "notes": "구동 장치 여부 불확실. 촬영일(2014)은 연도에서 제외."
+  }
+]

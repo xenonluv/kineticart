@@ -1,0 +1,119 @@
+[
+  {
+    "local_id": "2838",
+    "reject": true,
+    "notes": "역사 기계 구조 도면(선화) — 도표·도면 분류, 실물 사진 아님"
+  },
+  {
+    "local_id": "1210",
+    "reject": true,
+    "notes": "아나모르픽 정적 조각 사진 — 움직임 근거 없음(합성 이미지 포함)"
+  },
+  {
+    "local_id": "1340",
+    "title_display": "바람놀이 (Windspiel)",
+    "artist": "베르너 리히터 (Werner Richter)",
+    "created_year": 1988,
+    "materials_ko": "붉은 도장 철제 기둥, 금속 판",
+    "description_ko": "붉은 철제 기둥 위에 검은 판 형태의 금속 부재를 얹은 바람놀이 조각이다.",
+    "detail_text_ko": "베를린 Neu-Hohenschönhausen의 Vincent-van-Gogh-Straße 18a에 있다. 1988년 작으로 기록되어 있다. 상단 판형 부재가 바람에 반응하는 구조로 보이나 사진만으로 움직임을 확정하기 어렵다.",
+    "tags_ko": ["키네틱아트", "바람", "조각", "베를린"],
+    "uncertain": true,
+    "notes": "중복후보: 1339, 1341, 1342, 1344"
+  },
+  {
+    "local_id": "1539",
+    "title_display": "흔적 찾기 (Spurensuche)",
+    "artist": "카르스텐 E. W. 쿤네르트 (Karsten E. W. Kunert)",
+    "created_year": null,
+    "materials_ko": "얇은 금속 프레임, 삼각형 패널(추정)",
+    "description_ko": "얇은 금속 팔 끝에 삼각형 패널을 단 조각으로, 바람에 반응하는 구조로 보인다.",
+    "detail_text_ko": "베를린 Prenzlauer Berg의 Helmholtzplatz 중앙부에 있는 조각 '흔적 찾기(Spurensuche)'다. 원본 설명에는 움직임이나 구동 방식이 적혀 있지 않아 사진에서 보이는 형태만 근거로 했다.",
+    "tags_ko": ["키네틱아트", "바람", "조각", "베를린"],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "1755",
+    "title_display": "윌리엄 파이 물 조각 (William Pye Kensington)",
+    "artist": "윌리엄 파이 (William Pye)",
+    "created_year": null,
+    "materials_ko": "스테인리스 스틸, 투명 실린더, 물",
+    "description_ko": "스테인리스 원형 기단 위 투명 실린더 사이로 물이 흘러내리는 수류 조각이다.",
+    "detail_text_ko": "런던 왕립영국조각가협회(Royal British Society of Sculptors) 앞에 설치된 물 조각이다. 물이 실린더를 따라 흐르는 구조가 사진에서 확인된다.",
+    "tags_ko": ["키네틱아트", "물", "수류", "런던"],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "1342",
+    "title_display": "바람놀이 (Windspiel)",
+    "artist": "베르너 리히터 (Werner Richter)",
+    "created_year": 1988,
+    "materials_ko": "붉은 도장 철제 기둥, 금속 판",
+    "description_ko": "붉은 철제 기둥 위에 검은 판 형태의 금속 부재를 얹은 바람놀이 조각이다.",
+    "detail_text_ko": "베를린 Neu-Hohenschönhausen의 Vincent-van-Gogh-Straße 18a에 있다. 1988년 작으로 기록되어 있다. 상단 판형 부재가 바람에 반응하는 구조로 보이나 사진만으로 움직임을 확정하기 어렵다.",
+    "tags_ko": ["키네틱아트", "바람", "조각", "베를린"],
+    "uncertain": true,
+    "notes": "중복후보: 1339, 1340, 1341, 1344"
+  },
+  {
+    "local_id": "1489",
+    "reject": true,
+    "notes": "건물 첨탑 장식 풍향계 사진 — 작품 본체가 아닌 건물 외관 위주"
+  },
+  {
+    "local_id": "1331",
+    "title_display": "바람놀이 (Windspiel)",
+    "artist": "괴츠 도를 (Goetz Dorl)",
+    "created_year": 1989,
+    "materials_ko": "금속 날개, 철제 기둥, 콘크리트 기단",
+    "description_ko": "기둥 위에 금속 날개를 여러 개 단 수직형 바람 회전 조각이다.",
+    "detail_text_ko": "베를린 Fennpfuhlpark에 설치된 '바람놀이' 조각이다. 1989년 작으로 기록되어 있다. 상단 금속 날개가 바람을 받아 회전하는 구조로 보이나 사진만으로 움직임을 확정하기 어렵다.",
+    "tags_ko": ["키네틱아트", "바람", "조각", "베를린"],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "2162",
+    "title_display": "바람놀이 (Windspiel)",
+    "artist": "하인 진켄 (Hein Sinken)",
+    "created_year": 1977,
+    "materials_ko": "금속 기둥, 금속 원형 판",
+    "description_ko": "기둥 상단에 원형 금속 판을 단 바람놀이 조각이다.",
+    "detail_text_ko": "베를린 Tempelhof의 Kurt-Pfennig-Platz에 있다. 원본 설명에 1977년 작, 작가 하인 진켄으로 기록되어 있다. 원형 금속 판이 바람에 반응하는 구조로 보이나 사진만으로 확인하기 어렵다.",
+    "tags_ko": ["키네틱아트", "바람", "조각", "베를린"],
+    "uncertain": true,
+    "notes": null
+  },
+  {
+    "local_id": "1209",
+    "reject": true,
+    "notes": "구리 정적 조각 사진 — 움직이는 구동 요소 근거 없음"
+  },
+  {
+    "local_id": "1182",
+    "reject": true,
+    "notes": "인물 중심 사진, 용기 속 정적 장기 모형 — 움직임 근거 없음"
+  },
+  {
+    "local_id": "2219",
+    "reject": true,
+    "notes": "회화(유화) — 일반 회화"
+  },
+  {
+    "local_id": "2218",
+    "reject": true,
+    "notes": "청동 정적 조각 — 움직임 요소 없음"
+  },
+  {
+    "local_id": "2235",
+    "reject": true,
+    "notes": "도자기 그릇 — 공예품"
+  },
+  {
+    "local_id": "1743",
+    "reject": true,
+    "notes": "손뜨개 실 작품(원형 직조 틀) — 정적 직물 조형, 움직임 근거 없음"
+  }
+]

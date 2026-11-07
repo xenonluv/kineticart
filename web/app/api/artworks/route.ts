@@ -44,6 +44,12 @@ export async function GET(req: NextRequest) {
   const res = await pgrst(`/kinetic_artworks?${p.toString()}`, {
     headers: { Prefer: "count=exact" },
   });
+  // 범위 밖 offset(옛 링크 등): PostgREST 416 → 빈 목록 + 전체 개수로 응답(클라이언트가 마지막 페이지로 보정)
+  if (res.status === 416) {
+    const r = res.headers.get("content-range"); // "*/331"
+    const total = r && r.includes("/") ? Number(r.split("/")[1]) || 0 : 0;
+    return NextResponse.json({ items: [], total, nextOffset: null });
+  }
   if (!res.ok) {
     return NextResponse.json({ error: `REST ${res.status}` }, { status: 502 });
   }

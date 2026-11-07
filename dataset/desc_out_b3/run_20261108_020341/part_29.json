@@ -1,0 +1,17 @@
+[
+  {"local_id":"2188","reject":true,"notes":"풍향계(SvL 명판) — 기능적 장식 공예품, 키네틱 아트로 보기 어려움"},
+  {"local_id":"2211","reject":true,"notes":"기계식 계산기 유물 — 과학 기구 전시품, 작품 아님"},
+  {"local_id":"2212","reject":true,"notes":"기계식 계산기 측면 사진 — 과학 기구 전시품, 작품 아님. 중복후보: 2211"},
+  {"local_id":"2258","title_display":"태양계 모형 (Orrery, Jodrell Bank)","artist":null,"created_year":null,"materials_ko":"금속, 유리, 목재 받침","description_ko":"기어 장치로 태양과 행성 모형을 움직이게 한 태양계 모형이다.","detail_text_ko":"영국 Jodrell Bank 전시장에 놓인 태양계 모형(오레리)이다. 중앙의 태양 주변으로 행성 모형들이 톱니 장치에 연결돼 있다. 원문은 축척이 맞지 않는다는 점만 밝히며, 작가와 제작 연도는 확인되지 않는다.","tags_ko":["키네틱아트","오레리","태양계","기계식"],"uncertain":true,"notes":"작가·제작연도 원문 미확인; 기계 작동 여부는 사진으로 단정 못함"},
+  {"local_id":"2311","title_display":"옵아트 부조 (프라하 브르쇼비체 초등학교)","artist":null,"created_year":null,"materials_ko":"금속 패널(주름 판)","description_ko":"건물 정면에 기하학적 패널을 붙여 만든 옵아트 부조다.","detail_text_ko":"체코 프라하 브르쇼비체의 초등학교 건물 정면에 설치된 옵아트 부조다. 주름진 금속 판과 사선 형태의 패널이 겹쳐 입체감을 만든다. 작가와 제작 연도는 원문에서 확인되지 않는다.","tags_ko":["키네틱아트","옵아트","부조","건축"],"uncertain":true,"notes":"작가·연도 미확인; 움직임은 원문 근거 없음(옵아트 분류만 근거)"},
+  {"local_id":"2800","reject":true,"notes":"아케이드 오락기(Luziprak) — 작품 아님"},
+  {"local_id":"2810","reject":true,"notes":"자동인형 박물관 건물 입구 외관 — 작품이 안 보임"},
+  {"local_id":"1187","title_display":"워터 휠러 — 웰링턴 항구 부두 설계 (Water Whirler)","artist":"렌 라이 (Len Lye)","created_year":null,"materials_ko":"금속 기둥, 금속 판 플랫폼","description_ko":"뉴질랜드 웰링턴 항구 부두에 계획된 렌 라이의 물 구동 조각 설계다.","detail_text_ko":"뉴질랜드 웰링턴 항구의 부두 설계로, 원문은 렌 라이의 워터 휠러(Water Whirler)에 해당한다고 기록한다. 사진에는 금속 판 플랫폼 위로 세운 가느다란 기둥이 보인다. 실제 작동 방식과 제작 시점은 사진과 원문에서 확인되지 않는다.","tags_ko":["키네틱아트","렌 라이","물","설치"],"uncertain":true,"notes":"설계안 사진 — 완성 작동 모습 미확인; 촬영연도(2007)는 제작연도로 쓰지 않음"},
+  {"local_id":"2019","reject":true,"notes":"나무 형상 정적 조각 — 움직임 없음"},
+  {"local_id":"2046","reject":true,"notes":"신둥 센터 트릭아트(평면 착시 벽화) — 정적 회화. 중복후보: 2047, 2048"},
+  {"local_id":"2047","reject":true,"notes":"신둥 센터 트릭아트(평면 착시 벽화) — 정적 회화. 중복후보: 2046, 2048"},
+  {"local_id":"2048","reject":true,"notes":"신둥 센터 트릭아트(평면 착시 벽화) — 정적 회화. 중복후보: 2046, 2047"},
+  {"local_id":"2945","title_display":"다리 기구 부품 (Labeledparts2)","artist":null,"created_year":null,"materials_ko":"목재 링크 부품","description_ko":"움직이는 다리 기구의 부품을 식별용 문자로 표시한 사진이다.","detail_text_ko":"원문은 다리 기구의 부품에 문자를 붙여 식별하도록 한 것이라고 밝힌다. 사진에는 나무 판재로 된 링크 부품들이 보인다. 완성된 작품의 전체 모습과 작가는 확인되지 않는다.","tags_ko":["키네틱아트","다리기구","부품","목재"],"uncertain":true,"notes":"부품 사진만 확인, 완성 작품 미확인; 작가 미확인"},
+  {"local_id":"1929","title_display":"알트바이버뮐레 (Altweibermühle, 노파의 방앗간)","artist":null,"created_year":1880,"materials_ko":"채색 금속판, 목재 받침","description_ko":"19세기 후반 기계식 장난감으로, 손잡이를 돌리면 인형들이 움직이는 구조다.","detail_text_ko":"오스트리아 프라이슈타트 뮐비어텔 성박물관이 소장한 기계식 장난감이다. 원문은 1880년대 제작이라고 밝힌다. 방앗간 앞의 인물들과 커튼이 달린 무대로 구성돼 있으며, 기계 장치로 장면을 움직이는 형태다.","tags_ko":["키네틱아트","오토마타","기계식장난감","19세기"],"uncertain":false,"notes":"작가 미확인; 촬영연도(2014)는 제작연도로 쓰지 않음"},
+  {"local_id":"2170","title_display":"빈트슈필 (Windspiel, 마르잔너 프로메나데)","artist":null,"created_year":null,"materials_ko":"스테인리스 스틸, 금속 기둥","description_ko":"베를린 마르잔 지구 마르잔너 프로메나데에 세워진 바람 조각이다.","detail_text_ko":"원문은 마르잔 지구 마르잔너 프로메나데의 빈트슈필(바람 놀이 조각)이라고 밝힌다. 사진에는 기둥 위에 세운 스테인리스 날개형 부품들이 보인다. 바람에 반응해 움직이는 구조로 보이나 실제 회전 모습은 확인되지 않는다. 작가와 제작 연도는 확인되지 않는다.","tags_ko":["키네틱아트","바람","스테인리스","야외설치"],"uncertain":true,"notes":"회전 모습 미확인; 작가·연도 미확인; 촬영연도(2011)는 제작연도로 쓰지 않음"}
+]

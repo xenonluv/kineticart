@@ -104,9 +104,9 @@ REQUEST_TIMEOUT = 30     # 초
 # ---------------------------------------------------------------------------
 # 수집 목표
 # ---------------------------------------------------------------------------
-TARGET_FINAL = 300          # 최종 큐레이션 목표 (2차 확장: 69 → 300+)
-TARGET_CANDIDATES = 900     # 과수집 목표 (중복/저품질 제거 여유)
-DESCRIBE_TARGET = 400       # 한글 생성 대상 상위 N개
+TARGET_FINAL = 1000         # 최종 큐레이션 목표 (3차: 1000 목표, 미달 시 품질 통과분만 — 700선)
+TARGET_CANDIDATES = 2000    # 과수집 목표 (중복/저품질 제거 여유)
+DESCRIBE_TARGET = 2000      # 한글 생성 대상 상위 N개 (3차: 전량 — 거부는 비전 판정이 맡음)
 # 익명 'Lumino' LED 공예 시리즈(한 업로더의 반복 장신구)는 데이터셋 품질을 위해 전면 제외.
 # (사용자 결정: 순수 양질 작품만. 대표 소수 포함을 원하면 값을 8 등으로 올릴 것)
 LUMINO_CAP = 0
@@ -212,9 +212,33 @@ WIKIMEDIA_SEED_CATEGORIES = [
     "Daniel Rozin",
     "Zimoun",
     "Bruce Munro",
+    # --- 3차 확장: 작가 추가 ---
+    "Heinz Mack", "Otto Piene", "Günther Uecker", "Zero (art)", "Gruppo T",
+    "Gianni Colombo", "Bruno Munari", "Getulio Alviani", "Abraham Palatnik",
+    "Gyula Kosice", "Martha Boto", "Gregorio Vardanega", "Francisco Sobrino",
+    "François Morellet", "Groupe de Recherche d'Art Visuel", "Wen-Ying Tsai",
+    "Liliane Lijn", "Kenneth Martin", "Lin Emery", "José de Rivera",
+    "Kenneth Snelson", "Harry Bertoia", "Tom Shannon", "Jean Dupuy",
+    "Nam June Paik", "Wolfgang Buttress", "Anish Kapoor", "Chuck Hoberman",
+    "Rob Mulholland", "Ivan Black", "Jeff Lieberman", "Lyman Whitaker",
+    "Bob Potts", "David C. Roy", "Paul Friedlander", "Tim Lewis",
+    "Aleksandra Domanović", "Alexander Rodchenko", "Marcel Duchamp rotoreliefs",
+    "Laszlo Moholy-Nagy", "Light-Space Modulator", "Rotary Glass Plates",
+    "Stabiles", "Calder mobiles", "Fontaine Stravinsky", "Cyclop (sculpture)",
+    "Kinetic sculptures in Germany", "Kinetic sculptures in the United States",
+    "Kinetic sculptures in the Netherlands", "Kinetic sculptures in Japan",
+    "Kinetic sculptures in France", "Kinetic sculptures in the United Kingdom",
+    # --- 3차 확장: 다국어/유형 ---
+    "Kinetische Kunst", "Art cinétique", "Kinetische kunst",
+    "Wind-powered sculptures", "Water-powered sculptures", "Rotating sculptures",
+    "Hanging sculptures", "Balancing sculptures", "Spinning tops in art",
+    "Magnetic sculptures", "Motorized sculptures", "Light sculptures",
+    "Ferrofluid art", "Rolling ball sculptures", "Marble machines",
+    "Clock sculptures", "Mechanical clocks in art", "Orreries",
+    "Kinetic facades", "Kinetic architecture", "Wind turbines as art",
 ]
 WIKIMEDIA_SUBCAT_DEPTH = 3          # 하위 카테고리 재귀 깊이
-WIKIMEDIA_MAX_FILES = 2500          # Wikimedia에서 가져올 파일 상한(2차 확장)
+WIKIMEDIA_MAX_FILES = 6000          # Wikimedia에서 가져올 파일 상한(2차 확장)
 WIKIMEDIA_SUBCAT_DENYLIST = [
     "artist", "people", "portrait", "exhibition", "museum", "gallery",
     "stamp", "logo", "diagram", "grave", "signature", "documents",
@@ -226,7 +250,7 @@ WIKIMEDIA_SUBCAT_DENYLIST = [
 MET_SEARCH_API = "https://collectionapi.metmuseum.org/public/collection/v1/search"
 MET_OBJECT_API = "https://collectionapi.metmuseum.org/public/collection/v1/objects"
 MET_QUERY = "kinetic"
-MET_MAX_OBJECTS = 60                 # PD + 이미지 있는 것만, 이 개수까지
+MET_MAX_OBJECTS = 200                # PD + 이미지 있는 것만, 이 개수까지
 # 2차 확장: 단일 "kinetic" 검색은 노이즈가 많았으나, 다중 질의 + 3_enrich 노이즈 필터 +
 # 최종 큐레이션으로 걸러내는 전제 하에 재활성화(수량 확보 우선).
 USE_MET = True
@@ -235,13 +259,15 @@ USE_MET = True
 ART_QUERIES = [
     "kinetic sculpture", "kinetic art", "mobile sculpture", "op art",
     "optical art", "moving sculpture", "wind sculpture", "automaton",
+    "motorized sculpture", "light sculpture", "rotating", "kinetic",
+    "mobile", "perpetual motion", "zoetrope", "optical toy",
 ]
 
 # ---------------------------------------------------------------------------
 # Cleveland Museum of Art Open Access (키 불필요, CC0)
 # ---------------------------------------------------------------------------
 CMA_API = "https://openaccess-api.clevelandart.org/api/artworks/"
-CMA_MAX_OBJECTS = 120
+CMA_MAX_OBJECTS = 250
 USE_CMA = True
 
 # ---------------------------------------------------------------------------
@@ -249,7 +275,7 @@ USE_CMA = True
 # ---------------------------------------------------------------------------
 AIC_API = "https://api.artic.edu/api/v1/artworks/search"
 AIC_IIIF_BASE = "https://www.artic.edu/iiif/2"
-AIC_MAX_OBJECTS = 120
+AIC_MAX_OBJECTS = 250
 USE_AIC = True
 
 # ---------------------------------------------------------------------------

@@ -1,0 +1,17 @@
+[
+  {"local_id":"2232","reject":true,"notes":"태피스트리(정적 직물) — 움직이는 구조 없음"},
+  {"local_id":"1273","reject":true,"notes":"비단 장화 출토 유물 — 정적 공예품"},
+  {"local_id":"2234","reject":true,"notes":"태피스트리(정적 직물) — 움직이는 구조 없음"},
+  {"local_id":"2230","reject":true,"notes":"박차(정적 금속 공예품)"},
+  {"local_id":"2240","reject":true,"notes":"빛 공연 현장 사진 — 공연 전경, 작품 구조 식별 불가"},
+  {"local_id":"1771","reject":true,"notes":"정적 가구(글로브 테이블) 사진 — 움직이는 구조 미확인"},
+  {"local_id":"2236","reject":true,"notes":"직물 조각 — 정적"},
+  {"local_id":"1161","reject":true,"notes":"판화 알레고리 인물 — 일반 회화/판화"},
+  {"local_id":"2228","reject":true,"notes":"박차(정적 금속 공예품)"},
+  {"local_id":"2007","reject":true,"notes":"치즈 광고 인물 사진 — 인물/광고 사진. 중복후보: 2006"},
+  {"local_id":"2006","reject":true,"notes":"치즈 광고 인물 사진 — 인물/광고 사진. 중복후보: 2007"},
+  {"local_id":"1298","reject":true,"notes":"지도형 도면(해칭 패턴) — 모아레 카드가 아닌 도표"},
+  {"local_id":"2217","reject":true,"notes":"석조 부조 — 정적 조각"},
+  {"local_id":"1753","reject":true,"notes":"광장 전경 사진 — 풍경"},
+  {"local_id":"1503","title_display":"프랜섬 대장간 풍향계 (Fransham Forge weather vane)","artist":null,"created_year":null,"materials_ko":"금속","description_ko":"배 모양 금속 실루엣을 단 풍향계로, 바람 방향에 따라 돌며 방향을 가리킨다.","detail_text_ko":"영국 Fransham 대장간 건물 위에 설치된 배 모양 풍향계다. 원형 장식 테두리 안에 배 형태의 금속 실루엣이 달려 있다. 원문에 따르면 이 대장간은 1865년 William Crane이 사업을 시작한 곳이나, 풍향계의 제작 연도와 작가는 원문에서 확인되지 않는다. 바람을 받아 방향을 가리키는 기능물이라 작품으로서의 키네틱 성격은 애매하다.","tags_ko":["키네틱아트","풍향계","바람","금속"],"uncertain":true,"notes":"기능용 풍향계 — 작품성 애매, 검토 권장. hint_year(1865)는 촬영일이 아닌 대장간 사업 연도 언급이라 created_year null 처리"}
+]

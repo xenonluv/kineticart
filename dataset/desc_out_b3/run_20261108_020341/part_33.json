@@ -1,0 +1,17 @@
+[
+  {"local_id":"2033","reject":true,"notes":"독일 헤르텐 조각정원의 정적 강철 조형물 — 움직이는 부분 안 보임"},
+  {"local_id":"2034","reject":true,"notes":"독일 헤르텐 조각정원의 정적 강철 조형물(문 형태) — 움직이는 부분 안 보임"},
+  {"local_id":"2035","reject":true,"notes":"독일 헤르텐 조각정원의 정적 강철 조형물 — 움직이는 부분 안 보임"},
+  {"local_id":"2036","reject":true,"notes":"독일 헤르텐 조각정원의 정적 강철 조형물 — 움직이는 부분 안 보임"},
+  {"local_id":"2037","reject":true,"notes":"독일 헤르텐 조각정원의 정적 강철 조형물 — 움직이는 부분 안 보임"},
+  {"local_id":"2038","reject":true,"notes":"독일 헤르텐 조각정원의 정적 강철 조형물 — 움직이는 부분 안 보임"},
+  {"local_id":"2039","reject":true,"notes":"독일 헤르텐 조각정원의 정적 강철 조형물 — 움직이는 부분 안 보임"},
+  {"local_id":"2040","reject":true,"notes":"독일 헤르텐 조각정원의 정적 강철 조형물 — 움직이는 부분 안 보임"},
+  {"local_id":"2198","reject":true,"notes":"기계식 계산기 사진 — 작품 아님"},
+  {"local_id":"2207","reject":true,"notes":"기계식 계산기 사진 — 작품 아님"},
+  {"local_id":"2243","title_display":"바이킹 풍향계 복제품 (Facsimile of a Viking weathervane)","artist":null,"created_year":null,"materials_ko":"금속 (금빛 도금 추정)","description_ko":"바람의 방향을 가리키도록 만든 바이킹 풍향계를 본뜬 복제품이다.","detail_text_ko":"원문 설명에 따르면 캐나다 토론토 로열 온타리오 박물관 소장품을 본뜬 복제품이다. 유리 진열장 안에 놓여 있으며, 투각된 문양과 동물 머리 모양의 장식이 특징이다. 사진만으로는 실제 회전 여부를 확인할 수 없다.","tags_ko":["키네틱아트","풍향계","바람","바이킹","복제품"],"uncertain":true,"notes":"전시 진열 사진 — 실제 구동 여부는 이미지로 확인 불가. 풍향계 분류상 통과 처리"},
+  {"local_id":"3057","reject":true,"notes":"작가(하인츠 마크) 인물 사진 — 작품 아님"},
+  {"local_id":"1481","title_display":"생피에르 성당 풍향계 (Eglise Saint-Pierre Marsilly girouette)","artist":null,"created_year":null,"materials_ko":"철, 채색 금속","description_ko":"프랑스 샤랑트마리팀 마르시이의 생피에르 성당 지붕에 설치된 수탉 모양 풍향계다.","detail_text_ko":"철제 봉 위에 십자형 장식과 노란색으로 칠한 수탉이 얹혀 있다. 풍향계는 바람을 받아 방향을 따라 회전하도록 만든 장치로, 석재 아치 위에 설치된 전통적인 교회 풍향계다. 작가와 제작 연도는 원문에서 확인되지 않는다.","tags_ko":["키네틱아트","풍향계","바람","프랑스","성당"],"uncertain":false,"notes":null},
+  {"local_id":"2199","reject":true,"notes":"기계식 계산기 사진 — 작품 아님"},
+  {"local_id":"3063","reject":true,"notes":"전시장 내부 전경 사진 — 작품 단독 식별 불가"}
+]

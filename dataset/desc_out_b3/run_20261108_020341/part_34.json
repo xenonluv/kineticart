@@ -1,0 +1,17 @@
+[
+  {"local_id":"2012","reject":true,"notes":"정적 청동 인물상 — 구동 장치 없음"},
+  {"local_id":"2176","title_display":"바우마 풍향계 (Windfahne, Bahnhofstraße 7 Bauma)","artist":null,"created_year":null,"materials_ko":"단조 철, 금색 도장 금속","description_ko":"독일 바우마의 한 주택 지붕에 설치된 장식 풍향계다. 금색 화살 모양의 바람개비가 달려 있다.","detail_text_ko":"원문 설명에 따르면 바우마 바흐너슈트라세 7번지 주택 지붕 위의 풍향계다. 아래쪽 받침은 단조 철의 곡선 장식으로 만들어졌고, 위쪽에는 금색 화살이 바람 방향을 따라 돌도록 달려 있다. 풍향계는 바람을 받아 방향을 가리키는 장치다.","tags_ko":["키네틱아트","풍향계","바람","독일","주택"],"uncertain":false,"notes":null},
+  {"local_id":"1782","reject":true,"notes":"건물 외관(채색 주택) 사진 — 옵아트 여부 이미지로 확인 불가. 중복후보: 1783"},
+  {"local_id":"1783","reject":true,"notes":"건물 외관(채색 주택) 사진 — 옵아트 여부 이미지로 확인 불가. 중복후보: 1782"},
+  {"local_id":"1784","reject":true,"notes":"같은 장소의 정적 강철 구조물 — 움직임·옵아트 요소 안 보임"},
+  {"local_id":"1517","title_display":"카미냐 시계탑 풍향계 (Weather vane Caminha)","artist":null,"created_year":null,"materials_ko":"금속 (철제 판 장식, 지지대)","description_ko":"포르투갈 카미냐의 시계탑(Torre do Relógio)에 설치된 풍향계로 알려져 있다.","detail_text_ko":"종 주변 지지대에 판 모양의 바람 장식 여러 개가 달려 있다. 사진은 공사용 비계 속에서 촬영되어 구동 방식은 확인되지 않는다. 원문 설명에 따라 풍향계로 분류했다.","tags_ko":["키네틱아트","풍향계","바람","포르투갈","시계탑"],"uncertain":true,"notes":"종탑 비계 사진 — 판 장식이 실제 풍향계인지 이미지로 확인 어려움"},
+  {"local_id":"1495","title_display":"프레이저 저택 풍향계 (Riviere-du-Loup Fraser manor)","artist":null,"created_year":null,"materials_ko":"금속 (판금 화살)","description_ko":"캐나다 퀘벡 리비에르뒤루프의 프레이저 저택 지붕 위에 설치된 화살 모양 풍향계다.","detail_text_ko":"깃털처럼 겹쳐 세운 판금 날개와 화살촉이 지붕 용마루 위에 세워져 있다. 바람에 따라 방향을 가리키는 전통적인 풍향계 형식이다. 작가와 제작 연도는 원문에서 확인되지 않는다.","tags_ko":["키네틱아트","풍향계","바람","캐나다","저택"],"uncertain":false,"notes":null},
+  {"local_id":"1589","reject":true,"notes":"정적 흑색 조각 — 움직이는 부분 안 보임"},
+  {"local_id":"3086","reject":true,"notes":"작가 세 명이 함께 있는 사무실 사진 — 작품 아님"},
+  {"local_id":"2274","reject":true,"notes":"성곽 건물 돔 외관 사진 — 풍향계는 부수 요소라 작품 아님"},
+  {"local_id":"1676","reject":true,"notes":"빛 궤적 장노출 사진 — 작품 실물이 아니며 움직이는 조각도 아님"},
+  {"local_id":"2823","title_display":"제임스 시리아크 자동인형 극장 엽서 (James Siriac Théâtre Automatique-Comique)","artist":"제임스 시리아크 (James Siriac)","created_year":null,"materials_ko":"종이 (인쇄 엽서)","description_ko":"프랑스 리옹의 제임스 시리아크가 만든 '자동 코미디 극장'을 알리는 엽서 그림이다.","detail_text_ko":"원문 설명에 따르면 시리아크는 리옹 부댕가 11번지에서 전기 오토마트(자동인형)를 제작했고, '자동 코미디 극장(Théâtre Automatique-Comique)'을 만든 인물이다. 그림에는 무대 위에서 곡예를 펼치는 인형과 악대가 묘사되어 있다. 인쇄 엽서라서 실제 구동 장치는 확인되지 않는다.","tags_ko":["키네틱아트","오토마타","극장","리옹","엽서"],"uncertain":true,"notes":"인쇄 엽서 — 실물 오토마타 이미지가 아님. 포스터 유형 여부 검토 필요"},
+  {"local_id":"1297","reject":true,"notes":"동물원 철망 사진 — 작품 안 보임 (무아레는 촬영 중 우연히 생긴 패턴)"},
+  {"local_id":"1869","title_display":"강철 차임 (Steel chimes)","artist":null,"created_year":null,"materials_ko":"강철 판 (절단 가공), 끈","description_ko":"강철 판을 동물 얼굴 모양으로 잘라 줄에 매단 차임(소리 조각)으로 보인다.","detail_text_ko":"원문 사진 제목이 'Steel chimes'라서 강철 차임으로 분류했다. 판 조각이 줄에 매달려 있어 흔들리며 소리를 내는 구조로 보이나, 작가와 제작 정보는 확인되지 않는다. 바람에 반응하는지 손으로 흔드는지는 사진만으로 확정하기 어렵다.","tags_ko":["키네틱아트","차임","사운드","강철","조각"],"uncertain":true,"notes":"사진 설명이 짧고 작가 불명 — 사운드 조각으로 통과, 확인 필요"},
+  {"local_id":"1479","title_display":"포도 수확 풍향계 (Le Bois-Plage-en-Ré girouette vendangeurs)","artist":null,"created_year":null,"materials_ko":"철판 (실루엣 절단)","description_ko":"프랑스 샤랑트마리팀 르부아플라주앙레에 설치된 포도 수확 풍향계다.","detail_text_ko":"포도 수확꾼 두 사람이 큰 포도송이를 장대에 메고 가는 장면을 실루엣으로 자른 풍향계다. 방위 표시 글자가 달려 있어 바람 방향을 가리키는 장치다. 작가와 제작 연도는 원문에서 확인되지 않는다.","tags_ko":["키네틱아트","풍향계","바람","프랑스","포도"],"uncertain":false,"notes":null}
+]

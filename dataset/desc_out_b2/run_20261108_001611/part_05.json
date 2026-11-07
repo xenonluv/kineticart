@@ -1,0 +1,133 @@
+[
+  {
+    "local_id": "301",
+    "title_display": "완성형 스트랜드비스트 (Finalized Strandbeest)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "레고 테크닉 부품",
+    "description_ko": "레고 부품으로 만든 여러 개의 다리가 축과 링크로 연결된 보행 구조물이다. 원문에 따르면 모터를 달지 않은 완성 상태다.",
+    "detail_text_ko": "스트랜드비스트 계열 작품의 완성 단계를 보여 주는 사진이다. 다리 여러 개가 대칭으로 배열되어 있으며 관절 부분이 축에 연결되어 있다. 원문에는 작가명과 제작 연도가 없어 기재하지 않았다.",
+    "tags_ko": ["키네틱아트", "스트랜드비스트", "보행", "레고"],
+    "uncertain": false,
+    "notes": "작가·연도 원문 미기재 (hint_year는 촬영일로 간주하여 미사용)"
+  },
+  {
+    "local_id": "302",
+    "reject": true,
+    "notes": "레고 링크 연결 설계 스케치(손그림 도표) — 작품 사진 아님"
+  },
+  {
+    "local_id": "305",
+    "reject": true,
+    "notes": "기어·축 부품 사진 — 완성된 작품이 보이지 않음"
+  },
+  {
+    "local_id": "306",
+    "title_display": "스트랜드비스트 상단 모습 (The bird eye view of Strandbeest)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "레고 테크닉 부품, 기어",
+    "description_ko": "레고 부품으로 만든 보행형 다리 구조를 위에서 내려다본 모습이다. 원문에 따르면 상단에 모터가 장착될 예정이다.",
+    "detail_text_ko": "기어와 링크가 연결된 구조가 위에서 보인다. 원문은 작품 상단에 모터를 설치한다고 설명하며, 작가명과 제작 연도는 원문에 없어 기재하지 않았다.",
+    "tags_ko": ["키네틱아트", "스트랜드비스트", "기어", "레고"],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "342",
+    "title_display": "97개의 폴리실록산 호스 (97 Polysiloxane Hoses)",
+    "artist": "짐문 (Zimoun)",
+    "created_year": 2010,
+    "materials_ko": "폴리실록산 호스 97개(지름 3.0mm), 압축공기",
+    "description_ko": "흰색 호스 97개가 압축공기에 의해 움직이는 설치 작품이다. 호스들이 테이블 위에서 꿈틀거리며 빛을 받는다.",
+    "detail_text_ko": "2010년 작으로, 원문은 리히텐슈타인 쿤스트무제움의 설치 전경이라고 밝히고 있다. 압축공기가 호스를 움직여 형태가 계속 변한다. 테이블 아래에는 공기를 공급하는 장치가 연결되어 있다.",
+    "tags_ko": ["키네틱아트", "설치미술", "공압", "짐문"],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "343",
+    "title_display": "비닐봉지 3만 개와 선풍기 16대 (Plastic Bags and Ventilators)",
+    "artist": "짐문 (Zimoun)",
+    "created_year": 2010,
+    "materials_ko": "플라스틱 비닐봉지 3만 개, 선풍기 16대",
+    "description_ko": "비닐봉지 3만 개가 선풍기 16대에서 나오는 바람에 따라 움직이는 설치 작품이다.",
+    "detail_text_ko": "2010년 작으로, 원문은 스위스 로카르노 라 라다(La Rada)의 설치 전경이라고 밝히고 있다. 천장 쪽에 설치된 선풍기 바람이 비닐을 흔들어 공간 전체가 물결치듯 움직인다.",
+    "tags_ko": ["키네틱아트", "설치미술", "선풍기", "짐문"],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "366",
+    "reject": true,
+    "notes": "힌지 부품 구상 음영 스케치 — 도표·드로잉"
+  },
+  {
+    "local_id": "367",
+    "reject": true,
+    "notes": "천 관절 구상 드로잉 (Not to scale) — 도표·드로잉"
+  },
+  {
+    "local_id": "369",
+    "reject": true,
+    "notes": "격자 노트 초기 설계 스케치 — 도표"
+  },
+  {
+    "local_id": "374",
+    "title_display": "고급 스트랜드비스트 모델 (My Advanced Strandbeest)",
+    "artist": null,
+    "created_year": 2011,
+    "materials_ko": "레고 테크닉 부품",
+    "description_ko": "레고 테크닉 부품으로 만든 다리형 보행 모델이다. 원문에 따르면 완성 모델을 2011년 9월 28일에 다시 제작했다.",
+    "detail_text_ko": "흰색 빔과 회색 다리가 연결된 구조이며, 투명 수납함 위에 올려 촬영되었다. 원문에는 작가명이 없어 기재하지 않았다.",
+    "tags_ko": ["키네틱아트", "스트랜드비스트", "보행", "레고"],
+    "uncertain": false,
+    "notes": null
+  },
+  {
+    "local_id": "403",
+    "reject": true,
+    "notes": "3D 구상 스케치(격자 노트) — 도표"
+  },
+  {
+    "local_id": "404",
+    "reject": true,
+    "notes": "부러진 클램프 부품 사진 — 작품 아님"
+  },
+  {
+    "local_id": "408",
+    "title_display": "스트랜드비스트 클램프 1 (The clamps on strandbeest1)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "목재 프레임, PVC 파이프, 플라스틱 클램프",
+    "description_ko": "목재 프레임의 PVC 레일에 초록색 클램프를 달아 다리를 고정한 모습이다.",
+    "detail_text_ko": "원문은 클램프가 다리를 레일 위에 붙잡아 둔다고 설명한다. 사진은 작품 전체보다 구조 연결부에 가까우며, 작가명과 제작 연도는 원문에 없어 기재하지 않았다.",
+    "tags_ko": ["키네틱아트", "스트랜드비스트", "구조", "클램프"],
+    "uncertain": true,
+    "notes": "구조 연결부 확대 사진에 가까워 애매함"
+  },
+  {
+    "local_id": "409",
+    "title_display": "스트랜드비스트 클램프 2 (The clamps on strandbeest2)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "목재 프레임, PVC 파이프, 플라스틱 클램프",
+    "description_ko": "두 개의 클램프가 다리를 레일 위에 고정하고 있는 모습이다.",
+    "detail_text_ko": "원문은 클램프 두 개가 다리를 레일 위에 고정한다고 설명한다. 사진은 연결부 확대에 가까우며, 작가명과 제작 연도는 원문에 없어 기재하지 않았다.",
+    "tags_ko": ["키네틱아트", "스트랜드비스트", "구조", "클램프"],
+    "uncertain": true,
+    "notes": "구조 연결부 확대 사진에 가까워 애매함"
+  },
+  {
+    "local_id": "410",
+    "title_display": "완성된 스트랜드비스트 기어 장치 (The designed piece)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "레고 기어, 축, 플레이트",
+    "description_ko": "레고 기어와 축으로 구성된 장치로, 스트랜드비스트와 결합해 완성된 부품이다.",
+    "detail_text_ko": "손으로 잡고 찍은 사진으로, 기어가 맞물린 구조가 보인다. 원문은 이 장치가 성공적으로 완성되어 스트랜드비스트에 결합되었다고 설명한다. 작가명과 제작 연도는 원문에 없어 기재하지 않았다.",
+    "tags_ko": ["키네틱아트", "스트랜드비스트", "기어", "레고"],
+    "uncertain": true,
+    "notes": "전체 작품보다 기어 장치 부분 사진에 가까워 애매함"
+  }
+]

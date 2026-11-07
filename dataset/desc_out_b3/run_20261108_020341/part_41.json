@@ -1,0 +1,17 @@
+[
+  {"local_id":"1914","reject":true,"notes":"자동인형 전시를 알리는 신문 광고 스크랩 — 작품 사진 아님"},
+  {"local_id":"2845","reject":true,"notes":"Week's Museum 전시 광고 스크랩 — 작품 사진 아님"},
+  {"local_id":"1303","title_display":"오버레이 - 01 (Overlay - 01)","artist":null,"created_year":null,"materials_ko":null,"description_ko":"세로 줄무늬 패턴을 무아레 패턴과 겹쳐 보면 움직이는 듯한 효과가 생기는 옵아트 작품이다.","detail_text_ko":"이미지는 검은 세로 줄무늬가 규칙적으로 배열된 정지 패턴이다. 원문에 따르면 이 오버레이는 무아레 패턴과 결합될 때 애니메이션 효과를 만든다. 움직임은 두 겹이 겹치고 어긋날 때 나타나므로, 정지 이미지만으로는 움직임을 확인할 수 없다.","tags_ko":["키네틱아트","옵아트","무아레"],"uncertain":true,"notes":"정지 이미지만으로는 움직임이 드러나지 않음. 판정 근거는 원문 설명(무아레 결합 시 애니메이션)"},
+  {"local_id":"1911","reject":true,"notes":"Vaucanson 기계 인형 공연 광고 스크랩 — 작품 사진 아님. 중복후보: 2839"},
+  {"local_id":"1908","reject":true,"notes":"Spectacle Mechanique 전시 광고 전단 — 작품 사진 아님"},
+  {"local_id":"1909","reject":true,"notes":"Speaking Figure 광고 전단 — 작품 사진 아님"},
+  {"local_id":"1774","reject":true,"notes":"글로브 워크테이블의 숨김 서랍 부품을 찍은 정적 목공품 — 움직이는 작품으로 확인되지 않음(공예품). 중복후보: 1777"},
+  {"local_id":"1910","reject":true,"notes":"Breslaw 공연 안내 전단 — 작품 사진 아님"},
+  {"local_id":"2847","reject":true,"notes":"Maillardet 자동 전시 광고 스크랩 — 작품 사진 아님"},
+  {"local_id":"1912","reject":true,"notes":"Maillardet 자동 전시 전단 — 작품 사진 아님"},
+  {"local_id":"1759","reject":true,"notes":"시바와 파르바티 청동 정적 조각 — 움직임 구동 없음"},
+  {"local_id":"1954","reject":true,"notes":"다리 회전 설계를 그린 손 스케치(도표) — 완성 작품 이미지 아님"},
+  {"local_id":"2839","reject":true,"notes":"Vaucanson 기계 인형 공연 광고 스크랩 — 작품 사진 아님. 중복후보: 1911"},
+  {"local_id":"1775","reject":true,"notes":"글로브 워크테이블 서랍 부품을 찍은 정적 목공품 — 움직이는 작품으로 확인되지 않음(공예품)"},
+  {"local_id":"1274","reject":true,"notes":"Tarocchi 판화(Primo Mobile 천사) — 정적 판화/회화"}
+]

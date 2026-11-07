@@ -1,0 +1,17 @@
+[
+  {"local_id":"1026","reject":true,"notes":"아모르포시스 도해 판화(광학 도표) — 움직이는 작품 아님"},
+  {"local_id":"1028","reject":true,"notes":"도로 바닥 '버스·자전거 전용' 노면 표시 사진 — 작품 아님"},
+  {"local_id":"1051","reject":true,"notes":"정적 회화(뒤틀린 소용돌이 그림) — 일반 회화"},
+  {"local_id":"1082","reject":true,"notes":"작가 인물 사진"},
+  {"local_id":"273","reject":true,"notes":"오토마타 관련 신문 스크랩(텍스트) — 작품이 보이지 않음"},
+  {"local_id":"559","reject":true,"notes":"과자 포장지 사진 — 작품 아님"},
+  {"local_id":"753","reject":true,"notes":"기계 박물관 광고 전단(포스터) — 작품 아님"},
+  {"local_id":"771","reject":true,"notes":"1754년 신문 스크랩(텍스트) — 작품이 보이지 않음"},
+  {"local_id":"1043","reject":true,"notes":"아모르포시스 삽화(도해) — 움직이는 작품 아님"},
+  {"local_id":"291","reject":true,"notes":"물방울이 튀는 자연 현상 사진 — 조각으로 보이지 않음"},
+  {"local_id":"431","reject":true,"notes":"주차장 건물 외관 사진 — 건물 외관 거부 기준"},
+  {"local_id":"706","title_display":"풍력 모빌 잉엘바흐 (Windmobile Ingelbach)","artist":"외르크-틸만 힌츠 (Jörg-Tilmann Hinz)","created_year":null,"materials_ko":"금속 막대, 금속판","description_ko":"바람을 받아 움직이도록 만든 금속 풍력 조각이다. 기둥 위에 가느다란 금속 막대와 날개 모양 판이 달려 있다.","detail_text_ko":"작품명 Windmobile은 바람으로 움직이는 모빌, 즉 풍력 구동 조각임을 뜻한다. 사진에서는 하늘을 배경으로 금속 막대와 붉은색·초록색 판이 기둥 끝에 얹혀 있다. 바람에 따라 부위가 움직이는 구조가 감상 포인트이다. 제작 연도와 세부 구동 방식은 원문으로 확인되지 않는다.","tags_ko":["키네틱아트","풍력","모빌","금속"],"uncertain":false,"notes":"작가명은 source_title 기준. 촬영 연도(hint_year)는 제작 연도로 쓰지 않음."},
+  {"local_id":"708","title_display":"회전하는 동물 모빌 (Spinning Animal Mobile)","artist":null,"created_year":null,"materials_ko":null,"description_ko":"동물 형상이 달린 모빌이 빠르게 회전하는 모습을 잔상으로 담은 사진이다.","detail_text_ko":"노출 시간 동안 움직임이 번져 노란색과 파란색 동물 형상, 빨간 고리가 겹쳐 보인다. 모빌이 회전하며 만드는 움직임 자체가 작품의 핵심이다. 작가와 제작 시기는 원문으로 확인되지 않는다.","tags_ko":["키네틱아트","모빌","회전","동물"],"uncertain":false,"notes":"촬영 연도(hint_year)는 쓰지 않음. 재질은 원문 미확인."},
+  {"local_id":"822","title_display":"핑크 로터스 (Pink Lotus)","artist":"그리마네사 아모로스 (Grimanesa Amorós)","created_year":null,"materials_ko":"조명(빛)","description_ko":"건물 전면에 붉은 빛줄기가 뻗어 나오고 가운데 빛나는 구체가 놓인 빛 조각 설치다.","detail_text_ko":"건물 정면을 바탕으로 빛의 선들이 사방으로 퍼지는 장면이다. 긴 노출로 촬영되어 빛이 움직이며 그린 궤적이 선명하게 남아 있다. 원문 설명은 '빛 조각 설치'이며, 작가명은 원문 파일명 기준이다.","tags_ko":["키네틱아트","빛","설치","조명"],"uncertain":true,"notes":"건물 외관이 배경이라 설치와 외관의 경계가 모호해 애매 항목으로 통과 처리. 제작 연도(hint_year)는 쓰지 않음."},
+  {"local_id":"892","title_display":"유리 풍경 (Glass Wind Chimes)","artist":null,"created_year":null,"materials_ko":"색유리","description_ko":"색유리로 만든 장식이 줄에 매달려 바람에 흔들리는 풍경이다.","detail_text_ko":"파란 창틀과 노란 벽 앞에 유리 별, 물고기, 구슬 모양 장식이 줄에 여러 개 매달려 있다. 바람이 불면 흔들리며 소리를 내는 풍경의 구조를 갖는다. 사진이 벽면 전체를 찍은 것이라 단일 작품인지 판매 진열인지는 원문으로 확인되지 않는다.","tags_ko":["키네틱아트","풍경","유리","바람"],"uncertain":true,"notes":"공예품 진열일 가능성이 있으나 바람에 흔들리는 풍경 구조가 보여 애매 항목으로 통과 처리. 제작 연도(hint_year)는 쓰지 않음."}
+]

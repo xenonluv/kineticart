@@ -1,0 +1,21 @@
+[
+  {"local_id":"1823","reject":true,"notes":"공기주입식 조명 조각 — 사진상 움직임 근거 없음(정적 설치)"},
+  {"local_id":"1976","reject":true,"notes":"레이싱카 피트 사진 — 작품 아님"},
+  {"local_id":"2064","reject":true,"notes":"제철 설비 야간 외관 사진 — 건물 외관"},
+  {"local_id":"2065","reject":true,"notes":"제철 설비 야간 외관 사진 — 건물 외관"},
+  {"local_id":"2066","reject":true,"notes":"제철 설비 상부 야간 사진 — 건물 구조 외관"},
+  {"local_id":"2068","reject":true,"notes":"제철소 내부 금속 고리 디테일 — 정적 구조물 사진"},
+  {"local_id":"2077","reject":true,"notes":"제철소 건물 외관 야간 사진 — 건물 외관"},
+  {"local_id":"2082","reject":true,"notes":"제철소 금속 구조물 야간 사진 — 건물 구조"},
+  {"local_id":"2083","reject":true,"notes":"제철소 계단 구조 야간 사진 — 건물 구조"},
+  {"local_id":"2084","reject":true,"notes":"냉각 설비 팬 야간 사진 — 설비 외관, 작품 식별 불가"},
+  {"local_id":"2098","title_display":"드림머신 (Dreamachine)","artist":null,"created_year":null,"materials_ko":null,
+   "description_ko":"내부에 빛을 밝힌 드림머신(광학 장치)의 사진이다. 사진 속 장치는 회전하지 않은 상태이다.",
+   "detail_text_ko":"이 사진은 드림머신이 회전하지 않은 상태에서 내부에 불이 켜진 모습을 담고 있다. 촬영자는 Steve Burnett이며 퍼블릭 도메인으로 공개되었다. 드림머신은 원통의 틈새로 빛이 명멸하며 시각적 착시를 만드는 광학 장난감으로 분류된다. 사진만으로는 회전 시의 효과를 확인할 수 없다.",
+   "tags_ko":["키네틱아트","광학장치","드림머신","조명"],"uncertain":true,
+   "notes":"원문상 회전하지 않은 상태의 사진. 움직임은 광학 장치 분류에 근거한 추정. 작가 미확인(hint_artist는 촬영자)·제작연도 미확인(hint_year는 촬영일)."},
+  {"local_id":"2103","reject":true,"notes":"불 공연 장노출 사진 — 공연 기록, 작품 아님"},
+  {"local_id":"2142","reject":true,"notes":"전시장 전경 사진 — 개별 작품 식별 불충분"},
+  {"local_id":"2184","reject":true,"notes":"교회 첨탑 사진 — 건축물"},
+  {"local_id":"2596","reject":true,"notes":"샹들리에 형태의 조명 기구 사진 — 정적 조명 장식"}
+]

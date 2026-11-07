@@ -1,0 +1,17 @@
+[
+  {"local_id":"2231","reject":true,"notes":"16세기 동판 판화 — 정적 판화, 움직임 없음"},
+  {"local_id":"2221","reject":true,"notes":"호박(amber) 여인상 정적 조각 — 움직임 구동 없음"},
+  {"local_id":"1371","title_display":"풍경 (Wind chimes, Tokyo)","artist":null,"created_year":null,"materials_ko":null,"description_ko":"여름철 일본에서 줄지어 걸어 둔 풍경(風鈴)들이다. 바람이 불면 흔들리며 소리를 낸다.","detail_text_ko":"사진은 목재 난간에 여러 개의 풍경과 긴 종이 장식이 매달린 모습을 보여준다. 원문은 여름에 일본에서 전시되며 바람이 지나갈 때 소리가 난다고 설명한다. 촬영 시기는 원문에서 확인되지 않으며, 작가 정보도 확인되지 않는다.","tags_ko":["키네틱아트","풍경","바람"],"uncertain":true,"notes":"전시 장면 사진이며 개별 작가 작품으로 특정되지 않음"},
+  {"local_id":"1777","reject":true,"notes":"글로브 워크테이블 숨김 서랍 부품을 찍은 정적 목공품(공예품). 중복후보: 1774"},
+  {"local_id":"1932","title_display":"1900년 기계식 장난감 기차 (Mechanical Toy Train on Track, 1900)","artist":null,"created_year":null,"materials_ko":"양철","description_ko":"1900년 도매 카탈로그에 실린 기계식 양철 장난감 기차 삽화다. 원형 선로 위를 달리는 장난감으로 소개된다.","detail_text_ko":"이미지는 증기기관차와 객차 세 량이 원형 선로 위에 놓인 판화식 삽화다. 원문은 1900년 도매 카탈로그에 광고된 양철 장난감이라고만 밝힌다. 구동 방식은 제목의 기계식(Mechanical)이라는 표현에 따른 것이며, 실물 사진이 아니므로 세부 구조는 확인되지 않는다.","tags_ko":["키네틱아트","기계식 장난감","기차"],"uncertain":true,"notes":"카탈로그 삽화 — 실물 사진 아님, 구동 방식은 제목 근거"},
+  {"local_id":"1931","title_display":"1900년 종 장치 기계식 기관차 장난감 (Mechanical Toy Locomotive with Gong Bell, 1900)","artist":null,"created_year":null,"materials_ko":"양철","description_ko":"1900년 도매 카탈로그에 실린 종(gong bell) 장치가 달린 기계식 양철 기관차 장난감 삽화다.","detail_text_ko":"이미지는 굴뚝과 돔형 종이 얹힌 증기기관차의 측면도를 보여준다. 원문은 1900년 도매 카탈로그에 광고된 양철 장난감이라고만 밝힌다. 실물 사진이 아니므로 작동 방식은 제목에 적힌 기계식 종 장치에 근거한다.","tags_ko":["키네틱아트","기계식 장난감","기관차"],"uncertain":true,"notes":"카탈로그 삽화 — 실물 사진 아님, 구동 방식은 제목 근거"},
+  {"local_id":"1772","reject":true,"notes":"글로브 워크테이블 칸막이 트레이를 찍은 정적 목공품 — 움직임 구동 없음(공예품)"},
+  {"local_id":"1760","reject":true,"notes":"샴바라 청동 정적 조각 — 움직임 구동 없음. 중복후보: 1766"},
+  {"local_id":"1765","reject":true,"notes":"다키니 청동 정적 조각 — 움직임 구동 없음. 중복후보: 1766"},
+  {"local_id":"1766","reject":true,"notes":"샴바라·다키니 청동 2점 정적 조각 — 움직임 구동 없음. 중복후보: 1760, 1765"},
+  {"local_id":"1186","title_display":"공작 분수 (Peacock fountain)","artist":null,"created_year":null,"materials_ko":null,"description_ko":"공작 모양 분수 오토마타를 그린 14세기 삽화다. 공작의 부리에서 물이 흘러나오는 구조로 그려져 있다.","detail_text_ko":"이미지는 공작 위에 놓인 물그릇과 기둥, 물을 받는 수조, 그리고 잔을 든 인물을 함께 그린 채색 삽화다. 원문은 이를 14세기 공작 분수 오토마타 그림으로 설명한다. 실물이 아니라 그림이므로 실제 작동 방식은 이 이미지만으로 확인되지 않는다.","tags_ko":["키네틱아트","오토마타","분수"],"uncertain":true,"notes":"실물이 아닌 삽화 — 오토마타 그림으로 판정, 작가·제작연도 원문 미확인"},
+  {"local_id":"2186","title_display":"브레멘 시청 풍향계 (Windfahne vom Bremer Rathaus, 1609)","artist":null,"created_year":1609,"materials_ko":null,"description_ko":"1609년 브레멘 시청에 설치되었던 풍향계다. 바람을 받아 회전하며 방향을 알려 주는 구조다.","detail_text_ko":"원문은 1609년 브레멘 시청 풍향계이며 현재 포케 박물관(Focke-Museum Bremen)에 소장되어 있다고 밝힌다. 사진은 덩굴과 사자 문양을 절단 가공한 금속판 형태를 보여준다. 바람에 따라 회전하는 구조라는 점은 풍향계의 기능에 근거한다.","tags_ko":["키네틱아트","풍향계","바람"],"uncertain":true,"notes":"정지 사진. 움직임은 풍향계 기능에 근거"},
+  {"local_id":"1764","reject":true,"notes":"비슈누 사암 정적 조각 — 움직임 구동 없음"},
+  {"local_id":"2843","reject":true,"notes":"Maillardet 자동 전시 신문 광고 스크랩 — 작품 사진 아님"},
+  {"local_id":"2291","title_display":"바기 라슬로 주니어 2 (Bagi László Jr. 2)","artist":"바기 라슬로 주니어 (László Bagi Jr.)","created_year":null,"materials_ko":null,"description_ko":"헝가리 그래픽 작가의 뉴 옵아트 계열 작품이다. 체크무늬가 구와 원뿔의 곡면을 따라 휘어 보이는 착시 효과가 두드러진다.","detail_text_ko":"이미지는 체크무늬 구, 원뿔, 붉은 정육면체를 배치한 3D 그래픽 정지 화면이다. 원문은 헝가리 작가 라슬로 바기 주니어의 뉴 옵아트 작품이라고만 밝힌다. 움직임은 이미지에서 확인되지 않으며, 옵아트 판정은 원문 설명에 근거한다.","tags_ko":["키네틱아트","옵아트","그래픽"],"uncertain":true,"notes":"정지 이미지, 움직임 근거 없음. 작가 표기는 desc_src 근거, 원본 출처 확인 필요"}
+]

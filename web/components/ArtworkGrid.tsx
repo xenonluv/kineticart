@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import type { RefObject } from "react";
 import { Check, Plus } from "lucide-react";
 import type { ArtworkLite } from "@/lib/types";
 import { fallbackTo, thumbOf } from "@/lib/types";
@@ -8,44 +8,36 @@ import { cn } from "@/lib/utils";
 export function ArtworkGrid({
   items,
   loading,
-  hasMore,
-  loadMore,
+  error,
+  scrollRef,
+  footer,
   onOpen,
   onAddRef,
   isRef,
 }: {
   items: ArtworkLite[];
   loading: boolean;
-  hasMore: boolean;
-  loadMore: () => void;
+  error: boolean;
+  scrollRef: RefObject<HTMLElement | null>;
+  footer: React.ReactNode;
   onOpen: (id: string) => void;
   onAddRef: (a: ArtworkLite) => void;
   isRef: (id: string) => boolean;
 }) {
-  const sentinel = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const el = sentinel.current;
-    if (!el) return;
-    const io = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) loadMore();
-      },
-      { rootMargin: "600px" },
-    );
-    io.observe(el);
-    return () => io.disconnect();
-  }, [loadMore]);
-
   return (
-    <main className="flex-1 overflow-y-auto p-4">
-      {items.length === 0 && !loading && (
+    <main ref={scrollRef} className="flex-1 overflow-y-auto p-4">
+      {error && !loading && (
+        <div className="grid h-full place-items-center text-sm text-red-400">
+          작품을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.
+        </div>
+      )}
+      {items.length === 0 && !loading && !error && (
         <div className="grid h-full place-items-center text-sm text-neutral-500">
           조건에 맞는 작품이 없습니다.
         </div>
       )}
 
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+      <div className={cn("grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5", loading && "opacity-50 transition-opacity")}>
         {items.map((a) => (
           <div
             key={a.id}
@@ -93,13 +85,10 @@ export function ArtworkGrid({
         ))}
       </div>
 
-      <div ref={sentinel} className="h-10" />
-      {loading && (
+      {loading && items.length === 0 && (
         <div className="py-6 text-center text-sm text-neutral-500">불러오는 중…</div>
       )}
-      {!hasMore && items.length > 0 && (
-        <div className="py-6 text-center text-xs text-neutral-600">— 끝 —</div>
-      )}
+      {footer}
     </main>
   );
 }

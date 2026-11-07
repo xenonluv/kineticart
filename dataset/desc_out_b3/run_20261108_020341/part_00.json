@@ -1,0 +1,17 @@
+[
+  {"local_id":"1701","reject":true,"notes":"낙서가 있는 콘크리트 벽체 — 움직임 없는 정적 구조물, 작품 판정 불가"},
+  {"local_id":"2054","reject":true,"notes":"깨진 버스정류장 유리와 인물 사진 — 작품 아님"},
+  {"local_id":"1718","reject":true,"notes":"마트 진열 장면 속 정적 조각(엉덩이 모양 오브제) — 정적 조각"},
+  {"local_id":"2052","reject":true,"notes":"깨진 버스정류장 유리 — 작품 아님"},
+  {"local_id":"2183","reject":true,"notes":"교회 첨탑 외관 — 건물 외관"},
+  {"local_id":"1248","reject":true,"notes":"교회와 정원 전경 — 건물 외관·풍경"},
+  {"local_id":"1311","title_display":"싱잉 링잉 트리 (Singing Ringing Tree)","artist":"토킨 리우 (Tonkin Liu)","created_year":null,"materials_ko":"아연도금 강관","description_ko":"바람에 휘어지는 나무 형상의 강관 조형물로, 바람의 힘으로 낮고 선율적인 소리를 낸다.","detail_text_ko":"영국 번리(Burnley)의 크라운 포인트 언덕에 설치된 파노프티콘(전망 조형물)이다. 아연도금 강관을 층층이 쌓아 바람에 휘는 나무의 모습을 형상화했다. 바람의 에너지를 받아 낮고 은은한 노래를 내도록 설계되었으며, 2007년 영국왕립건축가협회(RIBA)의 건축 부문 전국상을 받았다. 설계는 토킨 리우가 맡았다.","tags_ko":["키네틱아트","소리조각","바람","야외설치","강철"],"uncertain":false,"notes":null},
+  {"local_id":"1345","title_display":"빈트슈필 (Windspiel, 바람놀이)","artist":"마티아스 프로처 (Matthias Frotscher) · 한스요아힘 쿤슈 (Hans-Joachim Kunsch)","created_year":null,"materials_ko":"금속","description_ko":"베를린 마르찬(Marzahn)의 산책로에 세워진 금속 조형물로, 은색 날개형 부재가 여러 기둥 끝에 달려 있다.","detail_text_ko":"베를린 마르찬 산책로(Marzahner Promenade)에 있는 조각 작품 '빈트슈필(Windspiel, 바람놀이)'이다. 작가 마티아스 프로처(Matthias Frotscher)의 작품이며, 금속 조각가 한스요아힘 쿤슈(Hans-Joachim Kunsch)가 금속 조각가로 함께 표기되어 있다. 이미지에서 은색 날개형 부재가 기둥 끝에 달린 것이 확인되며, 이름처럼 바람에 따라 움직이는 구조인지는 원문만으로는 확인되지 않는다.","tags_ko":["키네틱아트","바람","금속조각","야외설치","베를린"],"uncertain":true,"notes":"움직임 방식은 제목과 형상에서 추정. 원문에 제작연도 없어 created_year null"},
+  {"local_id":"1716","reject":true,"notes":"Wax That Ass 정적 조각(엉덩이 모양 오브제) 사진 — 움직임 없는 정적 조각"},
+  {"local_id":"1717","reject":true,"notes":"Wax That Ass 정적 조각 사진 — 움직임 없는 정적 조각"},
+  {"local_id":"1719","reject":true,"notes":"Wax That Ass 정적 조각 사진 — 움직임 없는 정적 조각"},
+  {"local_id":"1720","reject":true,"notes":"Wax That Ass 정적 조각 사진 — 움직임 없는 정적 조각"},
+  {"local_id":"1721","reject":true,"notes":"Wax That Ass 정적 조각 사진 — 움직임 없는 정적 조각"},
+  {"local_id":"1722","reject":true,"notes":"Wax That Ass 정적 조각 사진 — 움직임 없는 정적 조각"},
+  {"local_id":"1732","reject":true,"notes":"Wax That Ass 정적 조각 사진 — 움직임 없는 정적 조각"}
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "local_id": "725",
+    "reject": true,
+    "notes": "퍼포먼스 사진 — 인물(영매 복장)이 주인공이며 움직이는 조각 구조로 보기 어려움"
+  },
+  {
+    "local_id": "734",
+    "reject": true,
+    "notes": "18세기 풍자 판화(손채색 에칭) — 일반 회화·판화"
+  },
+  {
+    "local_id": "735",
+    "title_display": "볼리스 심슨의 바람개비 조각 (Vollis Simpson Whirligigs)",
+    "artist": "볼리스 심슨 (Vollis Simpson)",
+    "created_year": null,
+    "materials_ko": "금속 구조물, 채색 반사판",
+    "description_ko": "바람을 받아 회전하도록 만든 대형 바람개비형 조각이다. 여러 겹의 원형 프레임과 채색된 원판이 기둥 위에 얹혀 있다.",
+    "detail_text_ko": "원문은 윌슨 카운티의 'Vollis Simpson Whirligig Park'에 있는 조형물이라고 소개한다. 작품은 바람개비 날개와 원형 구조가 높은 기둥 위에 겹겹이 놓인 형태다. 바람의 힘으로 움직이는 키네틱 조각이므로, 정지된 사진에서는 회전 운동을 상상하며 감상하는 것이 좋다.",
+    "tags_ko": ["키네틱아트", "바람개비", "풍력", "조각", "공원"],
+    "uncertain": false,
+    "notes": "작가명은 원제목 기준(desc_src에는 없음). 촬영일 2021은 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "736",
+    "title_display": "볼리스 심슨의 바람개비 (Vollis Simson Whirligig)",
+    "artist": "볼리스 심슨 (Vollis Simpson)",
+    "created_year": null,
+    "materials_ko": "금속 구조물, 채색 반사판",
+    "description_ko": "윌슨 카운티 바람개비 공원에 있는 대형 바람개비형 조각이다. 바람을 받아 회전하도록 만든 채색 원판과 날개 구조가 특징이다.",
+    "detail_text_ko": "원문은 윌슨 카운티의 'Vollis Simpson Whirligig Park'에 있는 조형물이라고 소개한다. 사진은 기둥 위에 여러 층으로 얹힌 바람개비 날개와 원판을 올려다보는 각도에서 담고 있다. 바람에 반응하는 키네틱 조각으로서, 공원 전체가 하나의 작품 군을 이루는 구성으로 감상할 수 있다.",
+    "tags_ko": ["키네틱아트", "바람개비", "풍력", "조각", "공원"],
+    "uncertain": false,
+    "notes": "735와 같은 공원 다른 사진(중복 후보). 원제 철자 'Simson'은 Simpson의 오기로 보임. 작가명은 원제목 기준"
+  },
+  {
+    "local_id": "768",
+    "title_display": "세인트 토머스 교회 시계 인형 (St Thomas's Church, Salisbury, clock automaton)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "채색 목각 인형, 시계 구동 장치",
+    "description_ko": "영국 솔즈베리 세인트 토머스 교회 외벽에 달린 시계 오토마타다. 갑옷 차림의 채색 인형이 정시와 30분마다 종을 친다.",
+    "detail_text_ko": "원문은 영국 솔즈베리 세인트 토머스 교회의 오토마타가 시간과 30분마다 종을 친다고 설명한다. 사진은 그 인형을 가까이서 찍은 것으로, 채색된 인형이 막대를 두 손으로 붙들고 있는 모습이 보인다. 구동 원리는 원문에 없으므로 자세히 쓰지 않는다. 시계 장치와 인형이 결합된 전통적 오토마타 사례로 감상할 수 있다.",
+    "tags_ko": ["키네틱아트", "오토마타", "시계", "교회", "영국"],
+    "uncertain": false,
+    "notes": "촬영일 2021은 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "769",
+    "reject": true,
+    "notes": "주사기 교환 자판기 — 실용 기계, 예술 작품 아님"
+  },
+  {
+    "local_id": "775",
+    "title_display": "스테인리스 모빌 (미완성 절단 부품)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "스테인리스 스틸(레이저 절단)",
+    "description_ko": "레이저로 잘라 낸 스테인리스 스틸 모빌 부품이다. 아직 구부리기 전 상태로, 자동차 실루엣과 새 모양이 뚫린 평판이 사진에 담겨 있다.",
+    "detail_text_ko": "원문은 레이저 절단 후 아직 구부리지 않은 스테인리스 모빌이라고만 밝힌다. 완성된 작품의 구동 방식이나 작가 정보는 확인되지 않는다. 사진은 제작 과정의 한 단계를 보여 주며, 모빌 형식의 키네틱 작품 부품으로 볼 수 있다.",
+    "tags_ko": ["키네틱아트", "모빌", "스테인리스", "제작과정"],
+    "uncertain": true,
+    "notes": "완성품 미확인. 움직임은 모빌 형식으로만 추정"
+  },
+  {
+    "local_id": "785",
+    "title_display": "밀워키 미술관 모빌 (MAM.Mobile)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "채색 원판, 흰색 금속 막대, 와이어 (사진 기준)",
+    "description_ko": "밀워키 미술관 칼라트라바 증축부 입구에 매달린 모빌이다. 빨강·검정·파랑의 원형 판들이 흰색 막대에 걸려 공중에 떠 있다.",
+    "detail_text_ko": "원문은 이 모빌이 밀워키 미술관 칼라트라바 증축부 입구에 있다고만 밝힌다. 작가 정보는 원문에 없어 비워 둔다. 얇은 막대와 와이어에 매달린 원판들이 모빌 형식의 구조를 보여 주며, 공기의 흐름에 따라 움직이도록 설계된 것으로 보인다. 건축 공간과 어울리는 천장 설치 작품으로 감상할 수 있다.",
+    "tags_ko": ["키네틱아트", "모빌", "공공미술", "미술관", "건축"],
+    "uncertain": false,
+    "notes": "작가 원문 미기재. 촬영일 2007은 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "786",
+    "title_display": "기둥 모빌 (Mastmobile)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "콘크리트 기둥(원문 기준), 채색 장식 조각",
+    "description_ko": "사용하지 않는 콘크리트 기둥에 매단 모빌이다. 가로대와 줄에 코끼리 모양과 색 띠 등 여러 조각이 달려 있다.",
+    "detail_text_ko": "원문은 발덴부흐 부근의 사용하지 않는 콘크리트 기둥에 설치된 모빌이라고 밝힌다. 사진에서는 가로대에 여러 줄이 늘어뜨려져 있고, 그 끝에 채색된 조각들이 매달려 있다. 줄에 매달린 가벼운 조각들이 바람에 흔들리는 모빌 형식으로, 야외 기둥을 재활용한 설치로 감상할 수 있다.",
+    "tags_ko": ["키네틱아트", "모빌", "야외설치", "기둥", "조각"],
+    "uncertain": false,
+    "notes": "원문은 콘크리트 기둥이라 하나 사진의 기둥은 목재처럼 보임. 원문 기준으로 기재"
+  },
+  {
+    "local_id": "791",
+    "title_display": "노스 요크셔의 모빌 (Mobile in North Yorkshire)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "목재(조각)",
+    "description_ko": "영국 노스 요크셔에 있는 목조 모빌 형태의 조각이다. 기둥 위 가로대 끝에 동물 머리와 새 모양 등 조각된 형상이 달려 있다.",
+    "detail_text_ko": "원문은 영국 노스 요크셔에 있는 모빌이라고만 소개한다. 사진은 기둥 꼭대기에서 사방으로 뻗은 나무 팔에 조각된 형상들이 붙어 있는 구조를 보여 준다. 바람을 받아 회전하는 구조로 보이나 원문에 구동 방식이 없으므로 확정하지 않는다. 야외에 설치된 목조 조각으로 감상할 수 있다.",
+    "tags_ko": ["키네틱아트", "모빌", "목조", "야외설치", "영국"],
+    "uncertain": true,
+    "notes": "회전 구조 여부는 사진상 추정. 풍향계일 가능성 배제 안 됨. 촬영일 2006은 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "792",
+    "title_display": "튤립 의자로 만든 모빌 (Mobiles par Bruno Schiepan)",
+    "artist": "브루노 시에판 (Bruno Schiepan)",
+    "created_year": null,
+    "materials_ko": "잘라 채색한 튤립 의자 부품",
+    "description_ko": "튤립 의자를 잘라 채색한 부품으로 만든 모빌이다. 빨강과 흰색 줄무늬가 있는 곡선 형태의 날개들이 줄에 매달려 있다.",
+    "detail_text_ko": "원문은 튤립 의자(Tulip 체어)를 잘라 페인트한 부품으로 만든 모빌이라고 밝힌다. 사진에서는 곡선 날개 모양의 조각들이 가느다란 막대와 줄에 걸려 하늘을 배경으로 떠 있다. 기존 가구를 잘라 공중에 띄운 조형으로, 재료의 전환과 균형감이 감상 포인트다.",
+    "tags_ko": ["키네틱아트", "모빌", "재활용", "의자", "설치"],
+    "uncertain": false,
+    "notes": "작가명은 원제목 기준(desc_src에는 없음). 촬영 추정 연도 2022는 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "794",
+    "reject": true,
+    "notes": "유치원 장식용 종이 공예 모빌 — 공예·장식물, 키네틱 작품으로 보기 어려움"
+  },
+  {
+    "local_id": "795",
+    "reject": true,
+    "notes": "행사용 장식물(위키피디아 10주년 카드) 사진 — 작품 아님"
+  },
+  {
+    "local_id": "797",
+    "title_display": "사무엘 V. 윌리엄스 도서관 모빌 (Samuel V. Williams Library mobile)",
+    "artist": null,
+    "created_year": null,
+    "materials_ko": "금색 별·초승달 모양 조형물 (사진 기준)",
+    "description_ko": "스티븐스 공과대학 사무엘 V. 윌리엄스 도서관 야외 로비 천장에 걸린 모빌 형식의 조형물이다. 금빛 별과 초승달 모양이 와이어에 매달려 있다.",
+    "detail_text_ko": "원문은 스티븐스 공과대학 도서관의 야외 로비에 걸린 설치 작품이라고 밝힌다. 사진에서는 별과 초승달 모양의 조각이 여러 높이에 매달려 있다. 모빌 형식의 구조로 보이나 움직임 여부는 사진으로 확인되지 않는다. 건물 입구의 빛과 그림자가 어우러지는 천장 설치로 감상할 수 있다.",
+    "tags_ko": ["키네틱아트", "모빌", "도서관", "천장설치", "별"],
+    "uncertain": true,
+    "notes": "움직임 여부 사진으로 확인 불가. 원문은 'hanging art'. 촬영일 2007은 created_year에 쓰지 않음"
+  },
+  {
+    "local_id": "798",
+    "title_display": "조에터메이르 모빌 (Zoetermeer kunstwerk mobile)",
+    "artist": "마리케 바이허링크 (Marijke Wijgerinck) & 트루디 베르스마 (Trudy Bersma)",
+    "created_year": null,
+    "materials_ko": "채색 금속 판·막대 (사진 기준)",
+    "description_ko": "네덜란드 조에터메이르 필라투스담에 세워진 모빌 형태의 조각이다. 기둥에서 여러 개의 팔이 뻗어 있고, 노랑·주황·회색의 판이 매달려 있다.",
+    "detail_text_ko": "원문은 네덜란드 조에터메이르 필라투스담(Pilatusdam)의 작품이며 작가는 마리케 바이허링크와 트루디 베르스마라고 밝힌다. 사진에서는 기둥에서 뻗은 가느다란 팔에 원판과 곡선 조각이 달려 있다. 모빌 형식이라 바람에 반응하는 구조로 보이며, 도시 거리 풍경 속 공공미술로 감상할 수 있다.",
+    "tags_ko": ["키네틱아트", "모빌", "공공미술", "네덜란드", "도시"],
+    "uncertain": false,
+    "notes": "촬영 추정 연도 2012는 created_year에 쓰지 않음"
+  }
+]
