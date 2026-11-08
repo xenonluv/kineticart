@@ -66,6 +66,8 @@ services:
       FILE_SERVER_INTERNAL: http://file-server:8787
       GENERATED_DIR: /app/generated
       UPLOAD_DIR: /app/uploads
+      TRIPO_API_KEY: ${TRIPO_API_KEY}             # 이미지→3D(GLB). 30크레딧($0.30)/개
+      TRIPO_DAILY_LIMIT: ${TRIPO_DAILY_LIMIT:-20} # 하루(KST) 3D 생성 상한(크레딧 보호, 0=무제한)
       RETENTION_DAYS: ${RETENTION_DAYS:-30}       # 업로드 그림·생성 이미지 보관 일수(0=자동삭제 끔)
       EMBED_INTERNAL_URL: http://embed:8000      # 한글 설명 → 유사 작품(e5)
       SITE_PASSWORD: ${SITE_PASSWORD}             # 웹앱 접속 비밀번호

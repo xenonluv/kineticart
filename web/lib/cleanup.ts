@@ -6,8 +6,9 @@ import path from "path";
 const UPLOAD_DIR = process.env.UPLOAD_DIR || "/app/uploads";
 const GEN_DIR = process.env.GENERATED_DIR || "/app/generated";
 
-const UPLOAD_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\.(webp|json)(\.\d+\.\d+\.tmp)?$/;
-const GEN_RE = /^\d{13}-[0-9a-f]{8}\.(png|jpg|webp)$/;
+const UPLOAD_RE =
+  /^([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\.(webp|json)|3d-\d{13}-[0-9a-f]{8}\.json)(\.\d+\.\d+\.tmp)?$/; // 그림·분석 캐시·3D 작업 상태
+const GEN_RE = /^\d{13}-[0-9a-f]{8}\.(png|jpg|webp|glb)(\.\d+\.tmp)?$/; // 생성 이미지·3D 모델(GLB)
 
 // 0 이하 또는 숫자가 아니면 자동 삭제 끔
 export function retentionDays(): number {

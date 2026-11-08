@@ -14,7 +14,7 @@
 | 3 | 웹 갤러리(스케일러블) | ✅ LIVE `www.kctikinec.cloud` |
 | 4 | LLM 대화(RAG) | ✅ 무료(Gemini) |
 | 5 | 새 이미지 생성 | ✅ Nano Banana(결제 활성) |
-| 6 | 3D 생성·다운로드 | ⏳ **미완(Tripo 키 필요)** |
+| 6 | 3D 생성·다운로드 | 🟡 Tripo v3 연결 완료(`lib/tripo.ts`·`lib/model3d.ts`), 크레딧 충전 후 실생성 검증 필요 |
 | — | 비밀번호 게이트(보안) | ✅ 웹앱 전체 로그인 보호 |
 | — | 의미검색 준비(텍스트 임베딩) | ✅ 로컬 e5-large(무료), 실검색 연결은 ~1000개 시점 |
 | — | artdata 협업 수집 저장소 | ✅ github.com/xenonluv/artdata (kinerag 병합 도구는 미구현) |

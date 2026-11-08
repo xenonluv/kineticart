@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { Box, Check, ImagePlus, Loader2, PencilLine, Plus, Send, Sparkles, X } from "lucide-react";
+import { Box, Check, Download, ImagePlus, Loader2, PencilLine, Plus, Send, Sparkles, X } from "lucide-react";
+import { ModelViewer } from "./ModelViewer";
 import type { ArtworkLite } from "@/lib/types";
 import { fallbackTo, thumbOf } from "@/lib/types";
 import { readSse } from "@/lib/sse";
@@ -24,6 +25,14 @@ type Turn = {
   role: "user" | "assistant";
   content: string;
   image?: string; // 생성된 이미지 URL
+  model3d?: Model3D; // 이 이미지로 만든 3D
+};
+
+type Model3D = {
+  status: "starting" | "queued" | "running" | "success" | "failed";
+  progress: number;
+  url?: string;
+  error?: string;
 };
 
 export function ChatPanel({
@@ -43,6 +52,44 @@ export function ChatPanel({
   const [generating, setGenerating] = useState(false);
   const [lightbox, setLightbox] = useState<string | null>(null); // 확대 팝업 이미지 URL
   const bottom = useRef<HTMLDivElement>(null);
+  const alive = useRef(true);
+  useEffect(() => {
+    alive.current = true;
+    return () => {
+      alive.current = false; // 언마운트 후 진행 확인 중단
+    };
+  }, []);
+
+  // 같은 이미지 URL 의 턴만 갱신(턴 순서가 바뀌어도 안전)
+  const patch3d = (image: string, m: Model3D) =>
+    setTurns((prev) => prev.map((t) => (t.image === image ? { ...t, model3d: m } : t)));
+
+  const make3d = async (image: string) => {
+    patch3d(image, { status: "starting", progress: 0 });
+    try {
+      const res = await fetch("/api/generate-3d", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ imageUrl: image }),
+      });
+      let d = await res.json().catch(() => ({}));
+      if (!res.ok || !d.job) throw new Error(d.error || "3D 요청 실패");
+      const job: string = d.job;
+      // 완료·실패까지 3초 간격 확인(최대 약 15분)
+      for (let i = 0; i < 300 && alive.current; i++) {
+        if (d.status === "success") return patch3d(image, { status: "success", progress: 100, url: d.modelUrl });
+        if (d.status === "failed") throw new Error(d.error || "3D 생성 실패");
+        patch3d(image, { status: d.status === "starting" ? "starting" : d.status, progress: d.progress ?? 0, error: d.error });
+        await new Promise((r) => setTimeout(r, 3000));
+        const r = await fetch(`/api/generate-3d/${job}`).catch(() => null);
+        if (r?.ok) d = await r.json().catch(() => d);
+        else if (r && r.status !== 500) d = { status: "failed", error: (await r.json().catch(() => ({}))).error };
+      }
+      if (alive.current) throw new Error("3D 생성 확인 시간이 초과되었습니다. 다시 눌러 확인해 주세요.");
+    } catch (e) {
+      if (alive.current) patch3d(image, { status: "failed", progress: 0, error: (e as Error).message });
+    }
+  };
   const [sketch, setSketch] = useState<Sketch | null>(null);
   const [mode, setMode] = useState<GenMode>("faithful");
   const fileInput = useRef<HTMLInputElement>(null);
@@ -257,14 +304,42 @@ export function ChatPanel({
                 />
                 <div className="flex items-center justify-between p-2">
                   <span className="text-xs text-neutral-400">생성 이미지</span>
-                  <button
-                    disabled
-                    title="다음 단계(Phase 5)에서 연결"
-                    className="flex items-center gap-1 rounded bg-neutral-700 px-2 py-1 text-[11px] text-neutral-400"
-                  >
-                    <Box size={12} /> 3D 만들기
-                  </button>
+                  {t.model3d?.status === "success" && t.model3d.url ? (
+                    <a
+                      href={t.model3d.url}
+                      download
+                      className="flex items-center gap-1 rounded bg-emerald-600 px-2 py-1 text-[11px] text-white hover:bg-emerald-500"
+                    >
+                      <Download size={12} /> GLB 다운로드
+                    </a>
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={() => make3d(t.image!)}
+                      disabled={!!t.model3d && t.model3d.status !== "failed"}
+                      title="이 이미지로 3D 모델(GLB) 만들기 · 약 1~2분"
+                      className="flex items-center gap-1 rounded bg-neutral-700 px-2 py-1 text-[11px] text-neutral-200 hover:bg-neutral-600 disabled:text-neutral-400"
+                    >
+                      {t.model3d && t.model3d.status !== "failed" ? (
+                        <>
+                          <Loader2 size={12} className="animate-spin" /> 3D 생성 중 {t.model3d.progress}%
+                        </>
+                      ) : (
+                        <>
+                          <Box size={12} /> {t.model3d?.status === "failed" ? "3D 다시 시도" : "3D 만들기"}
+                        </>
+                      )}
+                    </button>
+                  )}
                 </div>
+                {t.model3d && t.model3d.status !== "success" && t.model3d.error && (
+                  <p className={cn("px-2 pb-2 text-[11px]", t.model3d.status === "failed" ? "text-amber-400" : "text-neutral-500")}>
+                    {t.model3d.error}
+                  </p>
+                )}
+                {t.model3d?.status === "success" && t.model3d.url && (
+                  <ModelViewer src={t.model3d.url} alt="생성된 3D 키네틱 아트" />
+                )}
               </div>
             ) : (
               t.content || (busy && i === turns.length - 1 ? "…" : "")
