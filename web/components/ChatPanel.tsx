@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { Box, Check, Download, ImagePlus, Loader2, PencilLine, Plus, Send, Sparkles, X } from "lucide-react";
+import { createPortal } from "react-dom";
+import { Box, Check, Download, ImagePlus, Loader2, Maximize2, PencilLine, Plus, Send, Sparkles, X } from "lucide-react";
 import { ModelViewer } from "./ModelViewer";
 import type { ArtworkLite } from "@/lib/types";
 import { fallbackTo, thumbOf } from "@/lib/types";
@@ -52,6 +53,31 @@ export function ChatPanel({
   const [generating, setGenerating] = useState(false);
   const [lightbox, setLightbox] = useState<string | null>(null); // 확대 팝업 이미지 URL
   const bottom = useRef<HTMLDivElement>(null);
+  const [viewer3d, setViewer3d] = useState<string | null>(null); // 전면 3D 팝업의 GLB URL
+  const close3dBtn = useRef<HTMLButtonElement>(null);
+  const dialog3d = useRef<HTMLDivElement>(null);
+  const opener3d = useRef<HTMLElement | null>(null); // 닫을 때 포커스를 돌려줄 버튼
+
+  // 전면 3D 팝업: 뒤 화면 비활성(가려진 생성 버튼 등이 키보드로 눌리지 않게), 닫기 버튼으로 포커스,
+  // Esc 로 닫기, 닫히면 뒤 화면 복구 후 포커스 복귀
+  useEffect(() => {
+    if (!viewer3d) return;
+    const others = [...document.body.children].filter(
+      (el): el is HTMLElement => el instanceof HTMLElement && el !== dialog3d.current && !el.inert,
+    );
+    others.forEach((el) => (el.inert = true));
+    close3dBtn.current?.focus();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setViewer3d(null);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      others.forEach((el) => (el.inert = false));
+      opener3d.current?.focus();
+    };
+  }, [viewer3d]);
+
   const alive = useRef(true);
   useEffect(() => {
     alive.current = true;
@@ -338,7 +364,21 @@ export function ChatPanel({
                   </p>
                 )}
                 {t.model3d?.status === "success" && t.model3d.url && (
-                  <ModelViewer src={t.model3d.url} alt="생성된 3D 키네틱 아트" />
+                  <div className="relative">
+                    <ModelViewer src={t.model3d.url} alt="생성된 3D 키네틱 아트" />
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        opener3d.current = e.currentTarget;
+                        setViewer3d(t.model3d!.url!);
+                      }}
+                      title="크게 보기"
+                      aria-label="3D 크게 보기"
+                      className="absolute right-2 top-2 grid h-7 w-7 place-items-center rounded bg-black/60 text-white hover:bg-black/80"
+                    >
+                      <Maximize2 size={14} />
+                    </button>
+                  </div>
                 )}
               </div>
             ) : (
@@ -515,6 +555,24 @@ export function ChatPanel({
               : "이 컨셉으로 이미지 생성"}
         </button>
       </div>
+      {/* 3D 전면 팝업 — 드래그가 회전 조작이므로 클릭으로 닫지 않고 ✕ 버튼·Esc 로만 닫는다 */}
+      {/* body 로 포털 — 패널이 md 미만에서 hidden 이 되어도 팝업이 함께 사라지지 않게 */}
+      {viewer3d && createPortal(
+        <div ref={dialog3d} role="dialog" aria-modal="true" aria-label="3D 모델 크게 보기" className="fixed inset-0 z-[60] bg-black/90">
+          <ModelViewer src={viewer3d} alt="생성된 3D 키네틱 아트" fill />
+          <button
+            ref={close3dBtn}
+            type="button"
+            onClick={() => setViewer3d(null)}
+            title="닫기 (Esc)"
+            aria-label="닫기"
+            className="absolute right-4 top-4 grid h-10 w-10 place-items-center rounded-full bg-black/70 text-white hover:bg-neutral-700"
+          >
+            <X size={20} />
+          </button>
+        </div>,
+        document.body,
+      )}
       {/* 이미지 확대 팝업 — 화면 정중앙, 아무 곳이나 클릭하면 닫힘 */}
       {lightbox && (
         <div
