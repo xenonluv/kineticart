@@ -66,6 +66,7 @@ services:
       FILE_SERVER_INTERNAL: http://file-server:8787
       GENERATED_DIR: /app/generated
       UPLOAD_DIR: /app/uploads
+      RETENTION_DAYS: ${RETENTION_DAYS:-30}       # 업로드 그림·생성 이미지 보관 일수(0=자동삭제 끔)
       EMBED_INTERNAL_URL: http://embed:8000      # 한글 설명 → 유사 작품(e5)
       SITE_PASSWORD: ${SITE_PASSWORD}             # 웹앱 접속 비밀번호
       AUTH_TOKEN: ${AUTH_TOKEN}                   # 로그인 성공 쿠키 값(검증용)

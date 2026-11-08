@@ -1,6 +1,6 @@
 // 서버 전용: 사용자 업로드 그림 저장소.
 // 파일서버(공개)와 분리된 디렉토리(/app/uploads)에 두고, 비밀번호 게이트 뒤의 /api/upload/[id] 로만 노출한다.
-import { readFile, rename, writeFile } from "fs/promises";
+import { readFile, rename, utimes, writeFile } from "fs/promises";
 import path from "path";
 import { isUuid } from "./rest";
 import type { RefImage } from "./imagegen";
@@ -19,6 +19,12 @@ export async function loadUpload(id: string): Promise<RefImage | null> {
   if (!p) return null;
   try {
     const buf = await readFile(p);
+    // 사용할 때마다 보관 기간 갱신(자동 삭제는 '마지막 사용' 기준) — 분석 캐시도 함께
+    const now = new Date();
+    await Promise.all([
+      utimes(p, now, now),
+      utimes(p.replace(/\.webp$/, ".json"), now, now),
+    ].map((x) => x.catch(() => {})));
     return { mime: "image/webp", b64: buf.toString("base64") };
   } catch {
     return null;
