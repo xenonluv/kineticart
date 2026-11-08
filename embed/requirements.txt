@@ -1,0 +1,4 @@
+fastembed==0.7.4
+# 1.20+ 는 HF 캐시(blobs 심볼릭 링크)의 외부 데이터(model.onnx_data)를 '경로 이탈'로 거부 → 파이프라인과 같은 1.19.2 고정
+onnxruntime==1.19.2
+numpy<3

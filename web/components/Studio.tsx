@@ -166,7 +166,12 @@ export function Studio({ facets }: { facets: Facets }) {
           isRef={isRef}
         />
         {chatOpen && (
-          <ChatPanel references={references} onRemoveRef={removeReference} />
+          <ChatPanel
+            references={references}
+            onRemoveRef={removeReference}
+            onAddRef={addReference}
+            isRef={isRef}
+          />
         )}
       </div>
 

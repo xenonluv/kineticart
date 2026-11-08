@@ -65,15 +65,32 @@ services:
       IMAGE_PUBLIC_BASE: https://images.kctikinec.cloud
       FILE_SERVER_INTERNAL: http://file-server:8787
       GENERATED_DIR: /app/generated
+      UPLOAD_DIR: /app/uploads
+      EMBED_INTERNAL_URL: http://embed:8000      # 한글 설명 → 유사 작품(e5)
       SITE_PASSWORD: ${SITE_PASSWORD}             # 웹앱 접속 비밀번호
       AUTH_TOKEN: ${AUTH_TOKEN}                   # 로그인 성공 쿠키 값(검증용)
     volumes:
       - ./generated:/app/generated                # 생성 이미지 저장(파일서버와 공유)
+      - ./uploads:/app/uploads                    # 사용자 업로드 그림(비공개, web 만 접근)
     ports:
       - "3002:3000"       # 로컬 검증용 (외부는 터널 www.kctikinec.cloud)
     depends_on:
       - postgrest
     restart: unless-stopped
+
+  embed:
+    build:
+      context: ./embed
+    image: xenonluv/kinerag-embed:latest
+    container_name: kinerag-embed
+    environment:
+      MANIFEST_PATH: /data/manifest.json
+    volumes:
+      - ./dataset:/data:ro      # manifest.json(갤러리 e5 passage 벡터). 파일 단일 마운트는 교체(새 inode) 미반영 → 디렉터리로
+      - embed-models:/models                             # 모델 캐시(최초 1회 ~2GB 다운로드)
+    mem_limit: 3g             # e5-large ONNX RSS ~2–2.5GB
+    restart: unless-stopped
+    # 내부 전용(포트 비공개) — web 이 http://embed:8000 으로만 호출
 
   cloudflared:
     image: cloudflare/cloudflared:latest
@@ -89,3 +106,4 @@ services:
 
 volumes:
   db-data:
+  embed-models:
