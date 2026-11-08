@@ -51,10 +51,14 @@ async function buildContext(
 
   const kw = lastUser.replace(/[,().*]/g, " ").trim().slice(0, 40);
   if (kw) {
-    const like = `*${kw}*`;
-    const res = await pgrst(
-      `/kinetic_artworks?or=(title.ilike.${like},description.ilike.${like})&select=title,artist,tags&limit=3`,
-    );
+    // 값에 따옴표를 씌우고 쿼리스트링은 URLSearchParams 로 인코딩(& # " 등으로 질의가 깨지지 않게)
+    const like = `"*${kw.replace(/["\\]/g, " ")}*"`;
+    const qs = new URLSearchParams({
+      or: `(title.ilike.${like},description.ilike.${like})`,
+      select: "title,artist,tags",
+      limit: "3",
+    });
+    const res = await pgrst(`/kinetic_artworks?${qs}`);
     if (res.ok) {
       const rows = await res.json();
       if (rows.length) {
@@ -68,11 +72,29 @@ async function buildContext(
 }
 
 export async function POST(req: NextRequest) {
-  const { messages, referenceIds, uploadId } = (await req.json()) as {
-    messages: Msg[];
-    referenceIds?: string[];
-    uploadId?: string;
-  };
+  let body: { messages?: unknown; referenceIds?: unknown; uploadId?: unknown };
+  try {
+    body = await req.json();
+  } catch {
+    return new Response(JSON.stringify({ error: "잘못된 요청입니다." }), { status: 400 });
+  }
+  // 클라이언트 메시지 검증: user/assistant 만(system 주입 차단), 최근 30개, 각 4000자
+  const messages: Msg[] = (Array.isArray(body.messages) ? body.messages : [])
+    .filter(
+      (m): m is Msg =>
+        !!m &&
+        (m.role === "user" || m.role === "assistant") &&
+        typeof m.content === "string",
+    )
+    .slice(-30)
+    .map((m) => ({ role: m.role, content: m.content.slice(0, 4000) }));
+  if (!messages.some((m) => m.role === "user")) {
+    return new Response(JSON.stringify({ error: "메시지가 없습니다." }), { status: 400 });
+  }
+  const referenceIds = Array.isArray(body.referenceIds)
+    ? body.referenceIds.filter((x): x is string => typeof x === "string")
+    : [];
+  const uploadId = body.uploadId;
   const lastUser = [...messages].reverse().find((m) => m.role === "user")?.content ?? "";
   const context = await buildContext(referenceIds ?? [], lastUser, typeof uploadId === "string" ? uploadId : undefined);
   const sys: Msg = {

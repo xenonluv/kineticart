@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { safeEqual } from "@/lib/safeEqual";
 
 const COOKIE = "kinerag_auth";
 const PUBLIC = ["/login", "/api/login"];
@@ -12,7 +13,7 @@ export function middleware(req: NextRequest) {
   }
 
   const token = req.cookies.get(COOKIE)?.value;
-  if (token && token === process.env.AUTH_TOKEN) {
+  if (token && safeEqual(token, process.env.AUTH_TOKEN ?? "")) {
     return NextResponse.next();
   }
 

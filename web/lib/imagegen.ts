@@ -21,9 +21,11 @@ export async function generateImage(
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ contents: [{ parts }] }),
+      signal: AbortSignal.timeout(150_000), // Google 쪽 멈춤 시 무한 대기 방지
     },
   );
-  const data = await res.json();
+  const data = await res.json().catch(() => null);
+  if (!data) throw new Error(`이미지 생성 서버 응답 오류(HTTP ${res.status})`);
   if (data.error) throw new Error(data.error.message || "image generation error");
 
   const outParts = data?.candidates?.[0]?.content?.parts ?? [];
