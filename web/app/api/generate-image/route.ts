@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { mkdir, writeFile } from "fs/promises";
+import { mkdir, rename, writeFile } from "fs/promises";
 import { randomUUID } from "crypto";
 import path from "path";
 import { IMAGE_PUBLIC_BASE, isUuid, pgrst, refThumbUrl, toInternalFileUrl } from "@/lib/rest";
@@ -124,7 +124,10 @@ export async function POST(req: NextRequest) {
     await mkdir(GEN_DIR, { recursive: true });
     const ext = mime.includes("png") ? "png" : mime.includes("webp") ? "webp" : "jpg";
     const name = `${Date.now()}-${randomUUID().slice(0, 8)}.${ext}`;
-    await writeFile(path.join(GEN_DIR, name), Buffer.from(b64, "base64"));
+    // 임시 파일에 다 쓴 뒤 이름 변경 — 외부 API 목록에 쓰다 만 파일이 잡히지 않게
+    const tmp = path.join(GEN_DIR, `${name}.${process.pid}.tmp`);
+    await writeFile(tmp, Buffer.from(b64, "base64"));
+    await rename(tmp, path.join(GEN_DIR, name));
 
     return NextResponse.json({ imageUrl: `${IMAGE_PUBLIC_BASE}/generated/${name}` });
   } catch (e) {

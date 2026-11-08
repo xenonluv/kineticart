@@ -70,6 +70,8 @@ services:
       TRIPO_DAILY_LIMIT: ${TRIPO_DAILY_LIMIT:-20} # 하루(KST) 3D 생성 상한(크레딧 보호, 0=무제한)
       RETENTION_DAYS: ${RETENTION_DAYS:-30}       # 업로드 그림·생성 이미지 보관 일수(0=자동삭제 끔)
       EMBED_INTERNAL_URL: http://embed:8000      # 한글 설명 → 유사 작품(e5)
+      API_V1_KEY: ${API_V1_KEY}                   # 외부 전달 REST(/api/v1) Bearer 키
+      API_PUBLIC_BASE: ${API_PUBLIC_BASE:-https://www.kctikinec.cloud} # REST 응답의 파일 주소 기준
       SITE_PASSWORD: ${SITE_PASSWORD}             # 웹앱 접속 비밀번호
       AUTH_TOKEN: ${AUTH_TOKEN}                   # 로그인 성공 쿠키 값(검증용)
     volumes:

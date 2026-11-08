@@ -123,7 +123,8 @@ docker compose logs -f web           # 로그
 | `GOOGLE_API_KEY` | Gemini 대화 + Nano Banana 이미지 |
 | `SITE_PASSWORD` | 웹앱 로그인 비밀번호 |
 | `AUTH_TOKEN` | 로그인 성공 쿠키 값(랜덤) |
-| `TRIPO_API_KEY` | (예정) 3D 생성 |
+| `TRIPO_API_KEY` | 3D 생성 |
+| `API_V1_KEY` | 외부 전달 REST `/api/v1/generations` Bearer 키(사용법: `2D3Drest_api사용범.md`) |
 
 - API 키 원본 메모: `googleapi.md`, `apigoo.md`(둘 다 gitignore). **현재 유효 Google 키는 `apigoo.md`의 프로젝트 gen-lang-client-0246258645(결제 활성)**.
 - 비밀번호 변경: `.env`의 `SITE_PASSWORD` 수정 → `docker compose up -d web`.

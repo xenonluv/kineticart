@@ -32,7 +32,7 @@ const glbPath = (id: string) => path.join(GEN_DIR, `${id}.glb`);
 const glbUrl = (id: string) => `${IMAGE_PUBLIC_BASE}/generated/${id}.glb`;
 const STARTING_STALE_MS = 5 * 60 * 1000;
 
-async function readState(id: string): Promise<JobState | null> {
+export async function readState(id: string): Promise<JobState | null> {
   try {
     return JSON.parse(await readFile(statePath(id), "utf8")) as JobState;
   } catch {
@@ -134,8 +134,10 @@ async function doStart(id: string, file: string): Promise<JobView> {
   return view(id, s);
 }
 
-const lastPoll = new Map<string, number>();
-const refreshing = new Map<string, Promise<JobView | null>>();
+// 라우트 번들이 나뉘어도 같은 작업의 조회·다운로드를 공유하도록 프로세스 전역에 둔다
+type Shared = { lastPoll: Map<string, number>; refreshing: Map<string, Promise<JobView | null>> };
+const g = globalThis as unknown as { __kinerag3d?: Shared };
+const { lastPoll, refreshing } = (g.__kinerag3d ??= { lastPoll: new Map(), refreshing: new Map() });
 
 // 상태 조회: 진행 중이면 Tripo 에 확인(작업당 2초에 1회 이하), 완료되면 GLB 를 즉시 내려받아 보관
 export function refreshJob(id: string, force = false): Promise<JobView | null> {

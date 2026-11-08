@@ -12,6 +12,16 @@ export function middleware(req: NextRequest) {
     return NextResponse.next();
   }
 
+  // 외부 전달 REST 는 쿠키가 아니라 전용 API 키(Bearer)로만 인증
+  if (pathname === "/api/v1" || pathname.startsWith("/api/v1/")) {
+    const m = /^Bearer\s+(\S+)$/i.exec(req.headers.get("authorization") ?? "");
+    if (m && safeEqual(m[1], process.env.API_V1_KEY ?? "")) return NextResponse.next();
+    return new NextResponse(JSON.stringify({ error: "unauthorized" }), {
+      status: 401,
+      headers: { "content-type": "application/json", "www-authenticate": "Bearer" },
+    });
+  }
+
   const token = req.cookies.get(COOKIE)?.value;
   if (token && safeEqual(token, process.env.AUTH_TOKEN ?? "")) {
     return NextResponse.next();
