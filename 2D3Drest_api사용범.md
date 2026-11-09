@@ -7,6 +7,39 @@ AI로 생성한 2D 이미지와 3D 모델(GLB)을 외부 프로그램에서 조�
 - 응답 형식: JSON (파일 다운로드 제외)
 - 시각 형식: ISO-8601 UTC (예: `2026-11-08T17:01:07.311Z`)
 
+## 빠른 시작: 작품 한 건 가져오기
+
+사이트에서 3D까지 생성한 작품을 받는 절차입니다. 2D 이미지와 3D 모델은 같은 `id`를 공유합니다.
+
+**1) 3D가 완성된 작품 찾기**
+
+```bash
+export API_KEY='전달받은 키'
+BASE=https://www.kctikinec.cloud/api/v1
+
+curl -H "Authorization: Bearer $API_KEY" "$BASE/generations?type=3d&limit=5"
+```
+
+최근 변경순으로 나오므로 방금 만든 작품은 맨 위에 있습니다. 응답에서 `id`와 `model.status`가 `success`인지 확인합니다.
+
+**2) 이미지와 GLB 내려받기**
+
+```bash
+ID=응답의_id
+
+curl -H "Authorization: Bearer $API_KEY" -o artwork.png "$BASE/generations/$ID/image"
+curl -H "Authorization: Bearer $API_KEY" -o artwork.glb "$BASE/generations/$ID/model"
+```
+
+이미지 확장자는 응답의 `image.mime`에 맞춰 png, jpg, webp 중 하나로 저장합니다.
+
+**알아둘 점**
+
+- `/image`는 3D 모델을 렌더링한 그림이 아니라 **3D의 원본이 된 AI 생성 2D 이미지**입니다. 3D 렌더링 이미지가 필요하면 받는 쪽에서 GLB로 직접 렌더링합니다.
+- 응답에 제목, 프롬프트, 만든 사람은 없습니다. 여러 작품 중에서는 `created_at`(UTC)이나 내려받은 이미지로 구분합니다.
+- 기본 30일 뒤 자동 삭제되므로 `expires_at` 전에 내려받습니다.
+- 계속 동기화할 때는 `page` 대신 `since`와 `after_id`를 사용합니다(3장, 7장 Python 예제 참조).
+
 ## 1. 인증
 
 모든 요청에 API 키를 헤더로 보냅니다. 키는 서버 `.env`의 `API_V1_KEY` 값이며, 받는 쪽에 안전한 경로로 전달하세요.
